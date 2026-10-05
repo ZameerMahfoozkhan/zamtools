@@ -47,12 +47,14 @@
   cursor: pointer;
   transition: all var(--transition-normal);
   position: relative;
+  user-select: none;
 }
 
 .upload-dropzone:hover,
 .upload-dropzone.is-dragover {
   border-color: var(--primary);
   background-color: var(--primary-subtle);
+  transform: translateY(-1px);
 }
 
 .upload-icon-wrapper {
@@ -69,7 +71,8 @@
   transition: transform var(--transition-fast);
 }
 
-.upload-dropzone:hover .upload-icon-wrapper {
+.upload-dropzone:hover .upload-icon-wrapper,
+.upload-dropzone.is-dragover .upload-icon-wrapper {
   transform: translateY(-2px) scale(1.05);
 }
 
@@ -111,9 +114,12 @@
 
 .file-input-hidden {
   position: absolute;
-  inset: 0;
+  width: 0.1px;
+  height: 0.1px;
   opacity: 0;
-  cursor: pointer;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
 }
 
 /* ==========================================================================

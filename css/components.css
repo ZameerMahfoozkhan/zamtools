@@ -442,29 +442,43 @@
   }
 }
 
+.search-modal-header,
 .search-input-wrapper {
   position: relative;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--border);
+  gap: var(--space-3);
   padding: var(--space-4) var(--space-6);
+  border-bottom: 1px solid var(--border);
+  background: #ffffff;
 }
 
+.search-modal-header svg,
 .search-input-icon {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   color: var(--text-subtle);
-  margin-right: var(--space-3);
   flex-shrink: 0;
+  display: block;
 }
 
 .search-modal-input {
+  flex: 1;
   width: 100%;
+  min-width: 0;
   border: none;
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   color: var(--text-main);
   background: transparent;
   outline: none;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.search-modal-input::-webkit-search-decoration,
+.search-modal-input::-webkit-search-cancel-button {
+  display: none;
 }
 
 .search-modal-input::placeholder {
@@ -472,29 +486,64 @@
 }
 
 .search-close-btn {
-  padding: var(--space-1) var(--space-2);
-  font-size: 0.8125rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  font-size: 0.875rem;
   color: var(--text-subtle);
   background: var(--surface-muted);
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+
+.search-close-btn:hover {
+  background: var(--border);
+  color: var(--text-main);
 }
 
 .search-results-list {
-  max-height: 400px;
+  max-height: 420px;
   overflow-y: auto;
   padding: var(--space-2) 0;
+  margin: 0;
   list-style: none;
+  overscroll-behavior: contain;
+}
+
+.search-results-list::-webkit-scrollbar {
+  width: 6px;
+}
+.search-results-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.search-results-list::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+.search-results-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
 }
 
 .search-result-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-4);
   padding: var(--space-3) var(--space-6);
   text-decoration: none;
   color: var(--text-main);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
   transition: background-color var(--transition-fast);
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
 }
 
 .search-result-item:hover,
@@ -506,19 +555,65 @@
   color: var(--primary);
 }
 
+.search-result-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex: 1;
+  min-width: 0;
+}
+
+.search-result-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  background: var(--bg-subtle);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+
+.search-result-item:hover .search-result-icon,
+.search-result-item.is-selected .search-result-icon {
+  background: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+
+.search-result-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
 .search-result-info {
   display: flex;
   flex-direction: column;
+  gap: 0.2rem;
+  flex: 1;
+  min-width: 0;
 }
 
 .search-result-title {
   font-size: 0.9375rem;
   font-weight: 600;
+  color: var(--text-main);
 }
 
 .search-result-desc {
   font-size: 0.8125rem;
   color: var(--text-muted);
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.search-result-item .badge {
+  flex-shrink: 0;
+  font-size: 0.75rem;
 }
 
 .search-empty-state {
@@ -541,7 +636,31 @@
 
 .search-shortcut-hints {
   display: flex;
+  align-items: center;
   gap: var(--space-3);
+}
+
+.search-modal-footer span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.search-modal-footer kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  padding: 0 0.35rem;
+  font-size: 0.75rem;
+  font-family: inherit;
+  font-weight: 600;
+  color: var(--text-main);
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 /* ==========================================================================

@@ -4,6 +4,19 @@
  */
 
 (function () {
+  // Global protection: prevent browser from navigating away when dropping files outside dropzones
+  if (!window._zamDropGlobalInit) {
+    window._zamDropGlobalInit = true;
+    window.addEventListener('dragover', (e) => {
+      e.preventDefault();
+    }, false);
+    window.addEventListener('drop', (e) => {
+      if (!e.target.closest || !e.target.closest('.upload-dropzone')) {
+        e.preventDefault();
+      }
+    }, false);
+  }
+
   /**
    * Sets up drag and drop and file input handling for any dropzone
    * @param {HTMLElement} dropzoneEl 
@@ -14,20 +27,43 @@
   window.setupDropZone = function (dropzoneEl, fileInputEl, onFileLoaded, options = {}) {
     if (!dropzoneEl || !fileInputEl) return;
 
-    // Click on dropzone triggers file picker
-    dropzoneEl.addEventListener('click', (e) => {
-      if (e.target !== fileInputEl) {
-        fileInputEl.click();
+    function handleFiles(files) {
+      if (!files || files.length === 0) return;
+      const fileList = Array.from(files);
+      if (options.multiple) {
+        onFileLoaded(fileList);
+      } else {
+        onFileLoaded(fileList[0]);
       }
+    }
+
+    // Isolate fileInput clicks and reset value so the same file can be re-selected
+    fileInputEl.addEventListener('click', (e) => {
+      e.stopPropagation();
+      fileInputEl.value = '';
     });
 
+    // Clicking anywhere on dropzone triggers file picker
+    dropzoneEl.addEventListener('click', (e) => {
+      fileInputEl.value = '';
+      fileInputEl.click();
+    });
+
+    // Explicitly bind buttons inside dropzone as well
+    const buttons = dropzoneEl.querySelectorAll('button, .btn');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        fileInputEl.value = '';
+        fileInputEl.click();
+      });
+    });
+
+    // File input change
     fileInputEl.addEventListener('change', () => {
       if (fileInputEl.files && fileInputEl.files.length > 0) {
-        if (options.multiple) {
-          onFileLoaded(Array.from(fileInputEl.files));
-        } else {
-          onFileLoaded(fileInputEl.files[0]);
-        }
+        handleFiles(fileInputEl.files);
       }
     });
 
@@ -49,30 +85,28 @@
     });
 
     dropzoneEl.addEventListener('drop', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      dropzoneEl.classList.remove('is-dragover');
       const dt = e.dataTransfer;
-      const files = dt.files;
-      if (files && files.length > 0) {
-        if (options.multiple) {
-          onFileLoaded(Array.from(files));
-        } else {
-          onFileLoaded(files[0]);
-        }
+      if (dt && dt.files && dt.files.length > 0) {
+        handleFiles(dt.files);
       }
     });
 
     // Paste from clipboard support
     window.addEventListener('paste', (e) => {
-      const items = (e.clipboardData || e.originalEvent.clipboardData).items;
+      // Only paste if dropzone is currently visible
+      if (dropzoneEl.offsetParent === null && dropzoneEl.style.display === 'none') {
+        return;
+      }
+      const items = (e.clipboardData || (e.originalEvent && e.originalEvent.clipboardData))?.items;
       if (!items) return;
       for (let i = 0; i < items.length; i++) {
         if (items[i].type.indexOf('image') !== -1) {
           const file = items[i].getAsFile();
           if (file) {
-            if (options.multiple) {
-              onFileLoaded([file]);
-            } else {
-              onFileLoaded(file);
-            }
+            handleFiles([file]);
             if (window.showToast) window.showToast('Image pasted from clipboard', 'info');
           }
           break;

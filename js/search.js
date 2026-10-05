@@ -265,28 +265,40 @@
 
       tools.forEach((tool, idx) => {
         const li = document.createElement('li');
+        const iconHtml = tool.icon ? `<div class="search-result-icon">${tool.icon}</div>` : '';
         li.innerHTML = `
           <a href="${window.getToolUrl(tool)}" class="search-result-item ${idx === 0 ? 'is-selected' : ''}" data-index="${idx}">
-            <div class="search-result-info">
-              <span class="search-result-title">${tool.name}</span>
-              <span class="search-result-desc">${tool.desc}</span>
+            <div class="search-result-left">
+              ${iconHtml}
+              <div class="search-result-info">
+                <span class="search-result-title">${tool.name}</span>
+                <span class="search-result-desc">${tool.desc}</span>
+              </div>
             </div>
             <span class="badge badge-neutral">${tool.category}</span>
           </a>
         `;
+
+        li.addEventListener('mouseenter', () => {
+          selectedIndex = idx;
+          updateSelection();
+        });
+
         resultsContainer.appendChild(li);
       });
     }
 
     function openModal() {
       backdrop.classList.add('is-active');
+      document.body.style.overflow = 'hidden';
       input.value = '';
       renderResults(getActiveTools());
-      setTimeout(() => input.focus(), 50);
+      setTimeout(() => input.focus(), 60);
     }
 
     function closeModal() {
       backdrop.classList.remove('is-active');
+      document.body.style.overflow = '';
     }
 
     triggerBtns.forEach(btn => {
@@ -334,7 +346,7 @@
       } else if (e.key === 'Enter') {
         e.preventDefault();
         if (currentResults[selectedIndex]) {
-          window.location.href = currentResults[selectedIndex].url;
+          window.location.href = window.getToolUrl(currentResults[selectedIndex]);
         }
       }
     });
