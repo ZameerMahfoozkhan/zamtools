@@ -1,0 +1,83 @@
+{
+  "siteName": "ZamTools",
+  "tagline": "Simple tools. Better results.",
+  "privacyBadge": "Private & Local Browser Processing",
+  "privacyPromise": "Your images stay on your device.",
+  "privacyDetail": "Unlike traditional conversion sites that upload files to cloud queues, ZamTools tools process image bytes locally in your browser’s RAM. Nothing is stored, tracked, or sent to an external server.",
+  "nav": {
+    "allTools": "All Tools",
+    "categories": "Categories",
+    "faq": "FAQ",
+    "guides": "Guides",
+    "about": "About",
+    "contact": "Contact",
+    "search": "Search",
+    "searchKbd": "⌘K"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "tools": "Tools",
+    "blog": "Guides & Blog"
+  },
+  "dropzone": {
+    "title": "Drop your image here",
+    "subtitle": "or click to browse from your computer or phone",
+    "button": "Choose Image",
+    "supported": "Supported formats:"
+  },
+  "controls": {
+    "changeImage": "Change Image",
+    "reset": "Reset",
+    "download": "Download",
+    "downloadAll": "Download All",
+    "downloadSingle": "Download Image",
+    "originalSize": "Original Size",
+    "newSize": "New Size",
+    "saved": "Saved",
+    "quality": "Quality",
+    "width": "Width",
+    "height": "Height",
+    "aspectRatio": "Lock Aspect Ratio",
+    "format": "Format",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "processing": "Processing...",
+    "before": "Before",
+    "after": "After",
+    "openTool": "Open Tool →"
+  },
+  "searchModal": {
+    "placeholder": "Search all image tools...",
+    "empty": "No matching image tools found. Try another search term.",
+    "navigate": "Navigate",
+    "select": "Select",
+    "close": "Close",
+    "fastIndex": "ZamTools Fast Index"
+  },
+  "footer": {
+    "toolsCol": "Tools",
+    "companyCol": "Company",
+    "legalCol": "Legal",
+    "resourcesCol": "Resources",
+    "allToolsLink": "All 20 Tools",
+    "rightsReserved": "© 2026 ZamTools. All rights reserved.",
+    "legalNotice": "Legal reference note: This page is localized for convenience. In case of any dispute, the original English version remains the binding reference."
+  },
+  "langSelector": {
+    "label": "Change Language",
+    "current": "Language"
+  },
+  "suggestionBanner": {
+    "text": "This page is also available in",
+    "viewAction": "View in",
+    "close": "Dismiss"
+  },
+  "errors": {
+    "invalidFile": "Please choose a valid JPG, PNG, or WebP image.",
+    "corruptImage": "Unable to read this image file. It might be corrupted.",
+    "processingError": "Error processing image: ",
+    "emptyInput": "Please provide valid input to process.",
+    "invalidBase64": "The provided Base64 string is invalid.",
+    "downloadError": "Download error occurred. Please try again."
+  }
+}

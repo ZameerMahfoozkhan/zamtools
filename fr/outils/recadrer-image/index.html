@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recadrer une image en ligne – Rogner photos et formats | ZamTools</title>
+  <meta name="description" content="Recadrez vos images JPG, PNG et WebP gratuitement en ligne. Rognage interactif avec ratios fixes (1:1, 4:3, 16:9 ou libre) sans perte de qualité.">
+  <link rel="canonical" href="https://zamtools.online/fr/outils/recadrer-image/">
+  <link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-cropper/">
+  <link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/recadrer-image/">
+  <link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/recortar-imagen/">
+  <link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/potong-gambar/">
+  <link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-zuschneiden/">
+  <link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/recortar-imagem/">
+  <link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/ritaglia-immagine/">
+  <link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-cropper/">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zamtools.online/fr/outils/recadrer-image/">
+  <meta property="og:title" content="Recadrer une image en ligne – Rogner photos et formats | ZamTools">
+  <meta property="og:description" content="Recadrez vos images JPG, PNG et WebP gratuitement en ligne. Rognage interactif avec ratios fixes (1:1, 4:3, 16:9 ou libre) sans perte de qualité.">
+  <meta property="og:image" content="https://zamtools.online/assets/og/og-default.png">
+  <meta property="og:site_name" content="ZamTools">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="pt_PT">
+  <meta property="og:locale:alternate" content="it_IT">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://zamtools.online/fr/outils/recadrer-image/">
+  <meta name="twitter:title" content="Recadrer une image en ligne – Rogner photos et formats | ZamTools">
+  <meta name="twitter:description" content="Recadrez vos images JPG, PNG et WebP gratuitement en ligne. Rognage interactif avec ratios fixes (1:1, 4:3, 16:9 ou libre) sans perte de qualité.">
+  <meta name="twitter:image" content="https://zamtools.online/assets/og/og-default.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/tools.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Recadrer une image",
+        "operatingSystem": "All",
+        "applicationCategory": "MultimediaApplication",
+        "browserRequirements": "Requires JavaScript. Requires HTML5 Canvas.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "Recadrez vos images JPG, PNG et WebP gratuitement en ligne. Rognage interactif avec ratios fixes (1:1, 4:3, 16:9 ou libre) sans perte de qualité.",
+        "url": "https://zamtools.online/fr/outils/recadrer-image/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://zamtools.online/fr/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Outils",
+            "item": "https://zamtools.online/fr/outils/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Recadrer une image",
+            "item": "https://zamtools.online/fr/outils/recadrer-image/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/fr/" class="logo" aria-label="ZamTools Homepage">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4 4h16l-10 12h10v4H4l10-12H4z"/>
+          </svg>
+        </div>
+        <div class="logo-text"><span>Zam</span><span>Tools</span></div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="/fr/outils/" class="nav-link ">Tous les outils</a>
+        <a href="/fr/#categories" class="nav-link">Catégories</a>
+        <a href="/fr/faq/" class="nav-link ">FAQ</a>
+        <a href="/fr/blog/" class="nav-link ">Guides</a>
+        <a href="/fr/a-propos/" class="nav-link ">À propos</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Selector -->
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="btn-lang-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Changer de langue">
+            <svg class="lang-globe-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span class="lang-current-name">Français</span>
+            <svg class="lang-chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="lang-dropdown-menu" role="menu">
+        <a href="/tools/image-cropper/" class="lang-dropdown-item " role="menuitem" hreflang="en" lang="en" >
+          <span class="lang-item-native">English</span>
+          <span class="lang-item-code">EN</span>
+        </a>
+        <a href="/fr/outils/recadrer-image/" class="lang-dropdown-item is-active" role="menuitem" hreflang="fr" lang="fr" aria-current="true">
+          <span class="lang-item-native">Français</span>
+          <span class="lang-item-code">FR</span>
+        </a>
+        <a href="/es/herramientas/recortar-imagen/" class="lang-dropdown-item " role="menuitem" hreflang="es" lang="es" >
+          <span class="lang-item-native">Español</span>
+          <span class="lang-item-code">ES</span>
+        </a>
+        <a href="/id/alat/potong-gambar/" class="lang-dropdown-item " role="menuitem" hreflang="id" lang="id" >
+          <span class="lang-item-native">Bahasa Indonesia</span>
+          <span class="lang-item-code">ID</span>
+        </a>
+        <a href="/de/tools/bild-zuschneiden/" class="lang-dropdown-item " role="menuitem" hreflang="de" lang="de" >
+          <span class="lang-item-native">Deutsch</span>
+          <span class="lang-item-code">DE</span>
+        </a>
+        <a href="/pt/ferramentas/recortar-imagem/" class="lang-dropdown-item " role="menuitem" hreflang="pt" lang="pt" >
+          <span class="lang-item-native">Português</span>
+          <span class="lang-item-code">PT</span>
+        </a>
+        <a href="/it/strumenti/ritaglia-immagine/" class="lang-dropdown-item " role="menuitem" hreflang="it" lang="it" >
+          <span class="lang-item-native">Italiano</span>
+          <span class="lang-item-code">IT</span>
+        </a>
+          </div>
+        </div>
+
+        <button class="btn-header-search" aria-label="Rechercher">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <span>Rechercher</span>
+          <kbd class="search-kbd">⌘K</kbd>
+        </button>
+
+        <button class="btn-mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+          <div class="hamburger-icon">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-mobile-drawer">
+    <a href="/fr/outils/" class="nav-mobile-link">Tous les outils</a>
+    <a href="/fr/#categories" class="nav-mobile-link">Catégories</a>
+    <a href="/fr/faq/" class="nav-mobile-link">FAQ</a>
+    <a href="/fr/blog/" class="nav-mobile-link">Guides</a>
+    <a href="/fr/a-propos/" class="nav-mobile-link">À propos</a>
+    <a href="/fr/contact/" class="nav-mobile-link">Contact</a>
+
+    <div class="mobile-lang-section">
+      <div class="mobile-lang-title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span>Langue</span>
+      </div>
+      <div class="mobile-lang-grid">
+      <a href="/tools/image-cropper/" class="mobile-lang-link " hreflang="en" lang="en">
+        <span>English</span>
+        <span class="lang-item-code">EN</span>
+      </a>
+      <a href="/fr/outils/recadrer-image/" class="mobile-lang-link is-active" hreflang="fr" lang="fr">
+        <span>Français</span>
+        <span class="lang-item-code">FR</span>
+      </a>
+      <a href="/es/herramientas/recortar-imagen/" class="mobile-lang-link " hreflang="es" lang="es">
+        <span>Español</span>
+        <span class="lang-item-code">ES</span>
+      </a>
+      <a href="/id/alat/potong-gambar/" class="mobile-lang-link " hreflang="id" lang="id">
+        <span>Bahasa Indonesia</span>
+        <span class="lang-item-code">ID</span>
+      </a>
+      <a href="/de/tools/bild-zuschneiden/" class="mobile-lang-link " hreflang="de" lang="de">
+        <span>Deutsch</span>
+        <span class="lang-item-code">DE</span>
+      </a>
+      <a href="/pt/ferramentas/recortar-imagem/" class="mobile-lang-link " hreflang="pt" lang="pt">
+        <span>Português</span>
+        <span class="lang-item-code">PT</span>
+      </a>
+      <a href="/it/strumenti/ritaglia-immagine/" class="mobile-lang-link " hreflang="it" lang="it">
+        <span>Italiano</span>
+        <span class="lang-item-code">IT</span>
+      </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Non-intrusive Language Suggestion Banner -->
+  <aside class="lang-suggestion-banner" id="langSuggestionBanner" style="display: none;" aria-label="Language Suggestion">
+    <div class="container lang-suggestion-inner">
+      <div class="lang-suggestion-content">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span id="langSuggestionText">Cette page est également disponible en</span>
+      </div>
+      <div class="lang-suggestion-actions">
+        <a href="#" class="btn btn-primary btn-sm" id="langSuggestionAction">Voir en</a>
+        <button type="button" class="btn-suggestion-close" id="langSuggestionClose" aria-label="Fermer">✕</button>
+      </div>
+    </div>
+  </aside>
+  <main class="section">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+
+        <a href="/fr/">Accueil</a>
+        <span class="separator">/</span>
+        <a href="/fr/outils/">Outils</a>
+        <span class="separator">/</span>
+        <span class="current">Recadrer une image</span>
+      </nav>
+
+      <div class="tool-header-block">
+        <h1>Recadrer une image en ligne</h1>
+        <p class="tool-header-lead">Cadrez et rognez vos photos avec précision grâce à notre zone de sélection interactive. Verrouillez des ratios standard (carré 1:1, 4:3, 16:9) ou découpez librement la zone de votre choix en toute simplicité.</p>
+      </div>
+
+      <!-- Main Tool Workspace -->
+<div class="tool-workspace">
+        <div class="upload-dropzone" id="dropzone">
+          <div class="upload-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+          </div>
+          <div class="upload-dropzone-title">Drop an image here to crop</div>
+          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP</div>
+          <button type="button" class="btn btn-primary">Choisir une image</button>
+          <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
+        </div>
+
+        <div class="workspace-active" id="workspaceActive">
+          <div class="workspace-active-header">
+            <div class="file-info-badge">
+              <span id="fileInfoName">image.jpg</span>
+              <span class="badge badge-neutral" id="cropDimensions">0 × 0 px</span>
+            </div>
+            <button type="button" class="btn btn-secondary btn-sm" id="resetBtn">Changer d'image</button>
+          </div>
+
+          <div class="workspace-grid">
+            <div class="controls-panel">
+              <div class="control-group">
+                <label class="control-label">Ratios d'aspect</label>
+                <div style="display: flex; gap: var(--space-2); flex-wrap: wrap;">
+                  <button type="button" class="btn btn-secondary btn-sm ratio-btn is-active" data-ratio="free">Libre</button>
+                  <button type="button" class="btn btn-secondary btn-sm ratio-btn" data-ratio="1:1">1:1 Carré</button>
+                  <button type="button" class="btn btn-secondary btn-sm ratio-btn" data-ratio="16:9">16:9 Écran large</button>
+                  <button type="button" class="btn btn-secondary btn-sm ratio-btn" data-ratio="4:3">4:3 Standard</button>
+                  <button type="button" class="btn btn-secondary btn-sm ratio-btn" data-ratio="3:2">3:2 Classique</button>
+                  <button type="button" class="btn btn-secondary btn-sm ratio-btn" data-ratio="9:16">9:16 Story / Réel</button>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <div class="control-label">
+                  <span>Zoom Level</span>
+                  <span class="control-val-badge" id="zoomVal">100%</span>
+                </div>
+                <input type="range" id="zoomSlider" class="range-slider" min="50" max="250" value="100">
+              </div>
+
+              <button type="button" class="btn btn-secondary" id="rotateBtn">Rotate 90°</button>
+
+              <div style="margin-top: var(--space-4);">
+                <div style="font-size: 0.8125rem; font-weight: 600; color: var(--text-subtle); margin-bottom: var(--space-2); text-transform: uppercase;">Cropped Output Result</div>
+                <div class="canvas-container" style="min-height: 180px; max-height: 220px;">
+                  <canvas id="previewCanvas"></canvas>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-primary btn-lg" id="downloadBtn" style="margin-top: var(--space-4);">Télécharger l'image recadrée</button>
+            </div>
+
+            <div class="preview-stage">
+              <div class="canvas-container">
+                <canvas id="cropCanvas"></canvas>
+              </div>
+              <p style="font-size: 0.8125rem; color: var(--text-subtle); text-align: center;">
+                Click and drag inside the blue box to reposition. Drag the corner handles to resize.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collapsed Ad Placeholder -->
+      <div class="ad-slot-container" data-slot="content"></div>
+
+
+      <div class="privacy-banner">
+        <div class="privacy-banner-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="privacy-banner-content">
+          <h4>Vos images restent sur votre appareil.</h4>
+          <p>Contrairement aux convertisseurs classiques qui transfèrent vos fichiers vers des serveurs distants, ZamTools traite les images directement dans la mémoire de votre navigateur. Rien n'est stocké ni envoyé sur un serveur externe.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+      <section class="section section-subtle">
+        <div class="container">
+          <div class="section-header">
+            <div class="eyebrow">Outils</div>
+            <h2>Comment recadrer une photo en ligne</h2>
+          </div>
+          <ol class="steps-list">
+            
+          <li class="step-card">
+            <div class="step-number">1</div>
+            <h4>Importez votre photo</h4>
+            <p></p>
+          </li>
+          <li class="step-card">
+            <div class="step-number">2</div>
+            <h4>Choisissez le ratio</h4>
+            <p></p>
+          </li>
+          <li class="step-card">
+            <div class="step-number">3</div>
+            <h4>Ajustez la zone</h4>
+            <p></p>
+          </li>
+          <li class="step-card">
+            <div class="step-number">4</div>
+            <h4>Téléchargez l&#039;image</h4>
+            <p></p>
+          </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div class="eyebrow">Recadrer une image</div>
+            <h2>Les atouts de l&#039;outil de recadrage</h2>
+          </div>
+          <div class="features-grid">
+            
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Sélection interactive fluide</h4>
+            <p></p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Ratios prédéfinis</h4>
+            <p></p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Découpe nette et précise</h4>
+            <p></p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Confidentialité totale</h4>
+            <p></p>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container" style="margin-top: var(--space-8); margin-bottom: var(--space-8);">
+        <div class="editorial-wrapper" style="border-left: 4px solid var(--primary); padding: var(--space-6);">
+          <h3 style="font-size: 1.25rem; margin-bottom: var(--space-2);">Conseil de composition</h3>
+          <p style="margin: 0; color: var(--text-muted); line-height: 1.7;">Utilisez le format 1:1 pour vos photos de profil et vignettes. Pour une bannière ou une illustration d&#039;article, le 16:9 offre un résultat immersif.</p>
+        </div>
+      </div>
+
+      <section class="section section-subtle">
+        <div class="container-narrow">
+          <div class="section-header">
+            <div class="eyebrow">FAQ</div>
+            <h2>Questions fréquentes sur le recadrage</h2>
+          </div>
+          <div class="faq-list">
+            
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Le recadrage altère-t-il la qualité des pixels conservés ?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Non, les pixels situés à l&#039;intérieur de votre sélection conservent leur netteté et leurs couleurs intactes.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Puis-je recadrer un PNG avec fond transparent ?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Oui, la transparence est fidèlement préservée lors du recadrage.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div class="eyebrow">Outils</div>
+            <h2>Outils associés</h2>
+          </div>
+          <div class="tools-grid">
+            
+        <a href="/fr/outils/pivoter-retourner-image/" class="tool-card">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Retouche</span>
+          </div>
+          <h3 class="tool-card-title">Pivoter et retourner une image</h3>
+          <p class="tool-card-desc">Corrigez l&#039;orientation de photos prises de travers avec votre smartphone ou appliquez un effet miroir. Pivotez à 90° vers la droite, 90° vers la gauche ou retournez vos images verticalement et horizontalement.</p>
+          <div class="tool-card-footer">
+            <span>Ouvrir l'outil →</span>
+          </div>
+        </a>
+        <a href="/fr/outils/redimensionner-image/" class="tool-card">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Redimensionnement</span>
+          </div>
+          <h3 class="tool-card-title">Redimensionner une image</h3>
+          <p class="tool-card-desc">Ajustez les dimensions de vos photos en pixels, en pourcentage ou avec des formats prédéfinis. Conservez les proportions d&#039;origine pour éviter toute déformation et téléchargez votre image instantanément.</p>
+          <div class="tool-card-footer">
+            <span>Ouvrir l'outil →</span>
+          </div>
+        </a>
+        <a href="/fr/outils/redimensionneur-images-reseaux-sociaux/" class="tool-card">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Redimensionnement</span>
+          </div>
+          <h3 class="tool-card-title">Redimensionneur réseaux sociaux</h3>
+          <p class="tool-card-desc">Adaptez vos visuels aux formats officiels d&#039;Instagram, Facebook, YouTube, LinkedIn, TikTok et X. Évitez les recadrages automatiques disgracieux et obtenez des publications impeccables.</p>
+          <div class="tool-card-footer">
+            <span>Ouvrir l'outil →</span>
+          </div>
+        </a>
+        <a href="/fr/outils/redimensionneur-photo-passeport/" class="tool-card">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Redimensionnement</span>
+          </div>
+          <h3 class="tool-card-title">Redimensionneur photo de passeport</h3>
+          <p class="tool-card-desc">Recadrez et alignez vos photos d&#039;identité aux normes officielles françaises, européennes (35x45 mm) et internationales (États-Unis 2x2 pouces). Guide biométrique visuel pour respecter les exigences administratives.</p>
+          <div class="tool-card-footer">
+            <span>Ouvrir l'outil →</span>
+          </div>
+        </a>
+          </div>
+        </div>
+      </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- 1. Brand column (2fr) -->
+      <div class="footer-brand">
+        <a href="/fr/" class="logo" aria-label="ZamTools Homepage">
+          <div class="logo-symbol">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 4h16l-10 12h10v4H4l10-12H4z"/>
+            </svg>
+          </div>
+          <div class="logo-text"><span>Zam</span><span>Tools</span></div>
+        </a>
+        <p class="footer-tagline">Outils simples. Meilleurs résultats.</p>
+        <div class="footer-privacy-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+          <span>Vos images restent sur votre appareil.</span>
+        </div>
+      </div>
+
+      <!-- 2. Tools column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Outils</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/fr/outils/" class="footer-nav-link">Les 20 outils</a></li>
+          <li><a href="/fr/outils/compresseur-image/" class="footer-nav-link">Compresseur d'image</a></li>
+          <li><a href="/fr/outils/redimensionner-image/" class="footer-nav-link">Redimensionner une image</a></li>
+          <li><a href="/fr/outils/convertisseur-webp/" class="footer-nav-link">Convertisseur WebP</a></li>
+          <li><a href="/fr/outils/recadrer-image/" class="footer-nav-link">Recadrer une image</a></li>
+        </ul>
+      </div>
+
+      <!-- 3. Categories column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Catégories</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/fr/outils/compression-image/" class="footer-nav-link">Compression</a></li>
+          <li><a href="/fr/outils/redimensionnement-image/" class="footer-nav-link">Redimensionnement</a></li>
+          <li><a href="/fr/outils/conversion-format-image/" class="footer-nav-link">Conversion</a></li>
+          <li><a href="/fr/outils/retouche-photo/" class="footer-nav-link">Retouche</a></li>
+        </ul>
+      </div>
+
+      <!-- 4. Company column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Entreprise</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/fr/a-propos/" class="footer-nav-link">À propos</a></li>
+          <li><a href="/fr/contact/" class="footer-nav-link">Contact</a></li>
+          <li><a href="/fr/faq/" class="footer-nav-link">FAQ</a></li>
+          <li><a href="/fr/blog/" class="footer-nav-link">Guides</a></li>
+        </ul>
+      </div>
+
+      <!-- 5. Legal column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Mentions légales</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/fr/politique-de-confidentialite/" class="footer-nav-link">Confidentialité</a></li>
+          <li><a href="/fr/conditions-utilisation/" class="footer-nav-link">Conditions</a></li>
+          <li><a href="/fr/mentions-legales/" class="footer-nav-link">Mentions légales</a></li>
+          <li><a href="/fr/gestion-cookies/" class="footer-nav-link">Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="copyright">© 2026 ZamTools. Tous droits réservés.</p>
+      <p class="footer-legal-notice">Note juridique : cette traduction est fournie à titre indicatif. En cas de contestation, la version anglaise originale fait foi.</p>
+    </div>
+  </footer>
+  <!-- Search Modal -->
+  <div class="search-modal-backdrop" role="dialog" aria-modal="true" aria-label="Rechercher">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="search" class="search-modal-input" placeholder="Rechercher un outil d'image..." aria-label="Rechercher un outil d'image...">
+        <button class="search-close-btn" aria-label="Fermer">✕</button>
+      </div>
+      <ul class="search-results-list"></ul>
+      <div class="search-modal-footer">
+        <span><kbd>↑</kbd><kbd>↓</kbd> Naviguer</span>
+        <span><kbd>↵</kbd> Sélectionner</span>
+        <span><kbd>esc</kbd> Fermer</span>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="/js/config.js"></script>
+  <script src="/js/core.js"></script>
+  <script src="/js/routes.js"></script>
+  <script src="/js/toasts.js"></script>
+  <script src="/js/search-data.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/language-switcher.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/tools/cropper.js"></script>
+</body>
+</html>

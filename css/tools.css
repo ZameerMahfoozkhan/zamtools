@@ -1,0 +1,543 @@
+/**
+ * ZamTools Workspace Stylesheet
+ * Upload Drop Zones, Interactive Canvases, Sliders, Loupe, Crop Box, Comparison Splitters
+ */
+
+/* ==========================================================================
+   Tool Workspace Layout
+   ========================================================================== */
+.tool-header-block {
+  margin-bottom: var(--space-8);
+}
+
+.tool-header-block h1 {
+  font-size: clamp(1.75rem, 3vw + 0.5rem, 2.75rem);
+  margin-bottom: var(--space-3);
+}
+
+.tool-header-lead {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  max-width: 760px;
+  line-height: 1.6;
+}
+
+.tool-workspace {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-8);
+  margin-bottom: var(--space-12);
+}
+
+/* ==========================================================================
+   Upload Area (Empty State)
+   ========================================================================== */
+.upload-dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-16) var(--space-6);
+  background-color: var(--bg-subtle);
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  position: relative;
+}
+
+.upload-dropzone:hover,
+.upload-dropzone.is-dragover {
+  border-color: var(--primary);
+  background-color: var(--primary-subtle);
+}
+
+.upload-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-full);
+  background: #ffffff;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-4);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast);
+}
+
+.upload-dropzone:hover .upload-icon-wrapper {
+  transform: translateY(-2px) scale(1.05);
+}
+
+.upload-icon-wrapper svg {
+  width: 32px;
+  height: 32px;
+}
+
+.upload-dropzone-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: var(--space-2);
+}
+
+.upload-dropzone-subtitle {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-5);
+}
+
+.upload-formats-list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-subtle);
+}
+
+.upload-format-pill {
+  padding: 0.15rem 0.5rem;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  text-transform: uppercase;
+}
+
+.file-input-hidden {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Active Tool Layout (2-Columns on Desktop)
+   ========================================================================== */
+.workspace-active {
+  display: none;
+}
+
+.workspace-active.is-active {
+  display: block;
+}
+
+.workspace-active-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-6);
+  border-bottom: 1px solid var(--border);
+}
+
+.file-info-badge {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.workspace-grid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: var(--space-8);
+  align-items: start;
+}
+
+/* ==========================================================================
+   Controls Sidebar
+   ========================================================================== */
+.controls-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.control-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.control-val-badge {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--primary);
+  background: var(--primary-subtle);
+  padding: 0.1rem 0.4rem;
+  border-radius: var(--radius-xs);
+}
+
+/* Form Inputs & Sliders */
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: #ffffff;
+  color: var(--text-main);
+  font-size: 0.9375rem;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border-color: var(--border-focus);
+  box-shadow: var(--shadow-focus);
+}
+
+.range-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: var(--surface-muted);
+  border-radius: var(--radius-full);
+  outline: none;
+  margin: var(--space-2) 0;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  background: var(--primary);
+  border: 2px solid #ffffff;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+}
+
+.range-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  background: var(--primary);
+  border: 2px solid #ffffff;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+}
+
+/* Segmented Buttons / Pill Selectors */
+.segmented-control {
+  display: flex;
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  gap: 2px;
+}
+
+.segmented-btn {
+  flex: 1;
+  padding: 0.45rem 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-muted);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.segmented-btn:hover {
+  color: var(--text-main);
+}
+
+.segmented-btn.is-active {
+  background: #ffffff;
+  color: var(--primary);
+  box-shadow: var(--shadow-xs);
+}
+
+/* ==========================================================================
+   Preview Stage & Canvas
+   ========================================================================== */
+.preview-stage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.canvas-container {
+  position: relative;
+  min-height: 380px;
+  max-height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8fafc;
+  background-image: 
+    linear-gradient(45deg, #e2e8f0 25%, transparent 25%), 
+    linear-gradient(-45deg, #e2e8f0 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #e2e8f0 75%), 
+    linear-gradient(-45deg, transparent 75%, #e2e8f0 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  user-select: none;
+}
+
+.canvas-container canvas,
+.canvas-container img {
+  max-width: 100%;
+  max-height: 540px;
+  object-fit: contain;
+  box-shadow: var(--shadow-md);
+}
+
+/* Color Picker Loupe Magnifier */
+.color-picker-loupe {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: var(--radius-full);
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+  display: none;
+  overflow: hidden;
+  z-index: 50;
+  transform: translate(-50%, -120%);
+}
+
+.color-picker-loupe canvas {
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+}
+
+.color-picker-loupe-crosshair {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-picker-loupe-crosshair::before,
+.color-picker-loupe-crosshair::after {
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+.color-picker-loupe-crosshair::before {
+  width: 10px;
+  height: 2px;
+}
+
+.color-picker-loupe-crosshair::after {
+  height: 10px;
+  width: 2px;
+}
+
+/* ==========================================================================
+   Crop Box Overlay
+   ========================================================================== */
+.crop-overlay-wrapper {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.crop-box {
+  position: absolute;
+  border: 2px solid var(--primary);
+  box-shadow: 0 0 0 9999px rgba(15, 23, 42, 0.5);
+  pointer-events: auto;
+  cursor: move;
+}
+
+.crop-handle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  border: 2px solid var(--primary);
+  border-radius: 2px;
+}
+
+.crop-handle-nw { top: -6px; left: -6px; cursor: nwse-resize; }
+.crop-handle-ne { top: -6px; right: -6px; cursor: nesw-resize; }
+.crop-handle-sw { bottom: -6px; left: -6px; cursor: nesw-resize; }
+.crop-handle-se { bottom: -6px; right: -6px; cursor: nwse-resize; }
+
+/* ==========================================================================
+   Comparison Splitter Slider
+   ========================================================================== */
+.compare-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+
+.compare-image-original,
+.compare-image-modified {
+  width: 100%;
+  display: block;
+}
+
+.compare-overlay-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  overflow: hidden;
+  border-right: 2px solid #ffffff;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.compare-slider-handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  background: #ffffff;
+  border-radius: var(--radius-full);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: ew-resize;
+  color: var(--text-main);
+  z-index: 20;
+}
+
+/* ==========================================================================
+   Result Summary Card
+   ========================================================================== */
+.result-stats-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  text-align: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--text-subtle);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.stat-value {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.stat-value.highlight-success {
+  color: var(--success);
+}
+
+/* ==========================================================================
+   Color Swatches Grid
+   ========================================================================== */
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: var(--space-3);
+  margin: var(--space-4) 0;
+}
+
+.palette-swatch {
+  height: 90px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--space-2);
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+  position: relative;
+}
+
+.palette-swatch:hover {
+  transform: translateY(-2px);
+}
+
+.palette-swatch-hex {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2px 6px;
+  border-radius: var(--radius-xs);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+/* Multi-size Favicon Preview */
+.favicon-sizes-grid {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  padding: var(--space-4);
+  background: var(--surface-muted);
+  border-radius: var(--radius-md);
+  margin-top: var(--space-3);
+}
+
+.favicon-size-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.favicon-size-box img {
+  border: 1px solid var(--border);
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.favicon-size-box span {
+  font-size: 0.75rem;
+  color: var(--text-subtle);
+  font-weight: 600;
+}

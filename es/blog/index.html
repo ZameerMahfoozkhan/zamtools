@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guías de optimización y formatos de imagen | Blog ZamTools</title>
+  <meta name="description" content="Descubre guías prácticas sobre compresión de imágenes, elección de formatos WebP/JPG/PNG y optimización para el rendimiento web.">
+  <link rel="canonical" href="https://zamtools.online/es/blog/">
+  <link rel="alternate" hreflang="en" href="https://zamtools.online/blog/">
+  <link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/blog/">
+  <link rel="alternate" hreflang="es" href="https://zamtools.online/es/blog/">
+  <link rel="alternate" hreflang="id" href="https://zamtools.online/id/blog/">
+  <link rel="alternate" hreflang="de" href="https://zamtools.online/de/blog/">
+  <link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/blog/">
+  <link rel="alternate" hreflang="it" href="https://zamtools.online/it/blog/">
+  <link rel="alternate" hreflang="x-default" href="https://zamtools.online/blog/">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zamtools.online/es/blog/">
+  <meta property="og:title" content="Guías de optimización y formatos de imagen | Blog ZamTools">
+  <meta property="og:description" content="Descubre guías prácticas sobre compresión de imágenes, elección de formatos WebP/JPG/PNG y optimización para el rendimiento web.">
+  <meta property="og:image" content="https://zamtools.online/assets/og/og-default.png">
+  <meta property="og:site_name" content="ZamTools">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="pt_PT">
+  <meta property="og:locale:alternate" content="it_IT">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://zamtools.online/es/blog/">
+  <meta name="twitter:title" content="Guías de optimización y formatos de imagen | Blog ZamTools">
+  <meta name="twitter:description" content="Descubre guías prácticas sobre compresión de imágenes, elección de formatos WebP/JPG/PNG y optimización para el rendimiento web.">
+  <meta name="twitter:image" content="https://zamtools.online/assets/og/og-default.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/tools.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://zamtools.online/es/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Guías",
+        "item": "https://zamtools.online/es/blog/"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/es/" class="logo" aria-label="ZamTools Homepage">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4 4h16l-10 12h10v4H4l10-12H4z"/>
+          </svg>
+        </div>
+        <div class="logo-text"><span>Zam</span><span>Tools</span></div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="/es/herramientas/" class="nav-link ">Todas las herramientas</a>
+        <a href="/es/#categories" class="nav-link">Categorías</a>
+        <a href="/es/faq/" class="nav-link ">Preguntas frecuentes</a>
+        <a href="/es/blog/" class="nav-link active">Guías</a>
+        <a href="/es/acerca-de/" class="nav-link ">Acerca de</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Selector -->
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="btn-lang-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Cambiar idioma">
+            <svg class="lang-globe-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span class="lang-current-name">Español</span>
+            <svg class="lang-chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="lang-dropdown-menu" role="menu">
+        <a href="/blog/" class="lang-dropdown-item " role="menuitem" hreflang="en" lang="en" >
+          <span class="lang-item-native">English</span>
+          <span class="lang-item-code">EN</span>
+        </a>
+        <a href="/fr/blog/" class="lang-dropdown-item " role="menuitem" hreflang="fr" lang="fr" >
+          <span class="lang-item-native">Français</span>
+          <span class="lang-item-code">FR</span>
+        </a>
+        <a href="/es/blog/" class="lang-dropdown-item is-active" role="menuitem" hreflang="es" lang="es" aria-current="true">
+          <span class="lang-item-native">Español</span>
+          <span class="lang-item-code">ES</span>
+        </a>
+        <a href="/id/blog/" class="lang-dropdown-item " role="menuitem" hreflang="id" lang="id" >
+          <span class="lang-item-native">Bahasa Indonesia</span>
+          <span class="lang-item-code">ID</span>
+        </a>
+        <a href="/de/blog/" class="lang-dropdown-item " role="menuitem" hreflang="de" lang="de" >
+          <span class="lang-item-native">Deutsch</span>
+          <span class="lang-item-code">DE</span>
+        </a>
+        <a href="/pt/blog/" class="lang-dropdown-item " role="menuitem" hreflang="pt" lang="pt" >
+          <span class="lang-item-native">Português</span>
+          <span class="lang-item-code">PT</span>
+        </a>
+        <a href="/it/blog/" class="lang-dropdown-item " role="menuitem" hreflang="it" lang="it" >
+          <span class="lang-item-native">Italiano</span>
+          <span class="lang-item-code">IT</span>
+        </a>
+          </div>
+        </div>
+
+        <button class="btn-header-search" aria-label="Buscar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <span>Buscar</span>
+          <kbd class="search-kbd">⌘K</kbd>
+        </button>
+
+        <button class="btn-mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+          <div class="hamburger-icon">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-mobile-drawer">
+    <a href="/es/herramientas/" class="nav-mobile-link">Todas las herramientas</a>
+    <a href="/es/#categories" class="nav-mobile-link">Categorías</a>
+    <a href="/es/faq/" class="nav-mobile-link">Preguntas frecuentes</a>
+    <a href="/es/blog/" class="nav-mobile-link">Guías</a>
+    <a href="/es/acerca-de/" class="nav-mobile-link">Acerca de</a>
+    <a href="/es/contacto/" class="nav-mobile-link">Contacto</a>
+
+    <div class="mobile-lang-section">
+      <div class="mobile-lang-title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span>Idioma</span>
+      </div>
+      <div class="mobile-lang-grid">
+      <a href="/blog/" class="mobile-lang-link " hreflang="en" lang="en">
+        <span>English</span>
+        <span class="lang-item-code">EN</span>
+      </a>
+      <a href="/fr/blog/" class="mobile-lang-link " hreflang="fr" lang="fr">
+        <span>Français</span>
+        <span class="lang-item-code">FR</span>
+      </a>
+      <a href="/es/blog/" class="mobile-lang-link is-active" hreflang="es" lang="es">
+        <span>Español</span>
+        <span class="lang-item-code">ES</span>
+      </a>
+      <a href="/id/blog/" class="mobile-lang-link " hreflang="id" lang="id">
+        <span>Bahasa Indonesia</span>
+        <span class="lang-item-code">ID</span>
+      </a>
+      <a href="/de/blog/" class="mobile-lang-link " hreflang="de" lang="de">
+        <span>Deutsch</span>
+        <span class="lang-item-code">DE</span>
+      </a>
+      <a href="/pt/blog/" class="mobile-lang-link " hreflang="pt" lang="pt">
+        <span>Português</span>
+        <span class="lang-item-code">PT</span>
+      </a>
+      <a href="/it/blog/" class="mobile-lang-link " hreflang="it" lang="it">
+        <span>Italiano</span>
+        <span class="lang-item-code">IT</span>
+      </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Non-intrusive Language Suggestion Banner -->
+  <aside class="lang-suggestion-banner" id="langSuggestionBanner" style="display: none;" aria-label="Language Suggestion">
+    <div class="container lang-suggestion-inner">
+      <div class="lang-suggestion-content">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span id="langSuggestionText">Esta página también está disponible en</span>
+      </div>
+      <div class="lang-suggestion-actions">
+        <a href="#" class="btn btn-primary btn-sm" id="langSuggestionAction">Ver en</a>
+        <button type="button" class="btn-suggestion-close" id="langSuggestionClose" aria-label="Cerrar">✕</button>
+      </div>
+    </div>
+  </aside>
+  <main class="section">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+
+        <a href="/es/">Inicio</a>
+        <span class="separator">/</span>
+        <span class="current">Guías</span>
+      </nav>
+
+      <div class="tool-header-block" style="text-align: center; margin-bottom: var(--space-12);">
+        <h1>Guías de optimización de imágenes</h1>
+        <p class="tool-header-lead">Tutoriales detallados y consejos técnicos para comprimir, convertir y dimensionar imágenes con máxima nitidez y velocidad de carga.</p>
+      </div>
+
+      <div class="tools-grid">
+        
+        <article class="tool-card" style="display: flex; flex-direction: column;">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Optimización</span>
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">7 min de lectura</span>
+          </div>
+          <h2 class="tool-card-title" style="font-size: 1.25rem; margin-top: var(--space-2); margin-bottom: var(--space-2);">
+            <a href="/es/blog/como-comprimir-una-imagen/" style="color: inherit; text-decoration: none;">Cómo comprimir una imagen sin perder calidad visible</a>
+          </h2>
+          <p class="tool-card-desc" style="flex: 1;">Las fotos suelen constituir más del 60 % del peso de una página web. Conoce el punto de equilibrio óptimo entre reducción de peso y máxima nitidez.</p>
+          <div class="tool-card-footer">
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">15 sept. 2026</span>
+            <a href="/es/blog/como-comprimir-una-imagen/" class="tool-card-action">Leer guía →</a>
+          </div>
+        </article>
+        <article class="tool-card" style="display: flex; flex-direction: column;">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Dimensiones</span>
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">6 min de lectura</span>
+          </div>
+          <h2 class="tool-card-title" style="font-size: 1.25rem; margin-top: var(--space-2); margin-bottom: var(--space-2);">
+            <a href="/es/blog/como-redimensionar-una-imagen/" style="color: inherit; text-decoration: none;">Cómo redimensionar una imagen para páginas web y redes sociales</a>
+          </h2>
+          <p class="tool-card-desc" style="flex: 1;">Ajustar las imágenes a sus dimensiones exactas de visualización evita desenfoques y ahorra megabytes. Consulta las pautas definitivas.</p>
+          <div class="tool-card-footer">
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">18 sept. 2026</span>
+            <a href="/es/blog/como-redimensionar-una-imagen/" class="tool-card-action">Leer guía →</a>
+          </div>
+        </article>
+        <article class="tool-card" style="display: flex; flex-direction: column;">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Optimización</span>
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">5 min de lectura</span>
+          </div>
+          <h2 class="tool-card-title" style="font-size: 1.25rem; margin-top: var(--space-2); margin-bottom: var(--space-2);">
+            <a href="/es/blog/como-reducir-tamano-imagen/" style="color: inherit; text-decoration: none;">Cómo reducir el tamaño de una imagen a un límite exacto en KB</a>
+          </h2>
+          <p class="tool-card-desc" style="flex: 1;">Los portales de empleo y trámites públicos suelen rechazar fotos de más de 100KB. Aprende a alcanzar el límite exacto requerido.</p>
+          <div class="tool-card-footer">
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">20 sept. 2026</span>
+            <a href="/es/blog/como-reducir-tamano-imagen/" class="tool-card-action">Leer guía →</a>
+          </div>
+        </article>
+        <article class="tool-card" style="display: flex; flex-direction: column;">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Formatos</span>
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">8 min de lectura</span>
+          </div>
+          <h2 class="tool-card-title" style="font-size: 1.25rem; margin-top: var(--space-2); margin-bottom: var(--space-2);">
+            <a href="/es/blog/jpg-vs-png-vs-webp/" style="color: inherit; text-decoration: none;">JPG vs PNG vs WebP: ¿Qué formato de imagen debes usar?</a>
+          </h2>
+          <p class="tool-card-desc" style="flex: 1;">Elegir el formato incorrecto puede multiplicar el peso de tus imágenes por cuatro. Aprende cuándo usar PNG, cuándo JPG y por qué WebP es el estándar actual.</p>
+          <div class="tool-card-footer">
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">23 sept. 2026</span>
+            <a href="/es/blog/jpg-vs-png-vs-webp/" class="tool-card-action">Leer guía →</a>
+          </div>
+        </article>
+        <article class="tool-card" style="display: flex; flex-direction: column;">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Formatos</span>
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">6 min de lectura</span>
+          </div>
+          <h2 class="tool-card-title" style="font-size: 1.25rem; margin-top: var(--space-2); margin-bottom: var(--space-2);">
+            <a href="/es/blog/que-es-webp/" style="color: inherit; text-decoration: none;">¿Qué es el formato WebP? Ventajas, compatibilidad y conversión</a>
+          </h2>
+          <p class="tool-card-desc" style="flex: 1;">WebP es el estándar moderno creado para acelerar la web. Descubre por qué los sitios web optimizados apuestan por este formato.</p>
+          <div class="tool-card-footer">
+            <span style="font-size: 0.8125rem; color: var(--text-subtle);">25 sept. 2026</span>
+            <a href="/es/blog/que-es-webp/" class="tool-card-action">Leer guía →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- 1. Brand column (2fr) -->
+      <div class="footer-brand">
+        <a href="/es/" class="logo" aria-label="ZamTools Homepage">
+          <div class="logo-symbol">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 4h16l-10 12h10v4H4l10-12H4z"/>
+            </svg>
+          </div>
+          <div class="logo-text"><span>Zam</span><span>Tools</span></div>
+        </a>
+        <p class="footer-tagline">Herramientas simples. Mejores resultados.</p>
+        <div class="footer-privacy-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+          <span>Tus fotos nunca salen de tu dispositivo.</span>
+        </div>
+      </div>
+
+      <!-- 2. Tools column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Herramientas</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/es/herramientas/" class="footer-nav-link">Las 20 herramientas</a></li>
+          <li><a href="/es/herramientas/comprimir-imagen/" class="footer-nav-link">Compresor de imágenes</a></li>
+          <li><a href="/es/herramientas/redimensionar-imagen/" class="footer-nav-link">Redimensionar imagen</a></li>
+          <li><a href="/es/herramientas/convertidor-webp/" class="footer-nav-link">Convertidor WebP</a></li>
+          <li><a href="/es/herramientas/recortar-imagen/" class="footer-nav-link">Recortar imagen</a></li>
+        </ul>
+      </div>
+
+      <!-- 3. Categories column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Categorías</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/es/herramientas/compresion-imagen/" class="footer-nav-link">Compresión</a></li>
+          <li><a href="/es/herramientas/redimensionamiento-imagen/" class="footer-nav-link">Redimensionar</a></li>
+          <li><a href="/es/herramientas/conversion-imagen/" class="footer-nav-link">Conversión</a></li>
+          <li><a href="/es/herramientas/edicion-imagen/" class="footer-nav-link">Edición</a></li>
+        </ul>
+      </div>
+
+      <!-- 4. Company column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Compañía</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/es/acerca-de/" class="footer-nav-link">Acerca de</a></li>
+          <li><a href="/es/contacto/" class="footer-nav-link">Contacto</a></li>
+          <li><a href="/es/faq/" class="footer-nav-link">Preguntas frecuentes</a></li>
+          <li><a href="/es/blog/" class="footer-nav-link">Guías</a></li>
+        </ul>
+      </div>
+
+      <!-- 5. Legal column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Legal</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/es/politica-de-privacidad/" class="footer-nav-link">Privacidad</a></li>
+          <li><a href="/es/terminos-de-uso/" class="footer-nav-link">Términos</a></li>
+          <li><a href="/es/aviso-legal/" class="footer-nav-link">Aviso legal</a></li>
+          <li><a href="/es/politica-de-cookies/" class="footer-nav-link">Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="copyright">© 2026 ZamTools. Todos los derechos reservados.</p>
+      <p class="footer-legal-notice">Aviso legal: Esta traducción se ofrece a título informativo. Ante cualquier discrepancia interpretativa, prevalece la versión original en inglés.</p>
+    </div>
+  </footer>
+  <!-- Search Modal -->
+  <div class="search-modal-backdrop" role="dialog" aria-modal="true" aria-label="Buscar">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="search" class="search-modal-input" placeholder="Buscar herramientas de imagen..." aria-label="Buscar herramientas de imagen...">
+        <button class="search-close-btn" aria-label="Cerrar">✕</button>
+      </div>
+      <ul class="search-results-list"></ul>
+      <div class="search-modal-footer">
+        <span><kbd>↑</kbd><kbd>↓</kbd> Navegar</span>
+        <span><kbd>↵</kbd> Seleccionar</span>
+        <span><kbd>esc</kbd> Cerrar</span>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="/js/config.js"></script>
+  <script src="/js/core.js"></script>
+  <script src="/js/routes.js"></script>
+  <script src="/js/toasts.js"></script>
+  <script src="/js/search-data.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/language-switcher.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "siteName": "ZamTools",
+  "tagline": "Einfache Tools. Bessere Ergebnisse.",
+  "privacyBadge": "Lokale & private Verarbeitung im Browser",
+  "privacyPromise": "Ihre Bilder bleiben auf Ihrem Gerät.",
+  "privacyDetail": "Im Gegensatz zu herkömmlichen Konvertern, die Ihre Dateien auf Cloud-Server hochladen, verarbeitet ZamTools Bilder direkt im Arbeitsspeicher Ihres Browsers. Es werden keine Daten an externe Server übertragen oder gespeichert.",
+  "nav": {
+    "allTools": "Alle Tools",
+    "categories": "Kategorien",
+    "faq": "FAQ",
+    "guides": "Ratgeber",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "search": "Suchen",
+    "searchKbd": "⌘K"
+  },
+  "breadcrumbs": {
+    "home": "Startseite",
+    "tools": "Tools",
+    "blog": "Ratgeber & Blog"
+  },
+  "dropzone": {
+    "title": "Ziehen Sie Ihr Bild hierher",
+    "subtitle": "oder klicken Sie, um eine Datei von Ihrem Gerät auszuwählen",
+    "button": "Bild auswählen",
+    "supported": "Unterstützte Formate:"
+  },
+  "controls": {
+    "changeImage": "Anderes Bild wählen",
+    "reset": "Zurücksetzen",
+    "download": "Herunterladen",
+    "downloadAll": "Alle herunterladen",
+    "downloadSingle": "Bild herunterladen",
+    "originalSize": "Ursprüngliche Größe",
+    "newSize": "Neue Größe",
+    "saved": "Gespart",
+    "quality": "Qualität",
+    "width": "Breite",
+    "height": "Höhe",
+    "aspectRatio": "Seitenverhältnis sperren",
+    "format": "Format",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "processing": "Verarbeitung läuft...",
+    "before": "Vorher",
+    "after": "Nachher",
+    "openTool": "Tool öffnen →"
+  },
+  "searchModal": {
+    "placeholder": "Bildtools durchsuchen...",
+    "empty": "Keine passenden Bildtools gefunden. Bitte versuchen Sie einen anderen Suchbegriff.",
+    "navigate": "Navigieren",
+    "select": "Auswählen",
+    "close": "Schließen",
+    "fastIndex": "ZamTools Schnellindex"
+  },
+  "footer": {
+    "toolsCol": "Tools",
+    "companyCol": "Unternehmen",
+    "legalCol": "Rechtliches",
+    "resourcesCol": "Ressourcen",
+    "allToolsLink": "Alle 20 Tools",
+    "rightsReserved": "© 2026 ZamTools. Alle Rechte vorbehalten.",
+    "legalNotice": "Rechtlicher Hinweis: Diese Übersetzung dient der Information. Bei Auslegungsfragen ist stets die englische Originalfassung maßgebend."
+  },
+  "langSelector": {
+    "label": "Sprache ändern",
+    "current": "Sprache"
+  },
+  "suggestionBanner": {
+    "text": "Diese Seite ist auch verfügbar auf",
+    "viewAction": "Anzeigen auf",
+    "close": "Schließen"
+  },
+  "errors": {
+    "invalidFile": "Bitte wählen Sie eine gültige JPG-, PNG- oder WebP-Bilddatei aus.",
+    "corruptImage": "Die Bilddatei konnte nicht gelesen werden. Möglicherweise ist sie beschädigt.",
+    "processingError": "Fehler bei der Bildverarbeitung: ",
+    "emptyInput": "Bitte geben Sie ein gültiges Bild oder Daten ein.",
+    "invalidBase64": "Die angegebene Base64-Zeichenfolge ist ungültig.",
+    "downloadError": "Fehler beim Download. Bitte versuchen Sie es erneut."
+  }
+}

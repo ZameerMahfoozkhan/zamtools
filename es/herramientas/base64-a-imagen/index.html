@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertidor Base64 a imagen online – Decodificar Data URI a PNG/JPG | ZamTools</title>
+  <meta name="description" content="Convierte texto Base64 y Data URI en imágenes PNG o JPG descargables online gratis. Previsualización y validación inmediata en tu navegador.">
+  <link rel="canonical" href="https://zamtools.online/es/herramientas/base64-a-imagen/">
+  <link rel="alternate" hreflang="en" href="https://zamtools.online/tools/base64-to-image/">
+  <link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/base64-image/">
+  <link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/base64-a-imagen/">
+  <link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/base64-ke-gambar/">
+  <link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/base64-in-bild/">
+  <link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/base64-para-imagem/">
+  <link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/base64-in-immagine/">
+  <link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/base64-to-image/">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zamtools.online/es/herramientas/base64-a-imagen/">
+  <meta property="og:title" content="Convertidor Base64 a imagen online – Decodificar Data URI a PNG/JPG | ZamTools">
+  <meta property="og:description" content="Convierte texto Base64 y Data URI en imágenes PNG o JPG descargables online gratis. Previsualización y validación inmediata en tu navegador.">
+  <meta property="og:image" content="https://zamtools.online/assets/og/og-default.png">
+  <meta property="og:site_name" content="ZamTools">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="pt_PT">
+  <meta property="og:locale:alternate" content="it_IT">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://zamtools.online/es/herramientas/base64-a-imagen/">
+  <meta name="twitter:title" content="Convertidor Base64 a imagen online – Decodificar Data URI a PNG/JPG | ZamTools">
+  <meta name="twitter:description" content="Convierte texto Base64 y Data URI en imágenes PNG o JPG descargables online gratis. Previsualización y validación inmediata en tu navegador.">
+  <meta name="twitter:image" content="https://zamtools.online/assets/og/og-default.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/tools.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Base64 a imagen",
+        "operatingSystem": "All",
+        "applicationCategory": "MultimediaApplication",
+        "browserRequirements": "Requires JavaScript. Requires HTML5 Canvas.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "Convierte texto Base64 y Data URI en imágenes PNG o JPG descargables online gratis. Previsualización y validación inmediata en tu navegador.",
+        "url": "https://zamtools.online/es/herramientas/base64-a-imagen/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://zamtools.online/es/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Herramientas",
+            "item": "https://zamtools.online/es/herramientas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Base64 a imagen",
+            "item": "https://zamtools.online/es/herramientas/base64-a-imagen/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/es/" class="logo" aria-label="ZamTools Homepage">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4 4h16l-10 12h10v4H4l10-12H4z"/>
+          </svg>
+        </div>
+        <div class="logo-text"><span>Zam</span><span>Tools</span></div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="/es/herramientas/" class="nav-link ">Todas las herramientas</a>
+        <a href="/es/#categories" class="nav-link">Categorías</a>
+        <a href="/es/faq/" class="nav-link ">Preguntas frecuentes</a>
+        <a href="/es/blog/" class="nav-link ">Guías</a>
+        <a href="/es/acerca-de/" class="nav-link ">Acerca de</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Selector -->
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="btn-lang-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Cambiar idioma">
+            <svg class="lang-globe-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span class="lang-current-name">Español</span>
+            <svg class="lang-chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="lang-dropdown-menu" role="menu">
+        <a href="/tools/base64-to-image/" class="lang-dropdown-item " role="menuitem" hreflang="en" lang="en" >
+          <span class="lang-item-native">English</span>
+          <span class="lang-item-code">EN</span>
+        </a>
+        <a href="/fr/outils/base64-image/" class="lang-dropdown-item " role="menuitem" hreflang="fr" lang="fr" >
+          <span class="lang-item-native">Français</span>
+          <span class="lang-item-code">FR</span>
+        </a>
+        <a href="/es/herramientas/base64-a-imagen/" class="lang-dropdown-item is-active" role="menuitem" hreflang="es" lang="es" aria-current="true">
+          <span class="lang-item-native">Español</span>
+          <span class="lang-item-code">ES</span>
+        </a>
+        <a href="/id/alat/base64-ke-gambar/" class="lang-dropdown-item " role="menuitem" hreflang="id" lang="id" >
+          <span class="lang-item-native">Bahasa Indonesia</span>
+          <span class="lang-item-code">ID</span>
+        </a>
+        <a href="/de/tools/base64-in-bild/" class="lang-dropdown-item " role="menuitem" hreflang="de" lang="de" >
+          <span class="lang-item-native">Deutsch</span>
+          <span class="lang-item-code">DE</span>
+        </a>
+        <a href="/pt/ferramentas/base64-para-imagem/" class="lang-dropdown-item " role="menuitem" hreflang="pt" lang="pt" >
+          <span class="lang-item-native">Português</span>
+          <span class="lang-item-code">PT</span>
+        </a>
+        <a href="/it/strumenti/base64-in-immagine/" class="lang-dropdown-item " role="menuitem" hreflang="it" lang="it" >
+          <span class="lang-item-native">Italiano</span>
+          <span class="lang-item-code">IT</span>
+        </a>
+          </div>
+        </div>
+
+        <button class="btn-header-search" aria-label="Buscar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <span>Buscar</span>
+          <kbd class="search-kbd">⌘K</kbd>
+        </button>
+
+        <button class="btn-mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+          <div class="hamburger-icon">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-mobile-drawer">
+    <a href="/es/herramientas/" class="nav-mobile-link">Todas las herramientas</a>
+    <a href="/es/#categories" class="nav-mobile-link">Categorías</a>
+    <a href="/es/faq/" class="nav-mobile-link">Preguntas frecuentes</a>
+    <a href="/es/blog/" class="nav-mobile-link">Guías</a>
+    <a href="/es/acerca-de/" class="nav-mobile-link">Acerca de</a>
+    <a href="/es/contacto/" class="nav-mobile-link">Contacto</a>
+
+    <div class="mobile-lang-section">
+      <div class="mobile-lang-title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span>Idioma</span>
+      </div>
+      <div class="mobile-lang-grid">
+      <a href="/tools/base64-to-image/" class="mobile-lang-link " hreflang="en" lang="en">
+        <span>English</span>
+        <span class="lang-item-code">EN</span>
+      </a>
+      <a href="/fr/outils/base64-image/" class="mobile-lang-link " hreflang="fr" lang="fr">
+        <span>Français</span>
+        <span class="lang-item-code">FR</span>
+      </a>
+      <a href="/es/herramientas/base64-a-imagen/" class="mobile-lang-link is-active" hreflang="es" lang="es">
+        <span>Español</span>
+        <span class="lang-item-code">ES</span>
+      </a>
+      <a href="/id/alat/base64-ke-gambar/" class="mobile-lang-link " hreflang="id" lang="id">
+        <span>Bahasa Indonesia</span>
+        <span class="lang-item-code">ID</span>
+      </a>
+      <a href="/de/tools/base64-in-bild/" class="mobile-lang-link " hreflang="de" lang="de">
+        <span>Deutsch</span>
+        <span class="lang-item-code">DE</span>
+      </a>
+      <a href="/pt/ferramentas/base64-para-imagem/" class="mobile-lang-link " hreflang="pt" lang="pt">
+        <span>Português</span>
+        <span class="lang-item-code">PT</span>
+      </a>
+      <a href="/it/strumenti/base64-in-immagine/" class="mobile-lang-link " hreflang="it" lang="it">
+        <span>Italiano</span>
+        <span class="lang-item-code">IT</span>
+      </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Non-intrusive Language Suggestion Banner -->
+  <aside class="lang-suggestion-banner" id="langSuggestionBanner" style="display: none;" aria-label="Language Suggestion">
+    <div class="container lang-suggestion-inner">
+      <div class="lang-suggestion-content">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span id="langSuggestionText">Esta página también está disponible en</span>
+      </div>
+      <div class="lang-suggestion-actions">
+        <a href="#" class="btn btn-primary btn-sm" id="langSuggestionAction">Ver en</a>
+        <button type="button" class="btn-suggestion-close" id="langSuggestionClose" aria-label="Cerrar">✕</button>
+      </div>
+    </div>
+  </aside>
+  <main class="section">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+
+        <a href="/es/">Inicio</a>
+        <span class="separator">/</span>
+        <a href="/es/herramientas/">Herramientas</a>
+        <span class="separator">/</span>
+        <span class="current">Base64 a imagen</span>
+      </nav>
+
+      <div class="tool-header-block">
+        <h1>Convertidor de Base64 a imagen online</h1>
+        <p class="tool-header-lead">Decodifica texto Base64 y Data URLs para reconstruir archivos de imagen limpios y descargables en PNG, JPG o WebP. Verifica la sintaxis del código y guarda tus imágenes en segundos.</p>
+      </div>
+
+      <!-- Main Tool Workspace -->
+<div class="tool-workspace">
+        <div class="controls-panel">
+          <div class="control-group">
+            <label for="base64Input" class="control-label">Pegar cadena Base64 o Data URL</label>
+            <textarea id="base64Input" class="form-input" rows="8" placeholder="Paste data:image/png;base64,... or raw Base64 string here" style="font-family: var(--font-mono); font-size: 0.8125rem;"></textarea>
+          </div>
+
+          <div style="display: flex; gap: var(--space-3);">
+            <button type="button" class="btn btn-primary btn-lg" id="decodeBtn">Decodificar imagen</button>
+            <button type="button" class="btn btn-secondary" id="clearBtn">Borrar</button>
+          </div>
+
+          <!-- Decoded View -->
+          <div id="decodedResult" style="display: none; margin-top: var(--space-6);">
+            <div class="result-stats-card" style="margin-bottom: var(--space-4);">
+              <div class="stat-item">
+                <span class="stat-label">Format</span>
+                <span class="stat-value" id="detectedType">PNG</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Dimensions</span>
+                <span class="stat-value" id="imageDims">0 × 0 px</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Est. File Size</span>
+                <span class="stat-value highlight-success" id="approxSize">0 KB</span>
+              </div>
+            </div>
+
+            <div class="canvas-container" style="margin-bottom: var(--space-4);">
+              <img id="previewImg" alt="Decoded Result Preview">
+            </div>
+
+            <button type="button" class="btn btn-primary btn-lg" id="downloadBtn">Descargar imagen decodificada</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collapsed Ad Placeholder -->
+      <div class="ad-slot-container" data-slot="content"></div>
+
+
+      <div class="privacy-banner">
+        <div class="privacy-banner-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="privacy-banner-content">
+          <h4>Tus fotos nunca salen de tu dispositivo.</h4>
+          <p>A diferencia de sitios tradicionales que suben tus fotos a servidores remotos, ZamTools procesa cada imagen localmente en la memoria de tu navegador. Nada se almacena ni se transfiere externamente.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+      <section class="section section-subtle">
+        <div class="container">
+          <div class="section-header">
+            <div class="eyebrow">Herramientas</div>
+            <h2>Cómo convertir de Base64 a imagen online</h2>
+          </div>
+          <ol class="steps-list">
+            
+          <li class="step-card">
+            <div class="step-number">1</div>
+            <h4>Pega el código Base64</h4>
+            <p></p>
+          </li>
+          <li class="step-card">
+            <div class="step-number">2</div>
+            <h4>Decodificación automática</h4>
+            <p></p>
+          </li>
+          <li class="step-card">
+            <div class="step-number">3</div>
+            <h4>Revisa la imagen</h4>
+            <p></p>
+          </li>
+          <li class="step-card">
+            <div class="step-number">4</div>
+            <h4>Descarga tu archivo</h4>
+            <p></p>
+          </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div class="eyebrow">Base64 a imagen</div>
+            <h2>Decodificación precisa y segura</h2>
+          </div>
+          <div class="features-grid">
+            
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Compatibilidad con Data URI</h4>
+            <p></p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Previsualización en lienzo</h4>
+            <p></p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Velocidad en tu equipo</h4>
+            <p></p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Exportación a PNG o JPG</h4>
+            <p></p>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container" style="margin-top: var(--space-8); margin-bottom: var(--space-8);">
+        <div class="editorial-wrapper" style="border-left: 4px solid var(--primary); padding: var(--space-6);">
+          <h3 style="font-size: 1.25rem; margin-bottom: var(--space-2);">Consejo para evitar errores</h3>
+          <p style="margin: 0; color: var(--text-muted); line-height: 1.7;">Asegúrate de no incluir comillas dobles ni caracteres residuales como &quot;url(...)&quot; provenientes de hojas de estilo CSS.</p>
+        </div>
+      </div>
+
+      <section class="section section-subtle">
+        <div class="container-narrow">
+          <div class="section-header">
+            <div class="eyebrow">Preguntas frecuentes</div>
+            <h2>Preguntas frecuentes</h2>
+          </div>
+          <div class="faq-list">
+            
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Qué formatos de imagen puede decodificar?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Admite perfectamente cadenas de imágenes PNG, JPG, WebP, GIF y SVG.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Se guarda el código que pego en algún servidor?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>No, la decodificación se ejecuta de manera totalmente local en tu navegador.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div class="eyebrow">Herramientas</div>
+            <h2>Herramientas relacionadas</h2>
+          </div>
+          <div class="tools-grid">
+            
+        <a href="/es/herramientas/imagen-a-base64/" class="tool-card">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Desarrollador</span>
+          </div>
+          <h3 class="tool-card-title">Imagen a Base64</h3>
+          <p class="tool-card-desc">Convierte archivos de imagen en cadenas codificadas en Base64 y Data URLs. Incrusta gráficos directamente en etiquetas HTML &lt;img&gt;, propiedades CSS background-image o payloads JSON sin necesidad de alojar archivos externos.</p>
+          <div class="tool-card-footer">
+            <span>Abrir herramienta →</span>
+          </div>
+        </a>
+        <a href="/es/herramientas/generador-favicon/" class="tool-card">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Crear</span>
+          </div>
+          <h3 class="tool-card-title">Generador de favicon</h3>
+          <p class="tool-card-desc">Transforma tu logotipo en un conjunto completo de favicons para tu página web. Genera los tamaños estándar 16x16, 32x32, 48x48 y el icono Apple Touch de 180x180 con el código HTML listo para pegar.</p>
+          <div class="tool-card-footer">
+            <span>Abrir herramienta →</span>
+          </div>
+        </a>
+        <a href="/es/herramientas/convertidor-formato-imagen/" class="tool-card">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Convertir</span>
+          </div>
+          <h3 class="tool-card-title">Convertidor de formato de imagen</h3>
+          <p class="tool-card-desc">Convierte fotos de forma individual o por lotes entre JPG, PNG y WebP. Configura la calidad de salida, gestiona fondos transparentes y descarga tus archivos transformados al instante sin enviar nada a servidores.</p>
+          <div class="tool-card-footer">
+            <span>Abrir herramienta →</span>
+          </div>
+        </a>
+        <a href="/es/herramientas/comprimir-imagen/" class="tool-card">
+          <div class="tool-card-header">
+            <span class="tool-card-category">Compresión</span>
+          </div>
+          <h3 class="tool-card-title">Compresor de imágenes</h3>
+          <p class="tool-card-desc">Reduce el tamaño de tus fotos JPG, PNG y WebP de forma rápida, eficiente y totalmente segura. Ajusta el nivel de compresión con el deslizador en tiempo real, compara el antes y después y descarga tu imagen optimizada sin subir nada a servidores.</p>
+          <div class="tool-card-footer">
+            <span>Abrir herramienta →</span>
+          </div>
+        </a>
+          </div>
+        </div>
+      </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- 1. Brand column (2fr) -->
+      <div class="footer-brand">
+        <a href="/es/" class="logo" aria-label="ZamTools Homepage">
+          <div class="logo-symbol">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 4h16l-10 12h10v4H4l10-12H4z"/>
+            </svg>
+          </div>
+          <div class="logo-text"><span>Zam</span><span>Tools</span></div>
+        </a>
+        <p class="footer-tagline">Herramientas simples. Mejores resultados.</p>
+        <div class="footer-privacy-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+          <span>Tus fotos nunca salen de tu dispositivo.</span>
+        </div>
+      </div>
+
+      <!-- 2. Tools column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Herramientas</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/es/herramientas/" class="footer-nav-link">Las 20 herramientas</a></li>
+          <li><a href="/es/herramientas/comprimir-imagen/" class="footer-nav-link">Compresor de imágenes</a></li>
+          <li><a href="/es/herramientas/redimensionar-imagen/" class="footer-nav-link">Redimensionar imagen</a></li>
+          <li><a href="/es/herramientas/convertidor-webp/" class="footer-nav-link">Convertidor WebP</a></li>
+          <li><a href="/es/herramientas/recortar-imagen/" class="footer-nav-link">Recortar imagen</a></li>
+        </ul>
+      </div>
+
+      <!-- 3. Categories column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Categorías</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/es/herramientas/compresion-imagen/" class="footer-nav-link">Compresión</a></li>
+          <li><a href="/es/herramientas/redimensionamiento-imagen/" class="footer-nav-link">Redimensionar</a></li>
+          <li><a href="/es/herramientas/conversion-imagen/" class="footer-nav-link">Conversión</a></li>
+          <li><a href="/es/herramientas/edicion-imagen/" class="footer-nav-link">Edición</a></li>
+        </ul>
+      </div>
+
+      <!-- 4. Company column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Compañía</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/es/acerca-de/" class="footer-nav-link">Acerca de</a></li>
+          <li><a href="/es/contacto/" class="footer-nav-link">Contacto</a></li>
+          <li><a href="/es/faq/" class="footer-nav-link">Preguntas frecuentes</a></li>
+          <li><a href="/es/blog/" class="footer-nav-link">Guías</a></li>
+        </ul>
+      </div>
+
+      <!-- 5. Legal column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Legal</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/es/politica-de-privacidad/" class="footer-nav-link">Privacidad</a></li>
+          <li><a href="/es/terminos-de-uso/" class="footer-nav-link">Términos</a></li>
+          <li><a href="/es/aviso-legal/" class="footer-nav-link">Aviso legal</a></li>
+          <li><a href="/es/politica-de-cookies/" class="footer-nav-link">Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="copyright">© 2026 ZamTools. Todos los derechos reservados.</p>
+      <p class="footer-legal-notice">Aviso legal: Esta traducción se ofrece a título informativo. Ante cualquier discrepancia interpretativa, prevalece la versión original en inglés.</p>
+    </div>
+  </footer>
+  <!-- Search Modal -->
+  <div class="search-modal-backdrop" role="dialog" aria-modal="true" aria-label="Buscar">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="search" class="search-modal-input" placeholder="Buscar herramientas de imagen..." aria-label="Buscar herramientas de imagen...">
+        <button class="search-close-btn" aria-label="Cerrar">✕</button>
+      </div>
+      <ul class="search-results-list"></ul>
+      <div class="search-modal-footer">
+        <span><kbd>↑</kbd><kbd>↓</kbd> Navegar</span>
+        <span><kbd>↵</kbd> Seleccionar</span>
+        <span><kbd>esc</kbd> Cerrar</span>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="/js/config.js"></script>
+  <script src="/js/core.js"></script>
+  <script src="/js/routes.js"></script>
+  <script src="/js/toasts.js"></script>
+  <script src="/js/search-data.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/language-switcher.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/tools/base64-image.js"></script>
+</body>
+</html>

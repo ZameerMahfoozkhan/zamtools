@@ -1,0 +1,83 @@
+{
+  "siteName": "ZamTools",
+  "tagline": "Alat sederhana. Hasil lebih baik.",
+  "privacyBadge": "Pemrosesan Lokal & Privat di Browser Anda",
+  "privacyPromise": "Foto Anda tetap berada di perangkat Anda.",
+  "privacyDetail": "Tidak seperti situs konversi lama yang mengunggah berkas ke server pihak ketiga, ZamTools memproses data gambar secara lokal di RAM browser Anda. Tidak ada yang disimpan atau dikirim ke server luar.",
+  "nav": {
+    "allTools": "Semua Alat",
+    "categories": "Kategori",
+    "faq": "FAQ",
+    "guides": "Panduan",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "search": "Cari",
+    "searchKbd": "⌘K"
+  },
+  "breadcrumbs": {
+    "home": "Beranda",
+    "tools": "Alat",
+    "blog": "Panduan & Blog"
+  },
+  "dropzone": {
+    "title": "Tarik & lepas gambar Anda di sini",
+    "subtitle": "atau klik untuk memilih dari komputer atau ponsel",
+    "button": "Pilih Gambar",
+    "supported": "Format yang didukung:"
+  },
+  "controls": {
+    "changeImage": "Ganti Gambar",
+    "reset": "Atur Ulang",
+    "download": "Unduh",
+    "downloadAll": "Unduh Semua",
+    "downloadSingle": "Unduh Gambar",
+    "originalSize": "Ukuran Asli",
+    "newSize": "Ukuran Baru",
+    "saved": "Hemat",
+    "quality": "Kualitas",
+    "width": "Lebar",
+    "height": "Tinggi",
+    "aspectRatio": "Kunci Rasio Aspek",
+    "format": "Format",
+    "copy": "Salin",
+    "copied": "Tersalin!",
+    "processing": "Memproses...",
+    "before": "Sebelum",
+    "after": "Sesudah",
+    "openTool": "Buka Alat →"
+  },
+  "searchModal": {
+    "placeholder": "Cari alat gambar...",
+    "empty": "Alat yang cocok tidak ditemukan. Coba kata kunci lain.",
+    "navigate": "Navigasi",
+    "select": "Pilih",
+    "close": "Tutup",
+    "fastIndex": "Indeks Cepat ZamTools"
+  },
+  "footer": {
+    "toolsCol": "Alat Gambar",
+    "companyCol": "Perusahaan",
+    "legalCol": "Hukum",
+    "resourcesCol": "Sumber Daya",
+    "allToolsLink": "Semua 20 Alat",
+    "rightsReserved": "© 2026 ZamTools. Hak cipta dilindungi undang-undang.",
+    "legalNotice": "Catatan hukum: Terjemahan ini disediakan untuk kemudahan pengguna. Jika terdapat perbedaan interpretasi, versi asli bahasa Inggris yang menjadi acuan resmi."
+  },
+  "langSelector": {
+    "label": "Ganti Bahasa",
+    "current": "Bahasa"
+  },
+  "suggestionBanner": {
+    "text": "Halaman ini juga tersedia dalam bahasa",
+    "viewAction": "Lihat dalam",
+    "close": "Tutup"
+  },
+  "errors": {
+    "invalidFile": "Silakan pilih berkas gambar JPG, PNG, atau WebP yang valid.",
+    "corruptImage": "Gagal membaca berkas gambar. Berkas mungkin rusak.",
+    "processingError": "Terjadi kesalahan saat memproses gambar: ",
+    "emptyInput": "Harap masukkan gambar atau data yang valid.",
+    "invalidBase64": "Format string Base64 yang dimasukkan tidak valid.",
+    "downloadError": "Terjadi kesalahan saat mengunduh. Silakan coba lagi."
+  }
+}

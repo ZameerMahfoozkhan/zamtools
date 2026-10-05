@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://zamtools.online/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-compressor/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-compressor/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/compresseur-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/comprimir-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/kompres-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-komprimieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/comprimir-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/comprimi-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-compressor/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-resizer/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-resizer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/redimensionner-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/redimensionar-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/ubah-ukuran-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-skalieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/redimensionar-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/ridimensiona-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-resizer/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-to-target-size/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-to-target-size/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/image-taille-cible/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/imagen-tamano-objetivo/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/kompres-ke-ukuran-target/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-zielgroesse/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/imagem-tamanho-alvo/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/immagine-dimensione-target/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-to-target-size/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-cropper/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-cropper/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/recadrer-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/recortar-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/potong-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-zuschneiden/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/recortar-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/ritaglia-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-cropper/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-rotate-flip/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-rotate-flip/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/pivoter-retourner-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/rotar-voltear-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/putar-balik-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-drehen-spiegeln/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/girar-inverter-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/ruota-capovolgi-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-rotate-flip/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/jpg-to-png/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/jpg-to-png/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/jpg-png/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/jpg-a-png/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/jpg-ke-png/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/jpg-in-png/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/jpg-para-png/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/jpg-in-png/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/jpg-to-png/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/png-to-jpg/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/png-to-jpg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/png-jpg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/png-a-jpg/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/png-ke-jpg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/png-in-jpg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/png-para-jpg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/png-in-jpg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/png-to-jpg/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/webp-converter/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/webp-converter/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/convertisseur-webp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/convertidor-webp/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/konverter-webp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/webp-konverter/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/conversor-webp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/convertitore-webp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/webp-converter/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-format-converter/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-format-converter/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/convertisseur-format-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/convertidor-formato-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/konverter-format-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bildformat-konverter/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/conversor-formato-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/convertitore-formato-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-format-converter/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/grayscale-image/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/grayscale-image/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/image-niveaux-gris/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/escala-grises/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/gambar-skala-abu-abu/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-graustufen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/imagem-tons-cinza/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/immagine-scala-grigi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/grayscale-image/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/brightness-contrast/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/brightness-contrast/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/luminosite-contraste/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/brillo-contraste/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/kecerahan-kontras/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/helligkeit-kontrast/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/brilho-contraste/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/luminosita-contrasto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/brightness-contrast/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/blur-sharpen-image/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/blur-sharpen-image/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/flou-nettete/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/desenfocar-enfocar/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/buram-pertajam-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-unschaerfe-schaerfen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/desfocar-nitidez-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/sfoca-nitidezza-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/blur-sharpen-image/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-color-picker/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-color-picker/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/selecteur-couleur-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/selector-color-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/pemilih-warna-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-farbpipette/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/seletor-cor-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/selettore-colore-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-color-picker/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/color-palette-generator/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/color-palette-generator/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/generateur-palette-couleurs/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/generador-paleta-colores/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/generator-palet-warna/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/farbpaletten-generator/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/gerador-paleta-cores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/generatore-tavolozza-colori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/color-palette-generator/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/favicon-generator/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/favicon-generator/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/generateur-favicon/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/generador-favicon/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/generator-favicon/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/favicon-generator/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/gerador-favicon/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/generatore-favicon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/favicon-generator/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-to-base64/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-to-base64/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/image-base64/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/imagen-a-base64/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/gambar-ke-base64/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bild-in-base64/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/imagem-para-base64/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/immagine-in-base64/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-to-base64/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/base64-to-image/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/base64-to-image/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/base64-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/base64-a-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/base64-ke-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/base64-in-bild/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/base64-para-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/base64-in-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/base64-to-image/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/social-media-image-resizer/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/social-media-image-resizer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/redimensionneur-images-reseaux-sociaux/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/redimensionador-redes-sociales/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/pengubah-ukuran-media-sosial/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/social-media-bild-groesse/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/redimensionador-redes-sociais/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/ridimensiona-social-media/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/social-media-image-resizer/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/passport-photo-resizer/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/passport-photo-resizer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/redimensionneur-photo-passeport/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/redimensionador-foto-pasaporte/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/pengubah-ukuran-foto-paspor/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/passfoto-generator-groesse/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/redimensionador-foto-passaporte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/ridimensiona-foto-passaporto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/passport-photo-resizer/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/meme-generator/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/meme-generator/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/generateur-memes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/generador-memes/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/generator-meme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/meme-generator/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/gerador-memes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/generatore-meme/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/meme-generator/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-compression/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-compression/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/compression-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/compresion-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/kompresi-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bildkomprimierung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/compressao-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/compressione-immagini/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-compression/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-resizing/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-resizing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/redimensionnement-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/redimensionamiento-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/pengubahan-ukuran-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bildskalierung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/redimensionamento-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/ridimensionamento-immagini/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-resizing/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-conversion/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-conversion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/conversion-format-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/conversion-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/konversi-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bildkonvertierung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/conversao-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/conversione-immagini/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-conversion/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/tools/image-editing/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-editing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/outils/retouche-photo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/herramientas/edicion-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/alat/pengeditan-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/tools/bildbearbeitung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/ferramentas/edicao-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/strumenti/modifica-immagini/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/tools/image-editing/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/blog/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/blog/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/blog/how-to-compress-an-image/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/how-to-compress-an-image/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/blog/comment-compresser-une-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/blog/como-comprimir-una-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/blog/cara-mengompres-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/blog/bild-komprimieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/blog/como-comprimir-uma-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/blog/come-comprimere-unimmagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/blog/how-to-compress-an-image/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/blog/how-to-resize-an-image/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/how-to-resize-an-image/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/blog/comment-redimensionner-une-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/blog/como-redimensionar-una-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/blog/cara-mengubah-ukuran-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/blog/bild-skalieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/blog/como-redimensionar-uma-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/blog/come-ridimensionare-unimmagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/blog/how-to-resize-an-image/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/blog/how-to-reduce-image-size/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/how-to-reduce-image-size/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/blog/comment-reduire-taille-image/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/blog/como-reducir-tamano-imagen/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/blog/cara-memperkecil-ukuran-gambar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/blog/dateigroesse-bild-verringern/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/blog/como-reduzir-tamanho-imagem/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/blog/come-ridurre-dimensione-immagine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/blog/how-to-reduce-image-size/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/blog/jpg-vs-png-vs-webp/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/jpg-vs-png-vs-webp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/blog/jpg-vs-png-vs-webp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/blog/jpg-vs-png-vs-webp/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/blog/jpg-vs-png-vs-webp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/blog/jpg-vs-png-vs-webp/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/blog/jpg-vs-png-vs-webp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/blog/jpg-vs-png-vs-webp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/blog/jpg-vs-png-vs-webp/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/blog/what-is-webp/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/what-is-webp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/blog/quest-ce-que-le-webp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/blog/que-es-webp/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/blog/apa-itu-webp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/blog/was-ist-webp/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/blog/o-que-e-webp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/blog/che-cose-webp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/blog/what-is-webp/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/about/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/acerca-de/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/tentang/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/chi-siamo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/about/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/contact/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/kontak/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/contatti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/contact/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/faq/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/faq/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/faq/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/faq/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/faq/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/faq/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/privacy-policy/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/politique-de-confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/politica-de-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/kebijakan-privasi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/datenschutzerklaerung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/politica-de-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/terms/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/conditions-utilisation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/terminos-de-uso/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/ketentuan-layanan/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/termos-de-uso/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/termini-di-servizio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/terms/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/disclaimer/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/penafian/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/haftungsausschluss/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/disclaimer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/disclaimer/"/>
+  </url>
+  <url>
+    <loc>https://zamtools.online/cookie-policy/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/cookie-policy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/gestion-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zamtools.online/es/politica-de-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://zamtools.online/id/kebijakan-cookie/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zamtools.online/de/cookie-richtlinie/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/politica-de-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zamtools.online/it/cookie-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zamtools.online/cookie-policy/"/>
+  </url>
+</urlset>

@@ -1,0 +1,22 @@
+{
+  "name": "zamtools",
+  "version": "2.0.0",
+  "description": "ZamTools - Fast, Free & Private Multilingual Online Image Tools",
+  "main": "js/main.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "validate": "node scripts/validate-seo.js",
+    "test": "node scripts/build.js && node scripts/validate-seo.js",
+    "start": "node scripts/serve.js"
+  },
+  "keywords": [
+    "image-tools",
+    "image-compressor",
+    "image-resizer",
+    "webp-converter",
+    "client-side",
+    "multilingual-seo"
+  ],
+  "author": "ZamTools Team",
+  "license": "ISC"
+}

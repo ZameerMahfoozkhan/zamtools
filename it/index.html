@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZamTools — Strumenti per immagini online gratuiti, veloci e privati</title>
+  <meta name="description" content="Comprimi, ridimensiona, converti, ritaglia e modifica immagini direttamente nel browser. Elaborazione locale veloce senza caricare file né registrazioni.">
+  <link rel="canonical" href="https://zamtools.online/it/">
+  <link rel="alternate" hreflang="en" href="https://zamtools.online/">
+  <link rel="alternate" hreflang="fr" href="https://zamtools.online/fr/">
+  <link rel="alternate" hreflang="es" href="https://zamtools.online/es/">
+  <link rel="alternate" hreflang="id" href="https://zamtools.online/id/">
+  <link rel="alternate" hreflang="de" href="https://zamtools.online/de/">
+  <link rel="alternate" hreflang="pt" href="https://zamtools.online/pt/">
+  <link rel="alternate" hreflang="it" href="https://zamtools.online/it/">
+  <link rel="alternate" hreflang="x-default" href="https://zamtools.online/">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zamtools.online/it/">
+  <meta property="og:title" content="ZamTools — Strumenti per immagini online gratuiti, veloci e privati">
+  <meta property="og:description" content="Comprimi, ridimensiona, converti, ritaglia e modifica immagini direttamente nel browser. Elaborazione locale veloce senza caricare file né registrazioni.">
+  <meta property="og:image" content="https://zamtools.online/assets/og/og-default.png">
+  <meta property="og:site_name" content="ZamTools">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="pt_PT">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://zamtools.online/it/">
+  <meta name="twitter:title" content="ZamTools — Strumenti per immagini online gratuiti, veloci e privati">
+  <meta name="twitter:description" content="Comprimi, ridimensiona, converti, ritaglia e modifica immagini direttamente nel browser. Elaborazione locale veloce senza caricare file né registrazioni.">
+  <meta name="twitter:image" content="https://zamtools.online/assets/og/og-default.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/tools.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "ZamTools",
+        "url": "https://zamtools.online/",
+        "logo": "https://zamtools.online/favicon.svg",
+        "description": "Comprimi, ridimensiona, converti, ritaglia e modifica immagini direttamente nel browser. Elaborazione locale veloce senza caricare file né registrazioni."
+      },
+      {
+        "@type": "WebSite",
+        "name": "ZamTools",
+        "url": "https://zamtools.online/it/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://zamtools.online/it/strumenti/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/it/" class="logo" aria-label="ZamTools Homepage">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4 4h16l-10 12h10v4H4l10-12H4z"/>
+          </svg>
+        </div>
+        <div class="logo-text"><span>Zam</span><span>Tools</span></div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="/it/strumenti/" class="nav-link ">Tutti gli strumenti</a>
+        <a href="/it/#categories" class="nav-link">Categorie</a>
+        <a href="/it/faq/" class="nav-link ">FAQ</a>
+        <a href="/it/blog/" class="nav-link ">Guide</a>
+        <a href="/it/chi-siamo/" class="nav-link ">Chi siamo</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Selector -->
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="btn-lang-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Cambia lingua">
+            <svg class="lang-globe-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span class="lang-current-name">Italiano</span>
+            <svg class="lang-chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="lang-dropdown-menu" role="menu">
+        <a href="/" class="lang-dropdown-item " role="menuitem" hreflang="en" lang="en" >
+          <span class="lang-item-native">English</span>
+          <span class="lang-item-code">EN</span>
+        </a>
+        <a href="/fr/" class="lang-dropdown-item " role="menuitem" hreflang="fr" lang="fr" >
+          <span class="lang-item-native">Français</span>
+          <span class="lang-item-code">FR</span>
+        </a>
+        <a href="/es/" class="lang-dropdown-item " role="menuitem" hreflang="es" lang="es" >
+          <span class="lang-item-native">Español</span>
+          <span class="lang-item-code">ES</span>
+        </a>
+        <a href="/id/" class="lang-dropdown-item " role="menuitem" hreflang="id" lang="id" >
+          <span class="lang-item-native">Bahasa Indonesia</span>
+          <span class="lang-item-code">ID</span>
+        </a>
+        <a href="/de/" class="lang-dropdown-item " role="menuitem" hreflang="de" lang="de" >
+          <span class="lang-item-native">Deutsch</span>
+          <span class="lang-item-code">DE</span>
+        </a>
+        <a href="/pt/" class="lang-dropdown-item " role="menuitem" hreflang="pt" lang="pt" >
+          <span class="lang-item-native">Português</span>
+          <span class="lang-item-code">PT</span>
+        </a>
+        <a href="/it/" class="lang-dropdown-item is-active" role="menuitem" hreflang="it" lang="it" aria-current="true">
+          <span class="lang-item-native">Italiano</span>
+          <span class="lang-item-code">IT</span>
+        </a>
+          </div>
+        </div>
+
+        <button class="btn-header-search" aria-label="Cerca">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <span>Cerca</span>
+          <kbd class="search-kbd">⌘K</kbd>
+        </button>
+
+        <button class="btn-mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+          <div class="hamburger-icon">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-mobile-drawer">
+    <a href="/it/strumenti/" class="nav-mobile-link">Tutti gli strumenti</a>
+    <a href="/it/#categories" class="nav-mobile-link">Categorie</a>
+    <a href="/it/faq/" class="nav-mobile-link">FAQ</a>
+    <a href="/it/blog/" class="nav-mobile-link">Guide</a>
+    <a href="/it/chi-siamo/" class="nav-mobile-link">Chi siamo</a>
+    <a href="/it/contatti/" class="nav-mobile-link">Contatti</a>
+
+    <div class="mobile-lang-section">
+      <div class="mobile-lang-title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span>Lingua</span>
+      </div>
+      <div class="mobile-lang-grid">
+      <a href="/" class="mobile-lang-link " hreflang="en" lang="en">
+        <span>English</span>
+        <span class="lang-item-code">EN</span>
+      </a>
+      <a href="/fr/" class="mobile-lang-link " hreflang="fr" lang="fr">
+        <span>Français</span>
+        <span class="lang-item-code">FR</span>
+      </a>
+      <a href="/es/" class="mobile-lang-link " hreflang="es" lang="es">
+        <span>Español</span>
+        <span class="lang-item-code">ES</span>
+      </a>
+      <a href="/id/" class="mobile-lang-link " hreflang="id" lang="id">
+        <span>Bahasa Indonesia</span>
+        <span class="lang-item-code">ID</span>
+      </a>
+      <a href="/de/" class="mobile-lang-link " hreflang="de" lang="de">
+        <span>Deutsch</span>
+        <span class="lang-item-code">DE</span>
+      </a>
+      <a href="/pt/" class="mobile-lang-link " hreflang="pt" lang="pt">
+        <span>Português</span>
+        <span class="lang-item-code">PT</span>
+      </a>
+      <a href="/it/" class="mobile-lang-link is-active" hreflang="it" lang="it">
+        <span>Italiano</span>
+        <span class="lang-item-code">IT</span>
+      </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Non-intrusive Language Suggestion Banner -->
+  <aside class="lang-suggestion-banner" id="langSuggestionBanner" style="display: none;" aria-label="Language Suggestion">
+    <div class="container lang-suggestion-inner">
+      <div class="lang-suggestion-content">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span id="langSuggestionText">Questa pagina è disponibile anche in</span>
+      </div>
+      <div class="lang-suggestion-actions">
+        <a href="#" class="btn btn-primary btn-sm" id="langSuggestionAction">Visualizza in</a>
+        <button type="button" class="btn-suggestion-close" id="langSuggestionClose" aria-label="Chiudi">✕</button>
+      </div>
+    </div>
+  </aside>
+  <main>
+    <!-- Hero Section -->
+    <section class="section hero-section" style="padding-top: var(--space-20); padding-bottom: var(--space-16);">
+      <div class="container" style="text-align: center; max-width: 900px;">
+        <div class="eyebrow">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Elaborazione locale e privata nel browser
+        </div>
+
+        <h1 style="margin-bottom: var(--space-4);">Strumenti per immagini online gratuiti</h1>
+        <p style="font-size: 1.25rem; color: var(--text-muted); line-height: 1.6; margin-bottom: var(--space-3); max-width: 760px; margin-left: auto; margin-right: auto;">
+          Comprimi, ridimensiona, converti, ritaglia e modifica le tue immagini all&#039;istante — direttamente nel tuo browser.
+        </p>
+        <p style="font-size: 0.9375rem; color: var(--text-subtle); margin-bottom: var(--space-8);">
+          Elaborazione immediata. Nessun account richiesto. Le tue immagini rimangono sul tuo dispositivo.
+        </p>
+
+        <div class="hero-cta-group" style="display: inline-flex; gap: var(--space-4); justify-content: center; margin-bottom: var(--space-12);">
+          <a href="#search-section" class="btn btn-primary btn-lg">
+            Esplora gli strumenti
+            <span class="btn-icon-bubble">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+          <a href="/it/strumenti/comprimi-immagine/" class="btn btn-secondary btn-lg">
+            Comprimi un&#039;immagine
+          </a>
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-4);">
+          
+          <span class="badge badge-neutral" style="padding: 0.4rem 0.9rem; font-size: 0.8125rem;">⚡ Compressione istantanea</span>
+          <span class="badge badge-neutral" style="padding: 0.4rem 0.9rem; font-size: 0.8125rem;">📐 Ridimensionamento preciso</span>
+          <span class="badge badge-neutral" style="padding: 0.4rem 0.9rem; font-size: 0.8125rem;">🔄 WebP / JPG / PNG</span>
+          <span class="badge badge-neutral" style="padding: 0.4rem 0.9rem; font-size: 0.8125rem;">✂️ Ritaglio intelligente</span>
+          <span class="badge badge-neutral" style="padding: 0.4rem 0.9rem; font-size: 0.8125rem;">🎨 Selettore di colore</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Homepage Live Tool Search -->
+    <section id="search-section" class="section section-subtle" style="padding-top: var(--space-10); padding-bottom: var(--space-12);">
+      <div class="container-narrow">
+        <div style="text-align: center; margin-bottom: var(--space-6);">
+          <h2 style="font-size: 1.5rem; margin-bottom: var(--space-2);">Cosa desideri fare?</h2>
+          <p style="font-size: 0.9375rem;">Digita un&#039;azione come &quot;comprimi&quot;, &quot;ridimensiona&quot; o &quot;converti&quot; per filtrare immediatamente.</p>
+        </div>
+
+        <div style="position: relative; max-width: 600px; margin: 0 auto;">
+          <input 
+            type="search" 
+            id="homeSearchInput" 
+            name="home_search"
+            class="form-input" 
+            placeholder="Cerca strumenti per immagini..." 
+            style="padding: 0.9rem 1.25rem 0.9rem 3rem; font-size: 1.05rem; border-radius: var(--radius-full); box-shadow: var(--shadow-sm);"
+            aria-label="Cerca strumenti per immagini..."
+          >
+          <svg style="position: absolute; left: 1.1rem; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; color: var(--text-subtle); pointer-events: none;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </div>
+
+        <div id="homeSearchResults" style="margin-top: var(--space-6); display: none;">
+          <div class="tools-grid" id="homeSearchGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Tools Showcase -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Accesso rapido</div>
+          <h2>Strumenti popolari per ogni giorno</h2>
+          <p>Le utilità per immagini più richieste, pronte per l&#039;uso direttamente nel tuo browser.</p>
+        </div>
+        <div class="tools-grid">
+          
+          <a href="/it/strumenti/comprimi-immagine/" class="tool-card">
+            <div class="tool-card-header">
+              <span class="tool-card-category">Compressione</span>
+            </div>
+            <h3 class="tool-card-title">Comprimi immagini</h3>
+            <p class="tool-card-desc">Riduci il peso dei tuoi file JPG, PNG e WebP in modo veloce, sicuro e senza perdita di qualità. Regola la qualità con il cursore in tempo reale, confronta il risultato prima e dopo e scarica l&#039;immagine ottimizzata senza caricare file su server remoti.</p>
+            <div class="tool-card-footer">
+              <span class="tool-card-action">Apri strumento →</span>
+            </div>
+          </a>
+          <a href="/it/strumenti/ridimensiona-immagine/" class="tool-card">
+            <div class="tool-card-header">
+              <span class="tool-card-category">Ridimensiona</span>
+            </div>
+            <h3 class="tool-card-title">Ridimensiona immagini</h3>
+            <p class="tool-card-desc">Modifica la risoluzione delle tue foto impostando larghezza e altezza in pixel, percentuali o formati standard. Blocca le proporzioni per evitare deformazioni e scarica subito l&#039;immagine con elaborazione locale.</p>
+            <div class="tool-card-footer">
+              <span class="tool-card-action">Apri strumento →</span>
+            </div>
+          </a>
+          <a href="/it/strumenti/convertitore-webp/" class="tool-card">
+            <div class="tool-card-header">
+              <span class="tool-card-category">Converti</span>
+            </div>
+            <h3 class="tool-card-title">Convertitore WebP</h3>
+            <p class="tool-card-desc">Converti le tue foto JPG e PNG nel moderno formato WebP a elevata efficienza, oppure converti file WebP in normali JPG e PNG. Velocizza il caricamento delle tue pagine web e migliora i punteggi Core Web Vitals.</p>
+            <div class="tool-card-footer">
+              <span class="tool-card-action">Apri strumento →</span>
+            </div>
+          </a>
+          <a href="/it/strumenti/ritaglia-immagine/" class="tool-card">
+            <div class="tool-card-header">
+              <span class="tool-card-category">Modifica</span>
+            </div>
+            <h3 class="tool-card-title">Ritaglia immagini</h3>
+            <p class="tool-card-desc">Inquadra e ritaglia le tue foto con precisione grazie all&#039;area di selezione interattiva. Blocca proporzioni standard come quadrato 1:1, 4:3, 16:9 panoramico o ritaglia a mano libera per evidenziare il soggetto principale.</p>
+            <div class="tool-card-footer">
+              <span class="tool-card-action">Apri strumento →</span>
+            </div>
+          </a>
+          <a href="/it/strumenti/selettore-colore-immagine/" class="tool-card">
+            <div class="tool-card-header">
+              <span class="tool-card-category">Colore</span>
+            </div>
+            <h3 class="tool-card-title">Contagocce immagini</h3>
+            <p class="tool-card-desc">Estrai i codici colore esatti da qualsiasi fotografia grazie alla lente d&#039;ingrandimento a 8 ingrandimenti. Ispeziona singoli pixel, scopri valori HEX, RGB e HSL e copiali con un clic per i tuoi progetti grafici e web.</p>
+            <div class="tool-card-footer">
+              <span class="tool-card-action">Apri strumento →</span>
+            </div>
+          </a>
+          <a href="/it/strumenti/immagine-dimensione-target/" class="tool-card">
+            <div class="tool-card-header">
+              <span class="tool-card-category">Compressione</span>
+            </div>
+            <h3 class="tool-card-title">Comprimi a dimensione target</h3>
+            <p class="tool-card-desc">Devi caricare una foto con limite massimo di 50KB, 100KB o 200KB su un portale della pubblica amministrazione o per una candidatura? Imposta il peso target esatto e il nostro algoritmo calcolerà la qualità ottimale.</p>
+            <div class="tool-card-footer">
+              <span class="tool-card-action">Apri strumento →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Catalog -->
+    <section id="categories" class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Catalogo</div>
+          <h2>Tutte le categorie di strumenti</h2>
+          <p>Esplora la nostra raccolta completa di 20 utilità per immagini elaborate sul client.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: var(--space-12);">
+          
+          <div>
+            <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
+              <a href="/it/strumenti/compressione-immagini/" class="badge badge-primary" style="text-decoration:none;">Compress →</a>
+            </h3>
+            <div class="tools-grid">
+              
+              <a href="/it/strumenti/comprimi-immagine/" class="tool-card">
+                <h4 class="tool-card-title">Comprimi immagini</h4>
+                <p class="tool-card-desc">Riduci il peso dei tuoi file JPG, PNG e WebP in modo veloce, sicuro e senza perdita di qualità. Regola la qualità con il cursore in tempo reale, confronta il risultato prima e dopo e scarica l&#039;immagine ottimizzata senza caricare file su server remoti.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/immagine-dimensione-target/" class="tool-card">
+                <h4 class="tool-card-title">Comprimi a dimensione target</h4>
+                <p class="tool-card-desc">Devi caricare una foto con limite massimo di 50KB, 100KB o 200KB su un portale della pubblica amministrazione o per una candidatura? Imposta il peso target esatto e il nostro algoritmo calcolerà la qualità ottimale.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
+              <a href="/it/strumenti/ridimensionamento-immagini/" class="badge badge-primary" style="text-decoration:none;">Resize →</a>
+            </h3>
+            <div class="tools-grid">
+              
+              <a href="/it/strumenti/ridimensiona-immagine/" class="tool-card">
+                <h4 class="tool-card-title">Ridimensiona immagini</h4>
+                <p class="tool-card-desc">Modifica la risoluzione delle tue foto impostando larghezza e altezza in pixel, percentuali o formati standard. Blocca le proporzioni per evitare deformazioni e scarica subito l&#039;immagine con elaborazione locale.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/ridimensiona-social-media/" class="tool-card">
+                <h4 class="tool-card-title">Ridimensiona per social media</h4>
+                <p class="tool-card-desc">Adatta le tue immagini ai formati ufficiali di Instagram, Facebook, YouTube, LinkedIn, TikTok e X. Elimina i ritagli automatici sgraditi e presenta post graficamente impeccabili su ogni dispositivo.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/ridimensiona-foto-passaporto/" class="tool-card">
+                <h4 class="tool-card-title">Ridimensiona foto passaporto</h4>
+                <p class="tool-card-desc">Ritaglia e adatta fototessere per passaporto italiano, carta d&#039;identità elettronica (CIE) e visti internazionali. Guida biometrica conforme agli standard ICAO (35x45 mm) e visto USA (2x2 pollici).</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
+              <a href="/it/strumenti/conversione-immagini/" class="badge badge-primary" style="text-decoration:none;">Convert →</a>
+            </h3>
+            <div class="tools-grid">
+              
+              <a href="/it/strumenti/jpg-in-png/" class="tool-card">
+                <h4 class="tool-card-title">JPG in PNG</h4>
+                <p class="tool-card-desc">Converti le tue foto JPG nel formato PNG senza perdita di qualità. Ottimale per screenshot, schemi e immagini con testi dove è richiesta la massima definizione dei bordi.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/png-in-jpg/" class="tool-card">
+                <h4 class="tool-card-title">PNG in JPG</h4>
+                <p class="tool-card-desc">Converti file PNG pesanti in immagini JPG compatte e universali. Sostituisci la trasparenza con uno sfondo bianco o colorato e ottimizza i tuoi contenuti visivi per il web e la stampa.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/convertitore-webp/" class="tool-card">
+                <h4 class="tool-card-title">Convertitore WebP</h4>
+                <p class="tool-card-desc">Converti le tue foto JPG e PNG nel moderno formato WebP a elevata efficienza, oppure converti file WebP in normali JPG e PNG. Velocizza il caricamento delle tue pagine web e migliora i punteggi Core Web Vitals.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/convertitore-formato-immagine/" class="tool-card">
+                <h4 class="tool-card-title">Convertitore formato immagini</h4>
+                <p class="tool-card-desc">Converti immagini singole o serie di foto tra i formati JPG, PNG e WebP. Regola la qualità di output, gestisci la trasparenza e scarica i file convertiti all&#039;istante senza passare da server esterni.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
+              <a href="/it/strumenti/modifica-immagini/" class="badge badge-primary" style="text-decoration:none;">Edit →</a>
+            </h3>
+            <div class="tools-grid">
+              
+              <a href="/it/strumenti/ritaglia-immagine/" class="tool-card">
+                <h4 class="tool-card-title">Ritaglia immagini</h4>
+                <p class="tool-card-desc">Inquadra e ritaglia le tue foto con precisione grazie all&#039;area di selezione interattiva. Blocca proporzioni standard come quadrato 1:1, 4:3, 16:9 panoramico o ritaglia a mano libera per evidenziare il soggetto principale.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/ruota-capovolgi-immagine/" class="tool-card">
+                <h4 class="tool-card-title">Ruota e capovolgi immagine</h4>
+                <p class="tool-card-desc">Raddrizza foto scattate di traverso o capovolte dal tuo smartphone oppure crea effetti di riflesso speculare. Ruota di 90° in senso orario, antiorario o capovolgi in orizzontale e verticale.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/immagine-scala-grigi/" class="tool-card">
+                <h4 class="tool-card-title">Immagine in scala di grigi</h4>
+                <p class="tool-card-desc">Trasforma foto a colori in eleganti scatti monocromatici in bianco e nero. Applica la formula fotometrica standard ITU-R BT.709 per un contrasto armonico e sfumature di grigio naturali.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/luminosita-contrasto/" class="tool-card">
+                <h4 class="tool-card-title">Luminosità e contrasto</h4>
+                <p class="tool-card-desc">Schiarisci foto troppo scure, recupera le ombre e ravviva la saturazione dei colori con cursori precisi. Guarda le modifiche in tempo reale e scarica foto bilanciate senza software pesanti.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/sfoca-nitidezza-immagine/" class="tool-card">
+                <h4 class="tool-card-title">Sfoca e aumenta nitidezza</h4>
+                <p class="tool-card-desc">Applica una sfocatura morbida per attenuare elementi di disturbo sullo sfondo oppure aumenta la nitidezza dei contorni con una matrice di convoluzione. Preciso, rapido e privato.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
+              <span class="badge badge-primary">Color</span>
+            </h3>
+            <div class="tools-grid">
+              
+              <a href="/it/strumenti/selettore-colore-immagine/" class="tool-card">
+                <h4 class="tool-card-title">Contagocce immagini</h4>
+                <p class="tool-card-desc">Estrai i codici colore esatti da qualsiasi fotografia grazie alla lente d&#039;ingrandimento a 8 ingrandimenti. Ispeziona singoli pixel, scopri valori HEX, RGB e HSL e copiali con un clic per i tuoi progetti grafici e web.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/generatore-tavolozza-colori/" class="tool-card">
+                <h4 class="tool-card-title">Generatore tavolozza colori</h4>
+                <p class="tool-card-desc">Estrai armoniose palette cromatiche dalle tue fotografie e opere grafiche preferite. Scopri le tinte dominanti, consulta i codici HEX e scarica una scheda campione elegante da utilizzare nei tuoi progetti di design.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
+              <span class="badge badge-primary">Create & Dev</span>
+            </h3>
+            <div class="tools-grid">
+              
+              <a href="/it/strumenti/generatore-favicon/" class="tool-card">
+                <h4 class="tool-card-title">Generatore favicon</h4>
+                <p class="tool-card-desc">Trasforma il tuo logo in un set completo di favicon per qualsiasi sito internet. Genera le misure standard 16x16, 32x32, 48x48 e 180x180 per Apple Touch Icon con codice HTML pronto da copiare nel tuo header.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/generatore-meme/" class="tool-card">
+                <h4 class="tool-card-title">Generatore di meme</h4>
+                <p class="tool-card-desc">Crea meme virali in pochi istanti con la classica scritta sopra e sotto. Personalizza dimensioni del testo, contorno nero e scarica i tuoi meme pronti da condividere sui social senza alcuna filigrana pubblicitaria.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/immagine-in-base64/" class="tool-card">
+                <h4 class="tool-card-title">Immagine in Base64</h4>
+                <p class="tool-card-desc">Converti file di immagine in stringhe codificate Base64 e Data URL. Incorpora immagini direttamente nei tag HTML &lt;img&gt;, proprietà CSS background-image o payload JSON senza generare richieste HTTP esterne.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+              <a href="/it/strumenti/base64-in-immagine/" class="tool-card">
+                <h4 class="tool-card-title">Base64 in immagine</h4>
+                <p class="tool-card-desc">Decodifica stringhe Base64 e Data URL per ottenere file di immagine PNG, JPG o WebP scaricabili e pronti all&#039;uso. Valida la correttezza del codice e visualizza le anteprime in un istante.</p>
+                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Principles -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">I nostri principi</div>
+          <h2>Perché scegliere ZamTools?</h2>
+          <p>Creato per professionisti e utenti che cercano utilità veloci, chiare e rispettose della privacy.</p>
+        </div>
+        <div class="features-grid">
+          
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Le tue immagini restano private</h4>
+            <p>I nostri strumenti elaborano le tue foto localmente tramite HTML5 Canvas e FileReader. Nessun server remoto riceve i tuoi file.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Velocità immediata senza attese</h4>
+            <p>Senza dover caricare file su Internet né attendere code nel cloud, ridimensionamento e compressione sono istantanei.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Nessun account né abbonamento</h4>
+            <p>Nessuna email richiesta, nessuna password e nessuna filigrana. Trascina la tua foto, regolala e scarica il file finito.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </div>
+            <h4>Funziona su qualsiasi dispositivo</h4>
+            <p>Interfaccia moderna e reattiva ottimizzata per smartphone, tablet, computer portatili e grandi monitor desktop.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workflow -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Come funziona</div>
+          <h2>Come funziona ZamTools</h2>
+          <p>Ottimizza e trasforma le tue immagini in tre semplici passaggi.</p>
+        </div>
+        <ol class="steps-list">
+          
+          <li class="step-card">
+            <div class="step-number">1</div>
+            <h4>Seleziona lo strumento</h4>
+            <p>Scegli l&#039;utilità desiderata dal catalogo organizzato o utilizza la barra di ricerca rapida in alto.</p>
+          </li>
+          <li class="step-card">
+            <div class="step-number">2</div>
+            <h4>Trascina la tua immagine</h4>
+            <p>Trascina il tuo file JPG, PNG o WebP. Il browser lo carica in memoria locale senza trasmetterlo via web.</p>
+          </li>
+          <li class="step-card">
+            <div class="step-number">3</div>
+            <h4>Regola e scarica</h4>
+            <p>Imposta qualità, dimensioni o filtri con anteprima in tempo reale e scarica l&#039;immagine ottimizzata con un clic.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section">
+      <div class="container-narrow">
+        <div class="section-header">
+          <div class="eyebrow">FAQ</div>
+          <h2>Domande frequenti</h2>
+          <p>Risposte trasparenti e dettagliate su ZamTools e sulla sicurezza delle tue immagini.</p>
+        </div>
+        <div class="faq-list">
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Gli strumenti di ZamTools sono gratuiti?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Sì. Tutti gli strumenti su ZamTools sono completamente gratuiti, senza costi nascosti, senza watermark e senza limiti di utilizzo.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Le mie immagini vengono caricate sui vostri server?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>No. Gli strumenti supportati elaborano i file direttamente nel tuo browser tramite HTML5 Canvas e Blob. Le tue foto non lasciano il tuo dispositivo.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Devo installare software o estensioni?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Assolutamente no. ZamTools funziona in qualsiasi browser moderno come Chrome, Firefox, Safari ed Edge su computer e dispositivi mobili.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quali formati di immagine sono supportati?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Supportiamo nativamente JPG, JPEG, PNG e il moderno formato WebP. Gli strumenti per sviluppatori gestiscono anche stringhe Base64.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Perché dovrei usare WebP al posto di JPG o PNG?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Il formato WebP garantisce una compressione superiore, riducendo le dimensioni dei file dal 25% al 35% rispetto al JPEG a parità di qualità visiva.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Guides -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Guide pratiche</div>
+          <h2>Conoscenze sull&#039;ottimizzazione delle immagini</h2>
+          <p>Scopri le nostre guide approfondite per velocizzare i siti web, scegliere i formati corretti e gestire le risoluzioni.</p>
+        </div>
+        <div class="tools-grid">
+          
+          <a href="/it/blog/come-comprimere-unimmagine/" class="tool-card">
+            <span class="tool-card-category">Ottimizzazione</span>
+            <h3 class="tool-card-title" style="margin-top: var(--space-2);">Come comprimere un&#039;immagine senza perdita visibile di qualità</h3>
+            <p class="tool-card-desc">Le immagini pesano per oltre il 60% delle pagine web moderne. Scopri il punto di equilibrio ideale tra risparmio di byte e definizione visiva.</p>
+            <div class="tool-card-footer">
+              <span>Leggi la guida →</span>
+            </div>
+          </a>
+          <a href="/it/blog/jpg-vs-png-vs-webp/" class="tool-card">
+            <span class="tool-card-category">Formati</span>
+            <h3 class="tool-card-title" style="margin-top: var(--space-2);">JPG vs PNG vs WebP: Quale formato immagine scegliere?</h3>
+            <p class="tool-card-desc">Scegliere il formato sbagliato può moltiplicare il peso di un file per quattro. Scopri i punti di forza di PNG, JPG e del formato WebP.</p>
+            <div class="tool-card-footer">
+              <span>Leggi la guida →</span>
+            </div>
+          </a>
+          <a href="/it/blog/come-ridimensionare-unimmagine/" class="tool-card">
+            <span class="tool-card-category">Dimensioni</span>
+            <h3 class="tool-card-title" style="margin-top: var(--space-2);">Come ridimensionare un&#039;immagine per siti web e social media</h3>
+            <p class="tool-card-desc">Mostrare immagini nelle dimensioni esatte del contenitore evita sgranature e velocizza il caricamento. Ecco la guida pratica.</p>
+            <div class="tool-card-footer">
+              <span>Leggi la guida →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- 1. Brand column (2fr) -->
+      <div class="footer-brand">
+        <a href="/it/" class="logo" aria-label="ZamTools Homepage">
+          <div class="logo-symbol">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 4h16l-10 12h10v4H4l10-12H4z"/>
+            </svg>
+          </div>
+          <div class="logo-text"><span>Zam</span><span>Tools</span></div>
+        </a>
+        <p class="footer-tagline">Strumenti semplici. Risultati migliori.</p>
+        <div class="footer-privacy-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+          <span>Le tue immagini restano sul tuo dispositivo.</span>
+        </div>
+      </div>
+
+      <!-- 2. Tools column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Strumenti</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/it/strumenti/" class="footer-nav-link">Tutti i 20 strumenti</a></li>
+          <li><a href="/it/strumenti/comprimi-immagine/" class="footer-nav-link">Comprimi immagini</a></li>
+          <li><a href="/it/strumenti/ridimensiona-immagine/" class="footer-nav-link">Ridimensiona immagini</a></li>
+          <li><a href="/it/strumenti/convertitore-webp/" class="footer-nav-link">Convertitore WebP</a></li>
+          <li><a href="/it/strumenti/ritaglia-immagine/" class="footer-nav-link">Ritaglia immagini</a></li>
+        </ul>
+      </div>
+
+      <!-- 3. Categories column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Categorie</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/it/strumenti/compressione-immagini/" class="footer-nav-link">Compressione</a></li>
+          <li><a href="/it/strumenti/ridimensionamento-immagini/" class="footer-nav-link">Ridimensionamento</a></li>
+          <li><a href="/it/strumenti/conversione-immagini/" class="footer-nav-link">Conversione</a></li>
+          <li><a href="/it/strumenti/modifica-immagini/" class="footer-nav-link">Modifica</a></li>
+        </ul>
+      </div>
+
+      <!-- 4. Company column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Azienda</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/it/chi-siamo/" class="footer-nav-link">Chi siamo</a></li>
+          <li><a href="/it/contatti/" class="footer-nav-link">Contatti</a></li>
+          <li><a href="/it/faq/" class="footer-nav-link">FAQ</a></li>
+          <li><a href="/it/blog/" class="footer-nav-link">Guide</a></li>
+        </ul>
+      </div>
+
+      <!-- 5. Legal column (1fr) -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Note legali</h4>
+        <ul class="footer-nav-list">
+          <li><a href="/it/privacy-policy/" class="footer-nav-link">Privacy</a></li>
+          <li><a href="/it/termini-di-servizio/" class="footer-nav-link">Termini</a></li>
+          <li><a href="/it/disclaimer/" class="footer-nav-link">Disclaimer</a></li>
+          <li><a href="/it/cookie-policy/" class="footer-nav-link">Cookie</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="copyright">© 2026 ZamTools. Tutti i diritti riservati.</p>
+      <p class="footer-legal-notice">Nota legale: questa traduzione è fornita a solo scopo informativo. In caso di discrepanze, farà fede la versione originale in lingua inglese.</p>
+    </div>
+  </footer>
+  <!-- Search Modal -->
+  <div class="search-modal-backdrop" role="dialog" aria-modal="true" aria-label="Cerca">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="search" class="search-modal-input" placeholder="Cerca strumenti per immagini..." aria-label="Cerca strumenti per immagini...">
+        <button class="search-close-btn" aria-label="Chiudi">✕</button>
+      </div>
+      <ul class="search-results-list"></ul>
+      <div class="search-modal-footer">
+        <span><kbd>↑</kbd><kbd>↓</kbd> Naviga</span>
+        <span><kbd>↵</kbd> Seleziona</span>
+        <span><kbd>esc</kbd> Chiudi</span>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="/js/config.js"></script>
+  <script src="/js/core.js"></script>
+  <script src="/js/routes.js"></script>
+  <script src="/js/toasts.js"></script>
+  <script src="/js/search-data.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/language-switcher.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
+  <script>
+    // In-page live search wiring
+    const homeInput = document.getElementById('homeSearchInput');
+    const homeResults = document.getElementById('homeSearchResults');
+    const homeGrid = document.getElementById('homeSearchGrid');
+
+    if (homeInput && homeResults && homeGrid) {
+      homeInput.addEventListener('input', () => {
+        const val = homeInput.value.trim();
+        if (!val) {
+          homeResults.style.display = 'none';
+          return;
+        }
+
+        const matches = window.searchTools ? window.searchTools(val) : [];
+        homeResults.style.display = 'block';
+        homeGrid.innerHTML = '';
+
+        if (matches.length === 0) {
+          homeGrid.innerHTML = '<p style="grid-column: 1/-1; text-align:center; padding: 2rem; color: var(--text-subtle);">No matching image tools found.</p>';
+          return;
+        }
+
+        matches.forEach(tool => {
+          const card = document.createElement('a');
+          card.href = (window.getToolUrl ? window.getToolUrl(tool) : tool.url);
+          card.className = 'tool-card';
+          card.innerHTML = `
+            <div class="tool-card-header">
+              <span class="tool-card-category">${tool.category}</span>
+            </div>
+            <h3 class="tool-card-title">${tool.name}</h3>
+            <p class="tool-card-desc">${tool.desc}</p>
+            <div class="tool-card-footer">
+              <span class="tool-card-action">→</span>
+            </div>
+          `;
+          homeGrid.appendChild(card);
+        });
+      });
+    }
+  </script>
