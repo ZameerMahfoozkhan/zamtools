@@ -105,6 +105,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -114,6 +116,8 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-main);
   overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
 }
 
 main {

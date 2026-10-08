@@ -91,8 +91,7 @@ ${ogLocales}
   <!-- Core Stylesheets -->
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/components.css">
-  <link rel="stylesheet" href="/css/responsive.css">
-${cssTags}
+${cssTags}  <link rel="stylesheet" href="/css/responsive.css">
 ${jsonLdTag}</head>`;
 }
 
