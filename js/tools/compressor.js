@@ -82,32 +82,126 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  async function compressImageSmart(current, quality, formatSetting) {
+    let targetMime = formatSetting;
+    let ext = 'jpg';
+
+    if (targetMime === 'original') {
+      if (current.type === 'image/png') {
+        targetMime = 'image/png';
+        ext = 'png';
+      } else if (current.type === 'image/webp') {
+        targetMime = 'image/webp';
+        ext = 'webp';
+      } else {
+        targetMime = 'image/jpeg';
+        ext = 'jpg';
+      }
+    } else {
+      if (targetMime === 'image/png') ext = 'png';
+      else if (targetMime === 'image/webp') ext = 'webp';
+      else ext = 'jpg';
+    }
+
+    const data = await window.loadImageFromFile(current);
+    let bestBlob = null;
+
+    if (targetMime === 'image/jpeg' || targetMime === 'image/webp') {
+      // JPEG or WebP compression
+      let q = quality;
+      let scale = 1.0;
+
+      // Iterative adaptive search to ensure compressed output is genuinely smaller than original
+      for (let iter = 0; iter < 6; iter++) {
+        const canvas = document.createElement('canvas');
+        const w = Math.max(16, Math.round(data.width * scale));
+        const h = Math.max(16, Math.round(data.height * scale));
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext('2d');
+
+        if (targetMime === 'image/jpeg') {
+          ctx.fillStyle = '#ffffff';
+          ctx.fillRect(0, 0, w, h);
+        }
+        ctx.imageSmoothingEnabled = true;
+        ctx.imageSmoothingQuality = 'high';
+        ctx.drawImage(data.img, 0, 0, w, h);
+
+        const blob = await window.canvasToBlob(canvas, targetMime, q);
+        if (!bestBlob || blob.size < bestBlob.size) {
+          bestBlob = blob;
+        }
+
+        if (blob.size < current.size) {
+          bestBlob = blob;
+          break;
+        }
+
+        // If not smaller, adaptively reduce quality, then downscale if needed
+        if (q > 0.25) {
+          q = Math.max(0.12, q - 0.15);
+        } else {
+          scale *= 0.90;
+        }
+      }
+    } else {
+      // PNG compression with smart palette/color quantization and adaptive scaling
+      let q = quality;
+      let scale = 1.0;
+
+      for (let iter = 0; iter < 6; iter++) {
+        const canvas = document.createElement('canvas');
+        const w = Math.max(16, Math.round(data.width * scale));
+        const h = Math.max(16, Math.round(data.height * scale));
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext('2d');
+        ctx.imageSmoothingEnabled = true;
+        ctx.imageSmoothingQuality = 'high';
+        ctx.drawImage(data.img, 0, 0, w, h);
+
+        // Quantize colors for PNG Deflate optimization
+        const step = Math.max(2, Math.round((1 - q) * 36) + (iter * 4));
+        const imgData = ctx.getImageData(0, 0, w, h);
+        const d = imgData.data;
+        for (let p = 0; p < d.length; p += 4) {
+          d[p] = Math.round(d[p] / step) * step;
+          d[p+1] = Math.round(d[p+1] / step) * step;
+          d[p+2] = Math.round(d[p+2] / step) * step;
+        }
+        ctx.putImageData(imgData, 0, 0);
+
+        const blob = await window.canvasToBlob(canvas, 'image/png');
+        if (!bestBlob || blob.size < bestBlob.size) {
+          bestBlob = blob;
+        }
+
+        if (blob.size < current.size) {
+          bestBlob = blob;
+          break;
+        }
+
+        // Scale dimensions down slightly and increase quantization if still larger
+        scale *= 0.88;
+        q = Math.max(0.15, q - 0.15);
+      }
+    }
+
+    return { blob: bestBlob, ext, mime: targetMime };
+  }
+
   async function compressCurrentImage() {
     if (loadedFiles.length === 0) return;
     const current = loadedFiles[currentFileIndex];
     const quality = parseInt(qualitySlider.value, 10) / 100;
-    let targetFormat = formatSelect.value;
-    
-    if (targetFormat === 'original') {
-      targetFormat = current.type === 'image/png' ? 'image/png' : 'image/jpeg';
-    }
+    const formatSetting = formatSelect.value;
 
     try {
-      const data = await window.loadImageFromFile(current);
-      const canvas = document.createElement('canvas');
-      canvas.width = data.width;
-      canvas.height = data.height;
-      const ctx = canvas.getContext('2d');
+      const result = await compressImageSmart(current, quality, formatSetting);
+      const blob = result.blob;
+      const ext = result.ext;
 
-      // For JPEG without transparency, paint white background
-      if (targetFormat === 'image/jpeg') {
-        ctx.fillStyle = '#ffffff';
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-      }
-
-      ctx.drawImage(data.img, 0, 0);
-
-      const blob = await window.canvasToBlob(canvas, targetFormat, quality);
       compressedBlobs[currentFileIndex] = blob;
 
       const compUrl = URL.createObjectURL(blob);
@@ -115,13 +209,16 @@ document.addEventListener('DOMContentLoaded', () => {
       compressedSizeEl.textContent = window.formatBytes(blob.size);
 
       const saved = window.calculatePercentageSaved(current.size, blob.size);
-      savedPercentEl.textContent = saved > 0 ? `-${saved}%` : '0%';
+      if (blob.size < current.size) {
+        savedPercentEl.textContent = `-${Math.max(1, saved)}%`;
+        savedPercentEl.className = 'stat-value highlight-success';
+      } else {
+        savedPercentEl.textContent = '0%';
+        savedPercentEl.className = 'stat-value';
+      }
 
       // Update download single button
       downloadBtn.onclick = () => {
-        let ext = 'jpg';
-        if (targetFormat === 'image/png') ext = 'png';
-        if (targetFormat === 'image/webp') ext = 'webp';
         const outName = window.formatDownloadFilename(current.name, ext, '-compressed');
         window.downloadBlob(blob, outName);
       };
@@ -135,16 +232,11 @@ document.addEventListener('DOMContentLoaded', () => {
     downloadAllBtn.addEventListener('click', async () => {
       window.showToast(`Downloading all ${loadedFiles.length} images...`, 'info');
       for (let i = 0; i < loadedFiles.length; i++) {
-        if (!compressedBlobs[i]) {
-          currentFileIndex = i;
-          await compressCurrentImage();
-        }
-        const blob = compressedBlobs[i];
-        let ext = 'jpg';
-        if (formatSelect.value === 'image/png') ext = 'png';
-        if (formatSelect.value === 'image/webp') ext = 'webp';
-        const outName = window.formatDownloadFilename(loadedFiles[i].name, ext, '-compressed');
-        window.downloadBlob(blob, outName);
+        const file = loadedFiles[i];
+        const quality = parseInt(qualitySlider.value, 10) / 100;
+        const res = await compressImageSmart(file, quality, formatSelect.value);
+        const outName = window.formatDownloadFilename(file.name, res.ext, '-compressed');
+        window.downloadBlob(res.blob, outName);
         await new Promise(r => setTimeout(r, 400));
       }
     });

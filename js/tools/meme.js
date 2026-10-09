@@ -69,15 +69,100 @@ document.addEventListener('DOMContentLoaded', () => {
   outlineColorPicker.addEventListener('input', renderMeme);
   uppercaseCheckbox.addEventListener('change', renderMeme);
 
+  // Container for dynamic extra text boxes
+  function getExtraTextsContainer() {
+    let container = document.getElementById('extraTextsList');
+    if (!container && addTextBtn) {
+      container = document.createElement('div');
+      container.id = 'extraTextsList';
+      container.style.cssText = 'display: flex; flex-direction: column; gap: var(--space-2); margin-top: var(--space-2);';
+      addTextBtn.insertAdjacentElement('afterend', container);
+    }
+    return container;
+  }
+
+  function renderExtraTextControls() {
+    const container = getExtraTextsContainer();
+    if (!container) return;
+    container.innerHTML = '';
+
+    // Extra layers start from index 2
+    for (let i = 2; i < textLayers.length; i++) {
+      const layer = textLayers[i];
+      const layerIdx = i;
+
+      const row = document.createElement('div');
+      row.className = 'extra-text-row';
+      row.dataset.layerId = layer.id;
+      row.style.cssText = 'padding: 8px 10px; background: var(--bg-subtle); border: 1px solid var(--border); border-radius: var(--radius-sm); display: flex; flex-direction: column; gap: 6px;';
+
+      const header = document.createElement('div');
+      header.style.cssText = 'display: flex; justify-content: space-between; align-items: center;';
+
+      const title = document.createElement('span');
+      title.style.cssText = 'font-size: 0.75rem; font-weight: 600; color: var(--text-subtle); text-transform: uppercase;';
+      title.textContent = `Extra Text #${layerIdx - 1}`;
+
+      const removeBtn = document.createElement('button');
+      removeBtn.type = 'button';
+      removeBtn.className = 'btn btn-secondary btn-sm';
+      removeBtn.style.cssText = 'padding: 1px 7px; font-size: 0.75rem; color: #ef4444; border-color: rgba(239, 68, 68, 0.25); cursor: pointer;';
+      removeBtn.textContent = '✕ Remove';
+      removeBtn.title = 'Remove this text box';
+      removeBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        textLayers.splice(layerIdx, 1);
+        if (selectedLayerIdx >= textLayers.length) selectedLayerIdx = Math.max(0, textLayers.length - 1);
+        renderExtraTextControls();
+        renderMeme();
+      });
+
+      header.appendChild(title);
+      header.appendChild(removeBtn);
+
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.className = 'form-input extra-text-input';
+      input.value = layer.text;
+      input.placeholder = 'Enter caption text...';
+      input.addEventListener('input', () => {
+        layer.text = input.value;
+        renderMeme();
+      });
+      input.addEventListener('focus', () => {
+        selectedLayerIdx = layerIdx;
+        renderMeme();
+      });
+
+      row.appendChild(header);
+      row.appendChild(input);
+      container.appendChild(row);
+    }
+  }
+
   addTextBtn.addEventListener('click', () => {
+    const count = textLayers.length - 1;
     textLayers.push({
-      text: 'EXTRA TEXT',
+      text: `EXTRA TEXT ${count}`,
       xRatio: 0.5,
-      yRatio: 0.5,
+      yRatio: Math.min(0.85, 0.35 + (count - 1) * 0.12),
       id: 'custom_' + Date.now()
     });
+    selectedLayerIdx = textLayers.length - 1;
+    renderExtraTextControls();
     renderMeme();
-    window.showToast('Added new text box. Drag on image to reposition.', 'info');
+    window.showToast('Added new editable text box. Edit the text below or drag on image.', 'info', 2500);
+
+    setTimeout(() => {
+      const container = getExtraTextsContainer();
+      if (container) {
+        const lastInput = container.querySelector('.extra-text-row:last-child input');
+        if (lastInput) {
+          lastInput.focus();
+          lastInput.select();
+        }
+      }
+    }, 50);
   });
 
   if (resetBtn) {
@@ -90,6 +175,8 @@ document.addEventListener('DOMContentLoaded', () => {
       ];
       topTextInput.value = 'TOP TEXT';
       bottomTextInput.value = 'BOTTOM TEXT';
+      selectedLayerIdx = 0;
+      renderExtraTextControls();
       workspaceActive.classList.remove('is-active');
       dropzone.style.display = 'flex';
       fileInput.value = '';
@@ -123,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ctx.lineWidth = Math.max(3, Math.round(scaledFontSize / 8));
     ctx.lineJoin = 'round';
 
-    textLayers.forEach(layer => {
+    textLayers.forEach((layer, idx) => {
       if (!layer.text) return;
       const textToDraw = isUpper ? layer.text.toUpperCase() : layer.text;
       const posX = canvas.width * layer.xRatio;
@@ -131,6 +218,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
       ctx.strokeText(textToDraw, posX, posY);
       ctx.fillText(textToDraw, posX, posY);
+
+      // If active selected layer, draw subtle selection box
+      if (idx === selectedLayerIdx && isDraggingText) {
+        const metrics = ctx.measureText(textToDraw);
+        const textW = metrics.width + 16;
+        const textH = scaledFontSize + 12;
+        ctx.save();
+        ctx.strokeStyle = '#3b82f6';
+        ctx.lineWidth = 1.5;
+        ctx.setLineDash([4, 4]);
+        ctx.strokeRect(posX - textW / 2, posY - textH / 2, textW, textH);
+        ctx.restore();
+      }
     });
 
     downloadBtn.onclick = async () => {
@@ -163,36 +263,75 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  // Drag text positions
-  canvas.addEventListener('mousedown', (e) => {
+  // Drag text positions (mouse and touch)
+  const onTextDragStart = (e) => {
+    if (!currentImage) return;
     const rect = canvas.getBoundingClientRect();
-    const clickX = (e.clientX - rect.left) / rect.width;
-    const clickY = (e.clientY - rect.top) / rect.height;
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+    const clickX = (clientX - rect.left) / rect.width;
+    const clickY = (clientY - rect.top) / rect.height;
 
     // Find closest layer
     let minD = Infinity;
+    let foundIdx = -1;
     textLayers.forEach((layer, idx) => {
       const d = Math.hypot(layer.xRatio - clickX, layer.yRatio - clickY);
-      if (d < 0.15 && d < minD) {
+      if (d < 0.18 && d < minD) {
         minD = d;
-        selectedLayerIdx = idx;
-        isDraggingText = true;
+        foundIdx = idx;
       }
     });
-  });
 
-  window.addEventListener('mousemove', (e) => {
-    if (!isDraggingText || !currentImage) return;
+    if (foundIdx !== -1) {
+      selectedLayerIdx = foundIdx;
+      isDraggingText = true;
+      renderMeme();
+
+      // Focus corresponding input
+      if (foundIdx === 0 && topTextInput) topTextInput.focus();
+      else if (foundIdx === 1 && bottomTextInput) bottomTextInput.focus();
+      else {
+        const targetId = textLayers[foundIdx].id;
+        const row = document.querySelector(`.extra-text-row[data-layer-id="${targetId}"]`);
+        if (row) {
+          const inp = row.querySelector('input');
+          if (inp) inp.focus();
+        }
+      }
+
+      if (e.cancelable) e.preventDefault();
+    }
+  };
+
+  const onTextDragMove = (e) => {
+    if (!isDraggingText || !currentImage || selectedLayerIdx < 0 || selectedLayerIdx >= textLayers.length) return;
     const rect = canvas.getBoundingClientRect();
-    const xRatio = Math.max(0.05, Math.min(0.95, (e.clientX - rect.left) / rect.width));
-    const yRatio = Math.max(0.05, Math.min(0.95, (e.clientY - rect.top) / rect.height));
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+
+    const xRatio = Math.max(0.05, Math.min(0.95, (clientX - rect.left) / rect.width));
+    const yRatio = Math.max(0.05, Math.min(0.95, (clientY - rect.top) / rect.height));
 
     textLayers[selectedLayerIdx].xRatio = xRatio;
     textLayers[selectedLayerIdx].yRatio = yRatio;
     renderMeme();
-  });
 
-  window.addEventListener('mouseup', () => {
-    isDraggingText = false;
-  });
+    if (e.cancelable) e.preventDefault();
+  };
+
+  const onTextDragEnd = () => {
+    if (isDraggingText) {
+      isDraggingText = false;
+      renderMeme();
+    }
+  };
+
+  canvas.addEventListener('mousedown', onTextDragStart);
+  window.addEventListener('mousemove', onTextDragMove);
+  window.addEventListener('mouseup', onTextDragEnd);
+
+  canvas.addEventListener('touchstart', onTextDragStart, { passive: false });
+  window.addEventListener('touchmove', onTextDragMove, { passive: false });
+  window.addEventListener('touchend', onTextDragEnd);
 });

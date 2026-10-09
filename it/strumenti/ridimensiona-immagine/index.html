@@ -294,12 +294,18 @@
                 <label for="presetSelect" class="control-label">Risoluzioni predefinite</label>
                 <select id="presetSelect" class="form-select">
                   <option value="custom">Dimensioni personalizzate</option>
+                  <option value="freehand">Ridimensionamento libero</option>
                   <option value="1920">1920 px (Larghezza Full HD)</option>
                   <option value="1280">1280 px (Larghezza HD)</option>
                   <option value="1080">1080 px (Quadrato social / Banner)</option>
                   <option value="720">720 px (Larghezza web standard)</option>
                 </select>
               </div>
+
+              <button type="button" class="btn btn-secondary btn-sm" id="freehandModeBtn" style="width: 100%; margin-top: -0.5rem; margin-bottom: var(--space-3); display: flex; align-items: center; justify-content: center; gap: 6px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>Modalità trascina libero</span>
+              </button>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4);">
                 <div class="control-group">
@@ -353,9 +359,24 @@
 
             <!-- Preview Stage -->
             <div class="preview-stage">
-              <div class="canvas-container">
-                <canvas id="previewCanvas"></canvas>
+              <div class="canvas-container" style="position: relative; overflow: visible;">
+                <div class="resize-box-wrapper" id="resizeBoxWrapper">
+                  <canvas id="previewCanvas"></canvas>
+                  <div class="resize-overlay" id="resizeOverlay" style="display: none;">
+                    <div class="resize-handle resize-handle-nw" data-handle="nw"></div>
+                    <div class="resize-handle resize-handle-n" data-handle="n"></div>
+                    <div class="resize-handle resize-handle-ne" data-handle="ne"></div>
+                    <div class="resize-handle resize-handle-e" data-handle="e"></div>
+                    <div class="resize-handle resize-handle-se" data-handle="se"></div>
+                    <div class="resize-handle resize-handle-s" data-handle="s"></div>
+                    <div class="resize-handle resize-handle-sw" data-handle="sw"></div>
+                    <div class="resize-handle resize-handle-w" data-handle="w"></div>
+                  </div>
+                </div>
               </div>
+              <p style="font-size: 0.8125rem; color: var(--text-subtle); text-align: center; margin-top: var(--space-2);">
+                Trascina le maniglie angolari o dei bordi nell'anteprima per ridimensionare liberamente.
+              </p>
             </div>
           </div>
         </div>

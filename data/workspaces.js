@@ -678,6 +678,38 @@ const WS_STRINGS = {
     pt: 'Proporções Prontas',
     it: 'Proporzioni predefinite'
   },
+  'Freehand Drag Mode': {
+    fr: 'Mode libre par glisser',
+    es: 'Modo libre al arrastrar',
+    id: 'Mode Tarik Bebas',
+    de: 'Freihand-Ziehmodus',
+    pt: 'Modo Livre ao Arrastar',
+    it: 'Modalità trascina libero'
+  },
+  'Freehand Drag Resize': {
+    fr: 'Redimensionnement libre',
+    es: 'Redimensionar libremente',
+    id: 'Ubah Ukuran Bebas',
+    de: 'Freihand-Skalierung',
+    pt: 'Redimensionar Livre',
+    it: 'Ridimensionamento libero'
+  },
+  'Drag the corner or edge handles on the preview to resize interactively (Freehand mode).': {
+    fr: 'Faites glisser les poignées de coin ou de bord pour redimensionner librement.',
+    es: 'Arrastra los tiradores de las esquinas o bordes para redimensionar libremente.',
+    id: 'Tarik pegangan sudut atau tepi pada pratinjau untuk mengubah ukuran bebas.',
+    de: 'Ziehen Sie die Eck- oder Kantengriffe, um das Bild interaktiv frei zu skalieren.',
+    pt: 'Arraste as alças de canto ou borda na visualização para redimensionar livremente.',
+    it: 'Trascina le maniglie angolari o dei bordi nell\'anteprima per ridimensionare liberamente.'
+  },
+  'Click canvas to lock': {
+    fr: 'Cliquez sur l\'image pour verrouiller',
+    es: 'Haz clic en el lienzo para fijar',
+    id: 'Klik kanvas untuk mengunci',
+    de: 'Klicken zum Fixieren',
+    pt: 'Clique na tela para fixar',
+    it: 'Clicca sull\'immagine per bloccare'
+  },
   'Freehand': {
     fr: 'Libre',
     es: 'Libre',
