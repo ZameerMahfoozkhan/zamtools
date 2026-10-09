@@ -100,8 +100,8 @@ LANGUAGE_CODES.forEach(lang => {
 });
 console.log(`  ✓ 7 Tools Hubs generated.`);
 
-// 3. GENERATE 20 TOOLS x 7 LANGUAGES (140)
-console.log('\n[3/7] Building 140 Localized Tool Pages...');
+// 3. GENERATE TOOLS x 7 LANGUAGES
+console.log(`\n[3/7] Building ${TOOL_KEYS.length * 7} Localized Tool Pages...`);
 TOOL_KEYS.forEach(toolKey => {
   LANGUAGE_CODES.forEach(lang => {
     const html = renderToolPage(toolKey, lang);
@@ -110,7 +110,7 @@ TOOL_KEYS.forEach(toolKey => {
     countsByLang[lang]++;
   });
 });
-console.log(`  ✓ 140 Tool pages generated (20 tools × 7 languages).`);
+console.log(`  ✓ ${TOOL_KEYS.length * 7} Tool pages generated (${TOOL_KEYS.length} tools × 7 languages).`);
 
 // 4. GENERATE CATEGORIES x 7 LANGUAGES (28)
 console.log('\n[4/7] Building 28 Category Landing Pages...');

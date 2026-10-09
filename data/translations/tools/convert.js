@@ -909,7 +909,605 @@ const convertTools = {
       ],
       relatedTools: ['webpConverter', 'jpgToPng', 'pngToGithubJpg', 'imageCompressor']
     }
+  },
+  imageToPdf: {
+  "en": {
+    "name": "Image to PDF Converter",
+    "title": "Image to PDF Converter Online – Combine, Crop & Filter Images to PDF | ZamTools",
+    "metaDescription": "Convert JPG, PNG, and WebP images into a single PDF online for free. Reorder pages, crop images, apply B&W or enhanced scanner filters, and customize page size.",
+    "h1": "Image to PDF Converter Online",
+    "lead": "Merge multiple photos, scanned receipts, and documents into a clean multi-page PDF document. Rearrange pages easily, crop images, apply high-contrast B&W or enhanced scanner filters, and download instantly without uploading files to any server.",
+    "category": "Convert",
+    "keywords": [
+      "image to pdf",
+      "convert jpg to pdf",
+      "png to pdf",
+      "combine images to pdf",
+      "photos to pdf",
+      "image to pdf converter online",
+      "free image to pdf"
+    ],
+    "howToTitle": "How to Convert Images to PDF Online",
+    "howToSteps": [
+      {
+        "step": 1,
+        "title": "Upload Your Images",
+        "text": "Drag & drop JPG, PNG, or WebP images or click to select files from your computer or phone."
+      },
+      {
+        "step": 2,
+        "title": "Rearrange & Edit Pages",
+        "text": "Use the move arrows or drag cards to order your pages. Crop individual photos and apply B&W or Enhanced scanner filters as needed."
+      },
+      {
+        "step": 3,
+        "title": "Configure PDF Settings",
+        "text": "Choose your document page size (A4, Letter, or Fit), orientation (Portrait or Landscape), and margin spacing."
+      },
+      {
+        "step": 4,
+        "title": "Generate & Download PDF",
+        "text": "Click Download PDF Document to instantly compile and save your clean multi-page PDF."
+      }
+    ],
+    "featuresTitle": "Why Use ZamTools Image to PDF?",
+    "features": [
+      {
+        "title": "Interactive Page Reordering",
+        "text": "Freely reorder pages before compiling your final PDF document with intuitive 1-click controls."
+      },
+      {
+        "title": "Built-In Document Filters",
+        "text": "Transform camera snapshots into crisp document scans using high-contrast B&W or Enhanced clarity filters."
+      },
+      {
+        "title": "Precise Per-Page Cropping",
+        "text": "Trim unwanted table edges, desk backgrounds, or borders from each photo before export."
+      },
+      {
+        "title": "100% Private & Client-Side",
+        "text": "All processing occurs directly in your browser memory. Your sensitive receipts, IDs, and records never leave your device."
+      }
+    ],
+    "tipsTitle": "Document Scanning Tips",
+    "tipsText": "For scanned documents or paperwork photographed on a desk, apply the B&W or Enhanced filter to whiten the background and make text jump out sharply, exactly like a flatbed scanner.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Can I combine multiple image formats into one PDF?",
+        "a": "Yes! You can mix JPG, PNG, and WebP images together in any order within a single PDF document."
+      },
+      {
+        "q": "Are my personal documents uploaded to a remote server?",
+        "a": "Never. The PDF is assembled purely in client-side JavaScript memory on your machine. No server upload takes place."
+      },
+      {
+        "q": "Can I rearrange the order of pages?",
+        "a": "Yes, use the move left/right buttons on each thumbnail card to sequence your pages before downloading."
+      },
+      {
+        "q": "What page sizes are supported?",
+        "a": "You can format your PDF to standard international A4, North American US Letter, or auto-fit directly to original image dimensions."
+      }
+    ],
+    "relatedTools": [
+      "imageCompressor",
+      "imageCropper",
+      "imageFormatConverter",
+      "grayscaleImage"
+    ]
+  },
+  "fr": {
+    "name": "Convertisseur Image en PDF",
+    "title": "Convertisseur Image en PDF en ligne – Fusionner, Recadrer & Filtrer | ZamTools",
+    "metaDescription": "Convertissez vos images JPG, PNG et WebP en document PDF gratuit en ligne. Réorganisez les pages, recadrez les photos, appliquez des filtres N&B ou scanner.",
+    "h1": "Convertisseur Image en PDF en ligne",
+    "lead": "Assemblez plusieurs photos, reçus scannés et documents administratifs en un fichier PDF multi-pages impeccable. Réorganisez l'ordre des pages, recadrez les visuels, appliquez des filtres scanner noir et blanc ou contraste amélioré, et téléchargez votre PDF sans aucun téléversement vers des serveurs.",
+    "category": "Conversion",
+    "keywords": [
+      "image en pdf",
+      "convertir photo en pdf",
+      "jpg en pdf",
+      "png en pdf",
+      "fusionner images en pdf",
+      "creer pdf avec photos"
+    ],
+    "howToTitle": "Comment convertir des images en PDF en ligne",
+    "howToSteps": [
+      {
+        "step": 1,
+        "title": "Importez vos images",
+        "text": "Glissez-déposez vos fichiers JPG, PNG ou WebP ou parcourez vos dossiers."
+      },
+      {
+        "step": 2,
+        "title": "Organisez et retouchez",
+        "text": "Réorganisez l'ordre des pages avec les flèches, recadrez les bords et appliquez les filtres N&B ou Amélioré."
+      },
+      {
+        "step": 3,
+        "title": "Configurez la mise en page",
+        "text": "Choisissez le format de papier (A4, Lettre ou Ajusté), l'orientation et les marges."
+      },
+      {
+        "step": 4,
+        "title": "Téléchargez votre PDF",
+        "text": "Cliquez sur Télécharger le document PDF pour générer votre fichier assemblé en une seconde."
+      }
+    ],
+    "featuresTitle": "Pourquoi choisir notre outil Image en PDF ?",
+    "features": [
+      {
+        "title": "Réorganisation fluide des pages",
+        "text": "Ajustez la séquence de vos pages en un clic avant de générer le document définitif."
+      },
+      {
+        "title": "Filtres de numérisation intégrés",
+        "text": "Convertissez de simples photos de smartphone en documents professionnels grâce aux filtres Noir & Blanc et Haute clarté."
+      },
+      {
+        "title": "Recadrage précis par image",
+        "text": "Éliminez les bordures inutiles et les arrière-plans de bureau sur chaque photo."
+      },
+      {
+        "title": "Sécurité et confidentialité totales",
+        "text": "Vos documents personnels, cartes d'identité et factures restent 100% locaux dans votre navigateur."
+      }
+    ],
+    "tipsTitle": "Astuce pour numériser des documents",
+    "tipsText": "Pour les factures ou attestations photographiées, activez le filtre N&B ou Amélioré afin de blanchir l'arrière-plan et maximiser la lisibilité du texte.",
+    "faqTitle": "Questions fréquentes",
+    "faqs": [
+      {
+        "q": "Puis-je mélanger des formats JPG et PNG dans un même PDF ?",
+        "a": "Oui, vous pouvez combiner librement des images de formats et dimensions variés dans un seul fichier PDF."
+      },
+      {
+        "q": "Mes documents sont-ils stockés en ligne ?",
+        "a": "Non, aucune image n'est envoyée sur Internet. La création du PDF s'effectue entièrement dans la mémoire de votre navigateur."
+      },
+      {
+        "q": "Comment changer l'ordre des pages ?",
+        "a": "Utilisez les flèches directionnelles sur les vignettes de prévisualisation pour déplacer chaque page à sa position idéale."
+      },
+      {
+        "q": "Quels formats de page sont disponibles ?",
+        "a": "Vous disposez des formats standards A4, US Letter ou de l'ajustement proportionnel aux dimensions de l'image."
+      }
+    ],
+    "relatedTools": [
+      "imageCompressor",
+      "imageCropper",
+      "imageFormatConverter",
+      "grayscaleImage"
+    ]
+  },
+  "es": {
+    "name": "Convertidor de Imagen a PDF",
+    "title": "Convertidor de Imagen a PDF Online – Une, Recorta y Aplica Filtros | ZamTools",
+    "metaDescription": "Convierte imágenes JPG, PNG y WebP a un único documento PDF online gratis. Reordena páginas, recorta fotos y aplica filtros blanco y negro o escáner.",
+    "h1": "Convertidor de Imagen a PDF Online",
+    "lead": "Une múltiples fotos, recibos escaneados y documentos en un archivo PDF de varias páginas limpio y profesional. Reordena fácilmente las páginas, recorta bordes, aplica filtros blanco y negro o escáner mejorado, y descarga al instante sin subir archivos a ningún servidor.",
+    "category": "Conversión",
+    "keywords": [
+      "imagen a pdf",
+      "convertir foto a pdf",
+      "jpg a pdf",
+      "png a pdf",
+      "unir imagenes en pdf",
+      "crear pdf con fotos gratis"
+    ],
+    "howToTitle": "Cómo convertir imágenes a PDF online",
+    "howToSteps": [
+      {
+        "step": 1,
+        "title": "Sube tus imágenes",
+        "text": "Arrastra y suelta imágenes JPG, PNG o WebP desde tu ordenador o teléfono móvil."
+      },
+      {
+        "step": 2,
+        "title": "Reordena y edita",
+        "text": "Organiza la secuencia de páginas con las flechas, recorta bordes sobrantes y aplica filtros B&N o Mejorado."
+      },
+      {
+        "step": 3,
+        "title": "Ajusta el formato",
+        "text": "Selecciona el tamaño de página (A4, Carta o Ajustado), la orientación y los márgenes."
+      },
+      {
+        "step": 4,
+        "title": "Descarga el PDF",
+        "text": "Haz clic en Descargar documento PDF para compilar y guardar tu PDF al instante."
+      }
+    ],
+    "featuresTitle": "Ventajas de ZamTools Imagen a PDF",
+    "features": [
+      {
+        "title": "Reordenación interactiva",
+        "text": "Cambia el orden de las páginas con un solo clic para asegurar una secuencia de lectura perfecta."
+      },
+      {
+        "title": "Filtros estilo escáner",
+        "text": "Convierte fotos de móvil en documentos nítidos con fondos claros y texto oscuro de alto contraste."
+      },
+      {
+        "title": "Recorte individual por página",
+        "text": "Elimina bordes indeseados o fondos de mesa antes de exportar cada página."
+      },
+      {
+        "title": "100% confidencial en navegador",
+        "text": "Tus fotos, contratos y documentos privados nunca salen de tu dispositivo."
+      }
+    ],
+    "tipsTitle": "Consejos para escanear con la cámara",
+    "tipsText": "Aplica el filtro B&N o Mejorado a fotos de documentos para aclarar el fondo y destacar las letras con máxima nitidez, emulando un escáner de sobremesa.",
+    "faqTitle": "Preguntas frecuentes",
+    "faqs": [
+      {
+        "q": "¿Puedo combinar fotos en JPG y PNG en un mismo PDF?",
+        "a": "¡Sí! Puedes mezclar imágenes en formatos JPG, PNG y WebP con total libertad."
+      },
+      {
+        "q": "¿Se suben mis archivos personales a algún servidor?",
+        "a": "No, todo el ensamblado del PDF se realiza en la memoria local de tu navegador sin transferencias externas."
+      },
+      {
+        "q": "¿Cómo cambio el orden de las páginas?",
+        "a": "Usa los botones con flechas en las tarjetas de previsualización para mover cualquier página hacia adelante o hacia atrás."
+      },
+      {
+        "q": "¿Qué tamaños de página están disponibles?",
+        "a": "Puedes elegir entre estándar A4, Carta o ajuste automático exacto a las dimensiones de la imagen."
+      }
+    ],
+    "relatedTools": [
+      "imageCompressor",
+      "imageCropper",
+      "imageFormatConverter",
+      "grayscaleImage"
+    ]
+  },
+  "id": {
+    "name": "Konverter Gambar ke PDF",
+    "title": "Konverter Gambar ke PDF Online – Gabung, Potong & Filter Gambar | ZamTools",
+    "metaDescription": "Ubah gambar JPG, PNG, dan WebP menjadi satu file PDF online gratis. Atur urutan halaman, potong gambar, terapkan filter hitam putih atau pemindai dokumen.",
+    "h1": "Konverter Gambar ke PDF Online",
+    "lead": "Gabungkan banyak foto, pindaian kuitansi, dan dokumen menjadi berkas PDF multi-halaman yang rapi. Susun ulang urutan halaman dengan mudah, potong tepi gambar, terapkan filter hitam putih atau pemindai berdefinisi tinggi, dan unduh seketika tanpa upload ke server.",
+    "category": "Konversi",
+    "keywords": [
+      "gambar ke pdf",
+      "ubah foto ke pdf",
+      "jpg ke pdf",
+      "png ke pdf",
+      "gabung foto jadi pdf",
+      "konverter gambar ke pdf online gratis"
+    ],
+    "howToTitle": "Cara Mengubah Gambar Menjadi PDF Online",
+    "howToSteps": [
+      {
+        "step": 1,
+        "title": "Unggah Gambar Anda",
+        "text": "Tarik & lepas file JPG, PNG, atau WebP dari komputer atau ponsel Anda."
+      },
+      {
+        "step": 2,
+        "title": "Atur Urutan & Sunting",
+        "text": "Gunakan tombol panah untuk menyusun urutan halaman, potong tepi yang tidak perlu, dan gunakan filter B&W."
+      },
+      {
+        "step": 3,
+        "title": "Pilih Pengaturan PDF",
+        "text": "Tentukan ukuran kertas (A4, Letter, atau Pas Gambar), orientasi, dan margin."
+      },
+      {
+        "step": 4,
+        "title": "Unduh Dokumen PDF",
+        "text": "Klik Unduh Dokumen PDF untuk langsung menyimpan dokumen PDF multi-halaman Anda."
+      }
+    ],
+    "featuresTitle": "Keunggulan ZamTools Gambar ke PDF",
+    "features": [
+      {
+        "title": "Penyusunan Ulang Halaman Mudah",
+        "text": "Ubah urutan halaman dokumen PDF Anda dengan kontrol 1-klik yang sangat praktis."
+      },
+      {
+        "title": "Filter Pemindai Dokumen Bawaan",
+        "text": "Ubah jepretan kamera ponsel menjadi dokumen bersih dengan filter Hitam Putih dan Peningkatan Kontras."
+      },
+      {
+        "title": "Pemotongan Presisi Tiap Halaman",
+        "text": "Hilangkan latar belakang meja atau tepi yang tidak rapi sebelum dokumen diekspor."
+      },
+      {
+        "title": "100% Privat di Browser",
+        "text": "Semua proses berjalan di memori perangkat Anda tanpa pernah mengunggah berkas ke server luar."
+      }
+    ],
+    "tipsTitle": "Tips Memindai Dokumen Foto",
+    "tipsText": "Untuk foto dokumen resmi atau kuitansi, aktifkan filter B&W atau Peningkatan agar latar belakang menjadi putih bersih dan tulisan terlihat jelas seperti hasil mesin scanner.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan",
+    "faqs": [
+      {
+        "q": "Apakah bisa menggabungkan JPG dan PNG sekaligus?",
+        "a": "Ya, Anda dapat mencampur format JPG, PNG, dan WebP dalam satu berkas PDF yang sama."
+      },
+      {
+        "q": "Apakah dokumen saya disimpan di server?",
+        "a": "Sama sekali tidak. Dokumen PDF disusun langsung di memori browser perangkat Anda tanpa koneksi server."
+      },
+      {
+        "q": "Bagaimana cara mengubah posisi halaman?",
+        "a": "Gunakan tombol panah pada setiap kartu pratinjau untuk memindahkan halaman ke posisi yang Anda inginkan."
+      },
+      {
+        "q": "Ukuran kertas apa saja yang didukung?",
+        "a": "Tersedia ukuran standar A4, US Letter, serta opsi Pas Gambar tanpa batas tepi."
+      }
+    ],
+    "relatedTools": [
+      "imageCompressor",
+      "imageCropper",
+      "imageFormatConverter",
+      "grayscaleImage"
+    ]
+  },
+  "de": {
+    "name": "Bild in PDF Konverter",
+    "title": "Bild in PDF Konverter Online – Bilder zusammenfügen, zuschneiden & filtern | ZamTools",
+    "metaDescription": "Konvertieren Sie JPG, PNG und WebP Bilder online kostenlos in ein mehrseitiges PDF. Seiten neu anordnen, zuschneiden, S&W- und Scanner-Filter anwenden.",
+    "h1": "Bild in PDF Konverter Online",
+    "lead": "Fügen Sie mehrere Fotos, gescannte Quittungen und Dokumente in ein professionelles mehrseitiges PDF zusammen. Sortieren Sie Seiten im Handumdrehen um, schneiden Sie Ränder zu, nutzen Sie kontrastreiche Schwarz-Weiß- oder Scanner-Filter und laden Sie Ihre Datei ohne Server-Upload herunter.",
+    "category": "Konvertierung",
+    "keywords": [
+      "bild in pdf",
+      "foto in pdf umwandeln",
+      "jpg in pdf",
+      "png in pdf",
+      "bilder zu pdf zusammenfuegen",
+      "mehrseitiges pdf erstellen kostenlos"
+    ],
+    "howToTitle": "So konvertieren Sie Bilder online in ein PDF",
+    "howToSteps": [
+      {
+        "step": 1,
+        "title": "Bilder hochladen",
+        "text": "Ziehen Sie JPG-, PNG- oder WebP-Dateien per Drag & Drop in den Arbeitsbereich."
+      },
+      {
+        "step": 2,
+        "title": "Seiten ordnen & bearbeiten",
+        "text": "Passen Sie die Reihenfolge mit den Pfeiltasten an, schneiden Sie Ränder zu und wählen Sie Filter wie S&W."
+      },
+      {
+        "step": 3,
+        "title": "PDF-Layout konfigurieren",
+        "text": "Wählen Sie Seitengröße (A4, Letter oder Anpassen), Ausrichtung und Ränder."
+      },
+      {
+        "step": 4,
+        "title": "PDF herunterladen",
+        "text": "Klicken Sie auf PDF-Dokument herunterladen, um Ihre fertige Datei sofort lokal zu speichern."
+      }
+    ],
+    "featuresTitle": "Vorteile von ZamTools Bild in PDF",
+    "features": [
+      {
+        "title": "Intuitive Seitenreihenfolge",
+        "text": "Ändern Sie die Position jeder Seite mit einem Klick vor der PDF-Erstellung."
+      },
+      {
+        "title": "Integrierte Dokumenten-Filter",
+        "text": "Verwandeln Sie Smartphone-Fotos mit kontrastreichen S&W- und Klarheitsfiltern in lesbare Scans."
+      },
+      {
+        "title": "Präziser Zuschnitt pro Seite",
+        "text": "Entfernen Sie störende Tischkanten und Ränder von jedem Bild einzeln."
+      },
+      {
+        "title": "100% lokale Privatsphäre",
+        "text": "Verarbeitung erfolgt im Browser-RAM; sensible Verträge und Ausweise verlassen Ihr Gerät niemals."
+      }
+    ],
+    "tipsTitle": "Tipp für Dokumenten-Scans",
+    "tipsText": "Nutzen Sie für abfotografierte Briefe oder Belege den S&W- oder Verstärkt-Filter, um graue Hintergründe aufzuhellen und Schrift gestochen scharf hervorzuheben.",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqs": [
+      {
+        "q": "Kann ich JPG und PNG in einem PDF kombinieren?",
+        "a": "Ja, Sie können beliebig viele JPG-, PNG- und WebP-Dateien in einem Dokument vereinen."
+      },
+      {
+        "q": "Werden meine persönlichen Dokumente hochgeladen?",
+        "a": "Nein. Das PDF wird vollständig im Arbeitsspeicher Ihres Browsers erzeugt. Kein Server empfängt Daten."
+      },
+      {
+        "q": "Wie ändere ich die Reihenfolge der Seiten?",
+        "a": "Nutzen Sie die Pfeilschaltflächen auf den Vorschaubildern, um Seiten nach vorn oder hinten zu verschieben."
+      },
+      {
+        "q": "Welche Papierformate stehen zur Auswahl?",
+        "a": "Sie können zwischen Standard-A4, US Letter oder einer passgenauen Bildanpassung wählen."
+      }
+    ],
+    "relatedTools": [
+      "imageCompressor",
+      "imageCropper",
+      "imageFormatConverter",
+      "grayscaleImage"
+    ]
+  },
+  "pt": {
+    "name": "Conversor de Imagem para PDF",
+    "title": "Conversor de Imagem para PDF Online – Junte, Corte e Aplique Filtros | ZamTools",
+    "metaDescription": "Converta imagens JPG, PNG e WebP em um único arquivo PDF online grátis. Reordene páginas, recorte fotos e use filtros preto e branco ou scanner.",
+    "h1": "Conversor de Imagem para PDF Online",
+    "lead": "Junte múltiplas fotos, recibos escaneados e documentos em um arquivo PDF com várias páginas impecável. Reordene a sequência facilmente, recorte bordas, aplique filtros preto e branco ou scanner de alto contraste e baixe o resultado sem envio de arquivos para servidores.",
+    "category": "Conversão",
+    "keywords": [
+      "imagem para pdf",
+      "converter foto para pdf",
+      "jpg para pdf",
+      "png para pdf",
+      "juntar imagens em pdf",
+      "criar pdf com fotos gratis"
+    ],
+    "howToTitle": "Como converter imagens em PDF online",
+    "howToSteps": [
+      {
+        "step": 1,
+        "title": "Adicione suas fotos",
+        "text": "Arraste e solte arquivos JPG, PNG ou WebP ou selecione do seu dispositivo."
+      },
+      {
+        "step": 2,
+        "title": "Organize e ajuste",
+        "text": "Alterne a ordem das páginas pelas setas, recorte margens e aplique filtros P&B ou Nitidez."
+      },
+      {
+        "step": 3,
+        "title": "Ajuste a página",
+        "text": "Defina o tamanho do papel (A4, Carta ou Ajustado), orientação e margens."
+      },
+      {
+        "step": 4,
+        "title": "Baixe o PDF montado",
+        "text": "Clique em Baixar documento PDF para compilar e salvar seu arquivo final instantaneamente."
+      }
+    ],
+    "featuresTitle": "Por que usar o ZamTools Imagem para PDF?",
+    "features": [
+      {
+        "title": "Reordenação rápida de páginas",
+        "text": "Mude a posição de qualquer página com apenas um clique para organizar seu documento com facilidade."
+      },
+      {
+        "title": "Filtros estilo scanner integrados",
+        "text": "Transforme fotos de celular em documentos nítidos com filtros Preto e Branco e Contraste Aumentado."
+      },
+      {
+        "title": "Recorte individual por foto",
+        "text": "Elimine bordas de mesas e fundos indesejados antes de exportar."
+      },
+      {
+        "title": "Privacidade absoluta no navegador",
+        "text": "Todas as operações ocorrem na memória local do seu computador ou smartphone."
+      }
+    ],
+    "tipsTitle": "Dicas para digitalizar comprovantes",
+    "tipsText": "Ao fotografar recibos ou contratos, ative o filtro P&B ou Nitidez para clarear o papel de fundo e destacar as letras com máxima legibilidade.",
+    "faqTitle": "Perguntas frequentes",
+    "faqs": [
+      {
+        "q": "Posso misturar fotos em JPG e PNG no mesmo PDF?",
+        "a": "Sim! Você pode combinar arquivos JPG, PNG e WebP com qualquer proporção em um único PDF."
+      },
+      {
+        "q": "Meus documentos privados são enviados para a nuvem?",
+        "a": "Não. O processamento é 100% local no seu navegador. Nenhum servidor recebe seus arquivos."
+      },
+      {
+        "q": "Como mudo a ordem das páginas?",
+        "a": "Basta clicar nas setas para esquerda ou direita nos cartões de miniatura para posicionar cada página."
+      },
+      {
+        "q": "Quais tamanhos de folha estão disponíveis?",
+        "a": "Você pode escolher entre A4 padrão, Carta americana ou ajuste direto ao tamanho da imagem."
+      }
+    ],
+    "relatedTools": [
+      "imageCompressor",
+      "imageCropper",
+      "imageFormatConverter",
+      "grayscaleImage"
+    ]
+  },
+  "it": {
+    "name": "Convertitore Immagini in PDF",
+    "title": "Convertitore Immagini in PDF Online – Unisci, Ritaglia & Filtra Foto | ZamTools",
+    "metaDescription": "Converti immagini JPG, PNG e WebP in un unico file PDF online gratis. Riordina le pagine, ritaglia foto e applica filtri bianco e nero o scanner.",
+    "h1": "Convertitore Immagini in PDF Online",
+    "lead": "Unisci più foto, ricevute scansionate e documenti cartacei in un unico PDF multipagina pulito e ordinato. Riordina l'ordine delle pagine, ritaglia bordi superflui, applica filtri bianco e nero ad alto contrasto o scanner avanzato, e scarica il file senza caricare foto su server.",
+    "category": "Converti",
+    "keywords": [
+      "immagini in pdf",
+      "convertire foto in pdf",
+      "jpg in pdf",
+      "png in pdf",
+      "unire immagini in pdf",
+      "creare pdf con foto gratis"
+    ],
+    "howToTitle": "Come convertire immagini in PDF online",
+    "howToSteps": [
+      {
+        "step": 1,
+        "title": "Carica le immagini",
+        "text": "Trascina le tue foto JPG, PNG o WebP o selezionale dal computer o smartphone."
+      },
+      {
+        "step": 2,
+        "title": "Riordina e perfeziona",
+        "text": "Usa le frecce per sequenziare le pagine, ritaglia i bordi e seleziona i filtri B&N o Nitido."
+      },
+      {
+        "step": 3,
+        "title": "Imposta il documento",
+        "text": "Scegli il formato del foglio (A4, Letter o Adattato), l'orientamento e i margini."
+      },
+      {
+        "step": 4,
+        "title": "Scarica il PDF finito",
+        "text": "Fai clic su Scarica documento PDF per compilare e salvare subito il tuo file."
+      }
+    ],
+    "featuresTitle": "Perché scegliere ZamTools Immagini in PDF?",
+    "features": [
+      {
+        "title": "Sequenziamento pagine intuitivo",
+        "text": "Modifica la sequenza di ogni pagina con un solo clic prima di finalizzare il file."
+      },
+      {
+        "title": "Filtri scanner professionali",
+        "text": "Trasforma semplici foto da smartphone in scansioni chiare con i filtri Bianco e Nero e Contrasto Ottimizzato."
+      },
+      {
+        "title": "Ritaglio dedicato per ogni pagina",
+        "text": "Elimina superfici di appoggio o bordi storti per una presentazione perfetta."
+      },
+      {
+        "title": "Riservatezza locale al 100%",
+        "text": "Tutto viene compilato nella memoria del browser. Ricevute e documenti non lasciano mai il dispositivo."
+      }
+    ],
+    "tipsTitle": "Consigli per scansionare documenti",
+    "tipsText": "Se fotografi documenti cartacei, attiva il filtro B&N o Scanner per sbiancare lo sfondo e rendere i caratteri nitidi come su una fotocopiatrice.",
+    "faqTitle": "Domande frequenti",
+    "faqs": [
+      {
+        "q": "Posso inserire formati diversi (JPG e PNG) nello stesso PDF?",
+        "a": "Certamente! Puoi combinare liberamente immagini JPG, PNG e WebP in qualsiasi ordine."
+      },
+      {
+        "q": "I miei documenti personali vengono caricati su internet?",
+        "a": "Assolutamente no. Il PDF viene assemblato interamente all'interno del tuo browser in locale."
+      },
+      {
+        "q": "Come cambio l'ordine delle pagine?",
+        "a": "Usa i pulsanti con le frecce su ciascuna anteprima per spostare la pagina avanti o indietro."
+      },
+      {
+        "q": "Quali formati di pagina sono supportati?",
+        "a": "Puoi selezionare A4 internazionale, Letter oppure adattamento proporzionale all'immagine."
+      }
+    ],
+    "relatedTools": [
+      "imageCompressor",
+      "imageCropper",
+      "imageFormatConverter",
+      "grayscaleImage"
+    ]
   }
+}
 };
 
 module.exports = convertTools;

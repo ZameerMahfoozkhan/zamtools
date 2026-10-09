@@ -325,7 +325,7 @@ const CATEGORY_TRANSLATIONS = {
         { q: "What happens to PNG transparency when converted to JPG?", a: "Because JPEG does not support alpha channels, transparent pixels are replaced with a clean solid background color of your choice (default white)." },
         { q: "Is WebP supported by all modern browsers?", a: "Yes. WebP is supported natively across Chrome, Safari, Edge, Firefox, and all modern mobile operating systems." }
       ],
-      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter']
+      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf']
     },
     fr: {
       title: "Outils de conversion de format d'image gratuits en ligne | ZamTools",
@@ -346,7 +346,7 @@ const CATEGORY_TRANSLATIONS = {
         { q: "Qu'advient-il de la transparence lors de la conversion d'un PNG en JPG ?", a: "Le format JPEG ne prenant pas en charge le canal alpha, les zones transparentes sont remplies avec la couleur d'arrière-plan choisie (blanc par défaut)." },
         { q: "Le format WebP est-il lisible partout ?", a: "Oui. Le WebP est désormais supporté par tous les navigateurs majeurs (Chrome, Safari, Firefox, Edge) sur mobile et ordinateur." }
       ],
-      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter']
+      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf']
     },
     es: {
       title: "Herramientas de conversión de formato de imagen gratis | ZamTools",
@@ -367,7 +367,7 @@ const CATEGORY_TRANSLATIONS = {
         { q: "¿Qué ocurre con la transparencia al pasar de PNG a JPG?", a: "Dado que JPEG no soporta transparencia, los píxeles transparentes se rellenan con el color sólido elegido (por defecto, blanco)." },
         { q: "¿Es compatible WebP en todos los navegadores?", a: "Sí. WebP es compatible con más del 97 % de los navegadores globales actuales, incluidos Chrome, Safari, Firefox y Edge." }
       ],
-      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter']
+      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf']
     },
     id: {
       title: "Alat Konversi Format Gambar Online Gratis | ZamTools",
@@ -388,7 +388,7 @@ const CATEGORY_TRANSLATIONS = {
         { q: "Apa yang terjadi pada transparansi saat PNG diubah ke JPG?", a: "Karena JPEG tidak mendukung saluran alfa, piksel transparan akan diisi dengan warna latar solid (default putih)." },
         { q: "Apakah WebP didukung oleh semua browser?", a: "Ya. WebP kini didukung secara native oleh Chrome, Safari, Edge, Firefox, dan browser ponsel cerdas." }
       ],
-      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter']
+      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf']
     },
     de: {
       title: "Kostenlose Online-Bildkonvertierungs-Tools | ZamTools",
@@ -409,7 +409,7 @@ const CATEGORY_TRANSLATIONS = {
         { q: "Was passiert mit transparenten Bereichen beim Wechsel von PNG zu JPG?", a: "Da JPG keine Transparenzkanäle unterstützt, werden transparente Pixel durch eine von Ihnen gewählte Hintergrundfarbe (standardmäßig Weiß) ersetzt." },
         { q: "Wird WebP von allen modernen Browsern unterstützt?", a: "Ja. WebP wird von Chrome, Firefox, Safari, Edge und allen gängigen mobilen Betriebssystemen vollständig unterstützt." }
       ],
-      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter']
+      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf']
     },
     pt: {
       title: "Ferramentas de Conversão de Formatos de Imagem Grátis | ZamTools",
@@ -430,7 +430,7 @@ const CATEGORY_TRANSLATIONS = {
         { q: "O que acontece com a transparência do PNG ao converter para JPG?", a: "Como o formato JPG não possui canal alfa, os pixels transparentes recebem uma cor de fundo sólida de sua escolha (branco por padrão)." },
         { q: "O formato WebP funciona em todos os navegadores?", a: "Sim. O WebP é suportado nativamente pelo Chrome, Safari, Edge, Firefox e por navegadores de smartphones iOS e Android." }
       ],
-      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter']
+      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf']
     },
     it: {
       title: "Strumenti di conversione formati immagine online gratis | ZamTools",
@@ -451,7 +451,7 @@ const CATEGORY_TRANSLATIONS = {
         { q: "Cosa succede alla trasparenza quando converto da PNG a JPG?", a: "Il formato JPG non supporta il canale alfa; i pixel trasparenti vengono quindi riempiti con il colore di sfondo selezionato (bianco di default)." },
         { q: "Il formato WebP è supportato da tutti i browser?", a: "Sì. WebP è pienamente supportato da Chrome, Safari, Firefox, Edge e da tutti i browser su smartphone." }
       ],
-      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter']
+      tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf']
     }
   },
 

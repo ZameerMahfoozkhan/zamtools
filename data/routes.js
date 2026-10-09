@@ -128,6 +128,17 @@ const ROUTES = {
     script: 'format-converter.js',
     origFolder: 'image-format-converter'
   },
+  imageToPdf: {
+    en: '/tools/image-to-pdf/',
+    fr: '/fr/outils/image-en-pdf/',
+    es: '/es/herramientas/imagen-a-pdf/',
+    id: '/id/alat/gambar-ke-pdf/',
+    de: '/de/tools/bild-in-pdf/',
+    pt: '/pt/ferramentas/imagem-para-pdf/',
+    it: '/it/strumenti/immagine-in-pdf/',
+    script: 'image-to-pdf.js',
+    origFolder: 'image-to-pdf'
+  },
   grayscaleImage: {
     en: '/tools/grayscale-image/',
     fr: '/fr/outils/image-niveaux-gris/',
@@ -484,6 +495,7 @@ const TOOL_KEYS = [
   'pngToGithubJpg',
   'webpConverter',
   'imageFormatConverter',
+  'imageToPdf',
   'grayscaleImage',
   'brightnessContrast',
   'blurSharpenImage',

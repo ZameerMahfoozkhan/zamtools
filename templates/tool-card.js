@@ -43,6 +43,7 @@ const TOOL_ICONS = {
   pngToGithubJpg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4"/></svg>',
   webpConverter: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>',
   imageFormatConverter: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>',
+  imageToPdf: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 13v4"/><path d="M9 15h3a1.5 1.5 0 0 0 0-3H9"/><path d="M15 13v4"/></svg>',
   grayscaleImage: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z"/></svg>',
   brightnessContrast: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>',
   blurSharpenImage: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14"/></svg>',
@@ -67,6 +68,7 @@ const TOOL_CATEGORY_KEYS = {
   jpgToPng: 'conversion',
   pngToGithubJpg: 'conversion',
   imageFormatConverter: 'conversion',
+  imageToPdf: 'conversion',
   faviconGenerator: 'conversion',
   imageToBase64: 'developer',
   base64ToImage: 'developer',
@@ -162,6 +164,15 @@ const TOOL_FEATURE_BADGES = {
     de: 'Multi-Format',
     pt: 'Multiformato',
     it: 'Multiformato'
+  },
+  imageToPdf: {
+    en: 'Reorder • Crop • B&W',
+    fr: 'Réorganiser • Recadrer • N&B',
+    es: 'Reordenar • Recortar • B&N',
+    id: 'Atur Urutan • Potong • B&W',
+    de: 'Ordnen • Zuschneiden • S&W',
+    pt: 'Reordenar • Cortar • P&B',
+    it: 'Riordina • Ritaglia • B&N'
   },
   grayscaleImage: {
     en: 'Human Luminance',
@@ -275,6 +286,7 @@ const TOOL_FORMAT_TAGS = {
   pngToGithubJpg: 'PNG → JPG',
   webpConverter: 'JPG/PNG → WebP',
   imageFormatConverter: 'All Formats',
+  imageToPdf: 'Images → Multi-Page PDF',
   grayscaleImage: 'Bicubic Grayscale',
   brightnessContrast: 'Live Canvas Preview',
   blurSharpenImage: 'Gaussian & Sharpen',

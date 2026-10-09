@@ -182,6 +182,27 @@ window.ZAM_LOCALIZED_TOOLS = {
       "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
+      "id": "image-to-pdf",
+      "key": "imageToPdf",
+      "name": "Image to PDF Converter",
+      "url": "/tools/image-to-pdf/",
+      "category": "Convert",
+      "categoryKey": "conversion",
+      "feature": "Reorder • Crop • B&W",
+      "format": "Images → Multi-Page PDF",
+      "desc": "Merge multiple photos, scanned receipts, and documents into a clean multi-page PDF document. Rearrange pages easily, crop images, apply high-contrast B&W or enhanced scanner filters, and download instantly without uploading files to any server.",
+      "keywords": [
+        "image to pdf",
+        "convert jpg to pdf",
+        "png to pdf",
+        "combine images to pdf",
+        "photos to pdf",
+        "image to pdf converter online",
+        "free image to pdf"
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><path d=\"M9 13v4\"/><path d=\"M9 15h3a1.5 1.5 0 0 0 0-3H9\"/><path d=\"M15 13v4\"/></svg>"
+    },
+    {
       "id": "grayscale-image",
       "key": "grayscaleImage",
       "name": "Grayscale Image",
@@ -565,6 +586,26 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convertisseur universel photo"
       ],
       "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
+    },
+    {
+      "id": "image-to-pdf",
+      "key": "imageToPdf",
+      "name": "Convertisseur Image en PDF",
+      "url": "/fr/outils/image-en-pdf/",
+      "category": "Conversion",
+      "categoryKey": "conversion",
+      "feature": "Réorganiser • Recadrer • N&B",
+      "format": "Images → Multi-Page PDF",
+      "desc": "Assemblez plusieurs photos, reçus scannés et documents administratifs en un fichier PDF multi-pages impeccable. Réorganisez l'ordre des pages, recadrez les visuels, appliquez des filtres scanner noir et blanc ou contraste amélioré, et téléchargez votre PDF sans aucun téléversement vers des serveurs.",
+      "keywords": [
+        "image en pdf",
+        "convertir photo en pdf",
+        "jpg en pdf",
+        "png en pdf",
+        "fusionner images en pdf",
+        "creer pdf avec photos"
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><path d=\"M9 13v4\"/><path d=\"M9 15h3a1.5 1.5 0 0 0 0-3H9\"/><path d=\"M15 13v4\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -952,6 +993,26 @@ window.ZAM_LOCALIZED_TOOLS = {
       "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
+      "id": "image-to-pdf",
+      "key": "imageToPdf",
+      "name": "Convertidor de Imagen a PDF",
+      "url": "/es/herramientas/imagen-a-pdf/",
+      "category": "Conversión",
+      "categoryKey": "conversion",
+      "feature": "Reordenar • Recortar • B&N",
+      "format": "Images → Multi-Page PDF",
+      "desc": "Une múltiples fotos, recibos escaneados y documentos en un archivo PDF de varias páginas limpio y profesional. Reordena fácilmente las páginas, recorta bordes, aplica filtros blanco y negro o escáner mejorado, y descarga al instante sin subir archivos a ningún servidor.",
+      "keywords": [
+        "imagen a pdf",
+        "convertir foto a pdf",
+        "jpg a pdf",
+        "png a pdf",
+        "unir imagenes en pdf",
+        "crear pdf con fotos gratis"
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><path d=\"M9 13v4\"/><path d=\"M9 15h3a1.5 1.5 0 0 0 0-3H9\"/><path d=\"M15 13v4\"/></svg>"
+    },
+    {
       "id": "grayscale-image",
       "key": "grayscaleImage",
       "name": "Escala de grises",
@@ -1337,6 +1398,26 @@ window.ZAM_LOCALIZED_TOOLS = {
       "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
+      "id": "image-to-pdf",
+      "key": "imageToPdf",
+      "name": "Konverter Gambar ke PDF",
+      "url": "/id/alat/gambar-ke-pdf/",
+      "category": "Konversi",
+      "categoryKey": "conversion",
+      "feature": "Atur Urutan • Potong • B&W",
+      "format": "Images → Multi-Page PDF",
+      "desc": "Gabungkan banyak foto, pindaian kuitansi, dan dokumen menjadi berkas PDF multi-halaman yang rapi. Susun ulang urutan halaman dengan mudah, potong tepi gambar, terapkan filter hitam putih atau pemindai berdefinisi tinggi, dan unduh seketika tanpa upload ke server.",
+      "keywords": [
+        "gambar ke pdf",
+        "ubah foto ke pdf",
+        "jpg ke pdf",
+        "png ke pdf",
+        "gabung foto jadi pdf",
+        "konverter gambar ke pdf online gratis"
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><path d=\"M9 13v4\"/><path d=\"M9 15h3a1.5 1.5 0 0 0 0-3H9\"/><path d=\"M15 13v4\"/></svg>"
+    },
+    {
       "id": "grayscale-image",
       "key": "grayscaleImage",
       "name": "Gambar Skala Abu-abu",
@@ -1719,6 +1800,26 @@ window.ZAM_LOCALIZED_TOOLS = {
         "batch bildkonverter"
       ],
       "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
+    },
+    {
+      "id": "image-to-pdf",
+      "key": "imageToPdf",
+      "name": "Bild in PDF Konverter",
+      "url": "/de/tools/bild-in-pdf/",
+      "category": "Konvertierung",
+      "categoryKey": "conversion",
+      "feature": "Ordnen • Zuschneiden • S&W",
+      "format": "Images → Multi-Page PDF",
+      "desc": "Fügen Sie mehrere Fotos, gescannte Quittungen und Dokumente in ein professionelles mehrseitiges PDF zusammen. Sortieren Sie Seiten im Handumdrehen um, schneiden Sie Ränder zu, nutzen Sie kontrastreiche Schwarz-Weiß- oder Scanner-Filter und laden Sie Ihre Datei ohne Server-Upload herunter.",
+      "keywords": [
+        "bild in pdf",
+        "foto in pdf umwandeln",
+        "jpg in pdf",
+        "png in pdf",
+        "bilder zu pdf zusammenfuegen",
+        "mehrseitiges pdf erstellen kostenlos"
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><path d=\"M9 13v4\"/><path d=\"M9 15h3a1.5 1.5 0 0 0 0-3H9\"/><path d=\"M15 13v4\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -2106,6 +2207,26 @@ window.ZAM_LOCALIZED_TOOLS = {
       "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
+      "id": "image-to-pdf",
+      "key": "imageToPdf",
+      "name": "Conversor de Imagem para PDF",
+      "url": "/pt/ferramentas/imagem-para-pdf/",
+      "category": "Conversão",
+      "categoryKey": "conversion",
+      "feature": "Reordenar • Cortar • P&B",
+      "format": "Images → Multi-Page PDF",
+      "desc": "Junte múltiplas fotos, recibos escaneados e documentos em um arquivo PDF com várias páginas impecável. Reordene a sequência facilmente, recorte bordas, aplique filtros preto e branco ou scanner de alto contraste e baixe o resultado sem envio de arquivos para servidores.",
+      "keywords": [
+        "imagem para pdf",
+        "converter foto para pdf",
+        "jpg para pdf",
+        "png para pdf",
+        "juntar imagens em pdf",
+        "criar pdf com fotos gratis"
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><path d=\"M9 13v4\"/><path d=\"M9 15h3a1.5 1.5 0 0 0 0-3H9\"/><path d=\"M15 13v4\"/></svg>"
+    },
+    {
       "id": "grayscale-image",
       "key": "grayscaleImage",
       "name": "Imagem em tons de cinza",
@@ -2488,6 +2609,26 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convertitore universale foto"
       ],
       "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
+    },
+    {
+      "id": "image-to-pdf",
+      "key": "imageToPdf",
+      "name": "Convertitore Immagini in PDF",
+      "url": "/it/strumenti/immagine-in-pdf/",
+      "category": "Converti",
+      "categoryKey": "conversion",
+      "feature": "Riordina • Ritaglia • B&N",
+      "format": "Images → Multi-Page PDF",
+      "desc": "Unisci più foto, ricevute scansionate e documenti cartacei in un unico PDF multipagina pulito e ordinato. Riordina l'ordine delle pagine, ritaglia bordi superflui, applica filtri bianco e nero ad alto contrasto o scanner avanzato, e scarica il file senza caricare foto su server.",
+      "keywords": [
+        "immagini in pdf",
+        "convertire foto in pdf",
+        "jpg in pdf",
+        "png in pdf",
+        "unire immagini in pdf",
+        "creare pdf con foto gratis"
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><path d=\"M9 13v4\"/><path d=\"M9 15h3a1.5 1.5 0 0 0 0-3H9\"/><path d=\"M15 13v4\"/></svg>"
     },
     {
       "id": "grayscale-image",

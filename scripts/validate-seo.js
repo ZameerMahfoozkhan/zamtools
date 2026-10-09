@@ -25,10 +25,9 @@ const hreflangSets = new Map(); // url -> { en: '...', fr: '...', ... }
 const htmlLangs = new Map(); // url -> lang attribute
 const h1Counts = new Map(); // url -> h1 count
 
-// 1. COLLECT & AUDIT ALL 280 GENERATED PAGES
-console.log('[1/4] Inspecting all 280 generated HTML documents...');
-
+// 1. COLLECT & AUDIT ALL GENERATED PAGES
 const allRouteKeys = Object.keys(ROUTES);
+console.log(`[1/4] Inspecting all ${allRouteKeys.length * LANGUAGE_CODES.length} generated HTML documents...`);
 
 allRouteKeys.forEach(routeKey => {
   const route = ROUTES[routeKey];

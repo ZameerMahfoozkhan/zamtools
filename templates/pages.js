@@ -329,7 +329,7 @@ function renderHomePage(lang) {
   const categoriesDef = [
     { catKey: 'catCompression', label: (categoryLabels.catCompression[lang] || 'Compress'), tools: ['imageCompressor', 'imageToTargetSize'] },
     { catKey: 'catResizing', label: (categoryLabels.catResizing[lang] || 'Resize'), tools: ['imageResizer', 'socialMediaImageResizer', 'passportPhotoResizer'] },
-    { catKey: 'catConversion', label: (categoryLabels.catConversion[lang] || 'Convert'), tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter'] },
+    { catKey: 'catConversion', label: (categoryLabels.catConversion[lang] || 'Convert'), tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf'] },
     { catKey: 'catEditing', label: (categoryLabels.catEditing[lang] || 'Edit & Filter'), tools: ['imageCropper', 'imageRotateFlip', 'grayscaleImage', 'brightnessContrast', 'blurSharpenImage'] },
     { catKey: null, label: (categoryLabels.catColor[lang] || 'Color Tools'), tools: ['imageColorPicker', 'colorPaletteGenerator'] },
     { catKey: null, label: (categoryLabels.catDev[lang] || 'Developer & Creative'), tools: ['faviconGenerator', 'memeGenerator', 'imageToBase64', 'base64ToImage'] }
@@ -668,7 +668,7 @@ function renderToolsHubPage(lang) {
   const categoriesDef = [
     { catKey: 'catCompression', label: (categoryLabels.catCompression[lang] || 'Compression'), tools: ['imageCompressor', 'imageToTargetSize'] },
     { catKey: 'catResizing', label: (categoryLabels.catResizing[lang] || 'Resizing'), tools: ['imageResizer', 'socialMediaImageResizer', 'passportPhotoResizer'] },
-    { catKey: 'catConversion', label: (categoryLabels.catConversion[lang] || 'Conversion'), tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter'] },
+    { catKey: 'catConversion', label: (categoryLabels.catConversion[lang] || 'Conversion'), tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter', 'imageToPdf'] },
     { catKey: 'catEditing', label: (categoryLabels.catEditing[lang] || 'Editing & Filters'), tools: ['imageCropper', 'imageRotateFlip', 'grayscaleImage', 'brightnessContrast', 'blurSharpenImage'] },
     { catKey: null, label: (categoryLabels.catColor[lang] || 'Color Tools'), tools: ['imageColorPicker', 'colorPaletteGenerator'] },
     { catKey: null, label: (categoryLabels.catDev[lang] || 'Developer & Creative'), tools: ['faviconGenerator', 'memeGenerator', 'imageToBase64', 'base64ToImage'] }

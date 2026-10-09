@@ -1703,6 +1703,270 @@ const WS_STRINGS = {
     de: 'Abmessungen',
     pt: 'Dimensões',
     it: 'Dimensioni'
+  },
+  'Drop images here to create PDF': {
+    fr: 'Déposez des images ici pour créer un PDF',
+    es: 'Arrastra imágenes aquí para crear un PDF',
+    id: 'Tarik gambar ke sini untuk membuat PDF',
+    de: 'Bilder hierher ziehen, um PDF zu erstellen',
+    pt: 'Arraste imagens aqui para criar PDF',
+    it: 'Trascina qui le immagini per creare il PDF'
+  },
+  'JPG, PNG, or WebP • Reorder, crop &amp; apply document filters': {
+    fr: 'JPG, PNG ou WebP • Réorganisez, recadrez et appliquez des filtres',
+    es: 'JPG, PNG o WebP • Reordena, recorta y aplica filtros',
+    id: 'JPG, PNG, atau WebP • Atur ulang, potong & terapkan filter',
+    de: 'JPG, PNG oder WebP • Neu ordnen, zuschneiden & Dokumentfilter anwenden',
+    pt: 'JPG, PNG ou WebP • Reorganize, corte e aplique filtros',
+    it: 'JPG, PNG o WebP • Riordina, ritaglia e applica filtri'
+  },
+  'Choose Images': {
+    fr: 'Choisir des images',
+    es: 'Elegir imágenes',
+    id: 'Pilih Gambar',
+    de: 'Bilder auswählen',
+    pt: 'Escolher Imagens',
+    it: 'Scegli immagini'
+  },
+  'Document': {
+    fr: 'Document',
+    es: 'Documento',
+    id: 'Dokumen',
+    de: 'Dokument',
+    pt: 'Documento',
+    it: 'Documento'
+  },
+  'Add More Images': {
+    fr: 'Ajouter d\'autres images',
+    es: 'Añadir más imágenes',
+    id: 'Tambah Gambar Lain',
+    de: 'Weitere Bilder hinzufügen',
+    pt: 'Adicionar Mais Imagens',
+    it: 'Aggiungi altre immagini'
+  },
+  'Change Files': {
+    fr: 'Changer les fichiers',
+    es: 'Cambiar archivos',
+    id: 'Ganti Berkas',
+    de: 'Dateien ändern',
+    pt: 'Alterar Arquivos',
+    it: 'Cambia file'
+  },
+  'Pages Order &amp; Layout': {
+    fr: 'Ordre et disposition des pages',
+    es: 'Orden y diseño de páginas',
+    id: 'Urutan & Tata Letak Halaman',
+    de: 'Seitenreihenfolge & Layout',
+    pt: 'Ordem e Layout das Páginas',
+    it: 'Ordine e layout delle pagine'
+  },
+  'Click a page to edit • Use arrows or drag to rearrange order': {
+    fr: 'Cliquez sur une page pour modifier • Utilisez les flèches pour réorganiser',
+    es: 'Haz clic en una página para editar • Usa las flechas para reordenar',
+    id: 'Klik halaman untuk mengedit • Gunakan panah untuk mengatur urutan',
+    de: 'Klicken zum Bearbeiten • Pfeile nutzen zum Neuanordnen',
+    pt: 'Clique em uma página para editar • Use as setas para reorganizar',
+    it: 'Fai clic su una pagina per modificare • Usa le frecce per riordinare'
+  },
+  'Active Page Editing': {
+    fr: 'Édition de la page active',
+    es: 'Edición de página activa',
+    id: 'Edit Halaman Aktif',
+    de: 'Aktive Seite bearbeiten',
+    pt: 'Edição da Página Ativa',
+    it: 'Modifica pagina attiva'
+  },
+  'Page Filter / Scanner Look': {
+    fr: 'Filtre de page / Style scanner',
+    es: 'Filtro de página / Efecto escáner',
+    id: 'Filter Halaman / Tampilan Pemindai',
+    de: 'Seitenfilter / Scanner-Look',
+    pt: 'Filtro de Página / Efeito Scanner',
+    it: 'Filtro pagina / Aspetto scanner'
+  },
+  'Original': {
+    fr: 'Original',
+    es: 'Original',
+    id: 'Asli',
+    de: 'Original',
+    pt: 'Original',
+    it: 'Originale'
+  },
+  'B&amp;W Doc': {
+    fr: 'Doc N&B',
+    es: 'Doc B/N',
+    id: 'Dok H&P',
+    de: 'S/W Dok',
+    pt: 'Doc P&B',
+    it: 'Doc B&N'
+  },
+  'Enhanced': {
+    fr: 'Amélioré',
+    es: 'Mejorado',
+    id: 'Ditingkatkan',
+    de: 'Optimiert',
+    pt: 'Aprimorado',
+    it: 'Migliorato'
+  },
+  'Apply Filter to All Pages': {
+    fr: 'Appliquer le filtre à toutes les pages',
+    es: 'Aplicar filtro a todas las páginas',
+    id: 'Terapkan Filter ke Semua Halaman',
+    de: 'Filter auf alle Seiten anwenden',
+    pt: 'Aplicar Filtro a Todas as Páginas',
+    it: 'Applica filtro a tutte le pagine'
+  },
+  'Page Cropping': {
+    fr: 'Recadrage de la page',
+    es: 'Recorte de página',
+    id: 'Pemotongan Halaman',
+    de: 'Seiten-Zuschnitt',
+    pt: 'Recorte de Página',
+    it: 'Ritaglio pagina'
+  },
+  'Crop Active Image': {
+    fr: 'Recadrer l\'image active',
+    es: 'Recortar imagen activa',
+    id: 'Potong Gambar Aktif',
+    de: 'Aktives Bild zuschneiden',
+    pt: 'Recortar Imagem Ativa',
+    it: 'Ritaglia immagine attiva'
+  },
+  'Save Crop': {
+    fr: 'Enregistrer le recadrage',
+    es: 'Guardar recorte',
+    id: 'Simpan Potongan',
+    de: 'Zuschnitt speichern',
+    pt: 'Salvar Recorte',
+    it: 'Salva ritaglio'
+  },
+  'Document Page Size': {
+    fr: 'Format de page du document',
+    es: 'Tamaño de página del documento',
+    id: 'Ukuran Halaman Dokumen',
+    de: 'Dokument-Seitengröße',
+    pt: 'Tamanho da Página do Documento',
+    it: 'Dimensione pagina documento'
+  },
+  'A4 (Standard 210 × 297 mm)': {
+    fr: 'A4 (Standard 210 × 297 mm)',
+    es: 'A4 (Estándar 210 × 297 mm)',
+    id: 'A4 (Standar 210 × 297 mm)',
+    de: 'A4 (Standard 210 × 297 mm)',
+    pt: 'A4 (Padrão 210 × 297 mm)',
+    it: 'A4 (Standard 210 × 297 mm)'
+  },
+  'US Letter (8.5 × 11 inches)': {
+    fr: 'US Letter (8,5 × 11 pouces)',
+    es: 'US Letter (8,5 × 11 pulgadas)',
+    id: 'US Letter (8,5 × 11 inci)',
+    de: 'US Letter (8,5 × 11 Zoll)',
+    pt: 'US Letter (8,5 × 11 polegadas)',
+    it: 'US Letter (8,5 × 11 pollici)'
+  },
+  'Fit to Image (No Borders)': {
+    fr: 'Ajuster à l\'image (Sans bordures)',
+    es: 'Ajustar a imagen (Sin bordes)',
+    id: 'Sesuaikan dengan Gambar (Tanpa Batas)',
+    de: 'An Bild anpassen (Keine Ränder)',
+    pt: 'Ajustar à Imagem (Sem Bordas)',
+    it: 'Adatta all\'immagine (Senza bordi)'
+  },
+  'Orientation': {
+    fr: 'Orientation',
+    es: 'Orientación',
+    id: 'Orientasi',
+    de: 'Ausrichtung',
+    pt: 'Orientação',
+    it: 'Orientamento'
+  },
+  'Auto Detect': {
+    fr: 'Détection auto',
+    es: 'Detección automática',
+    id: 'Deteksi Otomatis',
+    de: 'Automatische Erkennung',
+    pt: 'Detecção Automática',
+    it: 'Rilevamento automatico'
+  },
+  'Page Margins': {
+    fr: 'Marges de page',
+    es: 'Márgenes de página',
+    id: 'Margin Halaman',
+    de: 'Seitenränder',
+    pt: 'Margens da Página',
+    it: 'Margini della pagina'
+  },
+  'No Margin': {
+    fr: 'Sans marge',
+    es: 'Sin margen',
+    id: 'Tanpa Margin',
+    de: 'Kein Rand',
+    pt: 'Sem Margem',
+    it: 'Senza margini'
+  },
+  'Small (5 mm)': {
+    fr: 'Petite (5 mm)',
+    es: 'Pequeño (5 mm)',
+    id: 'Kecil (5 mm)',
+    de: 'Schmal (5 mm)',
+    pt: 'Pequena (5 mm)',
+    it: 'Piccolo (5 mm)'
+  },
+  'Normal (12 mm)': {
+    fr: 'Normale (12 mm)',
+    es: 'Normal (12 mm)',
+    id: 'Normal (12 mm)',
+    de: 'Normal (12 mm)',
+    pt: 'Normal (12 mm)',
+    it: 'Normale (12 mm)'
+  },
+  'Image Quality in PDF': {
+    fr: 'Qualité d\'image dans le PDF',
+    es: 'Calidad de imagen en PDF',
+    id: 'Kualitas Gambar di PDF',
+    de: 'Bildqualität im PDF',
+    pt: 'Qualidade da Imagem no PDF',
+    it: 'Qualità immagine nel PDF'
+  },
+  'High Clarity (Print)': {
+    fr: 'Haute clarté (Impression)',
+    es: 'Alta claridad (Impresión)',
+    id: 'Kejernihan Tinggi (Cetak)',
+    de: 'Hohe Schärfe (Druck)',
+    pt: 'Alta Clareza (Impressão)',
+    it: 'Alta nitidezza (Stampa)'
+  },
+  'Medium (Optimized Size)': {
+    fr: 'Moyenne (Taille optimisée)',
+    es: 'Media (Tamaño optimizado)',
+    id: 'Sedang (Ukuran Dioptimalkan)',
+    de: 'Mittel (Optimierte Größe)',
+    pt: 'Média (Tamanho Otimizado)',
+    it: 'Media (Dimensione ottimizzata)'
+  },
+  'Compact (Smallest PDF)': {
+    fr: 'Compacte (PDF le plus léger)',
+    es: 'Compacta (PDF más pequeño)',
+    id: 'Kompak (PDF Terkecil)',
+    de: 'Kompakt (Kleinste PDF)',
+    pt: 'Compacta (Menor PDF)',
+    it: 'Compatto (PDF più piccolo)'
+  },
+  'Output Filename': {
+    fr: 'Nom du fichier de sortie',
+    es: 'Nombre del archivo de salida',
+    id: 'Nama Berkas Keluaran',
+    de: 'Name der Ausgabedatei',
+    pt: 'Nome do Arquivo de Saída',
+    it: 'Nome file di output'
+  },
+  'Download PDF Document': {
+    fr: 'Télécharger le document PDF',
+    es: 'Descargar documento PDF',
+    id: 'Unduh Dokumen PDF',
+    de: 'PDF-Dokument herunterladen',
+    pt: 'Baixar Documento PDF',
+    it: 'Scarica documento PDF'
   }
 };
 

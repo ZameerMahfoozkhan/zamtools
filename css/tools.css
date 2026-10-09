@@ -800,3 +800,134 @@
   background: rgba(99, 102, 241, 0.08);
 }
 
+/* ==========================================================================
+   Image to PDF Tool Page Reorder & Preview Styles
+   ========================================================================== */
+.pdf-page-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 8px;
+  background: var(--bg-surface, #ffffff);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+  user-select: none;
+  width: 110px;
+  position: relative;
+}
+
+.pdf-page-card:hover {
+  border-color: var(--primary);
+  background: rgba(99, 102, 241, 0.04);
+}
+
+.pdf-page-card.is-active {
+  border-color: var(--primary);
+  background: rgba(99, 102, 241, 0.08);
+  box-shadow: 0 0 0 2px var(--primary);
+}
+
+.pdf-page-card.is-dragging {
+  opacity: 0.4;
+  border-style: dashed;
+}
+
+.pdf-page-thumb-wrapper {
+  width: 90px;
+  height: 90px;
+  border-radius: var(--radius-xs, 4px);
+  background: #e2e8f0;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.pdf-page-thumb {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pdf-page-badge {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: rgba(15, 23, 42, 0.75);
+  color: #ffffff;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 10px;
+  line-height: 1.2;
+}
+
+.pdf-page-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.pdf-page-reorder-btn {
+  background: var(--bg-subtle, #f1f5f9);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  border-radius: var(--radius-xs, 4px);
+  width: 24px;
+  height: 22px;
+  font-size: 0.6875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  padding: 0;
+}
+
+.pdf-page-reorder-btn:hover:not(:disabled) {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+}
+
+.pdf-page-reorder-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.pdf-page-delete-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  line-height: 1;
+  transition: all 0.15s ease;
+}
+
+.pdf-page-delete-btn:hover {
+  color: var(--danger, #ef4444);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.filter-preset-btn.is-active {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+  border-color: var(--primary) !important;
+}
+
+.cropping-active #previewCanvas {
+  cursor: crosshair;
+}
+
+
