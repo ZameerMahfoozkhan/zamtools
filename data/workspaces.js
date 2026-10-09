@@ -354,6 +354,22 @@ const WS_STRINGS = {
     pt: 'Mudar Arquivos',
     it: 'Cambia file'
   },
+  'Add More Images': {
+    fr: 'Ajouter des images',
+    es: 'Añadir más imágenes',
+    id: 'Tambah Gambar Lain',
+    de: 'Weitere Bilder hinzufügen',
+    pt: 'Adicionar Mais Imagens',
+    it: 'Aggiungi altre immagini'
+  },
+  'Clear All': {
+    fr: 'Tout effacer',
+    es: 'Borrar todo',
+    id: 'Hapus Semua',
+    de: 'Alles leeren',
+    pt: 'Limpar Tudo',
+    it: 'Cancella tutto'
+  },
 
   // Compression & Format Controls
   'Compression Quality': {
@@ -471,6 +487,22 @@ const WS_STRINGS = {
     de: 'Alle Bilder herunterladen',
     pt: 'Baixar Todas as Imagens',
     it: 'Scarica tutte le immagini'
+  },
+  'Download All as ZIP': {
+    fr: 'Tout télécharger (ZIP)',
+    es: 'Descargar todo como ZIP',
+    id: 'Unduh Semua sebagai ZIP',
+    de: 'Alle als ZIP herunterladen',
+    pt: 'Baixar Tudo como ZIP',
+    it: 'Scarica tutto come ZIP'
+  },
+  'Download Active Image': {
+    fr: 'Télécharger l\'image active',
+    es: 'Descargar imagen activa',
+    id: 'Unduh Gambar Aktif',
+    de: 'Aktives Bild herunterladen',
+    pt: 'Baixar Imagem Ativa',
+    it: 'Scarica immagine attiva'
   },
   'Download Resized Image': {
     fr: 'Télécharger l\'image redimensionnée',

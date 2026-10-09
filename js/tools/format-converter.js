@@ -1,13 +1,17 @@
 /**
  * ZamTools - Image Format Converter Logic
- * Matrix converter between JPG, PNG, and WebP with batch processing
+ * Matrix converter between JPG, PNG, and WebP with multi-image batch queue and ZIP export
  */
 
 document.addEventListener('DOMContentLoaded', () => {
   const dropzone = document.getElementById('dropzone');
   const fileInput = document.getElementById('fileInput');
+  const addMoreBtn = document.getElementById('addMoreBtn');
+  const addFileInput = document.getElementById('addFileInput');
   const workspaceActive = document.getElementById('workspaceActive');
   const resetBtn = document.getElementById('resetBtn');
+  const batchQueueContainer = document.getElementById('batchQueueContainer');
+  const batchCountBadge = document.getElementById('batchCountBadge');
 
   const formatSelect = document.getElementById('formatSelect');
   const qualitySlider = document.getElementById('qualitySlider');
@@ -19,50 +23,35 @@ document.addEventListener('DOMContentLoaded', () => {
   const detectedFormatEl = document.getElementById('detectedFormat');
   const targetFormatEl = document.getElementById('targetFormat');
 
-  let filesList = [];
-  let currentIdx = 0;
-  let convertedBlobs = [];
+  const convertedCache = new Map();
 
-  window.setupDropZone(dropzone, fileInput, (files) => {
-    const arr = Array.isArray(files) ? files : [files];
-    const valid = arr.filter(f => f.type.startsWith('image/'));
-    if (valid.length === 0) {
-      window.showToast('Please select valid JPG, PNG, or WebP images.', 'error');
-      return;
+  async function convertSingleFile(file, targetMime, quality) {
+    const data = await window.loadImageFromFile(file);
+    const canvas = document.createElement('canvas');
+    canvas.width = data.width;
+    canvas.height = data.height;
+    const ctx = canvas.getContext('2d');
+
+    if (targetMime === 'image/jpeg') {
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, data.width, data.height);
+    } else {
+      ctx.clearRect(0, 0, data.width, data.height);
     }
-    filesList = valid;
-    currentIdx = 0;
-    convertedBlobs = new Array(filesList.length);
-    convertActive();
-  }, { multiple: true });
+    ctx.drawImage(data.img, 0, 0);
 
-  if (qualitySlider && qualityVal) {
-    window.bindRangeSlider(qualitySlider, qualityVal, v => `${v}%`);
-    qualitySlider.addEventListener('change', convertActive);
+    const blob = await window.canvasToBlob(canvas, targetMime, quality);
+    let outExt = 'jpg';
+    if (targetMime === 'image/png') outExt = 'png';
+    if (targetMime === 'image/webp') outExt = 'webp';
+
+    return { blob, ext: outExt };
   }
 
-  formatSelect.addEventListener('change', convertActive);
-
-  if (resetBtn) {
-    resetBtn.addEventListener('click', () => {
-      filesList = [];
-      convertedBlobs = [];
-      workspaceActive.classList.remove('is-active');
-      dropzone.style.display = 'flex';
-      fileInput.value = '';
-    });
-  }
-
-  async function convertActive() {
-    if (filesList.length === 0) return;
-    const file = filesList[currentIdx];
-
+  async function updateActivePreview(file) {
+    if (!file) return;
     try {
       const data = await window.loadImageFromFile(file);
-      dropzone.style.display = 'none';
-      workspaceActive.classList.add('is-active');
-      fileInfoName.textContent = `${file.name} (${window.formatBytes(file.size)})`;
-
       const inExt = file.name.split('.').pop().toUpperCase();
       detectedFormatEl.textContent = inExt;
 
@@ -71,10 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (targetMime === 'image/png') outExt = 'PNG';
       if (targetMime === 'image/webp') outExt = 'WEBP';
       targetFormatEl.textContent = outExt;
-
-      if (downloadAllBtn) {
-        downloadAllBtn.style.display = filesList.length > 1 ? 'inline-flex' : 'none';
-      }
 
       previewCanvas.width = data.width;
       previewCanvas.height = data.height;
@@ -90,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const quality = parseInt(qualitySlider.value, 10) / 100;
       const blob = await window.canvasToBlob(previewCanvas, targetMime, quality);
-      convertedBlobs[currentIdx] = blob;
+      convertedCache.set(file, { blob, ext: outExt.toLowerCase() });
 
       downloadBtn.onclick = () => {
         const outName = window.formatDownloadFilename(file.name, outExt.toLowerCase());
@@ -101,22 +86,76 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  if (downloadAllBtn) {
-    downloadAllBtn.addEventListener('click', async () => {
-      window.showToast(`Converting and downloading ${filesList.length} files...`, 'info');
-      for (let i = 0; i < filesList.length; i++) {
-        if (!convertedBlobs[i]) {
-          currentIdx = i;
-          await convertActive();
+  // Setup Batch Manager
+  const batchMgr = window.setupBatchQueueManager({
+    dropzoneEl: dropzone,
+    fileInputEl: fileInput,
+    addMoreBtn: addMoreBtn,
+    addFileInput: addFileInput,
+    workspaceActive: workspaceActive,
+    queueContainer: batchQueueContainer,
+    countBadge: batchCountBadge,
+    fileInfoName: fileInfoName,
+    downloadBtn: downloadBtn,
+    downloadAllBtn: downloadAllBtn,
+    singleDownloadLabel: 'Download Converted File',
+    batchZipLabel: 'Download All as ZIP',
+    filterFn: (f) => f.type && f.type.startsWith('image/'),
+    onSelectImage: async (file) => {
+      await updateActivePreview(file);
+    },
+    onProcessAll: async (allFiles) => {
+      const targetMime = formatSelect.value;
+      const quality = parseInt(qualitySlider.value, 10) / 100;
+      const outputs = [];
+
+      for (let i = 0; i < allFiles.length; i++) {
+        const f = allFiles[i];
+        let res = convertedCache.get(f);
+        if (!res) {
+          res = await convertSingleFile(f, targetMime, quality);
+          convertedCache.set(f, res);
         }
-        const targetMime = formatSelect.value;
-        let ext = 'jpg';
-        if (targetMime === 'image/png') ext = 'png';
-        if (targetMime === 'image/webp') ext = 'webp';
-        const outName = window.formatDownloadFilename(filesList[i].name, ext);
-        window.downloadBlob(convertedBlobs[i], outName);
-        await new Promise(r => setTimeout(r, 400));
+        const outName = window.formatDownloadFilename(f.name, res.ext);
+        outputs.push({ name: outName, blob: res.blob });
       }
+      return outputs;
+    },
+    onClearAll: () => {
+      convertedCache.clear();
+      detectedFormatEl.textContent = 'JPG';
+      targetFormatEl.textContent = 'WEBP';
+    }
+  });
+
+  if (downloadAllBtn) {
+    downloadAllBtn.dataset.zipName = 'zamtools-converted-images.zip';
+  }
+
+  window.setupDropZone(dropzone, fileInput, (files) => {
+    batchMgr.addFiles(files);
+  }, { multiple: true });
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      batchMgr.clearAll();
+    });
+  }
+
+  if (qualitySlider && qualityVal) {
+    window.bindRangeSlider(qualitySlider, qualityVal, v => `${v}%`);
+    qualitySlider.addEventListener('change', () => {
+      convertedCache.clear();
+      const curr = batchMgr.getCurrentFile();
+      if (curr) updateActivePreview(curr);
+    });
+  }
+
+  if (formatSelect) {
+    formatSelect.addEventListener('change', () => {
+      convertedCache.clear();
+      const curr = batchMgr.getCurrentFile();
+      if (curr) updateActivePreview(curr);
     });
   }
 });

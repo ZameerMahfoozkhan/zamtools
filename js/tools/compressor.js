@@ -1,19 +1,24 @@
 /**
  * ZamTools - Image Compressor Logic
- * Fully client-side image compression with quality controls and side-by-side comparison
+ * Fully client-side image compression with quality controls and batch ZIP download
  */
 
 document.addEventListener('DOMContentLoaded', () => {
   const dropzone = document.getElementById('dropzone');
   const fileInput = document.getElementById('fileInput');
+  const addMoreBtn = document.getElementById('addMoreBtn');
+  const addFileInput = document.getElementById('addFileInput');
   const workspaceActive = document.getElementById('workspaceActive');
   const resetBtn = document.getElementById('resetBtn');
+  const batchQueueContainer = document.getElementById('batchQueueContainer');
+  const batchCountBadge = document.getElementById('batchCountBadge');
+
   const qualitySlider = document.getElementById('qualitySlider');
   const qualityVal = document.getElementById('qualityVal');
   const formatSelect = document.getElementById('formatSelect');
   const downloadBtn = document.getElementById('downloadBtn');
   const downloadAllBtn = document.getElementById('downloadAllBtn');
-  
+
   const originalSizeEl = document.getElementById('originalSize');
   const compressedSizeEl = document.getElementById('compressedSize');
   const savedPercentEl = document.getElementById('savedPercent');
@@ -21,64 +26,47 @@ document.addEventListener('DOMContentLoaded', () => {
   const compressedPreviewImg = document.getElementById('compressedPreviewImg');
   const fileInfoName = document.getElementById('fileInfoName');
 
-  let loadedFiles = [];
-  let currentFileIndex = 0;
-  let compressedBlobs = [];
+  const compressedCache = new Map();
 
-  // Setup Dropzone
-  window.setupDropZone(dropzone, fileInput, (files) => {
-    const list = Array.isArray(files) ? files : [files];
-    const imageFiles = list.filter(f => f.type.startsWith('image/'));
-    if (imageFiles.length === 0) {
-      window.showToast('Please select valid JPG, PNG, or WebP images.', 'error');
-      return;
-    }
-    loadedFiles = imageFiles;
-    currentFileIndex = 0;
-    compressedBlobs = new Array(loadedFiles.length);
-    loadActiveImage();
-  }, { multiple: true });
-
-  // Slider change
-  if (qualitySlider && qualityVal) {
-    window.bindRangeSlider(qualitySlider, qualityVal, val => `${val}%`);
-    qualitySlider.addEventListener('change', () => compressCurrentImage());
-  }
-
-  if (formatSelect) {
-    formatSelect.addEventListener('change', () => compressCurrentImage());
-  }
-
-  // Reset
-  if (resetBtn) {
-    resetBtn.addEventListener('click', () => {
-      loadedFiles = [];
-      compressedBlobs = [];
-      workspaceActive.classList.remove('is-active');
-      dropzone.style.display = 'flex';
-      fileInput.value = '';
-    });
-  }
-
-  async function loadActiveImage() {
-    if (loadedFiles.length === 0) return;
-    const current = loadedFiles[currentFileIndex];
+  async function updateActivePreview(file) {
+    if (!file) return;
     try {
-      const data = await window.loadImageFromFile(current);
-      dropzone.style.display = 'none';
-      workspaceActive.classList.add('is-active');
-      
-      fileInfoName.textContent = `${current.name} (${window.formatBytes(current.size)})`;
-      originalSizeEl.textContent = window.formatBytes(current.size);
+      const data = await window.loadImageFromFile(file);
+      originalSizeEl.textContent = window.formatBytes(file.size);
       originalPreviewImg.src = data.objectUrl;
 
-      if (downloadAllBtn) {
-        downloadAllBtn.style.display = loadedFiles.length > 1 ? 'inline-flex' : 'none';
-      }
-
-      await compressCurrentImage();
+      await compressActiveImage(file);
     } catch (err) {
       window.showToast(err.message, 'error');
+    }
+  }
+
+  async function compressActiveImage(file) {
+    if (!file) return;
+    const quality = parseInt(qualitySlider.value, 10) / 100;
+    const formatSetting = formatSelect.value;
+    try {
+      const result = await compressImageSmart(file, quality, formatSetting);
+      compressedCache.set(file, result);
+
+      compressedPreviewImg.src = URL.createObjectURL(result.blob);
+      compressedSizeEl.textContent = window.formatBytes(result.blob.size);
+
+      const saved = window.calculatePercentageSaved(file.size, result.blob.size);
+      if (result.blob.size < file.size) {
+        savedPercentEl.textContent = `-${Math.max(1, saved)}%`;
+        savedPercentEl.className = 'stat-value highlight-success';
+      } else {
+        savedPercentEl.textContent = '0%';
+        savedPercentEl.className = 'stat-value';
+      }
+
+      downloadBtn.onclick = () => {
+        const outName = window.formatDownloadFilename(file.name, result.ext, '-compressed');
+        window.downloadBlob(result.blob, outName);
+      };
+    } catch (err) {
+      window.showToast('Compression error: ' + err.message, 'error');
     }
   }
 
@@ -107,11 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let bestBlob = null;
 
     if (targetMime === 'image/jpeg' || targetMime === 'image/webp') {
-      // JPEG or WebP compression
       let q = quality;
       let scale = 1.0;
 
-      // Iterative adaptive search to ensure compressed output is genuinely smaller than original
       for (let iter = 0; iter < 6; iter++) {
         const canvas = document.createElement('canvas');
         const w = Math.max(16, Math.round(data.width * scale));
@@ -138,7 +124,6 @@ document.addEventListener('DOMContentLoaded', () => {
           break;
         }
 
-        // If not smaller, adaptively reduce quality, then downscale if needed
         if (q > 0.25) {
           q = Math.max(0.12, q - 0.15);
         } else {
@@ -146,7 +131,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     } else {
-      // PNG compression with smart palette/color quantization and adaptive scaling
       let q = quality;
       let scale = 1.0;
 
@@ -161,7 +145,6 @@ document.addEventListener('DOMContentLoaded', () => {
         ctx.imageSmoothingQuality = 'high';
         ctx.drawImage(data.img, 0, 0, w, h);
 
-        // Quantize colors for PNG Deflate optimization
         const step = Math.max(2, Math.round((1 - q) * 36) + (iter * 4));
         const imgData = ctx.getImageData(0, 0, w, h);
         const d = imgData.data;
@@ -182,7 +165,6 @@ document.addEventListener('DOMContentLoaded', () => {
           break;
         }
 
-        // Scale dimensions down slightly and increase quantization if still larger
         scale *= 0.88;
         q = Math.max(0.15, q - 0.15);
       }
@@ -191,54 +173,79 @@ document.addEventListener('DOMContentLoaded', () => {
     return { blob: bestBlob, ext, mime: targetMime };
   }
 
-  async function compressCurrentImage() {
-    if (loadedFiles.length === 0) return;
-    const current = loadedFiles[currentFileIndex];
-    const quality = parseInt(qualitySlider.value, 10) / 100;
-    const formatSetting = formatSelect.value;
+  // Setup Batch Manager
+  const batchMgr = window.setupBatchQueueManager({
+    dropzoneEl: dropzone,
+    fileInputEl: fileInput,
+    addMoreBtn: addMoreBtn,
+    addFileInput: addFileInput,
+    workspaceActive: workspaceActive,
+    queueContainer: batchQueueContainer,
+    countBadge: batchCountBadge,
+    fileInfoName: fileInfoName,
+    downloadBtn: downloadBtn,
+    downloadAllBtn: downloadAllBtn,
+    singleDownloadLabel: 'Download Compressed Image',
+    batchZipLabel: 'Download All as ZIP',
+    filterFn: (f) => f.type && f.type.startsWith('image/'),
+    onSelectImage: async (file) => {
+      await updateActivePreview(file);
+    },
+    onProcessAll: async (allFiles) => {
+      const quality = parseInt(qualitySlider.value, 10) / 100;
+      const formatSetting = formatSelect.value;
+      const outputs = [];
 
-    try {
-      const result = await compressImageSmart(current, quality, formatSetting);
-      const blob = result.blob;
-      const ext = result.ext;
-
-      compressedBlobs[currentFileIndex] = blob;
-
-      const compUrl = URL.createObjectURL(blob);
-      compressedPreviewImg.src = compUrl;
-      compressedSizeEl.textContent = window.formatBytes(blob.size);
-
-      const saved = window.calculatePercentageSaved(current.size, blob.size);
-      if (blob.size < current.size) {
-        savedPercentEl.textContent = `-${Math.max(1, saved)}%`;
-        savedPercentEl.className = 'stat-value highlight-success';
-      } else {
-        savedPercentEl.textContent = '0%';
-        savedPercentEl.className = 'stat-value';
+      for (let i = 0; i < allFiles.length; i++) {
+        const file = allFiles[i];
+        let res = compressedCache.get(file);
+        if (!res) {
+          res = await compressImageSmart(file, quality, formatSetting);
+          compressedCache.set(file, res);
+        }
+        const outName = window.formatDownloadFilename(file.name, res.ext, '-compressed');
+        outputs.push({ name: outName, blob: res.blob });
       }
-
-      // Update download single button
-      downloadBtn.onclick = () => {
-        const outName = window.formatDownloadFilename(current.name, ext, '-compressed');
-        window.downloadBlob(blob, outName);
-      };
-    } catch (err) {
-      window.showToast('Compression error: ' + err.message, 'error');
+      return outputs;
+    },
+    onClearAll: () => {
+      compressedCache.clear();
+      originalPreviewImg.src = '';
+      compressedPreviewImg.src = '';
+      originalSizeEl.textContent = '0 KB';
+      compressedSizeEl.textContent = '0 KB';
+      savedPercentEl.textContent = '0%';
     }
+  });
+
+  if (downloadAllBtn) {
+    downloadAllBtn.dataset.zipName = 'zamtools-compressed-images.zip';
   }
 
-  // Batch download handler
-  if (downloadAllBtn) {
-    downloadAllBtn.addEventListener('click', async () => {
-      window.showToast(`Downloading all ${loadedFiles.length} images...`, 'info');
-      for (let i = 0; i < loadedFiles.length; i++) {
-        const file = loadedFiles[i];
-        const quality = parseInt(qualitySlider.value, 10) / 100;
-        const res = await compressImageSmart(file, quality, formatSelect.value);
-        const outName = window.formatDownloadFilename(file.name, res.ext, '-compressed');
-        window.downloadBlob(res.blob, outName);
-        await new Promise(r => setTimeout(r, 400));
-      }
+  window.setupDropZone(dropzone, fileInput, (files) => {
+    batchMgr.addFiles(files);
+  }, { multiple: true });
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      batchMgr.clearAll();
+    });
+  }
+
+  if (qualitySlider && qualityVal) {
+    window.bindRangeSlider(qualitySlider, qualityVal, val => `${val}%`);
+    qualitySlider.addEventListener('change', () => {
+      compressedCache.clear();
+      const current = batchMgr.getCurrentFile();
+      if (current) compressActiveImage(current);
+    });
+  }
+
+  if (formatSelect) {
+    formatSelect.addEventListener('change', () => {
+      compressedCache.clear();
+      const current = batchMgr.getCurrentFile();
+      if (current) compressActiveImage(current);
     });
   }
 });
