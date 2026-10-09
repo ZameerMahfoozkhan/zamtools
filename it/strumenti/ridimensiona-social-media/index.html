@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop an image here to format for social media</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP</div>
+          <div class="upload-dropzone-title">Trascina qui un'immagine per i social media</div>
+          <div class="upload-dropzone-subtitle">JPG, PNG o WebP</div>
           <button type="button" class="btn btn-primary">Scegli immagine</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
         </div>
@@ -286,22 +286,22 @@
               <div class="control-group">
                 <label for="presetSelect" class="control-label">Modello piattaforma</label>
                 <select id="presetSelect" class="form-select">
-                  <option value="ig-square">Instagram Square (1080 × 1080 px)</option>
-                  <option value="ig-portrait">Instagram Portrait (1080 × 1350 px)</option>
+                  <option value="ig-square">Instagram quadrato (1080 × 1080 px)</option>
+                  <option value="ig-portrait">Instagram ritratto (1080 × 1350 px)</option>
                   <option value="ig-story">Instagram Story / Reel (1080 × 1920 px)</option>
-                  <option value="fb-post">Facebook Post (1200 × 630 px)</option>
-                  <option value="fb-cover">Facebook Cover (820 × 312 px)</option>
-                  <option value="yt-thumb">YouTube Thumbnail (1280 × 720 px)</option>
-                  <option value="li-post">LinkedIn Post (1200 × 627 px)</option>
-                  <option value="x-post">X (Twitter) Post (1200 × 675 px)</option>
+                  <option value="fb-post">Post Facebook (1200 × 630 px)</option>
+                  <option value="fb-cover">Copertina Facebook (820 × 312 px)</option>
+                  <option value="yt-thumb">Miniatura YouTube (1280 × 720 px)</option>
+                  <option value="li-post">Post LinkedIn (1200 × 627 px)</option>
+                  <option value="x-post">Post X (Twitter) (1200 × 675 px)</option>
                 </select>
               </div>
 
               <div class="control-group">
                 <label for="modeSelect" class="control-label">Modalità inquadratura</label>
                 <select id="modeSelect" class="form-select">
-                  <option value="fill">Fill (Crop center to fill canvas)</option>
-                  <option value="fit">Fit (Contain whole image with padding)</option>
+                  <option value="fill">Riempi (ritaglia il centro per riempire la tela)</option>
+                  <option value="fit">Adatta (contieni l'intera immagine con margini)</option>
                 </select>
               </div>
 
@@ -379,33 +379,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Tutti i principali social</h4>
-            <p></p>
+            <p class="feature-box-desc">Formati sempre aggiornati per Instagram, YouTube, Facebook, LinkedIn, TikTok e X.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Guide di sicurezza</h4>
-            <p></p>
+            <p class="feature-box-desc">Evita che pulsanti o elementi dell&#039;app coprano loghi o testi del tuo post.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/><polyline points="14 16 16 18 20 14"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Nessuna perdita di nitidezza</h4>
-            <p></p>
+            <p class="feature-box-desc">Risoluzioni native ad alta densità per prevenire compressioni sgranate da parte delle piattaforme.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Produttività immediata</h4>
-            <p></p>
+            <p class="feature-box-desc">Adatta la grafica di una campagna a tutti i tuoi canali in pochi minuti.</p>
           </div>
           </div>
         </div>
@@ -456,46 +468,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/it/strumenti/ridimensiona-immagine/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Ridimensiona</span>
-          </div>
-          <h3 class="tool-card-title">Ridimensiona immagini</h3>
-          <p class="tool-card-desc">Modifica la risoluzione delle tue foto impostando larghezza e altezza in pixel, percentuali o formati standard. Blocca le proporzioni per evitare deformazioni e scarica subito l&#039;immagine con elaborazione locale.</p>
-          <div class="tool-card-footer">
-            <span>Apri strumento →</span>
-          </div>
-        </a>
-        <a href="/it/strumenti/ritaglia-immagine/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Modifica</span>
-          </div>
-          <h3 class="tool-card-title">Ritaglia immagini</h3>
-          <p class="tool-card-desc">Inquadra e ritaglia le tue foto con precisione grazie all&#039;area di selezione interattiva. Blocca proporzioni standard come quadrato 1:1, 4:3, 16:9 panoramico o ritaglia a mano libera per evidenziare il soggetto principale.</p>
-          <div class="tool-card-footer">
-            <span>Apri strumento →</span>
-          </div>
-        </a>
-        <a href="/it/strumenti/generatore-meme/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Crea</span>
-          </div>
-          <h3 class="tool-card-title">Generatore di meme</h3>
-          <p class="tool-card-desc">Crea meme virali in pochi istanti con la classica scritta sopra e sotto. Personalizza dimensioni del testo, contorno nero e scarica i tuoi meme pronti da condividere sui social senza alcuna filigrana pubblicitaria.</p>
-          <div class="tool-card-footer">
-            <span>Apri strumento →</span>
-          </div>
-        </a>
-        <a href="/it/strumenti/comprimi-immagine/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compressione</span>
-          </div>
-          <h3 class="tool-card-title">Comprimi immagini</h3>
-          <p class="tool-card-desc">Riduci il peso dei tuoi file JPG, PNG e WebP in modo veloce, sicuro e senza perdita di qualità. Regola la qualità con il cursore in tempo reale, confronta il risultato prima e dopo e scarica l&#039;immagine ottimizzata senza caricare file su server remoti.</p>
-          <div class="tool-card-footer">
-            <span>Apri strumento →</span>
-          </div>
-        </a>
+    <a href="/it/strumenti/ridimensiona-immagine/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Ridimensiona immagini - Ridimensiona">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Ridimensiona</span>
+          <span class="tool-badge-feature">Proporzioni</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Ridimensiona immagini</h3>
+      <p class="tool-card-desc">Modifica la risoluzione delle tue foto impostando larghezza e altezza in pixel, percentuali o formati standard. Blocca le proporzioni per evitare deformazioni e scarica subito l&#39;immagine con elaborazione locale.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Exact Pixels / %</span>
+        <span class="tool-meta-privacy" title="100% locale nella RAM del browser. Zero caricamenti.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Locale
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Apri strumento</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/it/strumenti/ritaglia-immagine/" class="tool-card tool-card-editing" data-category="editing" aria-label="Ritaglia immagini - Modifica">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Modifica</span>
+          <span class="tool-badge-feature">1:1 • 16:9 • Libero</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Ritaglia immagini</h3>
+      <p class="tool-card-desc">Inquadra e ritaglia le tue foto con precisione grazie all&#39;area di selezione interattiva. Blocca proporzioni standard come quadrato 1:1, 4:3, 16:9 panoramico o ritaglia a mano libera per evidenziare il soggetto principale.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% locale nella RAM del browser. Zero caricamenti.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Locale
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Apri strumento</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/it/strumenti/generatore-meme/" class="tool-card tool-card-editing" data-category="editing" aria-label="Generatore di meme - Crea">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Crea</span>
+          <span class="tool-badge-feature">Testo regolabile</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Generatore di meme</h3>
+      <p class="tool-card-desc">Crea meme virali in pochi istanti con la classica scritta sopra e sotto. Personalizza dimensioni del testo, contorno nero e scarica i tuoi meme pronti da condividere sui social senza alcuna filigrana pubblicitaria.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Impact &amp; Modern Font</span>
+        <span class="tool-meta-privacy" title="100% locale nella RAM del browser. Zero caricamenti.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Locale
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Apri strumento</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/it/strumenti/comprimi-immagine/" class="tool-card tool-card-compression" data-category="compression" aria-label="Comprimi immagini - Compressione">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compressione</span>
+          <span class="tool-badge-feature">Fino a -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Comprimi immagini</h3>
+      <p class="tool-card-desc">Riduci il peso dei tuoi file JPG, PNG e WebP in modo veloce, sicuro e senza perdita di qualità. Regola la qualità con il cursore in tempo reale, confronta il risultato prima e dopo e scarica l&#39;immagine ottimizzata senza caricare file su server remoti.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% locale nella RAM del browser. Zero caricamenti.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Locale
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Apri strumento</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

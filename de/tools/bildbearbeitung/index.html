@@ -244,56 +244,136 @@
 
       <div class="tools-grid" style="margin-bottom: var(--space-16);">
         
-        <a href="/de/tools/bild-zuschneiden/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Bearbeiten</span>
-          </div>
-          <h3 class="tool-card-title">Bild zuschneiden</h3>
-          <p class="tool-card-desc">Wählen Sie Bildausschnitte präzise mit dem interaktiven Auswahlrahmen. Nutzen Sie feste Standard-Seitenverhältnisse wie quadratisch 1:1, 4:3, 16:9 oder schneiden Sie frei nach Belieben zu.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Tool öffnen →</span>
-          </div>
-        </a>
-        <a href="/de/tools/bild-drehen-spiegeln/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Bearbeiten</span>
-          </div>
-          <h3 class="tool-card-title">Bild drehen &amp; spiegeln</h3>
-          <p class="tool-card-desc">Korrigieren Sie versehentlich quer aufgenommene Smartphone-Fotos oder spiegeln Sie Bilder horizontal und vertikal. Drehen Sie Bilder um 90° im oder gegen den Uhrzeigersinn ohne Schärfeverlust.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Tool öffnen →</span>
-          </div>
-        </a>
-        <a href="/de/tools/bild-graustufen/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Bearbeiten</span>
-          </div>
-          <h3 class="tool-card-title">Bild in Graustufen umwandeln</h3>
-          <p class="tool-card-desc">Verwandeln Sie Farbfotografien in zeitlose Schwarz-Weiß-Aufnahmen. Nutzt die fotometrische ITU-R BT.709 Luminanz-Formel für natürliche Graustufen und ausgewogene Kontraste.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Tool öffnen →</span>
-          </div>
-        </a>
-        <a href="/de/tools/helligkeit-kontrast/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Bearbeiten</span>
-          </div>
-          <h3 class="tool-card-title">Helligkeit &amp; Kontrast anpassen</h3>
-          <p class="tool-card-desc">Hellen Sie unterbelichtete Fotos auf, optimieren Sie Schatten und verleihen Sie Farben neue Frische mit präzisen Schiebereglern. Betrachten Sie Änderungen in Echtzeit und laden Sie korrigierte Bilder ohne schwere Software herunter.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Tool öffnen →</span>
-          </div>
-        </a>
-        <a href="/de/tools/bild-unschaerfe-schaerfen/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Bearbeiten</span>
-          </div>
-          <h3 class="tool-card-title">Bild weichzeichnen &amp; schärfen</h3>
-          <p class="tool-card-desc">Wenden Sie einen weichen Gaußschen Unschärfeeffekt an, um störende Hintergründe abzumildern, oder verstärken Sie Kantenkontraste mit einer präzisen Faltungsmatrix. Schnell, interaktiv und privat im Browser.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Tool öffnen →</span>
-          </div>
-        </a>
+    <a href="/de/tools/bild-zuschneiden/" class="tool-card tool-card-editing" data-category="editing" aria-label="Bild zuschneiden - Bearbeiten">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Bearbeiten</span>
+          <span class="tool-badge-feature">1:1 • 16:9 • Frei</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Bild zuschneiden</h3>
+      <p class="tool-card-desc">Wählen Sie Bildausschnitte präzise mit dem interaktiven Auswahlrahmen. Nutzen Sie feste Standard-Seitenverhältnisse wie quadratisch 1:1, 4:3, 16:9 oder schneiden Sie frei nach Belieben zu.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/de/tools/bild-drehen-spiegeln/" class="tool-card tool-card-editing" data-category="editing" aria-label="Bild drehen &amp; spiegeln - Bearbeiten">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Bearbeiten</span>
+          <span class="tool-badge-feature">Drehen &amp; Spiegeln</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Bild drehen &amp; spiegeln</h3>
+      <p class="tool-card-desc">Korrigieren Sie versehentlich quer aufgenommene Smartphone-Fotos oder spiegeln Sie Bilder horizontal und vertikal. Drehen Sie Bilder um 90° im oder gegen den Uhrzeigersinn ohne Schärfeverlust.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Zero Quality Loss</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/de/tools/bild-graustufen/" class="tool-card tool-card-color" data-category="color" aria-label="Bild in Graustufen umwandeln - Bearbeiten">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Bearbeiten</span>
+          <span class="tool-badge-feature">Luminanz-Algorithmus</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Bild in Graustufen umwandeln</h3>
+      <p class="tool-card-desc">Verwandeln Sie Farbfotografien in zeitlose Schwarz-Weiß-Aufnahmen. Nutzt die fotometrische ITU-R BT.709 Luminanz-Formel für natürliche Graustufen und ausgewogene Kontraste.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Bicubic Grayscale</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/de/tools/helligkeit-kontrast/" class="tool-card tool-card-color" data-category="color" aria-label="Helligkeit &amp; Kontrast anpassen - Bearbeiten">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Bearbeiten</span>
+          <span class="tool-badge-feature">Licht &amp; Sättigung</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Helligkeit &amp; Kontrast anpassen</h3>
+      <p class="tool-card-desc">Hellen Sie unterbelichtete Fotos auf, optimieren Sie Schatten und verleihen Sie Farben neue Frische mit präzisen Schiebereglern. Betrachten Sie Änderungen in Echtzeit und laden Sie korrigierte Bilder ohne schwere Software herunter.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Live Canvas Preview</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/de/tools/bild-unschaerfe-schaerfen/" class="tool-card tool-card-editing" data-category="editing" aria-label="Bild weichzeichnen &amp; schärfen - Bearbeiten">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Bearbeiten</span>
+          <span class="tool-badge-feature">Schärfe &amp; Unschärfe</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Bild weichzeichnen &amp; schärfen</h3>
+      <p class="tool-card-desc">Wenden Sie einen weichen Gaußschen Unschärfeeffekt an, um störende Hintergründe abzumildern, oder verstärken Sie Kantenkontraste mit einer präzisen Faltungsmatrix. Schnell, interaktiv und privat im Browser.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Gaussian &amp; Sharpen</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
       </div>
 
       <div class="editorial-wrapper" style="margin-bottom: var(--space-12);">
@@ -307,17 +387,35 @@
       </div>
       <div class="features-grid" style="margin-bottom: var(--space-16);">
         
-        <div class="feature-box">
+        <div class="feature-box" data-tone="blue">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <span class="feature-box-index">#01</span>
+          </div>
           <h4>Interaktive Canvas-Steuerung</h4>
-          <p>Verschiebbare Zuschnittsrahmen, stufenlose Schieberegler und sofortige Voransicht.</p>
+          <p class="feature-box-desc">Verschiebbare Zuschnittsrahmen, stufenlose Schieberegler und sofortige Voransicht.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box" data-tone="purple">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <span class="feature-box-index">#02</span>
+          </div>
           <h4>Hochwertige Ausgabe</h4>
-          <p>Exportieren Sie optimierte Bilddateien direkt aus dem lokalen Arbeitsspeicher.</p>
+          <p class="feature-box-desc">Exportieren Sie optimierte Bilddateien direkt aus dem lokalen Arbeitsspeicher.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box" data-tone="emerald">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="emerald">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="12" y1="3" x2="12" y2="21"/><polyline points="8 10 5 12 8 14"/><polyline points="16 10 19 12 16 14"/></svg>
+            </div>
+            <span class="feature-box-index">#03</span>
+          </div>
           <h4>Ohne Installation oder Anmeldung</h4>
-          <p>Starten Sie sofort mit der Bildbearbeitung ohne Downloads oder Benutzerkonten.</p>
+          <p class="feature-box-desc">Starten Sie sofort mit der Bildbearbeitung ohne Downloads oder Benutzerkonten.</p>
         </div>
       </div>
 

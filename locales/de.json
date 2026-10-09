@@ -23,7 +23,8 @@
     "title": "Ziehen Sie Ihr Bild hierher",
     "subtitle": "oder klicken Sie, um eine Datei von Ihrem Gerät auszuwählen",
     "button": "Bild auswählen",
-    "supported": "Unterstützte Formate:"
+    "supported": "Unterstützte Formate:",
+    "supports": "Unterstützt:"
   },
   "controls": {
     "changeImage": "Anderes Bild wählen",

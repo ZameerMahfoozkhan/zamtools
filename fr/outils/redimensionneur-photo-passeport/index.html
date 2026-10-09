@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop your portrait photo here</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP</div>
+          <div class="upload-dropzone-title">Déposez votre photo d'identité ici</div>
+          <div class="upload-dropzone-subtitle">JPG, PNG ou WebP</div>
           <button type="button" class="btn btn-primary">Choisir une photo</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
         </div>
@@ -290,7 +290,7 @@
                   <option value="us">United States (2 × 2 in / 51 × 51 mm)</option>
                   <option value="in">India (35 × 45 mm)</option>
                   <option value="ca">Canada (50 × 70 mm)</option>
-                  <option value="custom">Custom Dimensions</option>
+                  <option value="custom">Dimensions personnalisées</option>
                 </select>
               </div>
 
@@ -395,33 +395,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-6-6a1 1 0 0 1 0-1.4L13.9 1.3a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1 0 1.4z"/><line x1="14.5" y1="6.5" x2="12.5" y2="8.5"/><line x1="10.5" y1="10.5" x2="8.5" y2="12.5"/><line x1="6.5" y1="14.5" x2="4.5" y2="16.5"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Normes officielles 35x45 mm</h4>
-            <p></p>
+            <p class="feature-box-desc">Parfaitement adapté aux demandes de passeport, carte d&#039;identité et permis de conduire français.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="11" rx="5" ry="7"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Guide biométrique ovalaire</h4>
-            <p></p>
+            <p class="feature-box-desc">Permet de vérifier que le visage occupe bien les 70 % à 80 % requis par l&#039;administration.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Planche d&#039;impression 10x15 cm</h4>
-            <p></p>
+            <p class="feature-box-desc">Générez une planche de 4 ou 6 photos à imprimer pour quelques centimes en borne photo.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Confidentialité biométrique totale</h4>
-            <p></p>
+            <p class="feature-box-desc">Votre visage ne quitte jamais votre appareil. Traitement 100 % local et sécurisé.</p>
           </div>
           </div>
         </div>
@@ -472,46 +484,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/fr/outils/recadrer-image/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Retouche</span>
-          </div>
-          <h3 class="tool-card-title">Recadrer une image</h3>
-          <p class="tool-card-desc">Cadrez et rognez vos photos avec précision grâce à notre zone de sélection interactive. Verrouillez des ratios standard (carré 1:1, 4:3, 16:9) ou découpez librement la zone de votre choix en toute simplicité.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/redimensionner-image/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Redimensionnement</span>
-          </div>
-          <h3 class="tool-card-title">Redimensionner une image</h3>
-          <p class="tool-card-desc">Ajustez les dimensions de vos photos en pixels, en pourcentage ou avec des formats prédéfinis. Conservez les proportions d&#039;origine pour éviter toute déformation et téléchargez votre image instantanément.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/image-taille-cible/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compression</span>
-          </div>
-          <h3 class="tool-card-title">Compresser à une taille cible</h3>
-          <p class="tool-card-desc">Vous devez fournir une photo de moins de 50 Ko, 100 Ko ou 200 Ko pour un formulaire officiel ou une candidature ? Indiquez la taille maximale souhaitée et notre algorithme ajuste automatiquement la qualité optimale.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/compresseur-image/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compression</span>
-          </div>
-          <h3 class="tool-card-title">Compresseur d&#039;image</h3>
-          <p class="tool-card-desc">Réduisez la taille de vos fichiers JPG, PNG et WebP rapidement et sans perte visuelle. Ajustez la qualité de compression en direct avec le curseur, visualisez le résultat avant/après et téléchargez vos images sans aucun transfert sur serveur.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
+    <a href="/fr/outils/recadrer-image/" class="tool-card tool-card-editing" data-category="editing" aria-label="Recadrer une image - Retouche">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Retouche</span>
+          <span class="tool-badge-feature">1:1 • 16:9 • Libre</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Recadrer une image</h3>
+      <p class="tool-card-desc">Cadrez et rognez vos photos avec précision grâce à notre zone de sélection interactive. Verrouillez des ratios standard (carré 1:1, 4:3, 16:9) ou découpez librement la zone de votre choix en toute simplicité.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/redimensionner-image/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Redimensionner une image - Redimensionnement">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Redimensionnement</span>
+          <span class="tool-badge-feature">Proportions</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Redimensionner une image</h3>
+      <p class="tool-card-desc">Ajustez les dimensions de vos photos en pixels, en pourcentage ou avec des formats prédéfinis. Conservez les proportions d&#39;origine pour éviter toute déformation et téléchargez votre image instantanément.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Exact Pixels / %</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/image-taille-cible/" class="tool-card tool-card-compression" data-category="compression" aria-label="Compresser à une taille cible - Compression">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compression</span>
+          <span class="tool-badge-feature">Taille KB exacte</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Compresser à une taille cible</h3>
+      <p class="tool-card-desc">Vous devez fournir une photo de moins de 50 Ko, 100 Ko ou 200 Ko pour un formulaire officiel ou une candidature ? Indiquez la taille maximale souhaitée et notre algorithme ajuste automatiquement la qualité optimale.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">50KB • 100KB • 1MB</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/compresseur-image/" class="tool-card tool-card-compression" data-category="compression" aria-label="Compresseur d&#39;image - Compression">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compression</span>
+          <span class="tool-badge-feature">Jusqu&#39;à -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Compresseur d&#39;image</h3>
+      <p class="tool-card-desc">Réduisez la taille de vos fichiers JPG, PNG et WebP rapidement et sans perte visuelle. Ajustez la qualité de compression en direct avec le curseur, visualisez le résultat avant/après et téléchargez vos images sans aucun transfert sur serveur.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

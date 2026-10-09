@@ -23,7 +23,8 @@
     "title": "Arrastra tu imagen aquí",
     "subtitle": "o haz clic para buscar fotos en tu dispositivo",
     "button": "Seleccionar imagen",
-    "supported": "Formatos compatibles:"
+    "supported": "Formatos compatibles:",
+    "supports": "Formatos compatibles:"
   },
   "controls": {
     "changeImage": "Cambiar imagen",

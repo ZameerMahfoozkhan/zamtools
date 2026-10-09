@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zamtools.online/it/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/"/>
@@ -16,7 +16,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/"/>
@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/comprimi-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-compressor/"/>
@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/ridimensiona-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-resizer/"/>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/immagine-dimensione-target/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-to-target-size/"/>
@@ -72,7 +72,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/ritaglia-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-cropper/"/>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/ruota-capovolgi-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-rotate-flip/"/>
@@ -100,7 +100,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/jpg-in-png/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/jpg-to-png/"/>
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/png-in-jpg/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/png-to-jpg/"/>
@@ -128,7 +128,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/convertitore-webp/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/webp-converter/"/>
@@ -142,7 +142,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/convertitore-formato-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-format-converter/"/>
@@ -156,7 +156,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/immagine-scala-grigi/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/grayscale-image/"/>
@@ -170,7 +170,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/luminosita-contrasto/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/brightness-contrast/"/>
@@ -184,7 +184,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/sfoca-nitidezza-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/blur-sharpen-image/"/>
@@ -198,7 +198,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/selettore-colore-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-color-picker/"/>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/generatore-tavolozza-colori/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/color-palette-generator/"/>
@@ -226,7 +226,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/generatore-favicon/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/favicon-generator/"/>
@@ -240,7 +240,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/immagine-in-base64/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-to-base64/"/>
@@ -254,7 +254,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/base64-in-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/base64-to-image/"/>
@@ -268,7 +268,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/ridimensiona-social-media/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/social-media-image-resizer/"/>
@@ -282,7 +282,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/ridimensiona-foto-passaporto/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/passport-photo-resizer/"/>
@@ -296,7 +296,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/generatore-meme/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/meme-generator/"/>
@@ -310,7 +310,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/compressione-immagini/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-compression/"/>
@@ -324,7 +324,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/ridimensionamento-immagini/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-resizing/"/>
@@ -338,7 +338,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/conversione-immagini/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-conversion/"/>
@@ -352,7 +352,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/strumenti/modifica-immagini/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/tools/image-editing/"/>
@@ -366,7 +366,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/blog/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/"/>
@@ -380,7 +380,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/blog/come-comprimere-unimmagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/how-to-compress-an-image/"/>
@@ -394,7 +394,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/blog/come-ridimensionare-unimmagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/how-to-resize-an-image/"/>
@@ -408,7 +408,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/blog/come-ridurre-dimensione-immagine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/how-to-reduce-image-size/"/>
@@ -422,7 +422,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/blog/jpg-vs-png-vs-webp/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/jpg-vs-png-vs-webp/"/>
@@ -436,7 +436,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/blog/che-cose-webp/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/blog/what-is-webp/"/>
@@ -450,7 +450,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/chi-siamo/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/about/"/>
@@ -464,7 +464,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/contatti/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/contact/"/>
@@ -478,7 +478,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/faq/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/faq/"/>
@@ -492,7 +492,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/privacy-policy/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/privacy-policy/"/>
@@ -506,7 +506,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/termini-di-servizio/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/terms/"/>
@@ -520,7 +520,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/disclaimer/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/disclaimer/"/>
@@ -534,7 +534,7 @@
   </url>
   <url>
     <loc>https://zamtools.online/it/cookie-policy/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://zamtools.online/cookie-policy/"/>

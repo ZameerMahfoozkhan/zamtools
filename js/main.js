@@ -63,4 +63,42 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // 6. Universal Interactive Tactile Feedback & Ripple Effect on Clicks
+  // Gives immediate visual & physical confirmation that user's click was registered
+  document.addEventListener('pointerdown', (e) => {
+    const btn = e.target.closest(
+      '.btn, button, .action-btn, .ratio-btn, .preset-btn, .target-preset-btn, .segmented-btn, .btn-header-search, .lang-btn, .tab-btn, .faq-question'
+    );
+    if (!btn) return;
+
+    // Trigger instant micro-pulse
+    btn.classList.remove('btn-click-pulse');
+    void btn.offsetWidth; // Force reflow
+    btn.classList.add('btn-click-pulse');
+
+    // Create and position material ripple wave
+    const rect = btn.getBoundingClientRect();
+    const size = Math.max(rect.width, rect.height) * 2;
+    const ripple = document.createElement('span');
+    ripple.className = 'zam-ripple';
+
+    const clientX = e.clientX || (rect.left + rect.width / 2);
+    const clientY = e.clientY || (rect.top + rect.height / 2);
+    const x = clientX - rect.left - (size / 2);
+    const y = clientY - rect.top - (size / 2);
+
+    ripple.style.width = size + 'px';
+    ripple.style.height = size + 'px';
+    ripple.style.left = x + 'px';
+    ripple.style.top = y + 'px';
+
+    btn.appendChild(ripple);
+
+    setTimeout(() => {
+      if (ripple.parentNode) {
+        ripple.parentNode.removeChild(ripple);
+      }
+    }, 550);
+  }, { passive: true });
 });

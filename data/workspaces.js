@@ -32,6 +32,150 @@ const WS_STRINGS = {
     pt: 'Arraste sua imagem aqui',
     it: 'Trascina qui la tua immagine'
   },
+  'Drop an image here to resize': {
+    fr: 'Déposez une image ici pour la redimensionner',
+    es: 'Arrastra una imagen aquí para redimensionar',
+    id: 'Tarik gambar ke sini untuk mengubah ukuran',
+    de: 'Bild hierher ziehen zum Skalieren',
+    pt: 'Arraste uma imagem aqui para redimensionar',
+    it: 'Trascina qui un\'immagine da ridimensionare'
+  },
+  'Drop an image here to hit a target size': {
+    fr: 'Déposez une image ici pour atteindre une taille cible',
+    es: 'Arrastra una imagen aquí para alcanzar un tamaño objetivo',
+    id: 'Tarik gambar ke sini untuk mencapai ukuran target',
+    de: 'Bild hierher ziehen für Ziel-Dateigröße',
+    pt: 'Arraste uma imagem aqui para atingir o tamanho alvo',
+    it: 'Trascina qui un\'immagine per raggiungere la dimensione target'
+  },
+  'Drop an image here to crop': {
+    fr: 'Déposez une image ici pour la recadrer',
+    es: 'Arrastra una imagen aquí para recortar',
+    id: 'Tarik gambar ke sini untuk memotong',
+    de: 'Bild hierher ziehen zum Zuschneiden',
+    pt: 'Arraste uma imagem aqui para recortar',
+    it: 'Trascina qui un\'immagine da ritagliare'
+  },
+  'Drop an image here to rotate or flip': {
+    fr: 'Déposez une image ici pour pivoter ou retourner',
+    es: 'Arrastra una imagen aquí para rotar o voltear',
+    id: 'Tarik gambar ke sini untuk memutar atau membalik',
+    de: 'Bild hierher ziehen zum Drehen oder Spiegeln',
+    pt: 'Arraste uma imagem aqui para girar ou inverter',
+    it: 'Trascina qui un\'immagine da ruotare o capovolgere'
+  },
+  'Drop JPG / JPEG images here': {
+    fr: 'Déposez vos images JPG / JPEG ici',
+    es: 'Arrastra imágenes JPG / JPEG aquí',
+    id: 'Tarik gambar JPG / JPEG ke sini',
+    de: 'JPG- / JPEG-Bilder hierher ziehen',
+    pt: 'Arraste imagens JPG / JPEG aqui',
+    it: 'Trascina qui le immagini JPG / JPEG'
+  },
+  'Drop your PNG file here': {
+    fr: 'Déposez votre fichier PNG ici',
+    es: 'Arrastra tu archivo PNG aquí',
+    id: 'Tarik berkas PNG Anda ke sini',
+    de: 'PNG-Datei hierher ziehen',
+    pt: 'Arraste seu arquivo PNG aqui',
+    it: 'Trascina qui il tuo file PNG'
+  },
+  'Drop JPG or PNG images here': {
+    fr: 'Déposez des images JPG ou PNG ici',
+    es: 'Arrastra imágenes JPG o PNG aquí',
+    id: 'Tarik gambar JPG atau PNG ke sini',
+    de: 'JPG- oder PNG-Bilder hierher ziehen',
+    pt: 'Arraste imagens JPG ou PNG aqui',
+    it: 'Trascina qui immagini JPG o PNG'
+  },
+  'Drop images here to convert': {
+    fr: 'Déposez des images ici pour les convertir',
+    es: 'Arrastra imágenes aquí para convertir',
+    id: 'Tarik gambar ke sini untuk konversi',
+    de: 'Bilder hierher ziehen zum Konvertieren',
+    pt: 'Arraste imagens aqui para converter',
+    it: 'Trascina qui le immagini da convertire'
+  },
+  'Drop an image here to convert to grayscale': {
+    fr: 'Déposez une image ici pour la convertir en niveaux de gris',
+    es: 'Arrastra una imagen aquí para convertir a escala de grises',
+    id: 'Tarik gambar ke sini untuk mengubah ke skala abu-abu',
+    de: 'Bild hierher ziehen für Graustufen',
+    pt: 'Arraste uma imagem aqui para converter em escala de cinza',
+    it: 'Trascina qui un\'immagine da convertire in scala di grigi'
+  },
+  'Drop an image here to adjust lighting': {
+    fr: 'Déposez une image ici pour ajuster la lumière',
+    es: 'Arrastra una imagen aquí para ajustar la iluminación',
+    id: 'Tarik gambar ke sini untuk mengatur pencahayaan',
+    de: 'Bild hierher ziehen zum Anpassen der Beleuchtung',
+    pt: 'Arraste uma imagem aqui para ajustar a iluminação',
+    it: 'Trascina qui un\'immagine per regolare la luminosità'
+  },
+  'Drop an image here to blur or sharpen': {
+    fr: 'Déposez une image ici pour flouter ou accentuer',
+    es: 'Arrastra una imagen aquí para desenfocar o enfocar',
+    id: 'Tarik gambar ke sini untuk memburamkan atau mempertajam',
+    de: 'Bild hierher ziehen zum Weich- oder Scharfzeichnen',
+    pt: 'Arraste uma imagem aqui para desfocar ou nitidez',
+    it: 'Trascina qui un\'immagine per sfocare o aumentare la nitidezza'
+  },
+  'Drop an image here to pick colors': {
+    fr: 'Déposez une image ici pour prélever des couleurs',
+    es: 'Arrastra una imagen aquí para seleccionar colores',
+    id: 'Tarik gambar ke sini untuk memilih warna',
+    de: 'Bild hierher ziehen zum Auswählen von Farben',
+    pt: 'Arraste uma imagem aqui para selecionar cores',
+    it: 'Trascina qui un\'immagine per prelevare i colori'
+  },
+  'Drop an image here to extract palette': {
+    fr: 'Déposez une image ici pour extraire une palette',
+    es: 'Arrastra una imagen aquí para extraer paleta',
+    id: 'Tarik gambar ke sini untuk mengekstrak palet',
+    de: 'Bild hierher ziehen zum Extrahieren der Palette',
+    pt: 'Arraste uma imagem aqui para extrair paleta',
+    it: 'Trascina qui un\'immagine per estrarre la tavolozza'
+  },
+  'Drop your logo or icon image here': {
+    fr: 'Déposez votre logo ou icône ici',
+    es: 'Arrastra tu logo o icono aquí',
+    id: 'Tarik gambar logo atau ikon Anda ke sini',
+    de: 'Logo oder Icon hierher ziehen',
+    pt: 'Arraste seu logo ou ícone aqui',
+    it: 'Trascina qui il tuo logo o icona'
+  },
+  'Drop an image here to convert to Base64': {
+    fr: 'Déposez une image ici pour la convertir en Base64',
+    es: 'Arrastra una imagen aquí para convertir a Base64',
+    id: 'Tarik gambar ke sini untuk mengonversi ke Base64',
+    de: 'Bild hierher ziehen zum Konvertieren in Base64',
+    pt: 'Arraste uma imagem aqui para converter em Base64',
+    it: 'Trascina qui un\'immagine da convertire in Base64'
+  },
+  'Drop an image here to format for social media': {
+    fr: 'Déposez une image ici pour adapter aux réseaux sociaux',
+    es: 'Arrastra una imagen aquí para adaptar a redes sociales',
+    id: 'Tarik gambar ke sini untuk menyesuaikan medsos',
+    de: 'Bild hierher ziehen für Social Media',
+    pt: 'Arraste uma imagem aqui para redes sociais',
+    it: 'Trascina qui un\'immagine per i social media'
+  },
+  'Drop your portrait photo here': {
+    fr: 'Déposez votre photo d\'identité ici',
+    es: 'Arrastra tu foto de retrato aquí',
+    id: 'Tarik foto potret Anda ke sini',
+    de: 'Porträtfoto hierher ziehen',
+    pt: 'Arraste sua foto de retrato aqui',
+    it: 'Trascina qui la tua foto ritratto'
+  },
+  'Drop an image here to create a meme': {
+    fr: 'Déposez une image ici pour créer un mème',
+    es: 'Arrastra una imagen aquí para crear un meme',
+    id: 'Tarik gambar ke sini untuk membuat meme',
+    de: 'Bild hierher ziehen, um ein Meme zu erstellen',
+    pt: 'Arraste uma imagem aqui para criar um meme',
+    it: 'Trascina qui un\'immagine per creare un meme'
+  },
   'or click to browse from your computer or phone': {
     fr: 'ou cliquez pour parcourir depuis votre appareil',
     es: 'o haz clic para examinar desde tu equipo o móvil',
@@ -40,6 +184,78 @@ const WS_STRINGS = {
     pt: 'ou clique para selecionar do seu aparelho',
     it: 'o fai clic per sfogliare dal tuo computer o telefono'
   },
+  'or click to browse your files': {
+    fr: 'ou cliquez pour parcourir vos fichiers',
+    es: 'o haz clic para explorar tus archivos',
+    id: 'atau klik untuk memilih berkas Anda',
+    de: 'oder klicken, um Ihre Dateien zu durchsuchen',
+    pt: 'ou clique para navegar pelos seus arquivos',
+    it: 'o fai clic per sfogliare i tuoi file'
+  },
+  'or click to browse': {
+    fr: 'ou cliquez pour parcourir',
+    es: 'o haz clic para explorar',
+    id: 'atau klik untuk memilih',
+    de: 'oder klicken zum Auswählen',
+    pt: 'ou clique para navegar',
+    it: 'o fai clic per sfogliare'
+  },
+  'JPG, PNG, or WebP formats': {
+    fr: 'Formats JPG, PNG ou WebP',
+    es: 'Formatos JPG, PNG o WebP',
+    id: 'Format JPG, PNG, atau WebP',
+    de: 'JPG-, PNG- oder WebP-Formate',
+    pt: 'Formatos JPG, PNG ou WebP',
+    it: 'Formati JPG, PNG o WebP'
+  },
+  'JPG, PNG, or WebP': {
+    fr: 'JPG, PNG ou WebP',
+    es: 'JPG, PNG o WebP',
+    id: 'JPG, PNG, atau WebP',
+    de: 'JPG, PNG oder WebP',
+    pt: 'JPG, PNG ou WebP',
+    it: 'JPG, PNG o WebP'
+  },
+  'Single or multiple files supported': {
+    fr: 'Fichier unique ou fichiers multiples acceptés',
+    es: 'Admite uno o varios archivos',
+    id: 'Mendukung satu atau beberapa berkas',
+    de: 'Einzelne oder mehrere Dateien unterstützt',
+    pt: 'Suporta um ou vários arquivos',
+    it: 'Supporta uno o più file'
+  },
+  'Convert to high-performance WebP': {
+    fr: 'Convertir vers le format haute performance WebP',
+    es: 'Convierte a WebP de alto rendimiento',
+    id: 'Konversi ke WebP berkinerja tinggi',
+    de: 'In hochperformantes WebP konvertieren',
+    pt: 'Converter para WebP de alto desempenho',
+    it: 'Converti in WebP ad alte prestazioni'
+  },
+  'Convert between JPG, PNG, and WebP': {
+    fr: 'Convertir entre JPG, PNG et WebP',
+    es: 'Convierte entre JPG, PNG y WebP',
+    id: 'Konversi antara JPG, PNG, dan WebP',
+    de: 'Zwischen JPG, PNG und WebP konvertieren',
+    pt: 'Converta entre JPG, PNG e WebP',
+    it: 'Converti tra JPG, PNG e WebP'
+  },
+  'PNG, JPG, or WebP (Square images work best)': {
+    fr: 'PNG, JPG ou WebP (images carrées recommandées)',
+    es: 'PNG, JPG o WebP (las imágenes cuadradas funcionan mejor)',
+    id: 'PNG, JPG, atau WebP (gambar persegi berfungsi paling baik)',
+    de: 'PNG, JPG oder WebP (quadratische Bilder funktionieren am besten)',
+    pt: 'PNG, JPG ou WebP (imagens quadradas funcionam melhor)',
+    it: 'PNG, JPG o WebP (le immagini quadrate funzionano meglio)'
+  },
+  'JPG, PNG, WebP, SVG, or GIF': {
+    fr: 'JPG, PNG, WebP, SVG ou GIF',
+    es: 'JPG, PNG, WebP, SVG ou GIF',
+    id: 'JPG, PNG, WebP, SVG, atau GIF',
+    de: 'JPG, PNG, WebP, SVG oder GIF',
+    pt: 'JPG, PNG, WebP, SVG ou GIF',
+    it: 'JPG, PNG, WebP, SVG o GIF'
+  },
   'Supported formats:': {
     fr: 'Formats pris en charge :',
     es: 'Formatos compatibles:',
@@ -47,6 +263,14 @@ const WS_STRINGS = {
     de: 'Unterstützte Formate:',
     pt: 'Formatos suportados:',
     it: 'Formati supportati:'
+  },
+  'Supports:': {
+    fr: 'Formats supportés :',
+    es: 'Formatos compatibles:',
+    id: 'Mendukung:',
+    de: 'Unterstützt:',
+    pt: 'Suporta:',
+    it: 'Supporta:'
   },
   'Choose Image': {
     fr: 'Choisir une image',
@@ -901,6 +1125,520 @@ const WS_STRINGS = {
     de: 'Automatische Großbuchstaben',
     pt: 'Maiúsculas automáticas',
     it: 'Maiuscole automatiche'
+  },
+
+  // Additional Controls & Options
+  'Custom Dimensions': {
+    fr: 'Dimensions personnalisées',
+    es: 'Dimensiones personalizadas',
+    id: 'Dimensi Kustom',
+    de: 'Benutzerdefinierte Maße',
+    pt: 'Dimensões Personalizadas',
+    it: 'Dimensioni personalizzate'
+  },
+  '1920 px (Full HD Width)': {
+    fr: '1920 px (Largeur Full HD)',
+    es: '1920 px (Ancho Full HD)',
+    id: '1920 px (Lebar Full HD)',
+    de: '1920 px (Full HD Breite)',
+    pt: '1920 px (Largura Full HD)',
+    it: '1920 px (Larghezza Full HD)'
+  },
+  '1280 px (HD Width)': {
+    fr: '1280 px (Largeur HD)',
+    es: '1280 px (Ancho HD)',
+    id: '1280 px (Lebar HD)',
+    de: '1280 px (HD Breite)',
+    pt: '1280 px (Largura HD)',
+    it: '1280 px (Larghezza HD)'
+  },
+  '1080 px (Social Square / Banner)': {
+    fr: '1080 px (Carré réseaux sociaux / Bannière)',
+    es: '1080 px (Cuadrado para redes / Banner)',
+    id: '1080 px (Persegi Medsos / Spanduk)',
+    de: '1080 px (Social Square / Banner)',
+    pt: '1080 px (Quadrado Social / Banner)',
+    it: '1080 px (Quadrato social / Banner)'
+  },
+  '720 px (Standard Web Width)': {
+    fr: '720 px (Largeur web standard)',
+    es: '720 px (Ancho web estándar)',
+    id: '720 px (Lebar Web Standar)',
+    de: '720 px (Standard-Webbreite)',
+    pt: '720 px (Largura Web Padrão)',
+    it: '720 px (Larghezza web standard)'
+  },
+  'Output Quality': {
+    fr: 'Qualité de sortie',
+    es: 'Calidad de salida',
+    id: 'Kualitas Output',
+    de: 'Ausgabequalität',
+    pt: 'Qualidade de Saída',
+    it: 'Qualità di output'
+  },
+  'New Dimensions': {
+    fr: 'Nouvelles dimensions',
+    es: 'Nuevas dimensions',
+    id: 'Dimensi Baru',
+    de: 'Neue Abmessungen',
+    pt: 'Novas Dimensões',
+    it: 'Nuove dimensioni'
+  },
+  'Est. File Size': {
+    fr: 'Taille est. du fichier',
+    es: 'Tamaño est. de archivo',
+    id: 'Perkiraan Ukuran Berkas',
+    de: 'Geschätzte Dateigröße',
+    pt: 'Tamanho Est. do Arquivo',
+    it: 'Dimensione stimata file'
+  },
+  'Target': {
+    fr: 'Cible',
+    es: 'Objetivo',
+    id: 'Target',
+    de: 'Ziel',
+    pt: 'Alvo',
+    it: 'Target'
+  },
+  'Closest Achievable': {
+    fr: 'Taille la plus proche',
+    es: 'Tamaño más cercano',
+    id: 'Paling Mendekati',
+    de: 'Nächstmögliche Größe',
+    pt: 'Mais Próximo Possível',
+    it: 'Più vicina raggiungibile'
+  },
+  'Reduction': {
+    fr: 'Réduction',
+    es: 'Reducción',
+    id: 'Pengurangan',
+    de: 'Reduzierung',
+    pt: 'Redução',
+    it: 'Riduzione'
+  },
+  'Optimizing quality and dimensions iteratively...': {
+    fr: 'Optimisation itérative de la qualité et des dimensions...',
+    es: 'Optimizando calidad y dimensiones de forma iterativa...',
+    id: 'Mengoptimalkan kualitas dan dimensi secara iteratif...',
+    de: 'Qualität und Abmessungen werden iterativ optimiert...',
+    pt: 'Otimizando qualidade e dimensões iterativamente...',
+    it: 'Ottimizzazione iterativa di qualità e dimensioni...'
+  },
+  'JPG / JPEG (Best for strict limits)': {
+    fr: 'JPG / JPEG (Idéal pour limites strictes)',
+    es: 'JPG / JPEG (Ideal para límites estrictos)',
+    id: 'JPG / JPEG (Terbaik untuk batas ketat)',
+    de: 'JPG / JPEG (Ideal für strenge Limits)',
+    pt: 'JPG / JPEG (Melhor para limites estritos)',
+    it: 'JPG / JPEG (Ideale per limiti rigorosi)'
+  },
+  'WebP (Efficient)': {
+    fr: 'WebP (Efficace)',
+    es: 'WebP (Eficiente)',
+    id: 'WebP (Efisien)',
+    de: 'WebP (Effizient)',
+    pt: 'WebP (Eficiente)',
+    it: 'WebP (Efficiente)'
+  },
+  'Zoom Level': {
+    fr: 'Niveau de zoom',
+    es: 'Nivel de zoom',
+    id: 'Tingkat Zoom',
+    de: 'Zoomstufe',
+    pt: 'Nível de Zoom',
+    it: 'Livello di zoom'
+  },
+  'Rotate 90°': {
+    fr: 'Pivoter 90°',
+    es: 'Girar 90°',
+    id: 'Putar 90°',
+    de: '90° drehen',
+    pt: 'Girar 90°',
+    it: 'Ruota di 90°'
+  },
+  'Cropped Output Result': {
+    fr: 'Résultat du recadrage',
+    es: 'Resultado recortado',
+    id: 'Hasil Gambar Terpotong',
+    de: 'Zugeschnittenes Ergebnis',
+    pt: 'Resultado do Recorte',
+    it: 'Risultato ritagliato'
+  },
+  'Click and drag inside the blue box to reposition. Drag the corner handles to resize.': {
+    fr: 'Cliquez et glissez à l\'intérieur du cadre bleu pour repositionner. Glissez les coins pour redimensionner.',
+    es: 'Haz clic y arrastra dentro del recuadro azul para mover. Arrastra las esquinas para cambiar el tamaño.',
+    id: 'Klik dan tarik ke dalam kotak biru untuk memposisikan ulang. Tarik sudut untuk mengubah ukuran.',
+    de: 'Im blauen Kasten ziehen zum Verschieben. Eckpunkte ziehen zum Ändern der Größe.',
+    pt: 'Clique e arraste dentro da caixa azul para reposicionar. Arraste as alças dos cantos para redimensionar.',
+    it: 'Fai clic e trascina all\'interno del riquadro blu per riposizionare. Trascina gli angoli per ridimensionare.'
+  },
+  'Angle': {
+    fr: 'Angle',
+    es: 'Ángulo',
+    id: 'Sudut',
+    de: 'Winkel',
+    pt: 'Ângulo',
+    it: 'Angolo'
+  },
+  'Mirror': {
+    fr: 'Miroir',
+    es: 'Espejo',
+    id: 'Cermin',
+    de: 'Spiegelung',
+    pt: 'Espelhar',
+    it: 'Specchia'
+  },
+  'None': {
+    fr: 'Aucun',
+    es: 'Ninguno',
+    id: 'Tidak ada',
+    de: 'Keine',
+    pt: 'Nenhum',
+    it: 'Nessuno'
+  },
+  'JPG Input': {
+    fr: 'Entrée JPG',
+    es: 'Entrada JPG',
+    id: 'Input JPG',
+    de: 'JPG-Eingang',
+    pt: 'Entrada JPG',
+    it: 'Input JPG'
+  },
+  'PNG Output': {
+    fr: 'Sortie PNG',
+    es: 'Salida PNG',
+    id: 'Output PNG',
+    de: 'PNG-Ausgang',
+    pt: 'Saída PNG',
+    it: 'Output PNG'
+  },
+  'PNG Input': {
+    fr: 'Entrée PNG',
+    es: 'Entrada PNG',
+    id: 'Input PNG',
+    de: 'PNG-Eingang',
+    pt: 'Entrada PNG',
+    it: 'Input PNG'
+  },
+  'JPG Output': {
+    fr: 'Sortie JPG',
+    es: 'Salida JPG',
+    id: 'Output JPG',
+    de: 'JPG-Ausgang',
+    pt: 'Saída JPG',
+    it: 'Output JPG'
+  },
+  'Custom Color': {
+    fr: 'Couleur personnalisée',
+    es: 'Color personalizado',
+    id: 'Warna Khusus',
+    de: 'Eigene Farbe',
+    pt: 'Cor Personalizada',
+    it: 'Colore personalizzato'
+  },
+  'JPG Quality': {
+    fr: 'Qualité JPG',
+    es: 'Calidad JPG',
+    id: 'Kualitas JPG',
+    de: 'JPG-Qualität',
+    pt: 'Qualidade JPG',
+    it: 'Qualità JPG'
+  },
+  'WebP Quality': {
+    fr: 'Qualité WebP',
+    es: 'Calidad WebP',
+    id: 'Kualitas WebP',
+    de: 'WebP-Qualität',
+    pt: 'Qualidade WebP',
+    it: 'Qualità WebP'
+  },
+  'WebP Size': {
+    fr: 'Taille WebP',
+    es: 'Tamaño WebP',
+    id: 'Ukuran WebP',
+    de: 'WebP-Größe',
+    pt: 'Tamanho WebP',
+    it: 'Dimensione WebP'
+  },
+  '80%–85% provides optimal web compression without visible artifacts.': {
+    fr: '80 %–85 % offre une compression optimale pour le web sans artéfacts visibles.',
+    es: '80%–85% ofrece una compresión web óptima sin artefactos visibles.',
+    id: '80%–85% memberikan kompresi web optimal tanpa artefak yang terlihat.',
+    de: '80 %–85 % bietet optimale Web-Kompression ohne sichtbare Artefakte.',
+    pt: '80%–85% oferece compressão web ideal sem artefatos visíveis.',
+    it: 'L\'80%–85% offre una compressione web ottimale senza artefatti visibili.'
+  },
+  'WebP (High Speed & Small Size)': {
+    fr: 'WebP (Haute vitesse &amp; petite taille)',
+    es: 'WebP (Alta velocidad y tamaño reducido)',
+    id: 'WebP (Kecepatan Tinggi &amp; Ukuran Kecil)',
+    de: 'WebP (Hohe Geschwindigkeit &amp; kleine Größe)',
+    pt: 'WebP (Alta Velocidade e Tamanho Reduzido)',
+    it: 'WebP (Alta velocità e dimensioni ridotte)'
+  },
+  'WebP (High Speed &amp; Small Size)': {
+    fr: 'WebP (Haute vitesse &amp; petite taille)',
+    es: 'WebP (Alta velocidad y tamaño reducido)',
+    id: 'WebP (Kecepatan Tinggi &amp; Ukuran Kecil)',
+    de: 'WebP (Hohe Geschwindigkeit &amp; kleine Größe)',
+    pt: 'WebP (Alta Velocidade e Tamanho Reduzido)',
+    it: 'WebP (Alta velocità e dimensioni ridotte)'
+  },
+  'JPG / JPEG (Universal Compatibility)': {
+    fr: 'JPG / JPEG (Compatibilité universelle)',
+    es: 'JPG / JPEG (Compatibilidad universal)',
+    id: 'JPG / JPEG (Kompatibilitas Universal)',
+    de: 'JPG / JPEG (Universelle Kompatibilität)',
+    pt: 'JPG / JPEG (Compatibilidade Universal)',
+    it: 'JPG / JPEG (Compatibilità universale)'
+  },
+  'PNG (Lossless & Transparent)': {
+    fr: 'PNG (Sans perte &amp; transparent)',
+    es: 'PNG (Sin pérdidas y transparente)',
+    id: 'PNG (Tanpa Penurunan Mutu &amp; Transparan)',
+    de: 'PNG (Verlustfrei &amp; transparent)',
+    pt: 'PNG (Sem perdas e transparente)',
+    it: 'PNG (Senza perdita e trasparente)'
+  },
+  'PNG (Lossless &amp; Transparent)': {
+    fr: 'PNG (Sans perte &amp; transparent)',
+    es: 'PNG (Sin pérdidas y transparente)',
+    id: 'PNG (Tanpa Penurunan Mutu &amp; Transparan)',
+    de: 'PNG (Verlustfrei &amp; transparent)',
+    pt: 'PNG (Sem perdas e transparente)',
+    it: 'PNG (Senza perdita e trasparente)'
+  },
+  'Source Format': {
+    fr: 'Format source',
+    es: 'Formato de origen',
+    id: 'Format Sumber',
+    de: 'Quellformat',
+    pt: 'Formato de Origem',
+    it: 'Formato di origine'
+  },
+  'Target Format': {
+    fr: 'Format cible',
+    es: 'Formato de destino',
+    id: 'Format Target',
+    de: 'Zielformat',
+    pt: 'Formato de Destino',
+    it: 'Formato di destinazione'
+  },
+  'Grayscale': {
+    fr: 'Niveaux de gris',
+    es: 'Escala de grises',
+    id: 'Skala Abu-abu',
+    de: 'Graustufen',
+    pt: 'Escala de Cinza',
+    it: 'Scala di grigi'
+  },
+  'Brightness': {
+    fr: 'Luminosité',
+    es: 'Brillo',
+    id: 'Kecerahan',
+    de: 'Helligkeit',
+    pt: 'Brilho',
+    it: 'Luminosità'
+  },
+  'Contrast': {
+    fr: 'Contraste',
+    es: 'Contraste',
+    id: 'Kontras',
+    de: 'Kontrast',
+    pt: 'Contraste',
+    it: 'Contrasto'
+  },
+  'Saturation': {
+    fr: 'Saturation',
+    es: 'Saturación',
+    id: 'Saturasi',
+    de: 'Sättigung',
+    pt: 'Saturação',
+    it: 'Saturazione'
+  },
+  'Blur Radius': {
+    fr: 'Rayon de flou',
+    es: 'Radio de desenfoque',
+    id: 'Radius Blur',
+    de: 'Unschärferadius',
+    pt: 'Raio de Desfoque',
+    it: 'Raggio di sfocatura'
+  },
+  'Sharpen Intensity': {
+    fr: 'Intensité de netteté',
+    es: 'Intensidad de enfoque',
+    id: 'Intensitas Ketajaman',
+    de: 'Schärfeintensität',
+    pt: 'Intensidade de Nitidez',
+    it: 'Intensità di nitidezza'
+  },
+  'Active Sample': {
+    fr: 'Échantillon actif',
+    es: 'Muestra activa',
+    id: 'Sampel Aktif',
+    de: 'Aktive Farbprobe',
+    pt: 'Amostra Ativa',
+    it: 'Campione attivo'
+  },
+  'Click canvas to lock': {
+    fr: 'Cliquez sur l\'image pour verrouiller',
+    es: 'Haz clic en el lienzo para fijar',
+    id: 'Klik kanvas untuk mengunci',
+    de: 'Klicken zum Fixieren',
+    pt: 'Clique na tela para fixar',
+    it: 'Fai clic sulla tela per bloccare'
+  },
+  'Hover over the image for enlarged pixel magnification. Click anywhere to capture.': {
+    fr: 'Survolez l\'image pour voir les pixels agrandis. Cliquez n\'importe où pour capturer.',
+    es: 'Pasa el cursor sobre la imagen para ampliar los píxeles. Haz clic para capturar.',
+    id: 'Arahkan kursor ke gambar untuk perbesaran piksel. Klik di mana saja untuk mengambil warna.',
+    de: 'Fahren Sie über das Bild für Lupenansicht. Klicken Sie zum Auswählen.',
+    pt: 'Passe o mouse sobre a imagem para ampliar os pixels. Clique em qualquer ponto para capturar.',
+    it: 'Passa il mouse sull\'immagine per ingrandire i pixel. Fai clic per catturare.'
+  },
+  'Extracted Dominant Swatches (Click to Copy)': {
+    fr: 'Nuances dominantes extraites (cliquez pour copier)',
+    es: 'Muestras dominantes extraídas (clic para copiar)',
+    id: 'Sampel Warna Dominan (Klik untuk Menyalin)',
+    de: 'Extrahierte Hauptfarben (Klicken zum Kopieren)',
+    pt: 'Amostras Dominantes Extraídas (Clique para Copiar)',
+    it: 'Campioni dominanti estratti (fai clic per copiare)'
+  },
+  'Generated Favicon Sizes': {
+    fr: 'Tailles de favicons générées',
+    es: 'Tamaños de favicon generados',
+    id: 'Ukuran Favicon Dihasilkan',
+    de: 'Generierte Favicon-Größen',
+    pt: 'Tamanhos de Favicon Gerados',
+    it: 'Dimensioni favicon generate'
+  },
+  'Paste Base64 String or Data URL': {
+    fr: 'Collez la chaîne Base64 ou Data URL',
+    es: 'Pega la cadena Base64 o Data URL',
+    id: 'Tempel String Base64 atau Data URL',
+    de: 'Base64-String oder Data-URL einfügen',
+    pt: 'Cole a String Base64 ou Data URL',
+    it: 'Incolla la stringa Base64 o il Data URL'
+  },
+  'Instagram Square (1080 × 1080 px)': {
+    fr: 'Carré Instagram (1080 × 1080 px)',
+    es: 'Cuadrado Instagram (1080 × 1080 px)',
+    id: 'Instagram Persegi (1080 × 1080 px)',
+    de: 'Instagram Quadrat (1080 × 1080 px)',
+    pt: 'Instagram Quadrado (1080 × 1080 px)',
+    it: 'Instagram quadrato (1080 × 1080 px)'
+  },
+  'Instagram Portrait (1080 × 1350 px)': {
+    fr: 'Portrait Instagram (1080 × 1350 px)',
+    es: 'Retrato Instagram (1080 × 1350 px)',
+    id: 'Instagram Potret (1080 × 1350 px)',
+    de: 'Instagram Porträt (1080 × 1350 px)',
+    pt: 'Instagram Retrato (1080 × 1350 px)',
+    it: 'Instagram ritratto (1080 × 1350 px)'
+  },
+  'Instagram Story / Reel (1080 × 1920 px)': {
+    fr: 'Story / Reel Instagram (1080 × 1920 px)',
+    es: 'Historia / Reel de Instagram (1080 × 1920 px)',
+    id: 'Instagram Story / Reel (1080 × 1920 px)',
+    de: 'Instagram Story / Reel (1080 × 1920 px)',
+    pt: 'Instagram Story / Reel (1080 × 1920 px)',
+    it: 'Instagram Story / Reel (1080 × 1920 px)'
+  },
+  'Facebook Post (1200 × 630 px)': {
+    fr: 'Publication Facebook (1200 × 630 px)',
+    es: 'Publicación de Facebook (1200 × 630 px)',
+    id: 'Postingan Facebook (1200 × 630 px)',
+    de: 'Facebook-Beitrag (1200 × 630 px)',
+    pt: 'Publicação no Facebook (1200 × 630 px)',
+    it: 'Post Facebook (1200 × 630 px)'
+  },
+  'Facebook Cover (820 × 312 px)': {
+    fr: 'Couverture Facebook (820 × 312 px)',
+    es: 'Portada de Facebook (820 × 312 px)',
+    id: 'Sampul Facebook (820 × 312 px)',
+    de: 'Facebook-Titelbild (820 × 312 px)',
+    pt: 'Capa do Facebook (820 × 312 px)',
+    it: 'Copertina Facebook (820 × 312 px)'
+  },
+  'YouTube Thumbnail (1280 × 720 px)': {
+    fr: 'Miniature YouTube (1280 × 720 px)',
+    es: 'Miniatura de YouTube (1280 × 720 px)',
+    id: 'Thumbnail YouTube (1280 × 720 px)',
+    de: 'YouTube-Thumbnail (1280 × 720 px)',
+    pt: 'Miniatura do YouTube (1280 × 720 px)',
+    it: 'Miniatura YouTube (1280 × 720 px)'
+  },
+  'LinkedIn Post (1200 × 627 px)': {
+    fr: 'Publication LinkedIn (1200 × 627 px)',
+    es: 'Publicación de LinkedIn (1200 × 627 px)',
+    id: 'Postingan LinkedIn (1200 × 627 px)',
+    de: 'LinkedIn-Beitrag (1200 × 627 px)',
+    pt: 'Publicação no LinkedIn (1200 × 627 px)',
+    it: 'Post LinkedIn (1200 × 627 px)'
+  },
+  'X (Twitter) Post (1200 × 675 px)': {
+    fr: 'Publication X (Twitter) (1200 × 675 px)',
+    es: 'Publicación de X (Twitter) (1200 × 675 px)',
+    id: 'Postingan X (Twitter) (1200 × 675 px)',
+    de: 'X (Twitter)-Beitrag (1200 × 675 px)',
+    pt: 'Publicação no X (Twitter) (1200 × 675 px)',
+    it: 'Post X (Twitter) (1200 × 675 px)'
+  },
+  'Fill (Crop center to fill canvas)': {
+    fr: 'Remplir (recadrer le centre pour remplir)',
+    es: 'Rellenar (recortar el centro para llenar lienzo)',
+    id: 'Isi Penuh (Potong tengah hingga penuh)',
+    de: 'Ausfüllen (Zentriert zuschneiden)',
+    pt: 'Preencher (recortar o centro para preencher)',
+    it: 'Riempi (ritaglia il centro per riempire la tela)'
+  },
+  'Fit (Contain whole image with padding)': {
+    fr: 'Ajuster (conserver toute l\'image avec marges)',
+    es: 'Ajustar (contener imagen completa con margen)',
+    id: 'Sesuaikan (Muat seluruh gambar dengan padding)',
+    de: 'Einpassen (Ganzes Bild mit Rand)',
+    pt: 'Ajustar (conter imagem inteira com margens)',
+    it: 'Adatta (contieni l\'intera immagine con margini)'
+  },
+  'Modern Sans': {
+    fr: 'Sans-serif moderne',
+    es: 'Sans-serif moderno',
+    id: 'Sans-serif Modern',
+    de: 'Modernes Sans-Serif',
+    pt: 'Sans-serif Moderno',
+    it: 'Sans-serif moderno'
+  },
+  'Font Size': {
+    fr: 'Taille de police',
+    es: 'Tamaño de fuente',
+    id: 'Ukuran Font',
+    de: 'Schriftgröße',
+    pt: 'Tamanho da Fonte',
+    it: 'Dimensione carattere'
+  },
+  'Click and drag any text caption directly on the canvas to reposition.': {
+    fr: 'Cliquez et glissez le texte directement sur le canevas pour le repositionner.',
+    es: 'Haz clic y arrastra cualquier texto directamente en el lienzo para moverlo.',
+    id: 'Klik dan tarik teks langsung di kanvas untuk memposisikan ulang.',
+    de: 'Text direkt auf der Arbeitsfläche anklicken und ziehen zum Neupositionieren.',
+    pt: 'Clique e arraste qualquer legenda de texto diretamente na tela para reposicionar.',
+    it: 'Fai clic e trascina il testo direttamente sulla tela per riposizionarlo.'
+  },
+  'Format': {
+    fr: 'Format',
+    es: 'Formato',
+    id: 'Format',
+    de: 'Format',
+    pt: 'Formato',
+    it: 'Formato'
+  },
+  'Dimensions': {
+    fr: 'Dimensions',
+    es: 'Dimensiones',
+    id: 'Dimensi',
+    de: 'Abmessungen',
+    pt: 'Dimensões',
+    it: 'Dimensioni'
   }
 };
 

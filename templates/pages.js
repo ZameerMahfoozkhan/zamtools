@@ -29,6 +29,8 @@ const {
   renderScripts,
   escapeHtml
 } = require('./components');
+const { renderToolCard } = require('./tool-card');
+const { renderFeatureBox, renderPrincipleBox, renderBenefitBox } = require('./feature-card');
 
 /**
  * 1. RENDER TOOL PAGE (20 tools x 7 languages = 140 pages)
@@ -121,14 +123,11 @@ function renderToolPage(toolKey, lang) {
   // Render Features & Tips
   let featuresHtml = '';
   if (toolData.features && toolData.features.length > 0) {
-    const featureBoxes = toolData.features.map(f => `
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-            </div>
-            <h4>${escapeHtml(f.title)}</h4>
-            <p>${escapeHtml(f.desc)}</p>
-          </div>`).join('');
+    const featureBoxes = toolData.features.map((f, idx) => renderFeatureBox({
+      feature: f,
+      toolKey,
+      index: idx
+    })).join('');
 
     featuresHtml = `
       <section class="section">
@@ -188,20 +187,12 @@ function renderToolPage(toolKey, lang) {
   let relatedToolsHtml = '';
   if (toolData.relatedTools && toolData.relatedTools.length > 0) {
     const relatedCards = toolData.relatedTools.map(rKey => {
-      const rRoute = ROUTES[rKey];
-      const rTrans = TOOL_TRANSLATIONS[rKey] && TOOL_TRANSLATIONS[rKey][lang];
-      if (!rRoute || !rTrans) return '';
-      return `
-        <a href="${rRoute[lang]}" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">${escapeHtml(rTrans.category)}</span>
-          </div>
-          <h3 class="tool-card-title">${escapeHtml(rTrans.name)}</h3>
-          <p class="tool-card-desc">${escapeHtml(rTrans.lead)}</p>
-          <div class="tool-card-footer">
-            <span>${ui.controls.openTool}</span>
-          </div>
-        </a>`;
+      return renderToolCard({
+        toolKey: rKey,
+        lang,
+        headingLevel: 'h3',
+        actionText: ui.controls.openTool
+      });
     }).join('');
 
     relatedToolsHtml = `
@@ -317,41 +308,41 @@ function renderHomePage(lang) {
   // Popular Tools Cards (Compressor, Resizer, WebP, Cropper, Color Picker, Target Size)
   const popularKeys = ['imageCompressor', 'imageResizer', 'webpConverter', 'imageCropper', 'imageColorPicker', 'imageToTargetSize'];
   const popularCardsHtml = popularKeys.map(k => {
-    const t = TOOL_TRANSLATIONS[k][lang];
-    const r = ROUTES[k];
-    return `
-          <a href="${r[lang]}" class="tool-card">
-            <div class="tool-card-header">
-              <span class="tool-card-category">${escapeHtml(t.category)}</span>
-            </div>
-            <h3 class="tool-card-title">${escapeHtml(t.name)}</h3>
-            <p class="tool-card-desc">${escapeHtml(t.lead)}</p>
-            <div class="tool-card-footer">
-              <span class="tool-card-action">${homeData.openTool}</span>
-            </div>
-          </a>`;
+    return renderToolCard({
+      toolKey: k,
+      lang,
+      headingLevel: 'h3',
+      actionText: homeData.openTool
+    });
   }).join('');
 
   // Categories sections with all 20 tools
+  const categoryLabels = {
+    catCompression: { en: 'Compress', fr: 'Compresser', es: 'Comprimir', id: 'Kompresi', de: 'Komprimieren', pt: 'Comprimir', it: 'Comprimi' },
+    catResizing: { en: 'Resize', fr: 'Redimensionner', es: 'Redimensionar', id: 'Ubah Ukuran', de: 'Größe ändern', pt: 'Redimensionar', it: 'Ridimensiona' },
+    catConversion: { en: 'Convert', fr: 'Convertir', es: 'Convertir', id: 'Konversi', de: 'Konvertieren', pt: 'Converter', it: 'Converti' },
+    catEditing: { en: 'Edit & Filter', fr: 'Éditer & Filtrer', es: 'Editar y Filtrar', id: 'Edit & Filter', de: 'Bearbeiten & Filtern', pt: 'Editar e Filtrar', it: 'Modifica & Filtra' },
+    catColor: { en: 'Color Tools', fr: 'Outils de Couleur', es: 'Herramientas de Color', id: 'Alat Warna', de: 'Farbtools', pt: 'Ferramentas de Cor', it: 'Strumenti di Colore' },
+    catDev: { en: 'Developer & Creative', fr: 'Développeur & Créatif', es: 'Desarrollador y Creativo', id: 'Pengembang & Kreatif', de: 'Entwickler & Kreativ', pt: 'Desenvolvedor e Criativo', it: 'Sviluppatore & Creativo' }
+  };
+
   const categoriesDef = [
-    { catKey: 'catCompression', label: 'Compress', tools: ['imageCompressor', 'imageToTargetSize'] },
-    { catKey: 'catResizing', label: 'Resize', tools: ['imageResizer', 'socialMediaImageResizer', 'passportPhotoResizer'] },
-    { catKey: 'catConversion', label: 'Convert', tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter'] },
-    { catKey: 'catEditing', label: 'Edit', tools: ['imageCropper', 'imageRotateFlip', 'grayscaleImage', 'brightnessContrast', 'blurSharpenImage'] },
-    { catKey: null, label: 'Color', tools: ['imageColorPicker', 'colorPaletteGenerator'] },
-    { catKey: null, label: 'Create & Dev', tools: ['faviconGenerator', 'memeGenerator', 'imageToBase64', 'base64ToImage'] }
+    { catKey: 'catCompression', label: (categoryLabels.catCompression[lang] || 'Compress'), tools: ['imageCompressor', 'imageToTargetSize'] },
+    { catKey: 'catResizing', label: (categoryLabels.catResizing[lang] || 'Resize'), tools: ['imageResizer', 'socialMediaImageResizer', 'passportPhotoResizer'] },
+    { catKey: 'catConversion', label: (categoryLabels.catConversion[lang] || 'Convert'), tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter'] },
+    { catKey: 'catEditing', label: (categoryLabels.catEditing[lang] || 'Edit & Filter'), tools: ['imageCropper', 'imageRotateFlip', 'grayscaleImage', 'brightnessContrast', 'blurSharpenImage'] },
+    { catKey: null, label: (categoryLabels.catColor[lang] || 'Color Tools'), tools: ['imageColorPicker', 'colorPaletteGenerator'] },
+    { catKey: null, label: (categoryLabels.catDev[lang] || 'Developer & Creative'), tools: ['faviconGenerator', 'memeGenerator', 'imageToBase64', 'base64ToImage'] }
   ];
 
   const categoriesCatalogHtml = categoriesDef.map(cat => {
     const cards = cat.tools.map(tk => {
-      const t = TOOL_TRANSLATIONS[tk][lang];
-      const r = ROUTES[tk];
-      return `
-              <a href="${r[lang]}" class="tool-card">
-                <h4 class="tool-card-title">${escapeHtml(t.name)}</h4>
-                <p class="tool-card-desc">${escapeHtml(t.lead)}</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>`;
+      return renderToolCard({
+        toolKey: tk,
+        lang,
+        headingLevel: 'h4',
+        actionText: homeData.openTool
+      });
     }).join('');
 
     const hubLink = cat.catKey ? `<a href="${ROUTES[cat.catKey][lang]}" class="badge badge-primary" style="text-decoration:none;">${cat.label} →</a>` : `<span class="badge badge-primary">${cat.label}</span>`;
@@ -368,14 +359,10 @@ function renderHomePage(lang) {
   }).join('');
 
   // Principles / Why ZamTools
-  const principlesHtml = homeData.principles.map(p => `
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-            </div>
-            <h4>${escapeHtml(p.title)}</h4>
-            <p>${escapeHtml(p.desc)}</p>
-          </div>`).join('');
+  const principlesHtml = homeData.principles.map((p, idx) => renderPrincipleBox({
+    principle: p,
+    index: idx
+  })).join('');
 
   // Workflow steps
   const stepsHtml = homeData.workflowSteps.map(s => `
@@ -596,16 +583,32 @@ ${scriptsHtml}
 
         matches.forEach(tool => {
           const card = document.createElement('a');
+          const catKey = tool.categoryKey || 'conversion';
           card.href = (window.getToolUrl ? window.getToolUrl(tool) : tool.url);
-          card.className = 'tool-card';
+          card.className = 'tool-card tool-card-' + catKey;
+          card.setAttribute('data-category', catKey);
           card.innerHTML = \`
             <div class="tool-card-header">
-              <span class="tool-card-category">\${tool.category}</span>
+              <div class="tool-card-icon tool-icon-\${catKey}">
+                \${tool.icon || '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg>'}
+              </div>
+              <div class="tool-card-badges">
+                <span class="tool-badge-category tool-cat-\${catKey}">\${tool.category}</span>
+                \${tool.feature ? '<span class="tool-badge-feature">' + tool.feature + '</span>' : ''}
+              </div>
             </div>
             <h3 class="tool-card-title">\${tool.name}</h3>
             <p class="tool-card-desc">\${tool.desc}</p>
+            <div class="tool-card-meta">
+              <span class="tool-meta-pill">\${tool.format || 'Browser Local'}</span>
+              <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Local
+              </span>
+            </div>
             <div class="tool-card-footer">
-              <span class="tool-card-action">→</span>
+              <span class="tool-card-action">${(homeData.openTool || 'Open Tool').replace(/→/g, '').trim()}</span>
+              <span class="tool-card-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
             </div>
           \`;
           homeGrid.appendChild(card);
@@ -652,37 +655,43 @@ function renderToolsHubPage(lang) {
 
   const headerHtml = renderHeader(lang, 'toolsHub', alternates);
 
+  const categoryLabels = {
+    catCompression: { en: 'Compression', fr: 'Compression', es: 'Compresión', id: 'Kompresi', de: 'Komprimierung', pt: 'Compressão', it: 'Compressione' },
+    catResizing: { en: 'Resizing', fr: 'Redimensionnement', es: 'Redimensión', id: 'Ubah Ukuran', de: 'Größenänderung', pt: 'Redimensionamento', it: 'Ridimensionamento' },
+    catConversion: { en: 'Conversion', fr: 'Conversion', es: 'Conversión', id: 'Konversi', de: 'Konvertierung', pt: 'Conversão', it: 'Conversione' },
+    catEditing: { en: 'Editing & Filters', fr: 'Édition & Filtres', es: 'Edición y Filtros', id: 'Edit & Filter', de: 'Bearbeitung & Filter', pt: 'Edição e Filtros', it: 'Modifica & Filtri' },
+    catColor: { en: 'Color Tools', fr: 'Outils de Couleur', es: 'Herramientas de Color', id: 'Alat Warna', de: 'Farbtools', pt: 'Ferramentas de Cor', it: 'Strumenti di Colore' },
+    catDev: { en: 'Developer & Creative', fr: 'Développeur & Créatif', es: 'Desarrollador y Creativo', id: 'Pengembang & Kreatif', de: 'Entwickler & Kreativ', pt: 'Desenvolvedor e Criativo', it: 'Sviluppatore & Creativo' }
+  };
+
   // Group all 20 tools by category
   const categoriesDef = [
-    { label: 'Compression', tools: ['imageCompressor', 'imageToTargetSize'] },
-    { label: 'Resizing', tools: ['imageResizer', 'socialMediaImageResizer', 'passportPhotoResizer'] },
-    { label: 'Conversion', tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter'] },
-    { label: 'Editing & Filters', tools: ['imageCropper', 'imageRotateFlip', 'grayscaleImage', 'brightnessContrast', 'blurSharpenImage'] },
-    { label: 'Color Tools', tools: ['imageColorPicker', 'colorPaletteGenerator'] },
-    { label: 'Developer & Creative', tools: ['faviconGenerator', 'memeGenerator', 'imageToBase64', 'base64ToImage'] }
+    { catKey: 'catCompression', label: (categoryLabels.catCompression[lang] || 'Compression'), tools: ['imageCompressor', 'imageToTargetSize'] },
+    { catKey: 'catResizing', label: (categoryLabels.catResizing[lang] || 'Resizing'), tools: ['imageResizer', 'socialMediaImageResizer', 'passportPhotoResizer'] },
+    { catKey: 'catConversion', label: (categoryLabels.catConversion[lang] || 'Conversion'), tools: ['jpgToPng', 'pngToGithubJpg', 'webpConverter', 'imageFormatConverter'] },
+    { catKey: 'catEditing', label: (categoryLabels.catEditing[lang] || 'Editing & Filters'), tools: ['imageCropper', 'imageRotateFlip', 'grayscaleImage', 'brightnessContrast', 'blurSharpenImage'] },
+    { catKey: null, label: (categoryLabels.catColor[lang] || 'Color Tools'), tools: ['imageColorPicker', 'colorPaletteGenerator'] },
+    { catKey: null, label: (categoryLabels.catDev[lang] || 'Developer & Creative'), tools: ['faviconGenerator', 'memeGenerator', 'imageToBase64', 'base64ToImage'] }
   ];
 
   const sectionsHtml = categoriesDef.map(cat => {
     const cards = cat.tools.map(tk => {
-      const t = TOOL_TRANSLATIONS[tk][lang];
-      const r = ROUTES[tk];
-      return `
-          <a href="${r[lang]}" class="tool-card">
-            <div class="tool-card-header">
-              <span class="tool-card-category">${escapeHtml(t.category)}</span>
-            </div>
-            <h3 class="tool-card-title">${escapeHtml(t.name)}</h3>
-            <p class="tool-card-desc">${escapeHtml(t.lead)}</p>
-            <div class="tool-card-footer">
-              <span class="tool-card-action">${ui.controls.openTool}</span>
-            </div>
-          </a>`;
+      return renderToolCard({
+        toolKey: tk,
+        lang,
+        headingLevel: 'h3',
+        actionText: ui.controls.openTool
+      });
     }).join('');
+
+    const hubBadge = cat.catKey
+      ? `<a href="${ROUTES[cat.catKey][lang]}" class="badge badge-primary" style="text-decoration:none;">${cat.label} →</a>`
+      : `<span class="badge badge-primary">${cat.label}</span>`;
 
     return `
       <section style="margin-bottom: var(--space-12);">
         <h2 style="font-size: 1.5rem; margin-bottom: var(--space-6); display: flex; align-items: center; gap: var(--space-3);">
-          <span class="badge badge-primary">${cat.label}</span>
+          ${hubBadge}
         </h2>
         <div class="tools-grid">
           ${cards}
@@ -754,27 +763,19 @@ function renderCategoryPage(catKey, lang) {
 
   // Tools in this category
   const toolCards = catData.tools.map(tk => {
-    const t = TOOL_TRANSLATIONS[tk][lang];
-    const r = ROUTES[tk];
-    return `
-        <a href="${r[lang]}" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">${escapeHtml(t.category)}</span>
-          </div>
-          <h3 class="tool-card-title">${escapeHtml(t.name)}</h3>
-          <p class="tool-card-desc">${escapeHtml(t.lead)}</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">${ui.controls.openTool}</span>
-          </div>
-        </a>`;
+    return renderToolCard({
+      toolKey: tk,
+      lang,
+      headingLevel: 'h3',
+      actionText: ui.controls.openTool
+    });
   }).join('');
 
   // Benefits
-  const benefitsHtml = catData.benefits.map(b => `
-        <div class="feature-box">
-          <h4>${escapeHtml(b.title)}</h4>
-          <p>${escapeHtml(b.desc)}</p>
-        </div>`).join('');
+  const benefitsHtml = catData.benefits.map((b, idx) => renderBenefitBox({
+    benefit: b,
+    index: idx
+  })).join('');
 
   // FAQs
   const faqsHtml = catData.faqs.map(f => `
@@ -1065,11 +1066,10 @@ function renderInfoPage(infoKey, lang) {
   let bodyContent = '';
 
   if (infoKey === 'about') {
-    const valuesHtml = data.values.map(v => `
-          <div class="feature-box">
-            <h4>${escapeHtml(v.title)}</h4>
-            <p>${escapeHtml(v.desc)}</p>
-          </div>`).join('');
+    const valuesHtml = data.values.map((v, idx) => renderBenefitBox({
+      benefit: v,
+      index: idx
+    })).join('');
 
     bodyContent = `
       <div class="editorial-wrapper" style="margin-bottom: var(--space-12);">

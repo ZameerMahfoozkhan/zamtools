@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop an image here to format for social media</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP</div>
+          <div class="upload-dropzone-title">Tarik gambar ke sini untuk menyesuaikan medsos</div>
+          <div class="upload-dropzone-subtitle">JPG, PNG, atau WebP</div>
           <button type="button" class="btn btn-primary">Pilih Gambar</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
         </div>
@@ -286,22 +286,22 @@
               <div class="control-group">
                 <label for="presetSelect" class="control-label">Template Platform</label>
                 <select id="presetSelect" class="form-select">
-                  <option value="ig-square">Instagram Square (1080 × 1080 px)</option>
-                  <option value="ig-portrait">Instagram Portrait (1080 × 1350 px)</option>
+                  <option value="ig-square">Instagram Persegi (1080 × 1080 px)</option>
+                  <option value="ig-portrait">Instagram Potret (1080 × 1350 px)</option>
                   <option value="ig-story">Instagram Story / Reel (1080 × 1920 px)</option>
-                  <option value="fb-post">Facebook Post (1200 × 630 px)</option>
-                  <option value="fb-cover">Facebook Cover (820 × 312 px)</option>
-                  <option value="yt-thumb">YouTube Thumbnail (1280 × 720 px)</option>
-                  <option value="li-post">LinkedIn Post (1200 × 627 px)</option>
-                  <option value="x-post">X (Twitter) Post (1200 × 675 px)</option>
+                  <option value="fb-post">Postingan Facebook (1200 × 630 px)</option>
+                  <option value="fb-cover">Sampul Facebook (820 × 312 px)</option>
+                  <option value="yt-thumb">Thumbnail YouTube (1280 × 720 px)</option>
+                  <option value="li-post">Postingan LinkedIn (1200 × 627 px)</option>
+                  <option value="x-post">Postingan X (Twitter) (1200 × 675 px)</option>
                 </select>
               </div>
 
               <div class="control-group">
                 <label for="modeSelect" class="control-label">Mode Pembingkaian</label>
                 <select id="modeSelect" class="form-select">
-                  <option value="fill">Fill (Crop center to fill canvas)</option>
-                  <option value="fit">Fit (Contain whole image with padding)</option>
+                  <option value="fill">Isi Penuh (Potong tengah hingga penuh)</option>
+                  <option value="fit">Sesuaikan (Muat seluruh gambar dengan padding)</option>
                 </select>
               </div>
 
@@ -379,33 +379,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Lengkap untuk Semua Platform</h4>
-            <p></p>
+            <p class="feature-box-desc">Instagram, YouTube, Facebook, LinkedIn, TikTok, hingga X (Twitter).</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Panduan Area Aman</h4>
-            <p></p>
+            <p class="feature-box-desc">Mencegah tulisan atau logo terpotong oleh ikon antarmuka aplikasi sosmed.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/><polyline points="14 16 16 18 20 14"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Kualitas Tajam</h4>
-            <p></p>
+            <p class="feature-box-desc">Ukuran piksel pas sehingga foto tidak mengalami blur akibat kompresi otomatis platform.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Cepat &amp; Praktis</h4>
-            <p></p>
+            <p class="feature-box-desc">Ubah satu materi promosi ke berbagai ukuran platform dengan cepat.</p>
           </div>
           </div>
         </div>
@@ -456,46 +468,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/id/alat/ubah-ukuran-gambar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Ubah Ukuran</span>
-          </div>
-          <h3 class="tool-card-title">Ubah Ukuran Gambar</h3>
-          <p class="tool-card-desc">Sesuaikan dimensi foto Anda ke ukuran piksel yang tepat, persentase skala, atau resolusi standar. Kunci rasio aspek agar foto tidak melar atau terdistorsi, lalu unduh hasilnya secara instan.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/potong-gambar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Edit</span>
-          </div>
-          <h3 class="tool-card-title">Potong Gambar</h3>
-          <p class="tool-card-desc">Potong dan atur fokus gambar Anda dengan kanvas interaktif. Gunakan rasio standar seperti kotak 1:1, potret 4:3, lanskap 16:9, atau atur bingkai secara bebas untuk menonjolkan bagian terpenting foto.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/generator-meme/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Buat</span>
-          </div>
-          <h3 class="tool-card-title">Generator Meme</h3>
-          <p class="tool-card-desc">Buat meme lucu yang siap viral dalam hitungan detik. Tambahkan teks atas dan bawah dengan font Impact klasik, sesuaikan ukuran teks dan warna garis luar, lalu unduh secara bebas tanpa watermark.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/kompres-gambar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Kompresi</span>
-          </div>
-          <h3 class="tool-card-title">Kompres Gambar</h3>
-          <p class="tool-card-desc">Perkecil ukuran file gambar JPG, PNG, dan WebP dengan cepat dan aman. Sesuaikan kualitas menggunakan slider interaktif, bandingkan hasil sebelum dan sesudah kompresi, lalu unduh hasilnya tanpa mengunggah file ke server mana pun.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
+    <a href="/id/alat/ubah-ukuran-gambar/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Ubah Ukuran Gambar - Ubah Ukuran">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Ubah Ukuran</span>
+          <span class="tool-badge-feature">Kunci Rasio</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Ubah Ukuran Gambar</h3>
+      <p class="tool-card-desc">Sesuaikan dimensi foto Anda ke ukuran piksel yang tepat, persentase skala, atau resolusi standar. Kunci rasio aspek agar foto tidak melar atau terdistorsi, lalu unduh hasilnya secara instan.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Exact Pixels / %</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/potong-gambar/" class="tool-card tool-card-editing" data-category="editing" aria-label="Potong Gambar - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Edit</span>
+          <span class="tool-badge-feature">1:1 • 16:9 • Bebas</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Potong Gambar</h3>
+      <p class="tool-card-desc">Potong dan atur fokus gambar Anda dengan kanvas interaktif. Gunakan rasio standar seperti kotak 1:1, potret 4:3, lanskap 16:9, atau atur bingkai secara bebas untuk menonjolkan bagian terpenting foto.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/generator-meme/" class="tool-card tool-card-editing" data-category="editing" aria-label="Generator Meme - Buat">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Buat</span>
+          <span class="tool-badge-feature">Teks Bebas Geser</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Generator Meme</h3>
+      <p class="tool-card-desc">Buat meme lucu yang siap viral dalam hitungan detik. Tambahkan teks atas dan bawah dengan font Impact klasik, sesuaikan ukuran teks dan warna garis luar, lalu unduh secara bebas tanpa watermark.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Impact &amp; Modern Font</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/kompres-gambar/" class="tool-card tool-card-compression" data-category="compression" aria-label="Kompres Gambar - Kompresi">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Kompresi</span>
+          <span class="tool-badge-feature">Hingga -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Kompres Gambar</h3>
+      <p class="tool-card-desc">Perkecil ukuran file gambar JPG, PNG, dan WebP dengan cepat dan aman. Sesuaikan kualitas menggunakan slider interaktif, bandingkan hasil sebelum dan sesudah kompresi, lalu unduh hasilnya tanpa mengunggah file ke server mana pun.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

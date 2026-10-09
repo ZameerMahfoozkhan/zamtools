@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop an image here to rotate or flip</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP</div>
+          <div class="upload-dropzone-title">Tarik gambar ke sini untuk memutar atau membalik</div>
+          <div class="upload-dropzone-subtitle">JPG, PNG, atau WebP</div>
           <button type="button" class="btn btn-primary">Pilih Gambar</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
         </div>
@@ -301,12 +301,12 @@
 
               <div class="result-stats-card">
                 <div class="stat-item">
-                  <span class="stat-label">Angle</span>
+                  <span class="stat-label">Sudut</span>
                   <span class="stat-value" id="currentRotation">0°</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Mirror</span>
-                  <span class="stat-value" id="currentFlip">None</span>
+                  <span class="stat-label">Cermin</span>
+                  <span class="stat-value" id="currentFlip">Tidak ada</span>
                 </div>
               </div>
 
@@ -379,33 +379,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Rotasi 90° &amp; 180°</h4>
-            <p></p>
+            <p class="feature-box-desc">Mengubah posisi potret menjadi lanskap atau sebaliknya.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 8 8 2 8 22 2 16"/><polyline points="22 8 16 2 16 22 22 16"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Efek Cermin (Mirroring)</h4>
-            <p></p>
+            <p class="feature-box-desc">Membalikkan arah selfie atau objek secara horizontal/vertikal.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Tanpa Terpotong</h4>
-            <p></p>
+            <p class="feature-box-desc">Menyesuaikan dimensi kanvas otomatis sehingga tidak ada bagian yang terpotong.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Proses Aman &amp; Cepat</h4>
-            <p></p>
+            <p class="feature-box-desc">Berjalan langsung di RAM browser Anda tanpa upload ke server.</p>
           </div>
           </div>
         </div>
@@ -456,46 +468,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/id/alat/potong-gambar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Edit</span>
-          </div>
-          <h3 class="tool-card-title">Potong Gambar</h3>
-          <p class="tool-card-desc">Potong dan atur fokus gambar Anda dengan kanvas interaktif. Gunakan rasio standar seperti kotak 1:1, potret 4:3, lanskap 16:9, atau atur bingkai secara bebas untuk menonjolkan bagian terpenting foto.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/ubah-ukuran-gambar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Ubah Ukuran</span>
-          </div>
-          <h3 class="tool-card-title">Ubah Ukuran Gambar</h3>
-          <p class="tool-card-desc">Sesuaikan dimensi foto Anda ke ukuran piksel yang tepat, persentase skala, atau resolusi standar. Kunci rasio aspek agar foto tidak melar atau terdistorsi, lalu unduh hasilnya secara instan.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/gambar-skala-abu-abu/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Edit</span>
-          </div>
-          <h3 class="tool-card-title">Gambar Skala Abu-abu</h3>
-          <p class="tool-card-desc">Ubah foto berwarna menjadi gambar monokrom hitam putih yang klasik dan elegan. Menggunakan rumus pencahayaan standar untuk menghasilkan gradasi abu-abu yang alami dan seimbang.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/kompres-gambar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Kompresi</span>
-          </div>
-          <h3 class="tool-card-title">Kompres Gambar</h3>
-          <p class="tool-card-desc">Perkecil ukuran file gambar JPG, PNG, dan WebP dengan cepat dan aman. Sesuaikan kualitas menggunakan slider interaktif, bandingkan hasil sebelum dan sesudah kompresi, lalu unduh hasilnya tanpa mengunggah file ke server mana pun.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
+    <a href="/id/alat/potong-gambar/" class="tool-card tool-card-editing" data-category="editing" aria-label="Potong Gambar - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Edit</span>
+          <span class="tool-badge-feature">1:1 • 16:9 • Bebas</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Potong Gambar</h3>
+      <p class="tool-card-desc">Potong dan atur fokus gambar Anda dengan kanvas interaktif. Gunakan rasio standar seperti kotak 1:1, potret 4:3, lanskap 16:9, atau atur bingkai secara bebas untuk menonjolkan bagian terpenting foto.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/ubah-ukuran-gambar/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Ubah Ukuran Gambar - Ubah Ukuran">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Ubah Ukuran</span>
+          <span class="tool-badge-feature">Kunci Rasio</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Ubah Ukuran Gambar</h3>
+      <p class="tool-card-desc">Sesuaikan dimensi foto Anda ke ukuran piksel yang tepat, persentase skala, atau resolusi standar. Kunci rasio aspek agar foto tidak melar atau terdistorsi, lalu unduh hasilnya secara instan.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Exact Pixels / %</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/gambar-skala-abu-abu/" class="tool-card tool-card-color" data-category="color" aria-label="Gambar Skala Abu-abu - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Edit</span>
+          <span class="tool-badge-feature">Luminansi Alami</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Gambar Skala Abu-abu</h3>
+      <p class="tool-card-desc">Ubah foto berwarna menjadi gambar monokrom hitam putih yang klasik dan elegan. Menggunakan rumus pencahayaan standar untuk menghasilkan gradasi abu-abu yang alami dan seimbang.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Bicubic Grayscale</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/kompres-gambar/" class="tool-card tool-card-compression" data-category="compression" aria-label="Kompres Gambar - Kompresi">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Kompresi</span>
+          <span class="tool-badge-feature">Hingga -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Kompres Gambar</h3>
+      <p class="tool-card-desc">Perkecil ukuran file gambar JPG, PNG, dan WebP dengan cepat dan aman. Sesuaikan kualitas menggunakan slider interaktif, bandingkan hasil sebelum dan sesudah kompresi, lalu unduh hasilnya tanpa mengunggah file ke server mana pun.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

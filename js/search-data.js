@@ -10,6 +10,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Image Compressor",
       "url": "/tools/image-compressor/",
       "category": "Compress",
+      "categoryKey": "compression",
+      "feature": "Up to -90%",
+      "format": "JPG • PNG • WebP",
       "desc": "Reduce JPG, PNG, and WebP file sizes quickly and safely. Fine-tune your compression quality with a live slider, inspect before-and-after results, and download your optimized files with zero server uploads.",
       "keywords": [
         "image compressor",
@@ -19,7 +22,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "compress png",
         "compress webp",
         "shrink image file"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16\"/></svg>"
     },
     {
       "id": "image-resizer",
@@ -27,6 +31,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Image Resizer",
       "url": "/tools/image-resizer/",
       "category": "Resize",
+      "categoryKey": "resizing",
+      "feature": "Aspect Lock",
+      "format": "Exact Pixels / %",
       "desc": "Scale your photos to exact pixel widths and heights, standard resolution presets, or exact percentages. Lock aspect ratio to prevent stretching and download instantly with local browser processing.",
       "keywords": [
         "image resizer",
@@ -35,7 +42,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "change photo dimensions",
         "resize picture in pixels",
         "lock aspect ratio"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/></svg>"
     },
     {
       "id": "image-to-target-size",
@@ -43,6 +51,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Compress to Target Size",
       "url": "/tools/image-to-target-size/",
       "category": "Compress",
+      "categoryKey": "compression",
+      "feature": "Exact KB/MB",
+      "format": "50KB • 100KB • 1MB",
       "desc": "Need an image under 50KB, 100KB, or 200KB for an official government portal, job application, or university form? Set your exact target file size in KB or MB and let our iterative algorithm compress it with optimal clarity.",
       "keywords": [
         "compress to target size",
@@ -50,7 +61,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "compress image to 100kb",
         "reduce image size in kb",
         "exact file size compressor"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>"
     },
     {
       "id": "image-cropper",
@@ -58,6 +70,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Image Cropper",
       "url": "/tools/image-cropper/",
       "category": "Edit",
+      "categoryKey": "editing",
+      "feature": "1:1 • 16:9 • Free",
+      "format": "JPG • PNG • WebP",
       "desc": "Crop and frame your photos with interactive canvas selection. Lock standard aspect ratios like 1:1 square, 4:3 portrait, 16:9 landscape, or freely adjust the crop box to highlight what matters most.",
       "keywords": [
         "image cropper",
@@ -66,7 +81,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "square crop 1:1",
         "crop 16:9 landscape",
         "free photo cropper"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 2v14a2 2 0 0 0 2 2h14\"/><path d=\"M18 22V8a2 2 0 0 0-2-2H2\"/></svg>"
     },
     {
       "id": "image-rotate-flip",
@@ -74,6 +90,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Rotate & Flip Image",
       "url": "/tools/image-rotate-flip/",
       "category": "Edit",
+      "categoryKey": "editing",
+      "feature": "90°/180° & Mirror",
+      "format": "Zero Quality Loss",
       "desc": "Fix sideways smartphone photos or mirror images horizontally and vertically. Turn photos 90° clockwise, 90° counter-clockwise, or 180° upside down in seconds without quality loss.",
       "keywords": [
         "rotate image",
@@ -82,7 +101,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "rotate photo 90 degrees",
         "turn photo upside down",
         "fix photo orientation"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"23 4 23 10 17 10\"/><path d=\"M20.49 15a9 9 0 1 1-2.12-9.36L23 10\"/></svg>"
     },
     {
       "id": "jpg-to-png",
@@ -90,6 +110,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "JPG to PNG",
       "url": "/tools/jpg-to-png/",
       "category": "Convert",
+      "categoryKey": "conversion",
+      "feature": "Lossless PNG",
+      "format": "JPG → PNG",
       "desc": "Convert JPG photos into lossless PNG format with zero degradation. Preserve crisp typography, diagram lines, and sharp edges without installing desktop software.",
       "keywords": [
         "jpg to png",
@@ -97,7 +120,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "jpeg to png online",
         "lossless png converter",
         "turn jpg into png"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4\"/></svg>"
     },
     {
       "id": "png-to-jpg",
@@ -105,6 +129,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "PNG to JPG",
       "url": "/tools/png-to-jpg/",
       "category": "Convert",
+      "categoryKey": "conversion",
+      "feature": "Custom BG Fill",
+      "format": "PNG → JPG",
       "desc": "Convert large PNG files into lightweight, universally compatible JPG images. Replace transparent backgrounds with custom colors (white, black, or custom) and download optimized JPEGs in seconds.",
       "keywords": [
         "png to jpg",
@@ -112,7 +139,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "png to jpeg online",
         "transparent png to jpg",
         "change png to jpg"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4\"/></svg>"
     },
     {
       "id": "webp-converter",
@@ -120,6 +148,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "WebP Converter",
       "url": "/tools/webp-converter/",
       "category": "Convert",
+      "categoryKey": "conversion",
+      "feature": "Ultra-Light WebP",
+      "format": "JPG/PNG → WebP",
       "desc": "Convert JPG and PNG images into modern, highly compressed WebP files, or convert WebP images back into widely compatible JPG and PNG formats. Speed up page loads and boost SEO performance.",
       "keywords": [
         "webp converter",
@@ -128,7 +159,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "png to webp",
         "webp to jpg",
         "next gen image format"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>"
     },
     {
       "id": "image-format-converter",
@@ -136,6 +168,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Image Format Converter",
       "url": "/tools/image-format-converter/",
       "category": "Convert",
+      "categoryKey": "conversion",
+      "feature": "Batch 3-Way",
+      "format": "All Formats",
       "desc": "Convert single or batch images seamlessly between JPG, PNG, and WebP formats. Fine-tune output quality, preserve transparency or solid fills, and download converted files instantly without server uploads.",
       "keywords": [
         "image format converter",
@@ -143,7 +178,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convert jpg png webp",
         "change image format online",
         "multi image converter"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -151,6 +187,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Grayscale Image",
       "url": "/tools/grayscale-image/",
       "category": "Edit",
+      "categoryKey": "color",
+      "feature": "Human Luminance",
+      "format": "Bicubic Grayscale",
       "desc": "Transform color photos into timeless monochrome and black-and-white graphics. Uses standard ITU-R BT.709 luminance formulas to calculate natural contrast and tone depth.",
       "keywords": [
         "grayscale image",
@@ -158,7 +197,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "black and white photo filter",
         "monochrome image online",
         "desaturate photo"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a10 10 0 0 1 0 20z\"/></svg>"
     },
     {
       "id": "brightness-contrast",
@@ -166,6 +206,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Brightness & Contrast",
       "url": "/tools/brightness-contrast/",
       "category": "Edit",
+      "categoryKey": "color",
+      "feature": "Exposure & Sat",
+      "format": "Live Canvas Preview",
       "desc": "Fix dark photos, brighten shadows, and boost color saturation with precision sliders. Preview changes in real time and download corrected photos without heavy editing software.",
       "keywords": [
         "brightness contrast online",
@@ -173,7 +216,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "increase contrast photo",
         "fix underexposed picture",
         "photo lighting adjuster"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>"
     },
     {
       "id": "blur-sharpen-image",
@@ -181,6 +225,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Blur & Sharpen",
       "url": "/tools/blur-sharpen-image/",
       "category": "Edit",
+      "categoryKey": "editing",
+      "feature": "Bicubic Clarity",
+      "format": "Gaussian & Sharpen",
       "desc": "Apply smooth Gaussian blur to obscure background details or enhance sharpness with a 3x3 convolution matrix kernel. Fast, interactive, and processed locally in your browser.",
       "keywords": [
         "blur image online",
@@ -188,7 +235,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "gaussian blur photo",
         "increase sharpness picture",
         "unblur edges photo"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14\"/></svg>"
     },
     {
       "id": "image-color-picker",
@@ -196,6 +244,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Image Color Picker",
       "url": "/tools/image-color-picker/",
       "category": "Color",
+      "categoryKey": "color",
+      "feature": "8× Loupe Magnifier",
+      "format": "HEX • RGB • HSL",
       "desc": "Extract exact color codes from any photo with a precision zoom loupe eyedropper. Inspect individual pixels, view HEX, RGB, and HSL formats, and build a saved palette history.",
       "keywords": [
         "image color picker",
@@ -203,7 +254,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "image eyedropper online",
         "hex code from photo",
         "extract rgb from image"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19l7-7 3 3-7 7-3-3z\"/><path d=\"M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z\"/><path d=\"M2 2l7.586 7.586\"/><circle cx=\"11\" cy=\"11\" r=\"2\"/></svg>"
     },
     {
       "id": "color-palette-generator",
@@ -211,6 +263,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Color Palette Generator",
       "url": "/tools/color-palette-generator/",
       "category": "Color",
+      "categoryKey": "color",
+      "feature": "Dominant Swatches",
+      "format": "Copy HEX Codes",
       "desc": "Extract harmonious color palettes from photographs and artwork using color quantization algorithms. Discover dominant tones, inspect HEX codes, and download beautiful swatch cards.",
       "keywords": [
         "color palette generator",
@@ -218,7 +273,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "image color scheme generator",
         "dominant colors photo",
         "photo palette creator"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"13.5\" cy=\"6.5\" r=\".5\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\"/></svg>"
     },
     {
       "id": "favicon-generator",
@@ -226,6 +282,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Favicon Generator",
       "url": "/tools/favicon-generator/",
       "category": "Create",
+      "categoryKey": "conversion",
+      "feature": "Multi-Size Icons",
+      "format": "ICO • PNG • 16-512px",
       "desc": "Transform your logo or brand icon into a complete favicon package. Generate standard 16x16, 32x32, 48x48, and 180x180 Apple Touch Icons with ready-to-copy HTML header code.",
       "keywords": [
         "favicon generator",
@@ -233,7 +292,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "apple touch icon maker",
         "favicon 32x32",
         "generate favicon html tags"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
     },
     {
       "id": "image-to-base64",
@@ -241,6 +301,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Image to Base64",
       "url": "/tools/image-to-base64/",
       "category": "Developer",
+      "categoryKey": "developer",
+      "feature": "Data URL String",
+      "format": "Embed in HTML/CSS",
       "desc": "Convert image files into Base64 encoded strings and embeddable Data URLs. Embed images directly into HTML <img> tags, CSS background-image properties, or JSON payloads without external asset requests.",
       "keywords": [
         "image to base64",
@@ -248,7 +311,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "base64 data uri generator",
         "embed image in html css",
         "image to base64 string"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg>"
     },
     {
       "id": "base64-to-image",
@@ -256,6 +320,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Base64 to Image",
       "url": "/tools/base64-to-image/",
       "category": "Developer",
+      "categoryKey": "developer",
+      "feature": "Instant Decoder",
+      "format": "Base64 → PNG/JPG",
       "desc": "Decode Base64 strings, Data URLs, and embedded image code back into clean, downloadable PNG, JPG, or WebP graphic files. Validate encoding syntax and preview files in seconds.",
       "keywords": [
         "base64 to image",
@@ -263,7 +330,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "base64 to png converter",
         "data uri to jpg",
         "convert base64 string to picture"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"8 17 12 21 16 17\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/><path d=\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\"/></svg>"
     },
     {
       "id": "social-media-image-resizer",
@@ -271,6 +339,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Social Media Image Resizer",
       "url": "/tools/social-media-image-resizer/",
       "category": "Resize",
+      "categoryKey": "resizing",
+      "feature": "Insta • FB • X • YT",
+      "format": "1080p • 4K • Story",
       "desc": "Crop and scale photos to exact platform specifications for Instagram, Facebook, YouTube, LinkedIn, TikTok, and X. Eliminate awkward crops and blurry post previews.",
       "keywords": [
         "social media image resizer",
@@ -278,7 +349,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "youtube thumbnail resizer",
         "facebook cover photo maker",
         "linkedin banner size"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"/><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"/><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"/></svg>"
     },
     {
       "id": "passport-photo-resizer",
@@ -286,6 +358,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Passport Photo Resizer",
       "url": "/tools/passport-photo-resizer/",
       "category": "Resize",
+      "categoryKey": "resizing",
+      "feature": "300 DPI Biometric",
+      "format": "US • EU • Schengen",
       "desc": "Crop and align passport photos, visa pictures, and ID cards to exact official international standards. Includes biometric face-alignment guides for US (2x2 inch), UK/Schengen (35x45mm), and Indian passport guidelines.",
       "keywords": [
         "passport photo resizer",
@@ -293,7 +368,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "35x45mm photo maker",
         "us visa photo size",
         "passport size photo online"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>"
     },
     {
       "id": "meme-generator",
@@ -301,6 +377,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Meme Generator",
       "url": "/tools/meme-generator/",
       "category": "Create",
+      "categoryKey": "editing",
+      "feature": "Moveable Captions",
+      "format": "Impact & Modern Font",
       "desc": "Create viral memes in seconds with classic Impact captions or modern text styling. Customize font size, colors, stroke outlines, and moveable text boxes with zero watermarks.",
       "keywords": [
         "meme generator",
@@ -308,7 +387,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "add text to photo",
         "impact font meme maker",
         "funny meme creator"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2\"/><line x1=\"9\" y1=\"9\" x2=\"9.01\" y2=\"9\"/><line x1=\"15\" y1=\"9\" x2=\"15.01\" y2=\"9\"/></svg>"
     }
   ],
   "fr": [
@@ -318,6 +398,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Compresseur d'image",
       "url": "/fr/outils/compresseur-image/",
       "category": "Compression",
+      "categoryKey": "compression",
+      "feature": "Jusqu'à -90%",
+      "format": "JPG • PNG • WebP",
       "desc": "Réduisez la taille de vos fichiers JPG, PNG et WebP rapidement et sans perte visuelle. Ajustez la qualité de compression en direct avec le curseur, visualisez le résultat avant/après et téléchargez vos images sans aucun transfert sur serveur.",
       "keywords": [
         "compresseur image",
@@ -327,7 +410,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "compresser png",
         "compresser webp",
         "optimiser photo"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16\"/></svg>"
     },
     {
       "id": "image-resizer",
@@ -335,6 +419,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionner une image",
       "url": "/fr/outils/redimensionner-image/",
       "category": "Redimensionnement",
+      "categoryKey": "resizing",
+      "feature": "Proportions",
+      "format": "Exact Pixels / %",
       "desc": "Ajustez les dimensions de vos photos en pixels, en pourcentage ou avec des formats prédéfinis. Conservez les proportions d'origine pour éviter toute déformation et téléchargez votre image instantanément.",
       "keywords": [
         "redimensionner image",
@@ -342,7 +429,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "modifier pixels image",
         "agrandir photo",
         "diminuer dimensions image"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/></svg>"
     },
     {
       "id": "image-to-target-size",
@@ -350,6 +438,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Compresser à une taille cible",
       "url": "/fr/outils/image-taille-cible/",
       "category": "Compression",
+      "categoryKey": "compression",
+      "feature": "Taille KB exacte",
+      "format": "50KB • 100KB • 1MB",
       "desc": "Vous devez fournir une photo de moins de 50 Ko, 100 Ko ou 200 Ko pour un formulaire officiel ou une candidature ? Indiquez la taille maximale souhaitée et notre algorithme ajuste automatiquement la qualité optimale.",
       "keywords": [
         "compresser taille cible",
@@ -357,7 +448,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "compresser image 100 ko",
         "taille exacte photo",
         "diminuer taille ko"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>"
     },
     {
       "id": "image-cropper",
@@ -365,6 +457,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Recadrer une image",
       "url": "/fr/outils/recadrer-image/",
       "category": "Retouche",
+      "categoryKey": "editing",
+      "feature": "1:1 • 16:9 • Libre",
+      "format": "JPG • PNG • WebP",
       "desc": "Cadrez et rognez vos photos avec précision grâce à notre zone de sélection interactive. Verrouillez des ratios standard (carré 1:1, 4:3, 16:9) ou découpez librement la zone de votre choix en toute simplicité.",
       "keywords": [
         "recadrer image",
@@ -372,7 +467,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "decouper photo",
         "cadrage 1:1 carre",
         "rogner image 16:9"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 2v14a2 2 0 0 0 2 2h14\"/><path d=\"M18 22V8a2 2 0 0 0-2-2H2\"/></svg>"
     },
     {
       "id": "image-rotate-flip",
@@ -380,6 +476,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Pivoter et retourner une image",
       "url": "/fr/outils/pivoter-retourner-image/",
       "category": "Retouche",
+      "categoryKey": "editing",
+      "feature": "Rotation & Miroir",
+      "format": "Zero Quality Loss",
       "desc": "Corrigez l'orientation de photos prises de travers avec votre smartphone ou appliquez un effet miroir. Pivotez à 90° vers la droite, 90° vers la gauche ou retournez vos images verticalement et horizontalement.",
       "keywords": [
         "pivoter image",
@@ -387,7 +486,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "effet miroir photo",
         "tourner photo 90 degres",
         "corriger orientation image"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"23 4 23 10 17 10\"/><path d=\"M20.49 15a9 9 0 1 1-2.12-9.36L23 10\"/></svg>"
     },
     {
       "id": "jpg-to-png",
@@ -395,6 +495,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "JPG en PNG",
       "url": "/fr/outils/jpg-png/",
       "category": "Conversion",
+      "categoryKey": "conversion",
+      "feature": "PNG sans perte",
+      "format": "JPG → PNG",
       "desc": "Transformez vos photos JPG en fichiers PNG de haute qualité avec une compression sans perte. Idéal pour figer la qualité de vos captures d'écran, logos et illustrations sans perte à chaque enregistrement.",
       "keywords": [
         "jpg en png",
@@ -402,7 +505,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convertisseur jpeg en png",
         "transformer photo en png",
         "image png haute qualite"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4\"/></svg>"
     },
     {
       "id": "png-to-jpg",
@@ -410,6 +514,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "PNG en JPG",
       "url": "/fr/outils/png-jpg/",
       "category": "Conversion",
+      "categoryKey": "conversion",
+      "feature": "Fond personnalisé",
+      "format": "PNG → JPG",
       "desc": "Transformez vos fichiers PNG volumineux en images JPG légères et universellement compatibles. Remplacez automatiquement les zones transparentes par un fond blanc ou personnalisé et réduisez le poids de vos visuels.",
       "keywords": [
         "png en jpg",
@@ -417,7 +524,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convertisseur png en jpeg",
         "png fond transparent en jpg",
         "reduire poids png"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4\"/></svg>"
     },
     {
       "id": "webp-converter",
@@ -425,6 +533,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Convertisseur WebP",
       "url": "/fr/outils/convertisseur-webp/",
       "category": "Conversion",
+      "categoryKey": "conversion",
+      "feature": "WebP ultra-léger",
+      "format": "JPG/PNG → WebP",
       "desc": "Transformez vos images JPG et PNG au format WebP nouvelle génération, ou reconvertissez des fichiers WebP en JPG et PNG. Accélérez le chargement de vos sites web et améliorez vos scores Core Web Vitals.",
       "keywords": [
         "convertisseur webp",
@@ -433,7 +544,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "png en webp",
         "webp en jpg",
         "format nouvelle generation"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>"
     },
     {
       "id": "image-format-converter",
@@ -441,6 +553,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Convertisseur de format d'image",
       "url": "/fr/outils/convertisseur-format-image/",
       "category": "Conversion",
+      "categoryKey": "conversion",
+      "feature": "Multi-formats",
+      "format": "All Formats",
       "desc": "Basculez librement entre les formats JPG, PNG et WebP, à l'unité ou par lot. Réglez la qualité de sortie, gérez la transparence et téléchargez vos fichiers convertis immédiatement sans aucun transfert distant.",
       "keywords": [
         "convertisseur format image",
@@ -448,7 +563,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "changer format photo",
         "convertir jpg png webp",
         "convertisseur universel photo"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -456,6 +572,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Image en niveaux de gris",
       "url": "/fr/outils/image-niveaux-gris/",
       "category": "Retouche",
+      "categoryKey": "color",
+      "feature": "Noir et blanc net",
+      "format": "Bicubic Grayscale",
       "desc": "Transformez vos photos couleur en élégantes compositions monochromes en noir et blanc. Utilise les formules photométriques standard de luminance pour un contraste et des nuances de gris naturels.",
       "keywords": [
         "image noir et blanc",
@@ -463,7 +582,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "niveaux de gris en ligne",
         "filtre monochrome photo",
         "desaturer image"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a10 10 0 0 1 0 20z\"/></svg>"
     },
     {
       "id": "brightness-contrast",
@@ -471,6 +591,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Luminosité et contraste",
       "url": "/fr/outils/luminosite-contraste/",
       "category": "Retouche",
+      "categoryKey": "color",
+      "feature": "Lumière & Saturation",
+      "format": "Live Canvas Preview",
       "desc": "Éclaircissez les photos trop sombres, réhaussez les contrastes et ravivez les couleurs avec nos curseurs de précision. Visualisez les changements en direct et téléchargez vos images corrigées sans logiciel complexe.",
       "keywords": [
         "luminosite contraste en ligne",
@@ -478,7 +601,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "augmenter contraste image",
         "corriger exposition photo",
         "regler saturation image"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>"
     },
     {
       "id": "blur-sharpen-image",
@@ -486,6 +610,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Flou et netteté",
       "url": "/fr/outils/flou-nettete/",
       "category": "Retouche",
+      "categoryKey": "editing",
+      "feature": "Netteté & Flou",
+      "format": "Gaussian & Sharpen",
       "desc": "Appliquez un flou élégant pour masquer des détails confidentiels ou rehaussez la netteté des contours grâce à un filtre de convolution. Rapide, précis et exécuté localement dans votre navigateur.",
       "keywords": [
         "flouter image en ligne",
@@ -493,7 +620,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "flou gaussien image",
         "rendre photo plus nette",
         "accentuer contours photo"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14\"/></svg>"
     },
     {
       "id": "image-color-picker",
@@ -501,6 +629,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Sélecteur de couleur d'image",
       "url": "/fr/outils/selecteur-couleur-image/",
       "category": "Couleur",
+      "categoryKey": "color",
+      "feature": "Loupe 8× précise",
+      "format": "HEX • RGB • HSL",
       "desc": "Extrayez les codes couleur exacts de vos images grâce à notre pipette avec loupe grossissante de haute précision. Inspectez chaque pixel, lisez les valeurs HEX, RGB et HSL et copiez-les facilement dans votre presse-papiers.",
       "keywords": [
         "selecteur couleur image",
@@ -508,7 +639,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "trouver code hex image",
         "extraire couleur photo",
         "code rgb image"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19l7-7 3 3-7 7-3-3z\"/><path d=\"M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z\"/><path d=\"M2 2l7.586 7.586\"/><circle cx=\"11\" cy=\"11\" r=\"2\"/></svg>"
     },
     {
       "id": "color-palette-generator",
@@ -516,6 +648,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Générateur de palette de couleurs",
       "url": "/fr/outils/generateur-palette-couleurs/",
       "category": "Couleur",
+      "categoryKey": "color",
+      "feature": "Nuances dominantes",
+      "format": "Copy HEX Codes",
       "desc": "Extrayez automatiquement les palettes de couleurs dominantes et harmonieuses de vos photos préférées grâce à nos algorithmes de quantification. Visualisez les codes HEX et téléchargez une planche nuancier élégante.",
       "keywords": [
         "generateur palette couleurs",
@@ -523,7 +658,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "nuancier couleurs image",
         "couleurs dominantes photo",
         "palette graphique en ligne"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"13.5\" cy=\"6.5\" r=\".5\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\"/></svg>"
     },
     {
       "id": "favicon-generator",
@@ -531,6 +667,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Générateur de favicon",
       "url": "/fr/outils/generateur-favicon/",
       "category": "Création",
+      "categoryKey": "conversion",
+      "feature": "Pack multi-tailles",
+      "format": "ICO • PNG • 16-512px",
       "desc": "Transformez votre logo en un pack complet de favicons pour votre site web. Générez les formats 16x16, 32x32, 48x48 et 180x180 pour Apple Touch Icon avec le code HTML prêt à copier.",
       "keywords": [
         "generateur favicon",
@@ -538,7 +677,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "apple touch icon generateur",
         "favicon 32x32",
         "code html favicon"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
     },
     {
       "id": "image-to-base64",
@@ -546,6 +686,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Image en Base64",
       "url": "/fr/outils/image-base64/",
       "category": "Développeur",
+      "categoryKey": "developer",
+      "feature": "Chaîne Base64",
+      "format": "Embed in HTML/CSS",
       "desc": "Transformez vos fichiers images en chaînes de caractères Base64 et Data URI. Intégrez vos visuels directement dans des balises HTML <img>, des règles CSS background-image ou des fichiers JSON sans requêtes HTTP externes.",
       "keywords": [
         "image en base64",
@@ -553,7 +696,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "generateur data uri image",
         "integrer image html css",
         "chaine base64 photo"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg>"
     },
     {
       "id": "base64-to-image",
@@ -561,6 +705,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Base64 en image",
       "url": "/fr/outils/base64-image/",
       "category": "Développeur",
+      "categoryKey": "developer",
+      "feature": "Décodeur direct",
+      "format": "Base64 → PNG/JPG",
       "desc": "Décodez vos chaînes de caractères Base64 et Data URI pour retrouver des fichiers images téléchargeables en PNG, JPG ou WebP. Validez la syntaxe de votre code et prévisualisez vos visuels en un instant.",
       "keywords": [
         "base64 en image",
@@ -568,7 +715,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convertir data uri en png",
         "base64 en jpg en ligne",
         "transformer texte base64 en image"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"8 17 12 21 16 17\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/><path d=\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\"/></svg>"
     },
     {
       "id": "social-media-image-resizer",
@@ -576,6 +724,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionneur réseaux sociaux",
       "url": "/fr/outils/redimensionneur-images-reseaux-sociaux/",
       "category": "Redimensionnement",
+      "categoryKey": "resizing",
+      "feature": "Réseaux sociaux",
+      "format": "1080p • 4K • Story",
       "desc": "Adaptez vos visuels aux formats officiels d'Instagram, Facebook, YouTube, LinkedIn, TikTok et X. Évitez les recadrages automatiques disgracieux et obtenez des publications impeccables.",
       "keywords": [
         "redimensionner photo reseaux sociaux",
@@ -583,7 +734,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "miniature youtube dimensions",
         "banniere linkedin taille",
         "story instagram format"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"/><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"/><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"/></svg>"
     },
     {
       "id": "passport-photo-resizer",
@@ -591,6 +743,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionneur photo de passeport",
       "url": "/fr/outils/redimensionneur-photo-passeport/",
       "category": "Redimensionnement",
+      "categoryKey": "resizing",
+      "feature": "Format biométrique",
+      "format": "US • EU • Schengen",
       "desc": "Recadrez et alignez vos photos d'identité aux normes officielles françaises, européennes (35x45 mm) et internationales (États-Unis 2x2 pouces). Guide biométrique visuel pour respecter les exigences administratives.",
       "keywords": [
         "photo identite 35x45 en ligne",
@@ -598,7 +753,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "photo visa usa 2x2",
         "norme biométrique photo identite",
         "creer planche photo identite"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>"
     },
     {
       "id": "meme-generator",
@@ -606,6 +762,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Générateur de mèmes",
       "url": "/fr/outils/generateur-memes/",
       "category": "Création",
+      "categoryKey": "editing",
+      "feature": "Texte déplaçable",
+      "format": "Impact & Modern Font",
       "desc": "Concevez des mèmes viraux en quelques secondes avec la typographie Impact culte ou un style moderne. Personnalisez les textes du haut et du bas, ajustez la taille et téléchargez vos mèmes sans aucun filigrane.",
       "keywords": [
         "generateur de memes",
@@ -613,7 +772,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ajouter texte sur photo",
         "faire un meme gratuit",
         "police impact meme"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2\"/><line x1=\"9\" y1=\"9\" x2=\"9.01\" y2=\"9\"/><line x1=\"15\" y1=\"9\" x2=\"15.01\" y2=\"9\"/></svg>"
     }
   ],
   "es": [
@@ -623,6 +783,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Compresor de imágenes",
       "url": "/es/herramientas/comprimir-imagen/",
       "category": "Compresión",
+      "categoryKey": "compression",
+      "feature": "Hasta -90%",
+      "format": "JPG • PNG • WebP",
       "desc": "Reduce el tamaño de tus fotos JPG, PNG y WebP de forma rápida, eficiente y totalmente segura. Ajusta el nivel de compresión con el deslizador en tiempo real, compara el antes y después y descarga tu imagen optimizada sin subir nada a servidores.",
       "keywords": [
         "comprimir imagen",
@@ -632,7 +795,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "comprimir png",
         "comprimir webp",
         "bajar peso foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16\"/></svg>"
     },
     {
       "id": "image-resizer",
@@ -640,6 +804,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionar imagen",
       "url": "/es/herramientas/redimensionar-imagen/",
       "category": "Redimensionar",
+      "categoryKey": "resizing",
+      "feature": "Proporción",
+      "format": "Exact Pixels / %",
       "desc": "Cambia el tamaño de tus fotos en píxeles, porcentaje o mediante resoluciones predeterminadas. Bloquea la relación de aspecto para no deformar la imagen y descarga el resultado al instante con procesamiento 100% local.",
       "keywords": [
         "redimensionar imagen",
@@ -647,7 +814,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "escalar imagen",
         "ajustar pixeles foto",
         "modificar resolucion"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/></svg>"
     },
     {
       "id": "image-to-target-size",
@@ -655,6 +823,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Comprimir a tamaño exacto",
       "url": "/es/herramientas/imagen-tamano-objetivo/",
       "category": "Compresión",
+      "categoryKey": "compression",
+      "feature": "Tamaño exacto",
+      "format": "50KB • 100KB • 1MB",
       "desc": "¿Necesitas que tu foto pese menos de 50KB, 100KB o 200KB para subirla a un portal gubernamental, visado o trámite universitario? Define el peso máximo y nuestro algoritmo ajustará la compresión exacta con la mayor nitidez posible.",
       "keywords": [
         "comprimir a tamano exacto",
@@ -662,7 +833,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "comprimir foto a 100kb",
         "reducir kb de imagen",
         "tamano limite foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>"
     },
     {
       "id": "image-cropper",
@@ -670,6 +842,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Recortar imagen",
       "url": "/es/herramientas/recortar-imagen/",
       "category": "Edición",
+      "categoryKey": "editing",
+      "feature": "1:1 • 16:9 • Libre",
+      "format": "JPG • PNG • WebP",
       "desc": "Encuadra y recorta tus imágenes fácilmente en el lienzo interactivo. Ajusta proporciones fijas como cuadrado 1:1, 4:3 o panorámico 16:9, o selecciona un área personalizada para resaltar lo más importante.",
       "keywords": [
         "recortar imagen",
@@ -677,7 +852,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "encuadrar foto",
         "recorte cuadrado 1:1",
         "recortar imagen 16:9 gratis"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 2v14a2 2 0 0 0 2 2h14\"/><path d=\"M18 22V8a2 2 0 0 0-2-2H2\"/></svg>"
     },
     {
       "id": "image-rotate-flip",
@@ -685,6 +861,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Rotar y voltear imagen",
       "url": "/es/herramientas/rotar-voltear-imagen/",
       "category": "Edición",
+      "categoryKey": "editing",
+      "feature": "Giro y espejo",
+      "format": "Zero Quality Loss",
       "desc": "Corrige fotos que quedaron de costado o de cabeza al tomarlas con tu móvil. Rota 90° a la derecha, 90° a la izquierda o aplica efecto espejo horizontal y vertical sin perder definición.",
       "keywords": [
         "rotar imagen",
@@ -692,7 +871,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "girar foto 90 grados",
         "efecto espejo foto",
         "cambiar orientacion imagen"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"23 4 23 10 17 10\"/><path d=\"M20.49 15a9 9 0 1 1-2.12-9.36L23 10\"/></svg>"
     },
     {
       "id": "jpg-to-png",
@@ -700,6 +880,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "JPG a PNG",
       "url": "/es/herramientas/jpg-a-png/",
       "category": "Convertir",
+      "categoryKey": "conversion",
+      "feature": "PNG sin pérdida",
+      "format": "JPG → PNG",
       "desc": "Pasa fotos JPG a formato PNG sin pérdida de calidad. Ideal para capturas de pantalla, esquemas y gráficos donde se requiere máxima definición sin artefactos de compresión JPEG.",
       "keywords": [
         "jpg a png",
@@ -707,7 +890,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "transformar jpeg en png",
         "convertidor imagen png",
         "cambiar formato a png"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4\"/></svg>"
     },
     {
       "id": "png-to-jpg",
@@ -715,6 +899,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "PNG a JPG",
       "url": "/es/herramientas/png-a-jpg/",
       "category": "Convertir",
+      "categoryKey": "conversion",
+      "feature": "Fondo personalizado",
+      "format": "PNG → JPG",
       "desc": "Convierte archivos PNG pesados en imágenes JPG compactas y compatibles con cualquier dispositivo. Rellena las transparencias con fondos sólidos y ahorra espacio de almacenamiento al instante.",
       "keywords": [
         "png a jpg",
@@ -722,7 +909,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "transformar png en jpeg",
         "quitar transparencia png a jpg",
         "aligerar imagen png"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4\"/></svg>"
     },
     {
       "id": "webp-converter",
@@ -730,6 +918,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Convertidor WebP",
       "url": "/es/herramientas/convertidor-webp/",
       "category": "Convertir",
+      "categoryKey": "conversion",
+      "feature": "WebP ultra liviano",
+      "format": "JPG/PNG → WebP",
       "desc": "Transforma imágenes JPG y PNG al moderno formato WebP para aligerar páginas web, o convierte archivos WebP de vuelta a JPG y PNG. Mejora los tiempos de carga y el posicionamiento SEO de tu web.",
       "keywords": [
         "convertidor webp",
@@ -738,7 +929,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "png a webp",
         "webp a jpg online",
         "formato de imagen webp"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>"
     },
     {
       "id": "image-format-converter",
@@ -746,6 +938,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Convertidor de formato de imagen",
       "url": "/es/herramientas/convertidor-formato-imagen/",
       "category": "Convertir",
+      "categoryKey": "conversion",
+      "feature": "Multi-formato",
+      "format": "All Formats",
       "desc": "Convierte fotos de forma individual o por lotes entre JPG, PNG y WebP. Configura la calidad de salida, gestiona fondos transparentes y descarga tus archivos transformados al instante sin enviar nada a servidores.",
       "keywords": [
         "convertidor formato imagen",
@@ -753,7 +948,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "cambiar formato de fotos",
         "convertir jpg png webp online",
         "conversor universal imagen"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -761,6 +957,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Escala de grises",
       "url": "/es/herramientas/escala-grises/",
       "category": "Edición",
+      "categoryKey": "color",
+      "feature": "Escala natural",
+      "format": "Bicubic Grayscale",
       "desc": "Transforma tus fotos a color en clásicas imágenes monocromáticas en blanco y negro. Aplica la fórmula de luminancia estándar para lograr contrastes naturales y profundidad tonal.",
       "keywords": [
         "foto blanco y negro",
@@ -768,7 +967,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "filtro blanco y negro online",
         "desaturar foto",
         "imagen monocromatica"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a10 10 0 0 1 0 20z\"/></svg>"
     },
     {
       "id": "brightness-contrast",
@@ -776,6 +976,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Brillo y contraste",
       "url": "/es/herramientas/brillo-contraste/",
       "category": "Edición",
+      "categoryKey": "color",
+      "feature": "Luz y saturación",
+      "format": "Live Canvas Preview",
       "desc": "Aclara fotografías oscuras, equilibra sombras y resalta los colores con controles deslizantes de precisión. Observa los cambios en vivo y descarga fotos con aspecto profesional sin instalar programas pesados.",
       "keywords": [
         "brillo contraste online",
@@ -783,7 +986,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "aumentar contraste imagen",
         "corregir exposicion foto",
         "ajustar saturacion"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>"
     },
     {
       "id": "blur-sharpen-image",
@@ -791,6 +995,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Desenfocar y enfocar",
       "url": "/es/herramientas/desenfocar-enfocar/",
       "category": "Edición",
+      "categoryKey": "editing",
+      "feature": "Enfoque y nitidez",
+      "format": "Gaussian & Sharpen",
       "desc": "Aplica desenfoque suave para difuminar fondos o destaca contornos y texturas con una matriz de enfoque por convolución. Ajuste en tiempo real y procesamiento 100% privado.",
       "keywords": [
         "desenfocar imagen online",
@@ -798,7 +1005,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "desenfoque gaussiano online",
         "enfocar foto borrosa",
         "resaltar bordes imagen"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14\"/></svg>"
     },
     {
       "id": "image-color-picker",
@@ -806,6 +1014,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Selector de color de imagen",
       "url": "/es/herramientas/selector-color-imagen/",
       "category": "Color",
+      "categoryKey": "color",
+      "feature": "Lupa 8× de precisión",
+      "format": "HEX • RGB • HSL",
       "desc": "Obtén los códigos de color exactos de cualquier imagen con un cuentagotas de precisión con lupa de aumento 8x. Inspecciona píxeles individuales, obtén formatos HEX, RGB y HSL y copia el código al portapapeles con un clic.",
       "keywords": [
         "selector de color imagen",
@@ -813,7 +1024,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "sacar codigo hex imagen",
         "extraer colores de foto",
         "codigo rgb de imagen"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19l7-7 3 3-7 7-3-3z\"/><path d=\"M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z\"/><path d=\"M2 2l7.586 7.586\"/><circle cx=\"11\" cy=\"11\" r=\"2\"/></svg>"
     },
     {
       "id": "color-palette-generator",
@@ -821,6 +1033,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generador de paleta de colores",
       "url": "/es/herramientas/generador-paleta-colores/",
       "category": "Color",
+      "categoryKey": "color",
+      "feature": "Paleta dominante",
+      "format": "Copy HEX Codes",
       "desc": "Extrae paletas de colores armónicas y profesionales a partir de cualquier fotografía o diseño. Descubre las tonalidades predominantes, revisa los códigos HEX y descarga una tarjeta de muestras lista para presentar.",
       "keywords": [
         "generador paleta colores",
@@ -828,7 +1043,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "paleta de colores imagen online",
         "colores dominantes foto",
         "crear muestras de color"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"13.5\" cy=\"6.5\" r=\".5\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\"/></svg>"
     },
     {
       "id": "favicon-generator",
@@ -836,6 +1052,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generador de favicon",
       "url": "/es/herramientas/generador-favicon/",
       "category": "Crear",
+      "categoryKey": "conversion",
+      "feature": "Pack multi-tamaño",
+      "format": "ICO • PNG • 16-512px",
       "desc": "Transforma tu logotipo en un conjunto completo de favicons para tu página web. Genera los tamaños estándar 16x16, 32x32, 48x48 y el icono Apple Touch de 180x180 con el código HTML listo para pegar.",
       "keywords": [
         "generador favicon",
@@ -843,7 +1062,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "apple touch icon generator",
         "icono para pagina web",
         "etiquetas html favicon"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
     },
     {
       "id": "image-to-base64",
@@ -851,6 +1071,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Imagen a Base64",
       "url": "/es/herramientas/imagen-a-base64/",
       "category": "Desarrollador",
+      "categoryKey": "developer",
+      "feature": "Cadena Base64",
+      "format": "Embed in HTML/CSS",
       "desc": "Convierte archivos de imagen en cadenas codificadas en Base64 y Data URLs. Incrusta gráficos directamente en etiquetas HTML <img>, propiedades CSS background-image o payloads JSON sin necesidad de alojar archivos externos.",
       "keywords": [
         "imagen a base64",
@@ -858,7 +1081,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "generador data uri",
         "incrustar imagen en html css",
         "cadena base64 imagen"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg>"
     },
     {
       "id": "base64-to-image",
@@ -866,6 +1090,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Base64 a imagen",
       "url": "/es/herramientas/base64-a-imagen/",
       "category": "Desarrollador",
+      "categoryKey": "developer",
+      "feature": "Decodificador rápido",
+      "format": "Base64 → PNG/JPG",
       "desc": "Decodifica texto Base64 y Data URLs para reconstruir archivos de imagen limpios y descargables en PNG, JPG o WebP. Verifica la sintaxis del código y guarda tus imágenes en segundos.",
       "keywords": [
         "base64 a imagen",
@@ -873,7 +1100,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convertir data uri a png",
         "base64 a jpg online",
         "pasar texto base64 a imagen"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"8 17 12 21 16 17\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/><path d=\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\"/></svg>"
     },
     {
       "id": "social-media-image-resizer",
@@ -881,6 +1109,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionador para redes sociales",
       "url": "/es/herramientas/redimensionador-redes-sociales/",
       "category": "Redimensionar",
+      "categoryKey": "resizing",
+      "feature": "Redes sociales",
+      "format": "1080p • 4K • Story",
       "desc": "Adapta tus fotos a las dimensiones exactas de Instagram, Facebook, YouTube, LinkedIn, TikTok y X. Evita cortes incómodos y asegura que tus publicaciones se vean profesionales en cualquier pantalla.",
       "keywords": [
         "tamano fotos redes sociales",
@@ -888,7 +1119,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "tamano miniatura youtube",
         "portada facebook medidas",
         "tamano imagen linkedin"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"/><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"/><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"/></svg>"
     },
     {
       "id": "passport-photo-resizer",
@@ -896,6 +1128,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionador foto de pasaporte",
       "url": "/es/herramientas/redimensionador-foto-pasaporte/",
       "category": "Redimensionar",
+      "categoryKey": "resizing",
+      "feature": "Foto biométrica",
+      "format": "US • EU • Schengen",
       "desc": "Recorta y alinea fotos para pasaporte, carnet de identidad y visas según los estándares internacionales. Incluye guía facial biométrica para España/Schengen (35x45mm) y visa estadounidense (2x2 pulgadas).",
       "keywords": [
         "foto carnet online",
@@ -903,7 +1138,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "foto visa americana 2x2",
         "recortar foto 35x45",
         "imprimir fotos carnet"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>"
     },
     {
       "id": "meme-generator",
@@ -911,6 +1147,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generador de memes",
       "url": "/es/herramientas/generador-memes/",
       "category": "Crear",
+      "categoryKey": "editing",
+      "feature": "Texto ajustable",
+      "format": "Impact & Modern Font",
       "desc": "Crea memes virales en segundos con el clásico formato de texto superior e inferior. Elige tamaño de letra, ajusta bordes negros y descarga tus memes sin marcas de agua ni suscripciones.",
       "keywords": [
         "generador de memes",
@@ -918,7 +1157,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "poner texto en fotos",
         "hacer memes online",
         "fuente impact memes"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2\"/><line x1=\"9\" y1=\"9\" x2=\"9.01\" y2=\"9\"/><line x1=\"15\" y1=\"9\" x2=\"15.01\" y2=\"9\"/></svg>"
     }
   ],
   "id": [
@@ -928,6 +1168,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Kompres Gambar",
       "url": "/id/alat/kompres-gambar/",
       "category": "Kompresi",
+      "categoryKey": "compression",
+      "feature": "Hingga -90%",
+      "format": "JPG • PNG • WebP",
       "desc": "Perkecil ukuran file gambar JPG, PNG, dan WebP dengan cepat dan aman. Sesuaikan kualitas menggunakan slider interaktif, bandingkan hasil sebelum dan sesudah kompresi, lalu unduh hasilnya tanpa mengunggah file ke server mana pun.",
       "keywords": [
         "kompres gambar",
@@ -937,7 +1180,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "kompres foto online",
         "kurangi kb foto",
         "kompres webp"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16\"/></svg>"
     },
     {
       "id": "image-resizer",
@@ -945,6 +1189,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Ubah Ukuran Gambar",
       "url": "/id/alat/ubah-ukuran-gambar/",
       "category": "Ubah Ukuran",
+      "categoryKey": "resizing",
+      "feature": "Kunci Rasio",
+      "format": "Exact Pixels / %",
       "desc": "Sesuaikan dimensi foto Anda ke ukuran piksel yang tepat, persentase skala, atau resolusi standar. Kunci rasio aspek agar foto tidak melar atau terdistorsi, lalu unduh hasilnya secara instan.",
       "keywords": [
         "ubah ukuran gambar",
@@ -952,7 +1199,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ganti resolusi foto",
         "skala gambar piksel",
         "perkecil dimensi foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/></svg>"
     },
     {
       "id": "image-to-target-size",
@@ -960,6 +1208,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Kompres ke Ukuran Target",
       "url": "/id/alat/kompres-ke-ukuran-target/",
       "category": "Kompresi",
+      "categoryKey": "compression",
+      "feature": "Target KB Pas",
+      "format": "50KB • 100KB • 1MB",
       "desc": "Butuh foto berukuran di bawah 50KB, 100KB, atau 200KB untuk pendaftaran kerja, syarat beasiswa, atau portal pemerintah? Tentukan batas maksimal ukuran file Anda dalam KB atau MB, dan biarkan algoritma kami mengoptimalkannya.",
       "keywords": [
         "kompres foto ke 50kb",
@@ -967,7 +1218,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "perkecil foto 200kb",
         "kompres ukuran tepat",
         "syarat cpns foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>"
     },
     {
       "id": "image-cropper",
@@ -975,6 +1227,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Potong Gambar",
       "url": "/id/alat/potong-gambar/",
       "category": "Edit",
+      "categoryKey": "editing",
+      "feature": "1:1 • 16:9 • Bebas",
+      "format": "JPG • PNG • WebP",
       "desc": "Potong dan atur fokus gambar Anda dengan kanvas interaktif. Gunakan rasio standar seperti kotak 1:1, potret 4:3, lanskap 16:9, atau atur bingkai secara bebas untuk menonjolkan bagian terpenting foto.",
       "keywords": [
         "potong gambar",
@@ -982,7 +1237,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "crop gambar kotak 1:1",
         "potong foto 16:9",
         "crop foto gratis"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 2v14a2 2 0 0 0 2 2h14\"/><path d=\"M18 22V8a2 2 0 0 0-2-2H2\"/></svg>"
     },
     {
       "id": "image-rotate-flip",
@@ -990,6 +1246,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Putar dan Balik Gambar",
       "url": "/id/alat/putar-balik-gambar/",
       "category": "Edit",
+      "categoryKey": "editing",
+      "feature": "Putar & Cermin",
+      "format": "Zero Quality Loss",
       "desc": "Perbaiki foto miring atau terbalik hasil jepretan kamera ponsel. Putar foto 90° ke kanan, 90° ke kiri, 180°, atau buat efek cermin (mirror) horizontal dan vertikal dengan mudah.",
       "keywords": [
         "putar gambar",
@@ -997,7 +1256,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "balik gambar horizontal",
         "mirror foto online",
         "perbaiki foto miring"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"23 4 23 10 17 10\"/><path d=\"M20.49 15a9 9 0 1 1-2.12-9.36L23 10\"/></svg>"
     },
     {
       "id": "jpg-to-png",
@@ -1005,6 +1265,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "JPG ke PNG",
       "url": "/id/alat/jpg-ke-png/",
       "category": "Konversi",
+      "categoryKey": "conversion",
+      "feature": "PNG Tanpa Rugi",
+      "format": "JPG → PNG",
       "desc": "Ubah file gambar JPG menjadi PNG berkualitas tinggi tanpa kompresi yang merusak. Sangat pas untuk tangkapan layar, logo, dan diagram yang membutuhkan garis tepi bersih dan warna akurat.",
       "keywords": [
         "jpg ke png",
@@ -1012,7 +1275,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ubah jpg ke png online",
         "format png tanpa pecah",
         "ganti jpeg ke png"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4\"/></svg>"
     },
     {
       "id": "png-to-jpg",
@@ -1020,6 +1284,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "PNG ke JPG",
       "url": "/id/alat/png-ke-jpg/",
       "category": "Konversi",
+      "categoryKey": "conversion",
+      "feature": "Warna Latar",
+      "format": "PNG → JPG",
       "desc": "Ubah file PNG yang berat menjadi gambar JPG yang ringan dan kompatibel di semua aplikasi. Ganti area transparan dengan latar warna solid dan unduh hasilnya dalam hitungan detik.",
       "keywords": [
         "png ke jpg",
@@ -1027,7 +1294,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ubah png jadi jpg",
         "hilangkan transparan png ke jpg",
         "perkecil ukuran png"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4\"/></svg>"
     },
     {
       "id": "webp-converter",
@@ -1035,6 +1303,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Konverter WebP",
       "url": "/id/alat/konverter-webp/",
       "category": "Konversi",
+      "categoryKey": "conversion",
+      "feature": "WebP Sangat Ringan",
+      "format": "JPG/PNG → WebP",
       "desc": "Ubah foto JPG dan PNG ke format WebP mutakhir untuk mempercepat situs web, atau ubah kembali file WebP ke format JPG dan PNG yang umum. Tingkatkan skor Core Web Vitals dan kecepatan website Anda.",
       "keywords": [
         "konverter webp",
@@ -1043,7 +1314,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "png ke webp",
         "webp ke jpg",
         "format web generasi baru"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>"
     },
     {
       "id": "image-format-converter",
@@ -1051,6 +1323,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Konverter Format Gambar",
       "url": "/id/alat/konverter-format-gambar/",
       "category": "Konversi",
+      "categoryKey": "conversion",
+      "feature": "Multi Format",
+      "format": "All Formats",
       "desc": "Ubah format foto satuan maupun banyak sekaligus (batch) antara JPG, PNG, dan WebP. Atur kualitas kompresi, sesuaikan transparansi, dan unduh hasilnya seketika tanpa perlu mengunggah file ke server luar.",
       "keywords": [
         "konverter format gambar",
@@ -1058,7 +1333,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ubah format foto online",
         "konversi jpg png webp",
         "ganti format banyak foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -1066,6 +1342,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Gambar Skala Abu-abu",
       "url": "/id/alat/gambar-skala-abu-abu/",
       "category": "Edit",
+      "categoryKey": "color",
+      "feature": "Luminansi Alami",
+      "format": "Bicubic Grayscale",
       "desc": "Ubah foto berwarna menjadi gambar monokrom hitam putih yang klasik dan elegan. Menggunakan rumus pencahayaan standar untuk menghasilkan gradasi abu-abu yang alami dan seimbang.",
       "keywords": [
         "foto hitam putih",
@@ -1073,7 +1352,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "filter hitam putih",
         "foto monokrom online",
         "desaturasi warna foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a10 10 0 0 1 0 20z\"/></svg>"
     },
     {
       "id": "brightness-contrast",
@@ -1081,6 +1361,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Kecerahan & Kontras",
       "url": "/id/alat/kecerahan-kontras/",
       "category": "Edit",
+      "categoryKey": "color",
+      "feature": "Cahaya & Saturasi",
+      "format": "Live Canvas Preview",
       "desc": "Perbaiki foto yang terlalu gelap, seimbangkan bayangan, dan buat warna foto lebih hidup dengan slider presisi. Lihat pratinjau langsung dan unduh foto yang disempurnakan tanpa aplikasi edit yang rumit.",
       "keywords": [
         "atur kecerahan foto",
@@ -1088,7 +1371,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "tambah kontras gambar",
         "kecerahan kontras online",
         "atur saturasi foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>"
     },
     {
       "id": "blur-sharpen-image",
@@ -1096,6 +1380,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Buramkan & Pertajam Gambar",
       "url": "/id/alat/buram-pertajam-gambar/",
       "category": "Edit",
+      "categoryKey": "editing",
+      "feature": "Fokus & Tajam",
+      "format": "Gaussian & Sharpen",
       "desc": "Berikan efek blur lembut untuk menyamarkan detail latar belakang atau pertajam garis tepi foto yang kurang fokus dengan filter konvolusi. Cepat, interaktif, dan aman di perangkat Anda.",
       "keywords": [
         "buramkan foto online",
@@ -1103,7 +1390,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "efek blur gambar",
         "menajamkan foto",
         "filter ketajaman gambar"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14\"/></svg>"
     },
     {
       "id": "image-color-picker",
@@ -1111,6 +1399,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Pemilih Warna Gambar",
       "url": "/id/alat/pemilih-warna-gambar/",
       "category": "Warna",
+      "categoryKey": "color",
+      "feature": "Kaca Pembesar 8×",
+      "format": "HEX • RGB • HSL",
       "desc": "Dapatkan kode warna akurat dari foto dengan alat pipet warna pembesar 8x. Periksa warna tiap piksel dengan detail, lihat kode format HEX, RGB, dan HSL, lalu salin langsung ke clipboard Anda.",
       "keywords": [
         "pemilih warna gambar",
@@ -1118,7 +1409,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ambil kode hex foto",
         "cari warna gambar",
         "ekstrak kode rgb foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19l7-7 3 3-7 7-3-3z\"/><path d=\"M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z\"/><path d=\"M2 2l7.586 7.586\"/><circle cx=\"11\" cy=\"11\" r=\"2\"/></svg>"
     },
     {
       "id": "color-palette-generator",
@@ -1126,6 +1418,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generator Palet Warna",
       "url": "/id/alat/generator-palet-warna/",
       "category": "Warna",
+      "categoryKey": "color",
+      "feature": "Palet Dominan",
+      "format": "Copy HEX Codes",
       "desc": "Ekstrak skema warna yang harmonis dari foto atau karya seni favorit Anda. Temukan rona warna dominan, lihat kode HEX secara instan, dan unduh kartu sampel warna untuk proyek desain Anda.",
       "keywords": [
         "generator palet warna",
@@ -1133,7 +1428,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "skema warna gambar online",
         "warna dominan foto",
         "buat palet warna foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"13.5\" cy=\"6.5\" r=\".5\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\"/></svg>"
     },
     {
       "id": "favicon-generator",
@@ -1141,6 +1437,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generator Favicon",
       "url": "/id/alat/generator-favicon/",
       "category": "Buat",
+      "categoryKey": "conversion",
+      "feature": "Multi Ukuran",
+      "format": "ICO • PNG • 16-512px",
       "desc": "Ubah logo atau gambar Anda menjadi paket favicon lengkap untuk website. Hasilkan ukuran standar 16x16, 32x32, 48x48, dan 180x180 px (Apple Touch Icon) lengkap dengan cuplikan kode HTML yang siap ditempel.",
       "keywords": [
         "generator favicon",
@@ -1148,7 +1447,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "bikin ikon website",
         "favicon 32x32",
         "kode html favicon"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
     },
     {
       "id": "image-to-base64",
@@ -1156,6 +1456,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Gambar ke Base64",
       "url": "/id/alat/gambar-ke-base64/",
       "category": "Developer",
+      "categoryKey": "developer",
+      "feature": "String Base64",
+      "format": "Embed in HTML/CSS",
       "desc": "Ubah file gambar menjadi kode string Base64 dan format Data URL. Sematkan gambar langsung ke dalam tag HTML <img>, properti CSS background-image, atau data JSON tanpa perlu membuat request file terpisah.",
       "keywords": [
         "gambar ke base64",
@@ -1163,7 +1466,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "generator data uri",
         "embed gambar html css",
         "string base64 gambar"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg>"
     },
     {
       "id": "base64-to-image",
@@ -1171,6 +1475,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Base64 ke Gambar",
       "url": "/id/alat/base64-ke-gambar/",
       "category": "Developer",
+      "categoryKey": "developer",
+      "feature": "Dekoder Instan",
+      "format": "Base64 → PNG/JPG",
       "desc": "Dekode teks string Base64 dan Data URL menjadi file gambar asli berformat PNG, JPG, atau WebP yang dapat diunduh. Uji kevalidan kode dan lihat pratinjau foto secara instan tanpa server luar.",
       "keywords": [
         "base64 ke gambar",
@@ -1178,7 +1485,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ubah data uri ke png",
         "konversi string base64 jadi gambar",
         "base64 ke jpg"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"8 17 12 21 16 17\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/><path d=\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\"/></svg>"
     },
     {
       "id": "social-media-image-resizer",
@@ -1186,6 +1494,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Pengubah Ukuran Media Sosial",
       "url": "/id/alat/pengubah-ukuran-media-sosial/",
       "category": "Ubah Ukuran",
+      "categoryKey": "resizing",
+      "feature": "Template Medsos",
+      "format": "1080p • 4K • Story",
       "desc": "Sesuaikan ukuran foto Anda dengan spesifikasi resmi Instagram, Facebook, YouTube, LinkedIn, TikTok, dan X. Hindari cropping otomatis yang merusak tampilan postingan Anda.",
       "keywords": [
         "ukuran foto instagram",
@@ -1193,7 +1504,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "banner linkedin ukuran",
         "story instagram ukuran",
         "resize foto sosmed"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"/><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"/><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"/></svg>"
     },
     {
       "id": "passport-photo-resizer",
@@ -1201,6 +1513,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Pengubah Ukuran Foto Paspor",
       "url": "/id/alat/pengubah-ukuran-foto-paspor/",
       "category": "Ubah Ukuran",
+      "categoryKey": "resizing",
+      "feature": "Standar Paspor",
+      "format": "US • EU • Schengen",
       "desc": "Sesuaikan pas foto untuk paspor, visa, dan KTP dengan standar resmi. Dilengkapi panduan biometrik wajah untuk ukuran standar Indonesia (3x4 cm, 4x6 cm), visa AS (2x2 inci), dan paspor internasional.",
       "keywords": [
         "pas foto 3x4 online",
@@ -1208,7 +1523,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "foto visa 2x2 inci",
         "crop pas foto online",
         "cetak pas foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>"
     },
     {
       "id": "meme-generator",
@@ -1216,6 +1532,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generator Meme",
       "url": "/id/alat/generator-meme/",
       "category": "Buat",
+      "categoryKey": "editing",
+      "feature": "Teks Bebas Geser",
+      "format": "Impact & Modern Font",
       "desc": "Buat meme lucu yang siap viral dalam hitungan detik. Tambahkan teks atas dan bawah dengan font Impact klasik, sesuaikan ukuran teks dan warna garis luar, lalu unduh secara bebas tanpa watermark.",
       "keywords": [
         "pembuat meme online",
@@ -1223,7 +1542,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "tambah tulisan di foto",
         "generator meme indonesia",
         "buat meme tanpa watermark"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2\"/><line x1=\"9\" y1=\"9\" x2=\"9.01\" y2=\"9\"/><line x1=\"15\" y1=\"9\" x2=\"15.01\" y2=\"9\"/></svg>"
     }
   ],
   "de": [
@@ -1233,6 +1553,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bild komprimieren",
       "url": "/de/tools/bild-komprimieren/",
       "category": "Komprimieren",
+      "categoryKey": "compression",
+      "feature": "Bis zu -90%",
+      "format": "JPG • PNG • WebP",
       "desc": "Reduzieren Sie die Dateigröße von JPG-, PNG- und WebP-Bildern schnell, verlustarm und datensicher. Stellen Sie die Kompressionsstufe stufenlos ein, vergleichen Sie Vorher/Nachher direkt im Browser und laden Sie das optimierte Bild ohne Server-Upload herunter.",
       "keywords": [
         "bild komprimieren",
@@ -1241,7 +1564,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "png komprimieren",
         "foto komprimieren online",
         "webp komprimieren"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16\"/></svg>"
     },
     {
       "id": "image-resizer",
@@ -1249,6 +1573,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bild skalieren",
       "url": "/de/tools/bild-skalieren/",
       "category": "Skalieren",
+      "categoryKey": "resizing",
+      "feature": "Seitenverhältnis",
+      "format": "Exact Pixels / %",
       "desc": "Skalieren Sie Fotos auf exakte Pixelabmessungen, Prozentwerte oder Standardauflösungen. Behalten Sie das Seitenverhältnis bei, um Verzerrungen zu vermeiden, und laden Sie Ihr Bild ohne Qualitätsverlust herunter.",
       "keywords": [
         "bildgroesse aendern",
@@ -1256,7 +1583,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "pixel maße bild aendern",
         "foto verkleinern pixel",
         "seitenverhaeltnis bild"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/></svg>"
     },
     {
       "id": "image-to-target-size",
@@ -1264,6 +1592,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bild auf Zielgröße komprimieren",
       "url": "/de/tools/bild-zielgroesse/",
       "category": "Komprimieren",
+      "categoryKey": "compression",
+      "feature": "Exakte KB-Größe",
+      "format": "50KB • 100KB • 1MB",
       "desc": "Müssen Sie ein Foto auf unter 50 KB, 100 KB oder 200 KB für ein Bewerbungsportal, Visaantrag oder Universitätsformular bringen? Geben Sie Ihre gewünschte Obergrenze in KB oder MB ein – unser Algorithmus ermittelt automatisch die beste Qualität.",
       "keywords": [
         "bild auf 50kb komprimieren",
@@ -1271,7 +1602,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "zielgroesse bild komprimieren",
         "foto dateigroesse begrenzen",
         "kb reduzierer"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>"
     },
     {
       "id": "image-cropper",
@@ -1279,6 +1611,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bild zuschneiden",
       "url": "/de/tools/bild-zuschneiden/",
       "category": "Bearbeiten",
+      "categoryKey": "editing",
+      "feature": "1:1 • 16:9 • Frei",
+      "format": "JPG • PNG • WebP",
       "desc": "Wählen Sie Bildausschnitte präzise mit dem interaktiven Auswahlrahmen. Nutzen Sie feste Standard-Seitenverhältnisse wie quadratisch 1:1, 4:3, 16:9 oder schneiden Sie frei nach Belieben zu.",
       "keywords": [
         "bild zuschneiden",
@@ -1286,7 +1621,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ausschnitt waehlen bild",
         "quadratisch 1:1 zuschneiden",
         "bild 16:9 beschneiden"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 2v14a2 2 0 0 0 2 2h14\"/><path d=\"M18 22V8a2 2 0 0 0-2-2H2\"/></svg>"
     },
     {
       "id": "image-rotate-flip",
@@ -1294,6 +1630,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bild drehen & spiegeln",
       "url": "/de/tools/bild-drehen-spiegeln/",
       "category": "Bearbeiten",
+      "categoryKey": "editing",
+      "feature": "Drehen & Spiegeln",
+      "format": "Zero Quality Loss",
       "desc": "Korrigieren Sie versehentlich quer aufgenommene Smartphone-Fotos oder spiegeln Sie Bilder horizontal und vertikal. Drehen Sie Bilder um 90° im oder gegen den Uhrzeigersinn ohne Schärfeverlust.",
       "keywords": [
         "bild drehen online",
@@ -1301,7 +1640,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "bild um 90 grad drehen",
         "spiegeleffekt foto",
         "bildausrichtung korrigieren"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"23 4 23 10 17 10\"/><path d=\"M20.49 15a9 9 0 1 1-2.12-9.36L23 10\"/></svg>"
     },
     {
       "id": "jpg-to-png",
@@ -1309,6 +1649,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "JPG in PNG",
       "url": "/de/tools/jpg-in-png/",
       "category": "Konvertieren",
+      "categoryKey": "conversion",
+      "feature": "Verlustfreies PNG",
+      "format": "JPG → PNG",
       "desc": "Wandeln Sie JPG-Fotos in das verlustfreie PNG-Format um. Ideal für Screenshots, Grafiken und Skizzen, bei denen feine Kanten und klare Typografie ohne Kompressionsartefakte erhalten bleiben sollen.",
       "keywords": [
         "jpg in png",
@@ -1316,7 +1659,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "jpeg in png umwandeln online",
         "bildformat png",
         "verlustfrei konvertieren"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4\"/></svg>"
     },
     {
       "id": "png-to-jpg",
@@ -1324,6 +1668,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "PNG in JPG",
       "url": "/de/tools/png-in-jpg/",
       "category": "Konvertieren",
+      "categoryKey": "conversion",
+      "feature": "Eigene Hintergrundfarbe",
+      "format": "PNG → JPG",
       "desc": "Wandeln Sie speicherintensive PNG-Dateien in kompakte, universell lesbare JPG-Bilder um. Ersetzen Sie transparente Bildbereiche durch weiße oder farbige Hintergründe und sparen Sie wertvollen Speicherplatz.",
       "keywords": [
         "png in jpg",
@@ -1331,7 +1678,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "transparenz png in jpg hintergrund",
         "png dateigroesse verringern",
         "foto konverter png jpg"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4\"/></svg>"
     },
     {
       "id": "webp-converter",
@@ -1339,6 +1687,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "WebP-Konverter",
       "url": "/de/tools/webp-konverter/",
       "category": "Konvertieren",
+      "categoryKey": "conversion",
+      "feature": "Ultra-leichtes WebP",
+      "format": "JPG/PNG → WebP",
       "desc": "Wandeln Sie JPG- und PNG-Bilder in das moderne, hocheffiziente WebP-Format um oder konvertieren Sie WebP-Dateien zurück in kompatibles JPG und PNG. Beschleunigen Sie Ihre Webseiten und optimieren Sie Ihre Core Web Vitals.",
       "keywords": [
         "webp konverter",
@@ -1347,7 +1698,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "png in webp",
         "webp in jpg",
         "next gen bildformat"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>"
     },
     {
       "id": "image-format-converter",
@@ -1355,6 +1707,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bildformat-Konverter",
       "url": "/de/tools/bildformat-konverter/",
       "category": "Konvertieren",
+      "categoryKey": "conversion",
+      "feature": "Multi-Format",
+      "format": "All Formats",
       "desc": "Wandeln Sie einzelne Bilder oder ganze Bilderserien flexibel zwischen den Formaten JPG, PNG und WebP um. Passen Sie die Qualität an, steuern Sie Hintergrundfüllungen und laden Sie die Ergebnisse sofort ohne Server-Upload herunter.",
       "keywords": [
         "bildformat konverter",
@@ -1362,7 +1717,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "jpg png webp umwandeln",
         "bildformat aendern online",
         "batch bildkonverter"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -1370,6 +1726,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bild in Graustufen umwandeln",
       "url": "/de/tools/bild-graustufen/",
       "category": "Bearbeiten",
+      "categoryKey": "color",
+      "feature": "Luminanz-Algorithmus",
+      "format": "Bicubic Grayscale",
       "desc": "Verwandeln Sie Farbfotografien in zeitlose Schwarz-Weiß-Aufnahmen. Nutzt die fotometrische ITU-R BT.709 Luminanz-Formel für natürliche Graustufen und ausgewogene Kontraste.",
       "keywords": [
         "bild schwarz weiss umwandeln",
@@ -1377,7 +1736,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "foto entfaerben",
         "monochrom bild konverter",
         "schwarz weiss filter"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a10 10 0 0 1 0 20z\"/></svg>"
     },
     {
       "id": "brightness-contrast",
@@ -1385,6 +1745,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Helligkeit & Kontrast anpassen",
       "url": "/de/tools/helligkeit-kontrast/",
       "category": "Bearbeiten",
+      "categoryKey": "color",
+      "feature": "Licht & Sättigung",
+      "format": "Live Canvas Preview",
       "desc": "Hellen Sie unterbelichtete Fotos auf, optimieren Sie Schatten und verleihen Sie Farben neue Frische mit präzisen Schiebereglern. Betrachten Sie Änderungen in Echtzeit und laden Sie korrigierte Bilder ohne schwere Software herunter.",
       "keywords": [
         "helligkeit kontrast online",
@@ -1392,7 +1755,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "kontrast erhoehen bild",
         "foto belichtung anpassen",
         "farbsaettigung bild online"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>"
     },
     {
       "id": "blur-sharpen-image",
@@ -1400,6 +1764,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bild weichzeichnen & schärfen",
       "url": "/de/tools/bild-unschaerfe-schaerfen/",
       "category": "Bearbeiten",
+      "categoryKey": "editing",
+      "feature": "Schärfe & Unschärfe",
+      "format": "Gaussian & Sharpen",
       "desc": "Wenden Sie einen weichen Gaußschen Unschärfeeffekt an, um störende Hintergründe abzumildern, oder verstärken Sie Kantenkontraste mit einer präzisen Faltungsmatrix. Schnell, interaktiv und privat im Browser.",
       "keywords": [
         "bild weichzeichnen online",
@@ -1407,7 +1774,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "gausscher weichzeichner foto",
         "unscharfes bild schaerfen",
         "kantenschaerfe foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14\"/></svg>"
     },
     {
       "id": "image-color-picker",
@@ -1415,6 +1783,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Farbpipette online",
       "url": "/de/tools/bild-farbpipette/",
       "category": "Farbe",
+      "categoryKey": "color",
+      "feature": "8× Präzisionslupe",
+      "format": "HEX • RGB • HSL",
       "desc": "Ermitteln Sie exakte Farbcodes aus jedem beliebigen Bild mit unserer integrierten 8x Zoom-Lupe. Prüfen Sie einzelne Pixel, lesen Sie HEX-, RGB- und HSL-Werte ab und kopieren Sie diese direkt in die Zwischenablage.",
       "keywords": [
         "farbpipette online",
@@ -1422,7 +1793,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "hex code foto finden",
         "rgb werte bild auslesen",
         "color picker online"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19l7-7 3 3-7 7-3-3z\"/><path d=\"M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z\"/><path d=\"M2 2l7.586 7.586\"/><circle cx=\"11\" cy=\"11\" r=\"2\"/></svg>"
     },
     {
       "id": "color-palette-generator",
@@ -1430,6 +1802,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Farbpaletten-Generator",
       "url": "/de/tools/farbpaletten-generator/",
       "category": "Farbe",
+      "categoryKey": "color",
+      "feature": "Dominante Farben",
+      "format": "Copy HEX Codes",
       "desc": "Extrahieren Sie stimmungsvolle Farbpaletten aus Fotografien und Kunstwerken. Entdecken Sie dominante Farbtöne, prüfen Sie HEX-Werte und laden Sie ansprechende Farbmuster-Karten für Ihre Entwürfe herunter.",
       "keywords": [
         "farbpalette aus bild",
@@ -1437,7 +1812,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "farben aus bild extrahieren",
         "palette generator foto",
         "dominante farben finden"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"13.5\" cy=\"6.5\" r=\".5\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\"/></svg>"
     },
     {
       "id": "favicon-generator",
@@ -1445,6 +1821,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Favicon-Generator",
       "url": "/de/tools/favicon-generator/",
       "category": "Erstellen",
+      "categoryKey": "conversion",
+      "feature": "Mehrfach-Größen",
+      "format": "ICO • PNG • 16-512px",
       "desc": "Verwandeln Sie Ihr Logo in ein professionelles Favicon-Paket für moderne Webseiten. Erstellen Sie Standardgrößen in 16x16, 32x32, 48x48 und 180x180 px (Apple Touch Icon) inklusive fertigem HTML-Header-Code.",
       "keywords": [
         "favicon generator online",
@@ -1452,7 +1831,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "apple touch icon generator",
         "website icon erstellen",
         "favicon html code"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
     },
     {
       "id": "image-to-base64",
@@ -1460,6 +1840,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Bild in Base64 umwandeln",
       "url": "/de/tools/bild-in-base64/",
       "category": "Entwickler",
+      "categoryKey": "developer",
+      "feature": "Base64-String",
+      "format": "Embed in HTML/CSS",
       "desc": "Konvertieren Sie Bilddateien in Base64-codierte Zeichenfolgen und Data URLs. Binden Sie Grafiken direkt in HTML-Tags <img>, CSS-Hintergründe oder JSON-Schnittstellen ein, ohne zusätzliche Serveranfragen auszulösen.",
       "keywords": [
         "bild in base64 umwandeln",
@@ -1467,7 +1850,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "base64 data uri generator",
         "grafik in html css einbinden",
         "base64 string bild"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg>"
     },
     {
       "id": "base64-to-image",
@@ -1475,6 +1859,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Base64 in Bild umwandeln",
       "url": "/de/tools/base64-in-bild/",
       "category": "Entwickler",
+      "categoryKey": "developer",
+      "feature": "Sofort-Dekoder",
+      "format": "Base64 → PNG/JPG",
       "desc": "Decodieren Sie Base64-Strings und Data URLs zurück in saubere, herunterladbare PNG-, JPG- oder WebP-Bilddateien. Prüfen Sie die Codierungssyntax und betrachten Sie Grafiken in Sekundenschnelle.",
       "keywords": [
         "base64 in bild umwandeln",
@@ -1482,7 +1869,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "data uri in png umwandeln",
         "base64 string in foto konvertieren",
         "base64 to jpg online"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"8 17 12 21 16 17\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/><path d=\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\"/></svg>"
     },
     {
       "id": "social-media-image-resizer",
@@ -1490,6 +1878,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Social Media Bildgröße anpassen",
       "url": "/de/tools/social-media-bild-groesse/",
       "category": "Skalieren",
+      "categoryKey": "resizing",
+      "feature": "Social-Media-Maße",
+      "format": "1080p • 4K • Story",
       "desc": "Bringen Sie Fotos und Grafiken auf die exakten Vorgaben von Instagram, Facebook, YouTube, LinkedIn, TikTok und X. Verhindern Sie ungewollte automatische Bildschnitte und unscharfe Posts.",
       "keywords": [
         "social media bildgroessen",
@@ -1497,7 +1888,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "youtube thumbnail groesse",
         "facebook titelbild maße",
         "linkedin banner format"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"/><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"/><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"/></svg>"
     },
     {
       "id": "passport-photo-resizer",
@@ -1505,6 +1897,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Passfoto-Größe anpassen",
       "url": "/de/tools/passfoto-generator-groesse/",
       "category": "Skalieren",
+      "categoryKey": "resizing",
+      "feature": "Biometrisch 300 DPI",
+      "format": "US • EU • Schengen",
       "desc": "Schneiden Sie Passbilder für Personalausweis, Reisepass, Führerschein und Visa nach offiziellen biometrischen Vorgaben zu. Integrierte Gesichtsschablone für 35x45 mm (EU/Deutschland) und US-Visum (2x2 Zoll).",
       "keywords": [
         "passfoto 35x45 zuschneiden",
@@ -1512,7 +1907,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "passfoto generator",
         "us visum foto 2x2",
         "passbilder drucken"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>"
     },
     {
       "id": "meme-generator",
@@ -1520,6 +1916,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Meme-Generator",
       "url": "/de/tools/meme-generator/",
       "category": "Erstellen",
+      "categoryKey": "editing",
+      "feature": "Verschiebbare Texte",
+      "format": "Impact & Modern Font",
       "desc": "Erstellen Sie virale Memes in Sekundenschnelle mit klassischer Impact-Typografie oder modernem Textstyling. Passen Sie Schriftgröße und Konturen flexibel an und laden Sie Ihre Memes komplett ohne Wasserzeichen herunter.",
       "keywords": [
         "meme generator online",
@@ -1527,7 +1926,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "text auf bild schreiben",
         "impact schriftart meme",
         "meme maker ohne wasserzeichen"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2\"/><line x1=\"9\" y1=\"9\" x2=\"9.01\" y2=\"9\"/><line x1=\"15\" y1=\"9\" x2=\"15.01\" y2=\"9\"/></svg>"
     }
   ],
   "pt": [
@@ -1537,6 +1937,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Comprimir imagem",
       "url": "/pt/ferramentas/comprimir-imagem/",
       "category": "Compressão",
+      "categoryKey": "compression",
+      "feature": "Até -90%",
+      "format": "JPG • PNG • WebP",
       "desc": "Reduza o tamanho de fotos JPG, PNG e WebP com máxima rapidez, nitidez e privacidade. Ajuste a qualidade em tempo real com a barra deslizante, inspecione a comparação antes/depois e baixe suas imagens sem enviar nada para servidores externos.",
       "keywords": [
         "comprimir imagem",
@@ -1546,7 +1949,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "diminuir kb foto",
         "otimizar imagem",
         "comprimir webp"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16\"/></svg>"
     },
     {
       "id": "image-resizer",
@@ -1554,6 +1958,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionar imagem",
       "url": "/pt/ferramentas/redimensionar-imagem/",
       "category": "Redimensionar",
+      "categoryKey": "resizing",
+      "feature": "Proporções",
+      "format": "Exact Pixels / %",
       "desc": "Altere as dimensões das suas fotos para medidas exatas em pixels, porcentagens ou predefinições de resolução. Mantenha a proporção original para evitar distorções e baixe o arquivo otimizado com segurança.",
       "keywords": [
         "redimensionar imagem",
@@ -1561,7 +1968,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ajustar pixels foto",
         "escalar imagem online",
         "alterar resolucao imagem"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/></svg>"
     },
     {
       "id": "image-to-target-size",
@@ -1569,6 +1977,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Comprimir para tamanho alvo",
       "url": "/pt/ferramentas/imagem-tamanho-alvo/",
       "category": "Compressão",
+      "categoryKey": "compression",
+      "feature": "Tamanho exato",
+      "format": "50KB • 100KB • 1MB",
       "desc": "Precisa enviar uma foto com menos de 50KB, 100KB ou 200KB para um concurso público, visto ou portal institucional? Defina o limite exato em KB ou MB e nosso algoritmo encontrará a melhor qualidade possível.",
       "keywords": [
         "comprimir para 50kb",
@@ -1576,7 +1987,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "reduzir foto para 200kb",
         "tamanho limite foto",
         "comprimir para tamanho exato"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>"
     },
     {
       "id": "image-cropper",
@@ -1584,6 +1996,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Cortar imagem",
       "url": "/pt/ferramentas/recortar-imagem/",
       "category": "Editar",
+      "categoryKey": "editing",
+      "feature": "1:1 • 16:9 • Livre",
+      "format": "JPG • PNG • WebP",
       "desc": "Enquadre e corte suas imagens com facilidade na área interativa. Bloqueie proporções como quadrado 1:1, 4:3 ou panorâmico 16:9, ou defina livremente a área de recorte para destacar o essencial.",
       "keywords": [
         "cortar imagem",
@@ -1591,7 +2006,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "crop imagem gratis",
         "corte quadrado 1:1",
         "cortar imagem 16:9"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 2v14a2 2 0 0 0 2 2h14\"/><path d=\"M18 22V8a2 2 0 0 0-2-2H2\"/></svg>"
     },
     {
       "id": "image-rotate-flip",
@@ -1599,6 +2015,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Girar e inverter imagem",
       "url": "/pt/ferramentas/girar-inverter-imagem/",
       "category": "Editar",
+      "categoryKey": "editing",
+      "feature": "Girar e espelhar",
+      "format": "Zero Quality Loss",
       "desc": "Corrija fotos que ficaram deitadas ao fotografar com o smartphone ou aplique efeitos de espelho. Gire 90° para a direita, 90° para a esquerda ou inverta a orientação horizontal e verticalmente.",
       "keywords": [
         "girar imagem",
@@ -1606,7 +2025,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "espelhar imagem",
         "girar foto 90 graus",
         "corrigir orientacao foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"23 4 23 10 17 10\"/><path d=\"M20.49 15a9 9 0 1 1-2.12-9.36L23 10\"/></svg>"
     },
     {
       "id": "jpg-to-png",
@@ -1614,6 +2034,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "JPG para PNG",
       "url": "/pt/ferramentas/jpg-para-png/",
       "category": "Converter",
+      "categoryKey": "conversion",
+      "feature": "PNG sem perda",
+      "format": "JPG → PNG",
       "desc": "Transforme fotos JPG em arquivos PNG de alta qualidade com compressão sem perdas. Perfeito para capturas de tela, logotipos e gráficos com contornos nítidos.",
       "keywords": [
         "jpg para png",
@@ -1621,7 +2044,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "transformar jpeg para png",
         "conversor png gratis",
         "mudar formato jpg para png"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4\"/></svg>"
     },
     {
       "id": "png-to-jpg",
@@ -1629,6 +2053,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "PNG para JPG",
       "url": "/pt/ferramentas/png-para-jpg/",
       "category": "Converter",
+      "categoryKey": "conversion",
+      "feature": "Fundo personalizado",
+      "format": "PNG → JPG",
       "desc": "Transforme imagens PNG pesadas em arquivos JPG leves e universais. Substitua fundos transparentes por cores sólidas (como branco) e diminua o tempo de carregamento dos seus visuais.",
       "keywords": [
         "png para jpg",
@@ -1636,7 +2063,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "tirar transparencia png para jpg",
         "reduzir peso png",
         "mudar formato png para jpg"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4\"/></svg>"
     },
     {
       "id": "webp-converter",
@@ -1644,6 +2072,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Conversor WebP",
       "url": "/pt/ferramentas/conversor-webp/",
       "category": "Converter",
+      "categoryKey": "conversion",
+      "feature": "WebP ultraleve",
+      "format": "JPG/PNG → WebP",
       "desc": "Transforme fotos JPG e PNG no formato WebP de última geração, ou converta arquivos WebP de volta para JPG e PNG. Acelere o carregamento das suas páginas e melhore suas métricas no Google PageSpeed.",
       "keywords": [
         "conversor webp",
@@ -1652,7 +2083,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "png para webp",
         "webp para jpg online",
         "formato webp"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>"
     },
     {
       "id": "image-format-converter",
@@ -1660,6 +2092,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Conversor de formato de imagem",
       "url": "/pt/ferramentas/conversor-formato-imagem/",
       "category": "Converter",
+      "categoryKey": "conversion",
+      "feature": "Multiformato",
+      "format": "All Formats",
       "desc": "Alterne entre os formatos JPG, PNG e WebP com facilidade, individualmente ou em lote. Controle a qualidade final, configure transparências e baixe suas imagens convertidas sem esperar upload em servidores.",
       "keywords": [
         "conversor formato imagem",
@@ -1667,7 +2102,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "mudar formato foto online",
         "converter jpg png webp",
         "conversor multiplo de imagens"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -1675,6 +2111,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Imagem em tons de cinza",
       "url": "/pt/ferramentas/imagem-tons-cinza/",
       "category": "Editar",
+      "categoryKey": "color",
+      "feature": "Escala natural",
+      "format": "Bicubic Grayscale",
       "desc": "Transforme fotografias coloridas em elegantes imagens monocromáticas em preto e branco. Utiliza a fórmula padrão de luminância fotométrica para graduações de cinza naturais.",
       "keywords": [
         "foto preto e branco",
@@ -1682,7 +2121,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "filtro preto e branco",
         "desaturar imagem",
         "foto monocromatica"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a10 10 0 0 1 0 20z\"/></svg>"
     },
     {
       "id": "brightness-contrast",
@@ -1690,6 +2130,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Brilho e contraste",
       "url": "/pt/ferramentas/brilho-contraste/",
       "category": "Editar",
+      "categoryKey": "color",
+      "feature": "Luz e saturação",
+      "format": "Live Canvas Preview",
       "desc": "Clareie fotos escuras, equilibre sombras e deixe as cores mais vivas com controles de alta precisão. Visualize tudo em tempo real e baixe imagens perfeitas sem complicação.",
       "keywords": [
         "brilho contraste online",
@@ -1697,7 +2140,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "aumentar contraste imagem",
         "ajustar exposicao foto",
         "saturacao de cores foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>"
     },
     {
       "id": "blur-sharpen-image",
@@ -1705,6 +2149,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Desfocar e aumentar nitidez",
       "url": "/pt/ferramentas/desfocar-nitidez-imagem/",
       "category": "Editar",
+      "categoryKey": "editing",
+      "feature": "Nitidez e foco",
+      "format": "Gaussian & Sharpen",
       "desc": "Aplique um desfoque suave para ocultar detalhes do fundo ou aumente a nitidez dos contornos com matriz de convolução. Ajuste em tempo real com processamento 100% no seu dispositivo.",
       "keywords": [
         "desfocar imagem online",
@@ -1712,7 +2159,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "desfoque gaussiano foto",
         "tornar foto nitida online",
         "realcar detalhes foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14\"/></svg>"
     },
     {
       "id": "image-color-picker",
@@ -1720,6 +2168,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Conta-gotas de imagem",
       "url": "/pt/ferramentas/seletor-cor-imagem/",
       "category": "Cores",
+      "categoryKey": "color",
+      "feature": "Lupa 8× de precisão",
+      "format": "HEX • RGB • HSL",
       "desc": "Descubra os códigos de cor exatos em qualquer fotografia com nossa lupa de precisão de 8x. Analise pixels individuais, visualize códigos em HEX, RGB e HSL e copie-os para o seu projeto com um clique.",
       "keywords": [
         "conta gotas imagem online",
@@ -1727,7 +2178,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "pegar codigo hex imagem",
         "seletor de cores foto",
         "extrair rgb imagem"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19l7-7 3 3-7 7-3-3z\"/><path d=\"M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z\"/><path d=\"M2 2l7.586 7.586\"/><circle cx=\"11\" cy=\"11\" r=\"2\"/></svg>"
     },
     {
       "id": "color-palette-generator",
@@ -1735,6 +2187,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Gerador de paleta de cores",
       "url": "/pt/ferramentas/gerador-paleta-cores/",
       "category": "Cores",
+      "categoryKey": "color",
+      "feature": "Paleta dominante",
+      "format": "Copy HEX Codes",
       "desc": "Extraia paletas de cores elegantes e equilibradas a partir de qualquer imagem ou foto de inspiração. Descubra os tons predominantes, veja os códigos HEX e baixe um cartão de amostras para suas apresentações.",
       "keywords": [
         "gerador paleta de cores",
@@ -1742,7 +2197,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "paleta de cores de imagem",
         "cores predominantes foto",
         "criar cartao de cores"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"13.5\" cy=\"6.5\" r=\".5\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\"/></svg>"
     },
     {
       "id": "favicon-generator",
@@ -1750,6 +2206,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Gerador de favicon",
       "url": "/pt/ferramentas/gerador-favicon/",
       "category": "Criar",
+      "categoryKey": "conversion",
+      "feature": "Vários tamanhos",
+      "format": "ICO • PNG • 16-512px",
       "desc": "Transforme o logotipo da sua marca em um pacote completo de favicons para o seu site. Gere ícones nos formatos 16x16, 32x32, 48x48 e Apple Touch de 180x180 com código HTML pronto para inserção no cabeçalho.",
       "keywords": [
         "gerador de favicon",
@@ -1757,7 +2216,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "apple touch icon gerador",
         "icone para site",
         "codigo html favicon"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
     },
     {
       "id": "image-to-base64",
@@ -1765,6 +2225,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Imagem para Base64",
       "url": "/pt/ferramentas/imagem-para-base64/",
       "category": "Desenvolvedor",
+      "categoryKey": "developer",
+      "feature": "String Base64",
+      "format": "Embed in HTML/CSS",
       "desc": "Transforme arquivos de imagem em strings Base64 e Data URLs. Incorpore imagens diretamente em tags HTML <img>, folhas de estilo CSS ou cargas úteis JSON sem precisar hospedar arquivos separadamente.",
       "keywords": [
         "imagem para base64",
@@ -1772,7 +2235,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "gerador data uri imagem",
         "incorporar imagem html css",
         "string base64 imagem"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg>"
     },
     {
       "id": "base64-to-image",
@@ -1780,6 +2244,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Base64 para imagem",
       "url": "/pt/ferramentas/base64-para-imagem/",
       "category": "Desenvolvedor",
+      "categoryKey": "developer",
+      "feature": "Decodificador rápido",
+      "format": "Base64 → PNG/JPG",
       "desc": "Decodifique strings Base64 e Data URLs de volta para arquivos de imagem PNG, JPG ou WebP prontos para download. Valide a sintaxe do código e visualize suas fotos em segundos.",
       "keywords": [
         "base64 para imagem",
@@ -1787,7 +2254,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "converter data uri para png",
         "string base64 em imagem online",
         "base64 para jpg"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"8 17 12 21 16 17\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/><path d=\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\"/></svg>"
     },
     {
       "id": "social-media-image-resizer",
@@ -1795,6 +2263,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionador para redes sociais",
       "url": "/pt/ferramentas/redimensionador-redes-sociais/",
       "category": "Redimensionar",
+      "categoryKey": "resizing",
+      "feature": "Redes sociais",
+      "format": "1080p • 4K • Story",
       "desc": "Enquadre suas fotos nas especificações exatas do Instagram, Facebook, YouTube, LinkedIn, TikTok e X. Elimine cortes indesejados e garanta posts com visual profissional.",
       "keywords": [
         "tamanho imagem instagram",
@@ -1802,7 +2273,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "tamanho capa facebook",
         "banner linkedin medidas",
         "stories instagram tamanho"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"/><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"/><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"/></svg>"
     },
     {
       "id": "passport-photo-resizer",
@@ -1810,6 +2282,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Redimensionador foto de passaporte",
       "url": "/pt/ferramentas/redimensionador-foto-passaporte/",
       "category": "Redimensionar",
+      "categoryKey": "resizing",
+      "feature": "Foto biométrica",
+      "format": "US • EU • Schengen",
       "desc": "Recorte e formate fotos para passaporte brasileiro, RG, CNH e vistos internacionais. Inclui guia biométrico para padrões 3x4 cm, europeu (35x45 mm) e visto americano (2x2 polegadas).",
       "keywords": [
         "foto 3x4 online",
@@ -1817,7 +2292,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "foto visto americano 2x2",
         "tamanho foto 35x45",
         "imprimir foto 3x4"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>"
     },
     {
       "id": "meme-generator",
@@ -1825,6 +2301,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Gerador de memes",
       "url": "/pt/ferramentas/gerador-memes/",
       "category": "Criar",
+      "categoryKey": "editing",
+      "feature": "Texto ajustável",
+      "format": "Impact & Modern Font",
       "desc": "Crie memes divertidos em segundos com o formato clássico de texto superior e inferior. Ajuste o tamanho da fonte, contornos e baixe suas piadas prontas para compartilhar sem nenhuma marca d'água.",
       "keywords": [
         "gerador de memes",
@@ -1832,7 +2311,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "colocar texto em foto",
         "fazer meme na internet",
         "fonte impact meme"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2\"/><line x1=\"9\" y1=\"9\" x2=\"9.01\" y2=\"9\"/><line x1=\"15\" y1=\"9\" x2=\"15.01\" y2=\"9\"/></svg>"
     }
   ],
   "it": [
@@ -1842,6 +2322,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Comprimi immagini",
       "url": "/it/strumenti/comprimi-immagine/",
       "category": "Compressione",
+      "categoryKey": "compression",
+      "feature": "Fino a -90%",
+      "format": "JPG • PNG • WebP",
       "desc": "Riduci il peso dei tuoi file JPG, PNG e WebP in modo veloce, sicuro e senza perdita di qualità. Regola la qualità con il cursore in tempo reale, confronta il risultato prima e dopo e scarica l'immagine ottimizzata senza caricare file su server remoti.",
       "keywords": [
         "comprimi immagini",
@@ -1850,7 +2333,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "comprimere png",
         "ridurre kb immagine",
         "ottimizzare foto online"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16\"/></svg>"
     },
     {
       "id": "image-resizer",
@@ -1858,6 +2342,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Ridimensiona immagini",
       "url": "/it/strumenti/ridimensiona-immagine/",
       "category": "Ridimensiona",
+      "categoryKey": "resizing",
+      "feature": "Proporzioni",
+      "format": "Exact Pixels / %",
       "desc": "Modifica la risoluzione delle tue foto impostando larghezza e altezza in pixel, percentuali o formati standard. Blocca le proporzioni per evitare deformazioni e scarica subito l'immagine con elaborazione locale.",
       "keywords": [
         "ridimensiona immagini",
@@ -1865,7 +2352,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "modifica pixel immagine",
         "scalare foto online",
         "proporzioni immagine"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/></svg>"
     },
     {
       "id": "image-to-target-size",
@@ -1873,6 +2361,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Comprimi a dimensione target",
       "url": "/it/strumenti/immagine-dimensione-target/",
       "category": "Compressione",
+      "categoryKey": "compression",
+      "feature": "Misura esatta KB",
+      "format": "50KB • 100KB • 1MB",
       "desc": "Devi caricare una foto con limite massimo di 50KB, 100KB o 200KB su un portale della pubblica amministrazione o per una candidatura? Imposta il peso target esatto e il nostro algoritmo calcolerà la qualità ottimale.",
       "keywords": [
         "comprimi a 50kb",
@@ -1880,7 +2371,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "riduci foto a 200kb",
         "dimensione target immagine",
         "peso limite foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>"
     },
     {
       "id": "image-cropper",
@@ -1888,6 +2380,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Ritaglia immagini",
       "url": "/it/strumenti/ritaglia-immagine/",
       "category": "Modifica",
+      "categoryKey": "editing",
+      "feature": "1:1 • 16:9 • Libero",
+      "format": "JPG • PNG • WebP",
       "desc": "Inquadra e ritaglia le tue foto con precisione grazie all'area di selezione interattiva. Blocca proporzioni standard come quadrato 1:1, 4:3, 16:9 panoramico o ritaglia a mano libera per evidenziare il soggetto principale.",
       "keywords": [
         "ritaglia immagini",
@@ -1895,7 +2390,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "ritagliare foto quadrato 1:1",
         "ritaglio 16:9",
         "ritaglia foto gratis"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 2v14a2 2 0 0 0 2 2h14\"/><path d=\"M18 22V8a2 2 0 0 0-2-2H2\"/></svg>"
     },
     {
       "id": "image-rotate-flip",
@@ -1903,6 +2399,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Ruota e capovolgi immagine",
       "url": "/it/strumenti/ruota-capovolgi-immagine/",
       "category": "Modifica",
+      "categoryKey": "editing",
+      "feature": "Ruota e specchia",
+      "format": "Zero Quality Loss",
       "desc": "Raddrizza foto scattate di traverso o capovolte dal tuo smartphone oppure crea effetti di riflesso speculare. Ruota di 90° in senso orario, antiorario o capovolgi in orizzontale e verticale.",
       "keywords": [
         "ruota immagine",
@@ -1910,7 +2409,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "specchia immagine",
         "ruotare foto 90 gradi",
         "orientamento immagine smartphone"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"23 4 23 10 17 10\"/><path d=\"M20.49 15a9 9 0 1 1-2.12-9.36L23 10\"/></svg>"
     },
     {
       "id": "jpg-to-png",
@@ -1918,6 +2418,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "JPG in PNG",
       "url": "/it/strumenti/jpg-in-png/",
       "category": "Converti",
+      "categoryKey": "conversion",
+      "feature": "PNG senza perdita",
+      "format": "JPG → PNG",
       "desc": "Converti le tue foto JPG nel formato PNG senza perdita di qualità. Ottimale per screenshot, schemi e immagini con testi dove è richiesta la massima definizione dei bordi.",
       "keywords": [
         "jpg in png",
@@ -1925,7 +2428,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "trasformare jpeg in png online",
         "convertitore png gratis",
         "formato png alta qualita"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4\"/></svg>"
     },
     {
       "id": "png-to-jpg",
@@ -1933,6 +2437,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "PNG in JPG",
       "url": "/it/strumenti/png-in-jpg/",
       "category": "Converti",
+      "categoryKey": "conversion",
+      "feature": "Sfondo personalizzato",
+      "format": "PNG → JPG",
       "desc": "Converti file PNG pesanti in immagini JPG compatte e universali. Sostituisci la trasparenza con uno sfondo bianco o colorato e ottimizza i tuoi contenuti visivi per il web e la stampa.",
       "keywords": [
         "png in jpg",
@@ -1940,7 +2447,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "trasformare png in jpeg gratis",
         "sostituire trasparenza png jpg",
         "alleggerire immagini png"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4\"/></svg>"
     },
     {
       "id": "webp-converter",
@@ -1948,6 +2456,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Convertitore WebP",
       "url": "/it/strumenti/convertitore-webp/",
       "category": "Converti",
+      "categoryKey": "conversion",
+      "feature": "WebP ultra-leggero",
+      "format": "JPG/PNG → WebP",
       "desc": "Converti le tue foto JPG e PNG nel moderno formato WebP a elevata efficienza, oppure converti file WebP in normali JPG e PNG. Velocizza il caricamento delle tue pagine web e migliora i punteggi Core Web Vitals.",
       "keywords": [
         "convertitore webp",
@@ -1956,7 +2467,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "da png a webp",
         "webp in jpg online",
         "formato immagini webp"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>"
     },
     {
       "id": "image-format-converter",
@@ -1964,6 +2476,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Convertitore formato immagini",
       "url": "/it/strumenti/convertitore-formato-immagine/",
       "category": "Converti",
+      "categoryKey": "conversion",
+      "feature": "Multiformato",
+      "format": "All Formats",
       "desc": "Converti immagini singole o serie di foto tra i formati JPG, PNG e WebP. Regola la qualità di output, gestisci la trasparenza e scarica i file convertiti all'istante senza passare da server esterni.",
       "keywords": [
         "convertitore formato immagini",
@@ -1971,7 +2486,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "cambiare formato foto online",
         "convertire jpg png webp",
         "convertitore universale foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>"
     },
     {
       "id": "grayscale-image",
@@ -1979,6 +2495,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Immagine in scala di grigi",
       "url": "/it/strumenti/immagine-scala-grigi/",
       "category": "Modifica",
+      "categoryKey": "color",
+      "feature": "Scala naturale",
+      "format": "Bicubic Grayscale",
       "desc": "Trasforma foto a colori in eleganti scatti monocromatici in bianco e nero. Applica la formula fotometrica standard ITU-R BT.709 per un contrasto armonico e sfumature di grigio naturali.",
       "keywords": [
         "foto bianco e nero online",
@@ -1986,7 +2505,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convertire foto bianco e nero",
         "filtro monocromatico",
         "desatura colori foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a10 10 0 0 1 0 20z\"/></svg>"
     },
     {
       "id": "brightness-contrast",
@@ -1994,6 +2514,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Luminosità e contrasto",
       "url": "/it/strumenti/luminosita-contrasto/",
       "category": "Modifica",
+      "categoryKey": "color",
+      "feature": "Luce e saturazione",
+      "format": "Live Canvas Preview",
       "desc": "Schiarisci foto troppo scure, recupera le ombre e ravviva la saturazione dei colori con cursori precisi. Guarda le modifiche in tempo reale e scarica foto bilanciate senza software pesanti.",
       "keywords": [
         "luminosita contrasto online",
@@ -2001,7 +2524,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "aumentare contrasto immagine",
         "regolare esposizione foto",
         "saturazione colori online"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>"
     },
     {
       "id": "blur-sharpen-image",
@@ -2009,6 +2533,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Sfoca e aumenta nitidezza",
       "url": "/it/strumenti/sfoca-nitidezza-immagine/",
       "category": "Modifica",
+      "categoryKey": "editing",
+      "feature": "Nitidezza e fuoco",
+      "format": "Gaussian & Sharpen",
       "desc": "Applica una sfocatura morbida per attenuare elementi di disturbo sullo sfondo oppure aumenta la nitidezza dei contorni con una matrice di convoluzione. Preciso, rapido e privato.",
       "keywords": [
         "sfoca immagine online",
@@ -2016,7 +2543,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "sfocatura gaussiana online",
         "foto nitida online",
         "filtro nitidezza immagine"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14\"/></svg>"
     },
     {
       "id": "image-color-picker",
@@ -2024,6 +2552,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Contagocce immagini",
       "url": "/it/strumenti/selettore-colore-immagine/",
       "category": "Colore",
+      "categoryKey": "color",
+      "feature": "Lente 8× di precisione",
+      "format": "HEX • RGB • HSL",
       "desc": "Estrai i codici colore esatti da qualsiasi fotografia grazie alla lente d'ingrandimento a 8 ingrandimenti. Ispeziona singoli pixel, scopri valori HEX, RGB e HSL e copiali con un clic per i tuoi progetti grafici e web.",
       "keywords": [
         "contagocce immagini online",
@@ -2031,7 +2562,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "campionare colori immagine",
         "selettore colori online",
         "estrarre rgb foto"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19l7-7 3 3-7 7-3-3z\"/><path d=\"M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z\"/><path d=\"M2 2l7.586 7.586\"/><circle cx=\"11\" cy=\"11\" r=\"2\"/></svg>"
     },
     {
       "id": "color-palette-generator",
@@ -2039,6 +2571,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generatore tavolozza colori",
       "url": "/it/strumenti/generatore-tavolozza-colori/",
       "category": "Colore",
+      "categoryKey": "color",
+      "feature": "Tavolozza dominante",
+      "format": "Copy HEX Codes",
       "desc": "Estrai armoniose palette cromatiche dalle tue fotografie e opere grafiche preferite. Scopri le tinte dominanti, consulta i codici HEX e scarica una scheda campione elegante da utilizzare nei tuoi progetti di design.",
       "keywords": [
         "generatore palette colori",
@@ -2046,7 +2581,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "palette da immagine online",
         "colori dominanti foto",
         "creare campionario colori"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"13.5\" cy=\"6.5\" r=\".5\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\"/></svg>"
     },
     {
       "id": "favicon-generator",
@@ -2054,6 +2590,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generatore favicon",
       "url": "/it/strumenti/generatore-favicon/",
       "category": "Crea",
+      "categoryKey": "conversion",
+      "feature": "Formati multipli",
+      "format": "ICO • PNG • 16-512px",
       "desc": "Trasforma il tuo logo in un set completo di favicon per qualsiasi sito internet. Genera le misure standard 16x16, 32x32, 48x48 e 180x180 per Apple Touch Icon con codice HTML pronto da copiare nel tuo header.",
       "keywords": [
         "generatore favicon",
@@ -2061,7 +2600,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "apple touch icon generatore",
         "icona scheda sito web",
         "codice html favicon"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"/><polyline points=\"2 17 12 22 22 17\"/><polyline points=\"2 12 12 17 22 12\"/></svg>"
     },
     {
       "id": "image-to-base64",
@@ -2069,6 +2609,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Immagine in Base64",
       "url": "/it/strumenti/immagine-in-base64/",
       "category": "Sviluppatore",
+      "categoryKey": "developer",
+      "feature": "Stringa Base64",
+      "format": "Embed in HTML/CSS",
       "desc": "Converti file di immagine in stringhe codificate Base64 e Data URL. Incorpora immagini direttamente nei tag HTML <img>, proprietà CSS background-image o payload JSON senza generare richieste HTTP esterne.",
       "keywords": [
         "immagine in base64",
@@ -2076,7 +2619,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "generatore data uri",
         "incorporare immagine html css",
         "stringa base64 immagine"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg>"
     },
     {
       "id": "base64-to-image",
@@ -2084,6 +2628,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Base64 in immagine",
       "url": "/it/strumenti/base64-in-immagine/",
       "category": "Sviluppatore",
+      "categoryKey": "developer",
+      "feature": "Decodificatore rapido",
+      "format": "Base64 → PNG/JPG",
       "desc": "Decodifica stringhe Base64 e Data URL per ottenere file di immagine PNG, JPG o WebP scaricabili e pronti all'uso. Valida la correttezza del codice e visualizza le anteprime in un istante.",
       "keywords": [
         "base64 in immagine",
@@ -2091,7 +2638,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "convertire data uri in png",
         "trasformare stringa base64 in jpg",
         "base64 to image online"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"8 17 12 21 16 17\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/><path d=\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\"/></svg>"
     },
     {
       "id": "social-media-image-resizer",
@@ -2099,6 +2647,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Ridimensiona per social media",
       "url": "/it/strumenti/ridimensiona-social-media/",
       "category": "Ridimensiona",
+      "categoryKey": "resizing",
+      "feature": "Social media",
+      "format": "1080p • 4K • Story",
       "desc": "Adatta le tue immagini ai formati ufficiali di Instagram, Facebook, YouTube, LinkedIn, TikTok e X. Elimina i ritagli automatici sgraditi e presenta post graficamente impeccabili su ogni dispositivo.",
       "keywords": [
         "dimensioni immagini instagram",
@@ -2106,7 +2657,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "copertina facebook misure",
         "storia instagram dimensioni",
         "banner linkedin formato"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"/><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"/><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"/></svg>"
     },
     {
       "id": "passport-photo-resizer",
@@ -2114,6 +2666,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Ridimensiona foto passaporto",
       "url": "/it/strumenti/ridimensiona-foto-passaporto/",
       "category": "Ridimensiona",
+      "categoryKey": "resizing",
+      "feature": "Fototessera 300 DPI",
+      "format": "US • EU • Schengen",
       "desc": "Ritaglia e adatta fototessere per passaporto italiano, carta d'identità elettronica (CIE) e visti internazionali. Guida biometrica conforme agli standard ICAO (35x45 mm) e visto USA (2x2 pollici).",
       "keywords": [
         "fototessera 35x45 online",
@@ -2121,7 +2676,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "foto carta identita elettronica",
         "foto visto usa 2x2",
         "stampare fototessere"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>"
     },
     {
       "id": "meme-generator",
@@ -2129,6 +2685,9 @@ window.ZAM_LOCALIZED_TOOLS = {
       "name": "Generatore di meme",
       "url": "/it/strumenti/generatore-meme/",
       "category": "Crea",
+      "categoryKey": "editing",
+      "feature": "Testo regolabile",
+      "format": "Impact & Modern Font",
       "desc": "Crea meme virali in pochi istanti con la classica scritta sopra e sotto. Personalizza dimensioni del testo, contorno nero e scarica i tuoi meme pronti da condividere sui social senza alcuna filigrana pubblicitaria.",
       "keywords": [
         "generatore di meme",
@@ -2136,7 +2695,8 @@ window.ZAM_LOCALIZED_TOOLS = {
         "scrivere testo su foto",
         "fare meme gratis",
         "font impact meme"
-      ]
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2\"/><line x1=\"9\" y1=\"9\" x2=\"9.01\" y2=\"9\"/><line x1=\"15\" y1=\"9\" x2=\"15.01\" y2=\"9\"/></svg>"
     }
   ]
 };

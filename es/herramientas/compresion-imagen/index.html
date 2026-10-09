@@ -244,26 +244,58 @@
 
       <div class="tools-grid" style="margin-bottom: var(--space-16);">
         
-        <a href="/es/herramientas/comprimir-imagen/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compresión</span>
-          </div>
-          <h3 class="tool-card-title">Compresor de imágenes</h3>
-          <p class="tool-card-desc">Reduce el tamaño de tus fotos JPG, PNG y WebP de forma rápida, eficiente y totalmente segura. Ajusta el nivel de compresión con el deslizador en tiempo real, compara el antes y después y descarga tu imagen optimizada sin subir nada a servidores.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Abrir herramienta →</span>
-          </div>
-        </a>
-        <a href="/es/herramientas/imagen-tamano-objetivo/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compresión</span>
-          </div>
-          <h3 class="tool-card-title">Comprimir a tamaño exacto</h3>
-          <p class="tool-card-desc">¿Necesitas que tu foto pese menos de 50KB, 100KB o 200KB para subirla a un portal gubernamental, visado o trámite universitario? Define el peso máximo y nuestro algoritmo ajustará la compresión exacta con la mayor nitidez posible.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Abrir herramienta →</span>
-          </div>
-        </a>
+    <a href="/es/herramientas/comprimir-imagen/" class="tool-card tool-card-compression" data-category="compression" aria-label="Compresor de imágenes - Compresión">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compresión</span>
+          <span class="tool-badge-feature">Hasta -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Compresor de imágenes</h3>
+      <p class="tool-card-desc">Reduce el tamaño de tus fotos JPG, PNG y WebP de forma rápida, eficiente y totalmente segura. Ajusta el nivel de compresión con el deslizador en tiempo real, compara el antes y después y descarga tu imagen optimizada sin subir nada a servidores.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% en el navegador. Cero subidas a servidores.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir herramienta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/es/herramientas/imagen-tamano-objetivo/" class="tool-card tool-card-compression" data-category="compression" aria-label="Comprimir a tamaño exacto - Compresión">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compresión</span>
+          <span class="tool-badge-feature">Tamaño exacto</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Comprimir a tamaño exacto</h3>
+      <p class="tool-card-desc">¿Necesitas que tu foto pese menos de 50KB, 100KB o 200KB para subirla a un portal gubernamental, visado o trámite universitario? Define el peso máximo y nuestro algoritmo ajustará la compresión exacta con la mayor nitidez posible.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">50KB • 100KB • 1MB</span>
+        <span class="tool-meta-privacy" title="100% en el navegador. Cero subidas a servidores.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir herramienta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
       </div>
 
       <div class="editorial-wrapper" style="margin-bottom: var(--space-12);">
@@ -277,17 +309,35 @@
       </div>
       <div class="features-grid" style="margin-bottom: var(--space-16);">
         
-        <div class="feature-box">
+        <div class="feature-box" data-tone="blue">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <span class="feature-box-index">#01</span>
+          </div>
           <h4>Sin subidas a servidores</h4>
-          <p>Tus imágenes se mantienen privadas y seguras en tu dispositivo.</p>
+          <p class="feature-box-desc">Tus imágenes se mantienen privadas y seguras en tu dispositivo.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box" data-tone="purple">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <span class="feature-box-index">#02</span>
+          </div>
           <h4>Tamaño objetivo en KB</h4>
-          <p>Cumple con las limitaciones de 50KB, 100KB o 200KB exigidas por trámites y portales.</p>
+          <p class="feature-box-desc">Cumple con las limitaciones de 50KB, 100KB o 200KB exigidas por trámites y portales.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box" data-tone="emerald">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="emerald">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="12" y1="3" x2="12" y2="21"/><polyline points="8 10 5 12 8 14"/><polyline points="16 10 19 12 16 14"/></svg>
+            </div>
+            <span class="feature-box-index">#03</span>
+          </div>
           <h4>Comparador interactivo</h4>
-          <p>Evalúa la calidad visual antes y después y comprueba el ahorro de datos en tiempo real.</p>
+          <p class="feature-box-desc">Evalúa la calidad visual antes y después y comprueba el ahorro de datos en tiempo real.</p>
         </div>
       </div>
 

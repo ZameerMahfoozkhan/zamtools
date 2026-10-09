@@ -29,7 +29,8 @@ const UI_TRANSLATIONS = {
       title: 'Drop your image here',
       subtitle: 'or click to browse from your computer or phone',
       button: 'Choose Image',
-      supported: 'Supported formats:'
+      supported: 'Supported formats:',
+      supports: 'Supports:'
     },
     controls: {
       changeImage: 'Change Image',
@@ -113,7 +114,8 @@ const UI_TRANSLATIONS = {
       title: 'Glissez-déposez votre image ici',
       subtitle: 'ou cliquez pour parcourir vos fichiers depuis votre appareil',
       button: 'Choisir une image',
-      supported: 'Formats pris en charge :'
+      supported: 'Formats pris en charge :',
+      supports: 'Formats supportés :'
     },
     controls: {
       changeImage: 'Changer d\'image',
@@ -197,7 +199,8 @@ const UI_TRANSLATIONS = {
       title: 'Arrastra tu imagen aquí',
       subtitle: 'o haz clic para buscar fotos en tu dispositivo',
       button: 'Seleccionar imagen',
-      supported: 'Formatos compatibles:'
+      supported: 'Formatos compatibles:',
+      supports: 'Formatos compatibles:'
     },
     controls: {
       changeImage: 'Cambiar imagen',
@@ -281,7 +284,8 @@ const UI_TRANSLATIONS = {
       title: 'Tarik & lepas gambar Anda di sini',
       subtitle: 'atau klik untuk memilih dari komputer atau ponsel',
       button: 'Pilih Gambar',
-      supported: 'Format yang didukung:'
+      supported: 'Format yang didukung:',
+      supports: 'Mendukung:'
     },
     controls: {
       changeImage: 'Ganti Gambar',
@@ -365,7 +369,8 @@ const UI_TRANSLATIONS = {
       title: 'Ziehen Sie Ihr Bild hierher',
       subtitle: 'oder klicken Sie, um eine Datei von Ihrem Gerät auszuwählen',
       button: 'Bild auswählen',
-      supported: 'Unterstützte Formate:'
+      supported: 'Unterstützte Formate:',
+      supports: 'Unterstützt:'
     },
     controls: {
       changeImage: 'Anderes Bild wählen',
@@ -449,7 +454,8 @@ const UI_TRANSLATIONS = {
       title: 'Arraste sua imagem para cá',
       subtitle: 'ou clique para procurar fotos no seu computador ou celular',
       button: 'Escolher imagem',
-      supported: 'Formatos suportados:'
+      supported: 'Formatos suportados:',
+      supports: 'Suporta:'
     },
     controls: {
       changeImage: 'Trocar imagem',
@@ -533,7 +539,8 @@ const UI_TRANSLATIONS = {
       title: 'Trascina qui la tua immagine',
       subtitle: 'oppure fai clic per selezionare file dal tuo computer o smartphone',
       button: 'Scegli immagine',
-      supported: 'Formati supportati:'
+      supported: 'Formati supportati:',
+      supports: 'Supporta:'
     },
     controls: {
       changeImage: 'Cambia immagine',

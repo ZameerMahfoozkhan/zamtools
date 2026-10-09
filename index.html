@@ -303,66 +303,162 @@
         </div>
         <div class="tools-grid">
           
-          <a href="/tools/image-compressor/" class="tool-card">
-            <div class="tool-card-header">
-              <span class="tool-card-category">Compress</span>
-            </div>
-            <h3 class="tool-card-title">Image Compressor</h3>
-            <p class="tool-card-desc">Reduce JPG, PNG, and WebP file sizes quickly and safely. Fine-tune your compression quality with a live slider, inspect before-and-after results, and download your optimized files with zero server uploads.</p>
-            <div class="tool-card-footer">
-              <span class="tool-card-action">Open Tool →</span>
-            </div>
-          </a>
-          <a href="/tools/image-resizer/" class="tool-card">
-            <div class="tool-card-header">
-              <span class="tool-card-category">Resize</span>
-            </div>
-            <h3 class="tool-card-title">Image Resizer</h3>
-            <p class="tool-card-desc">Scale your photos to exact pixel widths and heights, standard resolution presets, or exact percentages. Lock aspect ratio to prevent stretching and download instantly with local browser processing.</p>
-            <div class="tool-card-footer">
-              <span class="tool-card-action">Open Tool →</span>
-            </div>
-          </a>
-          <a href="/tools/webp-converter/" class="tool-card">
-            <div class="tool-card-header">
-              <span class="tool-card-category">Convert</span>
-            </div>
-            <h3 class="tool-card-title">WebP Converter</h3>
-            <p class="tool-card-desc">Convert JPG and PNG images into modern, highly compressed WebP files, or convert WebP images back into widely compatible JPG and PNG formats. Speed up page loads and boost SEO performance.</p>
-            <div class="tool-card-footer">
-              <span class="tool-card-action">Open Tool →</span>
-            </div>
-          </a>
-          <a href="/tools/image-cropper/" class="tool-card">
-            <div class="tool-card-header">
-              <span class="tool-card-category">Edit</span>
-            </div>
-            <h3 class="tool-card-title">Image Cropper</h3>
-            <p class="tool-card-desc">Crop and frame your photos with interactive canvas selection. Lock standard aspect ratios like 1:1 square, 4:3 portrait, 16:9 landscape, or freely adjust the crop box to highlight what matters most.</p>
-            <div class="tool-card-footer">
-              <span class="tool-card-action">Open Tool →</span>
-            </div>
-          </a>
-          <a href="/tools/image-color-picker/" class="tool-card">
-            <div class="tool-card-header">
-              <span class="tool-card-category">Color</span>
-            </div>
-            <h3 class="tool-card-title">Image Color Picker</h3>
-            <p class="tool-card-desc">Extract exact color codes from any photo with a precision zoom loupe eyedropper. Inspect individual pixels, view HEX, RGB, and HSL formats, and build a saved palette history.</p>
-            <div class="tool-card-footer">
-              <span class="tool-card-action">Open Tool →</span>
-            </div>
-          </a>
-          <a href="/tools/image-to-target-size/" class="tool-card">
-            <div class="tool-card-header">
-              <span class="tool-card-category">Compress</span>
-            </div>
-            <h3 class="tool-card-title">Compress to Target Size</h3>
-            <p class="tool-card-desc">Need an image under 50KB, 100KB, or 200KB for an official government portal, job application, or university form? Set your exact target file size in KB or MB and let our iterative algorithm compress it with optimal clarity.</p>
-            <div class="tool-card-footer">
-              <span class="tool-card-action">Open Tool →</span>
-            </div>
-          </a>
+    <a href="/tools/image-compressor/" class="tool-card tool-card-compression" data-category="compression" aria-label="Image Compressor - Compress">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compress</span>
+          <span class="tool-badge-feature">Up to -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Image Compressor</h3>
+      <p class="tool-card-desc">Reduce JPG, PNG, and WebP file sizes quickly and safely. Fine-tune your compression quality with a live slider, inspect before-and-after results, and download your optimized files with zero server uploads.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/image-resizer/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Image Resizer - Resize">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Resize</span>
+          <span class="tool-badge-feature">Aspect Lock</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Image Resizer</h3>
+      <p class="tool-card-desc">Scale your photos to exact pixel widths and heights, standard resolution presets, or exact percentages. Lock aspect ratio to prevent stretching and download instantly with local browser processing.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Exact Pixels / %</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/webp-converter/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="WebP Converter - Convert">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Convert</span>
+          <span class="tool-badge-feature">Ultra-Light WebP</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">WebP Converter</h3>
+      <p class="tool-card-desc">Convert JPG and PNG images into modern, highly compressed WebP files, or convert WebP images back into widely compatible JPG and PNG formats. Speed up page loads and boost SEO performance.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG/PNG → WebP</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/image-cropper/" class="tool-card tool-card-editing" data-category="editing" aria-label="Image Cropper - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Edit</span>
+          <span class="tool-badge-feature">1:1 • 16:9 • Free</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Image Cropper</h3>
+      <p class="tool-card-desc">Crop and frame your photos with interactive canvas selection. Lock standard aspect ratios like 1:1 square, 4:3 portrait, 16:9 landscape, or freely adjust the crop box to highlight what matters most.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/image-color-picker/" class="tool-card tool-card-color" data-category="color" aria-label="Image Color Picker - Color">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Color</span>
+          <span class="tool-badge-feature">8× Loupe Magnifier</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Image Color Picker</h3>
+      <p class="tool-card-desc">Extract exact color codes from any photo with a precision zoom loupe eyedropper. Inspect individual pixels, view HEX, RGB, and HSL formats, and build a saved palette history.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">HEX • RGB • HSL</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/image-to-target-size/" class="tool-card tool-card-compression" data-category="compression" aria-label="Compress to Target Size - Compress">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compress</span>
+          <span class="tool-badge-feature">Exact KB/MB</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Compress to Target Size</h3>
+      <p class="tool-card-desc">Need an image under 50KB, 100KB, or 200KB for an official government portal, job application, or university form? Set your exact target file size in KB or MB and let our iterative algorithm compress it with optimal clarity.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">50KB • 100KB • 1MB</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
         </div>
       </div>
     </section>
@@ -383,16 +479,58 @@
             </h3>
             <div class="tools-grid">
               
-              <a href="/tools/image-compressor/" class="tool-card">
-                <h4 class="tool-card-title">Image Compressor</h4>
-                <p class="tool-card-desc">Reduce JPG, PNG, and WebP file sizes quickly and safely. Fine-tune your compression quality with a live slider, inspect before-and-after results, and download your optimized files with zero server uploads.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/image-to-target-size/" class="tool-card">
-                <h4 class="tool-card-title">Compress to Target Size</h4>
-                <p class="tool-card-desc">Need an image under 50KB, 100KB, or 200KB for an official government portal, job application, or university form? Set your exact target file size in KB or MB and let our iterative algorithm compress it with optimal clarity.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
+    <a href="/tools/image-compressor/" class="tool-card tool-card-compression" data-category="compression" aria-label="Image Compressor - Compress">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compress</span>
+          <span class="tool-badge-feature">Up to -90%</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Image Compressor</h4>
+      <p class="tool-card-desc">Reduce JPG, PNG, and WebP file sizes quickly and safely. Fine-tune your compression quality with a live slider, inspect before-and-after results, and download your optimized files with zero server uploads.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/image-to-target-size/" class="tool-card tool-card-compression" data-category="compression" aria-label="Compress to Target Size - Compress">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compress</span>
+          <span class="tool-badge-feature">Exact KB/MB</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Compress to Target Size</h4>
+      <p class="tool-card-desc">Need an image under 50KB, 100KB, or 200KB for an official government portal, job application, or university form? Set your exact target file size in KB or MB and let our iterative algorithm compress it with optimal clarity.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">50KB • 100KB • 1MB</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
             </div>
           </div>
           <div>
@@ -401,21 +539,84 @@
             </h3>
             <div class="tools-grid">
               
-              <a href="/tools/image-resizer/" class="tool-card">
-                <h4 class="tool-card-title">Image Resizer</h4>
-                <p class="tool-card-desc">Scale your photos to exact pixel widths and heights, standard resolution presets, or exact percentages. Lock aspect ratio to prevent stretching and download instantly with local browser processing.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/social-media-image-resizer/" class="tool-card">
-                <h4 class="tool-card-title">Social Media Image Resizer</h4>
-                <p class="tool-card-desc">Crop and scale photos to exact platform specifications for Instagram, Facebook, YouTube, LinkedIn, TikTok, and X. Eliminate awkward crops and blurry post previews.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/passport-photo-resizer/" class="tool-card">
-                <h4 class="tool-card-title">Passport Photo Resizer</h4>
-                <p class="tool-card-desc">Crop and align passport photos, visa pictures, and ID cards to exact official international standards. Includes biometric face-alignment guides for US (2x2 inch), UK/Schengen (35x45mm), and Indian passport guidelines.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
+    <a href="/tools/image-resizer/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Image Resizer - Resize">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Resize</span>
+          <span class="tool-badge-feature">Aspect Lock</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Image Resizer</h4>
+      <p class="tool-card-desc">Scale your photos to exact pixel widths and heights, standard resolution presets, or exact percentages. Lock aspect ratio to prevent stretching and download instantly with local browser processing.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Exact Pixels / %</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/social-media-image-resizer/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Social Media Image Resizer - Resize">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Resize</span>
+          <span class="tool-badge-feature">Insta • FB • X • YT</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Social Media Image Resizer</h4>
+      <p class="tool-card-desc">Crop and scale photos to exact platform specifications for Instagram, Facebook, YouTube, LinkedIn, TikTok, and X. Eliminate awkward crops and blurry post previews.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">1080p • 4K • Story</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/passport-photo-resizer/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Passport Photo Resizer - Resize">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Resize</span>
+          <span class="tool-badge-feature">300 DPI Biometric</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Passport Photo Resizer</h4>
+      <p class="tool-card-desc">Crop and align passport photos, visa pictures, and ID cards to exact official international standards. Includes biometric face-alignment guides for US (2x2 inch), UK/Schengen (35x45mm), and Indian passport guidelines.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">US • EU • Schengen</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
             </div>
           </div>
           <div>
@@ -424,105 +625,420 @@
             </h3>
             <div class="tools-grid">
               
-              <a href="/tools/jpg-to-png/" class="tool-card">
-                <h4 class="tool-card-title">JPG to PNG</h4>
-                <p class="tool-card-desc">Convert JPG photos into lossless PNG format with zero degradation. Preserve crisp typography, diagram lines, and sharp edges without installing desktop software.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/png-to-jpg/" class="tool-card">
-                <h4 class="tool-card-title">PNG to JPG</h4>
-                <p class="tool-card-desc">Convert large PNG files into lightweight, universally compatible JPG images. Replace transparent backgrounds with custom colors (white, black, or custom) and download optimized JPEGs in seconds.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/webp-converter/" class="tool-card">
-                <h4 class="tool-card-title">WebP Converter</h4>
-                <p class="tool-card-desc">Convert JPG and PNG images into modern, highly compressed WebP files, or convert WebP images back into widely compatible JPG and PNG formats. Speed up page loads and boost SEO performance.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/image-format-converter/" class="tool-card">
-                <h4 class="tool-card-title">Image Format Converter</h4>
-                <p class="tool-card-desc">Convert single or batch images seamlessly between JPG, PNG, and WebP formats. Fine-tune output quality, preserve transparency or solid fills, and download converted files instantly without server uploads.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
+    <a href="/tools/jpg-to-png/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="JPG to PNG - Convert">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Convert</span>
+          <span class="tool-badge-feature">Lossless PNG</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">JPG to PNG</h4>
+      <p class="tool-card-desc">Convert JPG photos into lossless PNG format with zero degradation. Preserve crisp typography, diagram lines, and sharp edges without installing desktop software.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG → PNG</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/png-to-jpg/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="PNG to JPG - Convert">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Convert</span>
+          <span class="tool-badge-feature">Custom BG Fill</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">PNG to JPG</h4>
+      <p class="tool-card-desc">Convert large PNG files into lightweight, universally compatible JPG images. Replace transparent backgrounds with custom colors (white, black, or custom) and download optimized JPEGs in seconds.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">PNG → JPG</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/webp-converter/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="WebP Converter - Convert">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Convert</span>
+          <span class="tool-badge-feature">Ultra-Light WebP</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">WebP Converter</h4>
+      <p class="tool-card-desc">Convert JPG and PNG images into modern, highly compressed WebP files, or convert WebP images back into widely compatible JPG and PNG formats. Speed up page loads and boost SEO performance.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG/PNG → WebP</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/image-format-converter/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="Image Format Converter - Convert">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Convert</span>
+          <span class="tool-badge-feature">Batch 3-Way</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Image Format Converter</h4>
+      <p class="tool-card-desc">Convert single or batch images seamlessly between JPG, PNG, and WebP formats. Fine-tune output quality, preserve transparency or solid fills, and download converted files instantly without server uploads.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">All Formats</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
             </div>
           </div>
           <div>
             <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
-              <a href="/tools/image-editing/" class="badge badge-primary" style="text-decoration:none;">Edit →</a>
+              <a href="/tools/image-editing/" class="badge badge-primary" style="text-decoration:none;">Edit & Filter →</a>
             </h3>
             <div class="tools-grid">
               
-              <a href="/tools/image-cropper/" class="tool-card">
-                <h4 class="tool-card-title">Image Cropper</h4>
-                <p class="tool-card-desc">Crop and frame your photos with interactive canvas selection. Lock standard aspect ratios like 1:1 square, 4:3 portrait, 16:9 landscape, or freely adjust the crop box to highlight what matters most.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/image-rotate-flip/" class="tool-card">
-                <h4 class="tool-card-title">Rotate &amp; Flip Image</h4>
-                <p class="tool-card-desc">Fix sideways smartphone photos or mirror images horizontally and vertically. Turn photos 90° clockwise, 90° counter-clockwise, or 180° upside down in seconds without quality loss.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/grayscale-image/" class="tool-card">
-                <h4 class="tool-card-title">Grayscale Image</h4>
-                <p class="tool-card-desc">Transform color photos into timeless monochrome and black-and-white graphics. Uses standard ITU-R BT.709 luminance formulas to calculate natural contrast and tone depth.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/brightness-contrast/" class="tool-card">
-                <h4 class="tool-card-title">Brightness &amp; Contrast</h4>
-                <p class="tool-card-desc">Fix dark photos, brighten shadows, and boost color saturation with precision sliders. Preview changes in real time and download corrected photos without heavy editing software.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/blur-sharpen-image/" class="tool-card">
-                <h4 class="tool-card-title">Blur &amp; Sharpen</h4>
-                <p class="tool-card-desc">Apply smooth Gaussian blur to obscure background details or enhance sharpness with a 3x3 convolution matrix kernel. Fast, interactive, and processed locally in your browser.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
+    <a href="/tools/image-cropper/" class="tool-card tool-card-editing" data-category="editing" aria-label="Image Cropper - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Edit</span>
+          <span class="tool-badge-feature">1:1 • 16:9 • Free</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Image Cropper</h4>
+      <p class="tool-card-desc">Crop and frame your photos with interactive canvas selection. Lock standard aspect ratios like 1:1 square, 4:3 portrait, 16:9 landscape, or freely adjust the crop box to highlight what matters most.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/image-rotate-flip/" class="tool-card tool-card-editing" data-category="editing" aria-label="Rotate &amp; Flip Image - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Edit</span>
+          <span class="tool-badge-feature">90°/180° &amp; Mirror</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Rotate &amp; Flip Image</h4>
+      <p class="tool-card-desc">Fix sideways smartphone photos or mirror images horizontally and vertically. Turn photos 90° clockwise, 90° counter-clockwise, or 180° upside down in seconds without quality loss.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Zero Quality Loss</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/grayscale-image/" class="tool-card tool-card-color" data-category="color" aria-label="Grayscale Image - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Edit</span>
+          <span class="tool-badge-feature">Human Luminance</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Grayscale Image</h4>
+      <p class="tool-card-desc">Transform color photos into timeless monochrome and black-and-white graphics. Uses standard ITU-R BT.709 luminance formulas to calculate natural contrast and tone depth.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Bicubic Grayscale</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/brightness-contrast/" class="tool-card tool-card-color" data-category="color" aria-label="Brightness &amp; Contrast - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Edit</span>
+          <span class="tool-badge-feature">Exposure &amp; Sat</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Brightness &amp; Contrast</h4>
+      <p class="tool-card-desc">Fix dark photos, brighten shadows, and boost color saturation with precision sliders. Preview changes in real time and download corrected photos without heavy editing software.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Live Canvas Preview</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/blur-sharpen-image/" class="tool-card tool-card-editing" data-category="editing" aria-label="Blur &amp; Sharpen - Edit">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Edit</span>
+          <span class="tool-badge-feature">Bicubic Clarity</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Blur &amp; Sharpen</h4>
+      <p class="tool-card-desc">Apply smooth Gaussian blur to obscure background details or enhance sharpness with a 3x3 convolution matrix kernel. Fast, interactive, and processed locally in your browser.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Gaussian &amp; Sharpen</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
             </div>
           </div>
           <div>
             <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
-              <span class="badge badge-primary">Color</span>
+              <span class="badge badge-primary">Color Tools</span>
             </h3>
             <div class="tools-grid">
               
-              <a href="/tools/image-color-picker/" class="tool-card">
-                <h4 class="tool-card-title">Image Color Picker</h4>
-                <p class="tool-card-desc">Extract exact color codes from any photo with a precision zoom loupe eyedropper. Inspect individual pixels, view HEX, RGB, and HSL formats, and build a saved palette history.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/color-palette-generator/" class="tool-card">
-                <h4 class="tool-card-title">Color Palette Generator</h4>
-                <p class="tool-card-desc">Extract harmonious color palettes from photographs and artwork using color quantization algorithms. Discover dominant tones, inspect HEX codes, and download beautiful swatch cards.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
+    <a href="/tools/image-color-picker/" class="tool-card tool-card-color" data-category="color" aria-label="Image Color Picker - Color">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Color</span>
+          <span class="tool-badge-feature">8× Loupe Magnifier</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Image Color Picker</h4>
+      <p class="tool-card-desc">Extract exact color codes from any photo with a precision zoom loupe eyedropper. Inspect individual pixels, view HEX, RGB, and HSL formats, and build a saved palette history.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">HEX • RGB • HSL</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/color-palette-generator/" class="tool-card tool-card-color" data-category="color" aria-label="Color Palette Generator - Color">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Color</span>
+          <span class="tool-badge-feature">Dominant Swatches</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Color Palette Generator</h4>
+      <p class="tool-card-desc">Extract harmonious color palettes from photographs and artwork using color quantization algorithms. Discover dominant tones, inspect HEX codes, and download beautiful swatch cards.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Copy HEX Codes</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
             </div>
           </div>
           <div>
             <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-6);">
-              <span class="badge badge-primary">Create & Dev</span>
+              <span class="badge badge-primary">Developer & Creative</span>
             </h3>
             <div class="tools-grid">
               
-              <a href="/tools/favicon-generator/" class="tool-card">
-                <h4 class="tool-card-title">Favicon Generator</h4>
-                <p class="tool-card-desc">Transform your logo or brand icon into a complete favicon package. Generate standard 16x16, 32x32, 48x48, and 180x180 Apple Touch Icons with ready-to-copy HTML header code.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/meme-generator/" class="tool-card">
-                <h4 class="tool-card-title">Meme Generator</h4>
-                <p class="tool-card-desc">Create viral memes in seconds with classic Impact captions or modern text styling. Customize font size, colors, stroke outlines, and moveable text boxes with zero watermarks.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/image-to-base64/" class="tool-card">
-                <h4 class="tool-card-title">Image to Base64</h4>
-                <p class="tool-card-desc">Convert image files into Base64 encoded strings and embeddable Data URLs. Embed images directly into HTML &lt;img&gt; tags, CSS background-image properties, or JSON payloads without external asset requests.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
-              <a href="/tools/base64-to-image/" class="tool-card">
-                <h4 class="tool-card-title">Base64 to Image</h4>
-                <p class="tool-card-desc">Decode Base64 strings, Data URLs, and embedded image code back into clean, downloadable PNG, JPG, or WebP graphic files. Validate encoding syntax and preview files in seconds.</p>
-                <div class="tool-card-footer"><span class="tool-card-action">→</span></div>
-              </a>
+    <a href="/tools/favicon-generator/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="Favicon Generator - Create">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Create</span>
+          <span class="tool-badge-feature">Multi-Size Icons</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Favicon Generator</h4>
+      <p class="tool-card-desc">Transform your logo or brand icon into a complete favicon package. Generate standard 16x16, 32x32, 48x48, and 180x180 Apple Touch Icons with ready-to-copy HTML header code.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">ICO • PNG • 16-512px</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/meme-generator/" class="tool-card tool-card-editing" data-category="editing" aria-label="Meme Generator - Create">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Create</span>
+          <span class="tool-badge-feature">Moveable Captions</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Meme Generator</h4>
+      <p class="tool-card-desc">Create viral memes in seconds with classic Impact captions or modern text styling. Customize font size, colors, stroke outlines, and moveable text boxes with zero watermarks.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Impact &amp; Modern Font</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/image-to-base64/" class="tool-card tool-card-developer" data-category="developer" aria-label="Image to Base64 - Developer">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-developer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-developer">Developer</span>
+          <span class="tool-badge-feature">Data URL String</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Image to Base64</h4>
+      <p class="tool-card-desc">Convert image files into Base64 encoded strings and embeddable Data URLs. Embed images directly into HTML &lt;img&gt; tags, CSS background-image properties, or JSON payloads without external asset requests.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Embed in HTML/CSS</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/tools/base64-to-image/" class="tool-card tool-card-developer" data-category="developer" aria-label="Base64 to Image - Developer">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-developer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-developer">Developer</span>
+          <span class="tool-badge-feature">Instant Decoder</span>
+        </div>
+      </div>
+      <h4 class="tool-card-title">Base64 to Image</h4>
+      <p class="tool-card-desc">Decode Base64 strings, Data URLs, and embedded image code back into clean, downloadable PNG, JPG, or WebP graphic files. Validate encoding syntax and preview files in seconds.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Base64 → PNG/JPG</span>
+        <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM. Zero server uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Open Tool</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
             </div>
           </div>
         </div>
@@ -539,33 +1055,45 @@
         </div>
         <div class="features-grid">
           
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Your Images Stay Local</h4>
-            <p>Supported tools process your photos directly inside your browser via HTML5 Canvas &amp; File APIs. No remote servers ever receive your files.</p>
+            <p class="feature-box-desc">Supported tools process your photos directly inside your browser via HTML5 Canvas &amp; File APIs. No remote servers ever receive your files.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Instant Browser Speed</h4>
-            <p>Because there is no network round-trip upload or cloud queue delay, operations like resizing, conversion, and compression happen instantly.</p>
+            <p class="feature-box-desc">Because there is no network round-trip upload or cloud queue delay, operations like resizing, conversion, and compression happen instantly.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/><path d="M16 11l2 2 4-4"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Zero Accounts or Signups</h4>
-            <p>No email barriers, no passwords, and no subscription walls. Drop your image, make your changes, and download the finished file immediately.</p>
+            <p class="feature-box-desc">No email barriers, no passwords, and no subscription walls. Drop your image, make your changes, and download the finished file immediately.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="14" height="12" rx="2"/><line x1="6" y1="18" x2="12" y2="18"/><line x1="9" y1="15" x2="9" y2="18"/><rect x="18" y="8" width="5" height="10" rx="1"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Works on Any Device</h4>
-            <p>Engineered with a responsive, mobile-first design system that works equally smoothly on phones, tablets, laptops, and ultra-wide desktops.</p>
+            <p class="feature-box-desc">Engineered with a responsive, mobile-first design system that works equally smoothly on phones, tablets, laptops, and ultra-wide desktops.</p>
           </div>
         </div>
       </div>
@@ -831,16 +1359,32 @@
 
         matches.forEach(tool => {
           const card = document.createElement('a');
+          const catKey = tool.categoryKey || 'conversion';
           card.href = (window.getToolUrl ? window.getToolUrl(tool) : tool.url);
-          card.className = 'tool-card';
+          card.className = 'tool-card tool-card-' + catKey;
+          card.setAttribute('data-category', catKey);
           card.innerHTML = `
             <div class="tool-card-header">
-              <span class="tool-card-category">${tool.category}</span>
+              <div class="tool-card-icon tool-icon-${catKey}">
+                ${tool.icon || '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg>'}
+              </div>
+              <div class="tool-card-badges">
+                <span class="tool-badge-category tool-cat-${catKey}">${tool.category}</span>
+                ${tool.feature ? '<span class="tool-badge-feature">' + tool.feature + '</span>' : ''}
+              </div>
             </div>
             <h3 class="tool-card-title">${tool.name}</h3>
             <p class="tool-card-desc">${tool.desc}</p>
+            <div class="tool-card-meta">
+              <span class="tool-meta-pill">${tool.format || 'Browser Local'}</span>
+              <span class="tool-meta-privacy" title="100% Client-Side in Browser RAM">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Local
+              </span>
+            </div>
             <div class="tool-card-footer">
-              <span class="tool-card-action">→</span>
+              <span class="tool-card-action">Open Tool</span>
+              <span class="tool-card-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
             </div>
           `;
           homeGrid.appendChild(card);

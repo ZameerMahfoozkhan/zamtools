@@ -23,7 +23,8 @@
     "title": "Tarik & lepas gambar Anda di sini",
     "subtitle": "atau klik untuk memilih dari komputer atau ponsel",
     "button": "Pilih Gambar",
-    "supported": "Format yang didukung:"
+    "supported": "Format yang didukung:",
+    "supports": "Mendukung:"
   },
   "controls": {
     "changeImage": "Ganti Gambar",

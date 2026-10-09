@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop an image here to hit a target size</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP formats</div>
+          <div class="upload-dropzone-title">Tarik gambar ke sini untuk mencapai ukuran target</div>
+          <div class="upload-dropzone-subtitle">Format JPG, PNG, atau WebP</div>
           <button type="button" class="btn btn-primary">Pilih Berkas</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
         </div>
@@ -301,8 +301,8 @@
               <div class="control-group">
                 <label for="formatSelect" class="control-label">Format Output</label>
                 <select id="formatSelect" class="form-select">
-                  <option value="image/jpeg">JPG / JPEG (Best for strict limits)</option>
-                  <option value="image/webp">WebP (Efficient)</option>
+                  <option value="image/jpeg">JPG / JPEG (Terbaik untuk batas ketat)</option>
+                  <option value="image/webp">WebP (Efisien)</option>
                   <option value="image/png">PNG</option>
                 </select>
               </div>
@@ -319,17 +319,17 @@
                   <span class="stat-value" id="targetSizeDisplay">100 KB</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Closest Achievable</span>
+                  <span class="stat-label">Paling Mendekati</span>
                   <span class="stat-value highlight-success" id="achievableSize">0 KB</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Reduction</span>
+                  <span class="stat-label">Pengurangan</span>
                   <span class="stat-value" id="reductionPercent">0%</span>
                 </div>
               </div>
 
               <div id="processingNotice" style="display: none; font-size: 0.8125rem; color: var(--primary);">
-                Optimizing quality and dimensions iteratively...
+                Mengoptimalkan kualitas dan dimensi secara iteratif...
               </div>
 
               <button type="button" class="btn btn-primary btn-lg" id="downloadBtn">Unduh Gambar</button>
@@ -401,33 +401,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Pasti di Bawah Batas</h4>
-            <p></p>
+            <p class="feature-box-desc">Menjamin ukuran file akhir berada tepat di bawah batas yang dipersyaratkan portal.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Kualitas Gambar Tertinggi</h4>
-            <p></p>
+            <p class="feature-box-desc">Mengoptimalkan ruang byte yang tersedia demi mempertahankan keterbacaan teks dan wajah.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Pilihan Preset Cepat</h4>
-            <p></p>
+            <p class="feature-box-desc">Tombol instan untuk ukuran populer: 20KB, 50KB, 100KB, 200KB, dan 500KB.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><rect x="9" y="10" width="6" height="5" rx="1"/><path d="M10 10V8a2 2 0 1 1 4 0v2"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Aman untuk Dokumen KTP</h4>
-            <p></p>
+            <p class="feature-box-desc">Dokumen identitas sensitif diproses secara privat tanpa pernah dikirim ke server luar.</p>
           </div>
           </div>
         </div>
@@ -487,46 +499,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/id/alat/kompres-gambar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Kompresi</span>
-          </div>
-          <h3 class="tool-card-title">Kompres Gambar</h3>
-          <p class="tool-card-desc">Perkecil ukuran file gambar JPG, PNG, dan WebP dengan cepat dan aman. Sesuaikan kualitas menggunakan slider interaktif, bandingkan hasil sebelum dan sesudah kompresi, lalu unduh hasilnya tanpa mengunggah file ke server mana pun.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/pengubah-ukuran-foto-paspor/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Ubah Ukuran</span>
-          </div>
-          <h3 class="tool-card-title">Pengubah Ukuran Foto Paspor</h3>
-          <p class="tool-card-desc">Sesuaikan pas foto untuk paspor, visa, dan KTP dengan standar resmi. Dilengkapi panduan biometrik wajah untuk ukuran standar Indonesia (3x4 cm, 4x6 cm), visa AS (2x2 inci), dan paspor internasional.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/ubah-ukuran-gambar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Ubah Ukuran</span>
-          </div>
-          <h3 class="tool-card-title">Ubah Ukuran Gambar</h3>
-          <p class="tool-card-desc">Sesuaikan dimensi foto Anda ke ukuran piksel yang tepat, persentase skala, atau resolusi standar. Kunci rasio aspek agar foto tidak melar atau terdistorsi, lalu unduh hasilnya secara instan.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
-        <a href="/id/alat/jpg-ke-png/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Konversi</span>
-          </div>
-          <h3 class="tool-card-title">JPG ke PNG</h3>
-          <p class="tool-card-desc">Ubah file gambar JPG menjadi PNG berkualitas tinggi tanpa kompresi yang merusak. Sangat pas untuk tangkapan layar, logo, dan diagram yang membutuhkan garis tepi bersih dan warna akurat.</p>
-          <div class="tool-card-footer">
-            <span>Buka Alat →</span>
-          </div>
-        </a>
+    <a href="/id/alat/kompres-gambar/" class="tool-card tool-card-compression" data-category="compression" aria-label="Kompres Gambar - Kompresi">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Kompresi</span>
+          <span class="tool-badge-feature">Hingga -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Kompres Gambar</h3>
+      <p class="tool-card-desc">Perkecil ukuran file gambar JPG, PNG, dan WebP dengan cepat dan aman. Sesuaikan kualitas menggunakan slider interaktif, bandingkan hasil sebelum dan sesudah kompresi, lalu unduh hasilnya tanpa mengunggah file ke server mana pun.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/pengubah-ukuran-foto-paspor/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Pengubah Ukuran Foto Paspor - Ubah Ukuran">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Ubah Ukuran</span>
+          <span class="tool-badge-feature">Standar Paspor</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Pengubah Ukuran Foto Paspor</h3>
+      <p class="tool-card-desc">Sesuaikan pas foto untuk paspor, visa, dan KTP dengan standar resmi. Dilengkapi panduan biometrik wajah untuk ukuran standar Indonesia (3x4 cm, 4x6 cm), visa AS (2x2 inci), dan paspor internasional.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">US • EU • Schengen</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/ubah-ukuran-gambar/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Ubah Ukuran Gambar - Ubah Ukuran">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Ubah Ukuran</span>
+          <span class="tool-badge-feature">Kunci Rasio</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Ubah Ukuran Gambar</h3>
+      <p class="tool-card-desc">Sesuaikan dimensi foto Anda ke ukuran piksel yang tepat, persentase skala, atau resolusi standar. Kunci rasio aspek agar foto tidak melar atau terdistorsi, lalu unduh hasilnya secara instan.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Exact Pixels / %</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/id/alat/jpg-ke-png/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="JPG ke PNG - Konversi">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Konversi</span>
+          <span class="tool-badge-feature">PNG Tanpa Rugi</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">JPG ke PNG</h3>
+      <p class="tool-card-desc">Ubah file gambar JPG menjadi PNG berkualitas tinggi tanpa kompresi yang merusak. Sangat pas untuk tangkapan layar, logo, dan diagram yang membutuhkan garis tepi bersih dan warna akurat.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG → PNG</span>
+        <span class="tool-meta-privacy" title="100% lokal di browser. Tanpa unggah ke server.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Buka Alat</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

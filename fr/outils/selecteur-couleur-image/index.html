@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><circle cx="11" cy="11" r="2"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop an image here to pick colors</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP</div>
+          <div class="upload-dropzone-title">Déposez une image ici pour prélever des couleurs</div>
+          <div class="upload-dropzone-subtitle">JPG, PNG ou WebP</div>
           <button type="button" class="btn btn-primary">Choisir une image</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
         </div>
@@ -286,8 +286,8 @@
               <div style="display: flex; align-items: center; gap: var(--space-4); padding: var(--space-4); background: var(--bg-subtle); border: 1px solid var(--border); border-radius: var(--radius-md);">
                 <div id="activeColorBox" style="width: 56px; height: 56px; border-radius: var(--radius-sm); border: 2px solid #ffffff; box-shadow: var(--shadow-sm); background-color: #2563eb; flex-shrink: 0;"></div>
                 <div>
-                  <span style="font-size: 0.75rem; text-transform: uppercase; font-weight: 600; color: var(--text-subtle);">Active Sample</span>
-                  <div style="font-size: 1.125rem; font-weight: 700; color: var(--text-main);">Click canvas to lock</div>
+                  <span style="font-size: 0.75rem; text-transform: uppercase; font-weight: 600; color: var(--text-subtle);">Échantillon actif</span>
+                  <div style="font-size: 1.125rem; font-weight: 700; color: var(--text-main);">Cliquez sur l'image pour verrouiller</div>
                 </div>
               </div>
 
@@ -330,7 +330,7 @@
                 </div>
               </div>
               <p style="font-size: 0.8125rem; color: var(--text-subtle); text-align: center;">
-                Hover over the image for enlarged pixel magnification. Click anywhere to capture.
+                Survolez l'image pour voir les pixels agrandis. Cliquez n'importe où pour capturer.
               </p>
             </div>
           </div>
@@ -394,33 +394,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Loupe de zoom 8x</h4>
-            <p></p>
+            <p class="feature-box-desc">Ciblez précisément chaque pixel individuel sans aucune hésitation.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Valeurs HEX, RGB et HSL</h4>
-            <p></p>
+            <p class="feature-box-desc">Obtenez immédiatement les formats de code indispensables pour vos feuilles de style CSS.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="8" r="1.5" fill="currentColor"/><circle cx="8" cy="12" r="1.5" fill="currentColor"/><circle cx="16" cy="12" r="1.5" fill="currentColor"/><circle cx="12" cy="16" r="1.5" fill="currentColor"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Historique des échantillons</h4>
-            <p></p>
+            <p class="feature-box-desc">Conservez la liste des teintes capturées durant votre séance de travail.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><polyline points="9 14 11 16 15 12"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Copie en un clic</h4>
-            <p></p>
+            <p class="feature-box-desc">Copiez instantanément le code couleur prêt à coller dans votre éditeur ou Figma.</p>
           </div>
           </div>
         </div>
@@ -471,46 +483,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/fr/outils/generateur-palette-couleurs/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Couleur</span>
-          </div>
-          <h3 class="tool-card-title">Générateur de palette de couleurs</h3>
-          <p class="tool-card-desc">Extrayez automatiquement les palettes de couleurs dominantes et harmonieuses de vos photos préférées grâce à nos algorithmes de quantification. Visualisez les codes HEX et téléchargez une planche nuancier élégante.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/image-base64/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Développeur</span>
-          </div>
-          <h3 class="tool-card-title">Image en Base64</h3>
-          <p class="tool-card-desc">Transformez vos fichiers images en chaînes de caractères Base64 et Data URI. Intégrez vos visuels directement dans des balises HTML &lt;img&gt;, des règles CSS background-image ou des fichiers JSON sans requêtes HTTP externes.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/generateur-favicon/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Création</span>
-          </div>
-          <h3 class="tool-card-title">Générateur de favicon</h3>
-          <p class="tool-card-desc">Transformez votre logo en un pack complet de favicons pour votre site web. Générez les formats 16x16, 32x32, 48x48 et 180x180 pour Apple Touch Icon avec le code HTML prêt à copier.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/compresseur-image/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compression</span>
-          </div>
-          <h3 class="tool-card-title">Compresseur d&#039;image</h3>
-          <p class="tool-card-desc">Réduisez la taille de vos fichiers JPG, PNG et WebP rapidement et sans perte visuelle. Ajustez la qualité de compression en direct avec le curseur, visualisez le résultat avant/après et téléchargez vos images sans aucun transfert sur serveur.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
+    <a href="/fr/outils/generateur-palette-couleurs/" class="tool-card tool-card-color" data-category="color" aria-label="Générateur de palette de couleurs - Couleur">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Couleur</span>
+          <span class="tool-badge-feature">Nuances dominantes</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Générateur de palette de couleurs</h3>
+      <p class="tool-card-desc">Extrayez automatiquement les palettes de couleurs dominantes et harmonieuses de vos photos préférées grâce à nos algorithmes de quantification. Visualisez les codes HEX et téléchargez une planche nuancier élégante.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Copy HEX Codes</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/image-base64/" class="tool-card tool-card-developer" data-category="developer" aria-label="Image en Base64 - Développeur">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-developer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-developer">Développeur</span>
+          <span class="tool-badge-feature">Chaîne Base64</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Image en Base64</h3>
+      <p class="tool-card-desc">Transformez vos fichiers images en chaînes de caractères Base64 et Data URI. Intégrez vos visuels directement dans des balises HTML &lt;img&gt;, des règles CSS background-image ou des fichiers JSON sans requêtes HTTP externes.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Embed in HTML/CSS</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/generateur-favicon/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="Générateur de favicon - Création">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Création</span>
+          <span class="tool-badge-feature">Pack multi-tailles</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Générateur de favicon</h3>
+      <p class="tool-card-desc">Transformez votre logo en un pack complet de favicons pour votre site web. Générez les formats 16x16, 32x32, 48x48 et 180x180 pour Apple Touch Icon avec le code HTML prêt à copier.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">ICO • PNG • 16-512px</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/compresseur-image/" class="tool-card tool-card-compression" data-category="compression" aria-label="Compresseur d&#39;image - Compression">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compression</span>
+          <span class="tool-badge-feature">Jusqu&#39;à -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Compresseur d&#39;image</h3>
+      <p class="tool-card-desc">Réduisez la taille de vos fichiers JPG, PNG et WebP rapidement et sans perte visuelle. Ajustez la qualité de compression en direct avec le curseur, visualisez le résultat avant/après et téléchargez vos images sans aucun transfert sur serveur.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

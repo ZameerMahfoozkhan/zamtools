@@ -244,26 +244,58 @@
 
       <div class="tools-grid" style="margin-bottom: var(--space-16);">
         
-        <a href="/it/strumenti/comprimi-immagine/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compressione</span>
-          </div>
-          <h3 class="tool-card-title">Comprimi immagini</h3>
-          <p class="tool-card-desc">Riduci il peso dei tuoi file JPG, PNG e WebP in modo veloce, sicuro e senza perdita di qualità. Regola la qualità con il cursore in tempo reale, confronta il risultato prima e dopo e scarica l&#039;immagine ottimizzata senza caricare file su server remoti.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Apri strumento →</span>
-          </div>
-        </a>
-        <a href="/it/strumenti/immagine-dimensione-target/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compressione</span>
-          </div>
-          <h3 class="tool-card-title">Comprimi a dimensione target</h3>
-          <p class="tool-card-desc">Devi caricare una foto con limite massimo di 50KB, 100KB o 200KB su un portale della pubblica amministrazione o per una candidatura? Imposta il peso target esatto e il nostro algoritmo calcolerà la qualità ottimale.</p>
-          <div class="tool-card-footer">
-            <span class="tool-card-action">Apri strumento →</span>
-          </div>
-        </a>
+    <a href="/it/strumenti/comprimi-immagine/" class="tool-card tool-card-compression" data-category="compression" aria-label="Comprimi immagini - Compressione">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compressione</span>
+          <span class="tool-badge-feature">Fino a -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Comprimi immagini</h3>
+      <p class="tool-card-desc">Riduci il peso dei tuoi file JPG, PNG e WebP in modo veloce, sicuro e senza perdita di qualità. Regola la qualità con il cursore in tempo reale, confronta il risultato prima e dopo e scarica l&#39;immagine ottimizzata senza caricare file su server remoti.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% locale nella RAM del browser. Zero caricamenti.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Locale
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Apri strumento</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/it/strumenti/immagine-dimensione-target/" class="tool-card tool-card-compression" data-category="compression" aria-label="Comprimi a dimensione target - Compressione">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compressione</span>
+          <span class="tool-badge-feature">Misura esatta KB</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Comprimi a dimensione target</h3>
+      <p class="tool-card-desc">Devi caricare una foto con limite massimo di 50KB, 100KB o 200KB su un portale della pubblica amministrazione o per una candidatura? Imposta il peso target esatto e il nostro algoritmo calcolerà la qualità ottimale.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">50KB • 100KB • 1MB</span>
+        <span class="tool-meta-privacy" title="100% locale nella RAM del browser. Zero caricamenti.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Locale
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Apri strumento</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
       </div>
 
       <div class="editorial-wrapper" style="margin-bottom: var(--space-12);">
@@ -277,17 +309,35 @@
       </div>
       <div class="features-grid" style="margin-bottom: var(--space-16);">
         
-        <div class="feature-box">
+        <div class="feature-box" data-tone="blue">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <span class="feature-box-index">#01</span>
+          </div>
           <h4>Nessun caricamento su server</h4>
-          <p>I tuoi file restano privati ed elaborati esclusivamente sul tuo computer o telefono.</p>
+          <p class="feature-box-desc">I tuoi file restano privati ed elaborati esclusivamente sul tuo computer o telefono.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box" data-tone="purple">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <span class="feature-box-index">#02</span>
+          </div>
           <h4>Dimensione limite in KB</h4>
-          <p>Soddisfa i requisiti di 50KB, 100KB o 200KB per concorsi pubblici e portali istituzionali.</p>
+          <p class="feature-box-desc">Soddisfa i requisiti di 50KB, 100KB o 200KB per concorsi pubblici e portali istituzionali.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box" data-tone="emerald">
+          <div class="feature-box-header">
+            <div class="feature-box-icon" data-tone="emerald">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="12" y1="3" x2="12" y2="21"/><polyline points="8 10 5 12 8 14"/><polyline points="16 10 19 12 16 14"/></svg>
+            </div>
+            <span class="feature-box-index">#03</span>
+          </div>
           <h4>Confronto prima e dopo</h4>
-          <p>Valuta la nitidezza visiva e visualizza l&#039;esatto risparmio di byte in tempo reale.</p>
+          <p class="feature-box-desc">Valuta la nitidezza visiva e visualizza l&#039;esatto risparmio di byte in tempo reale.</p>
         </div>
       </div>
 

@@ -23,7 +23,8 @@
     "title": "Glissez-déposez votre image ici",
     "subtitle": "ou cliquez pour parcourir vos fichiers depuis votre appareil",
     "button": "Choisir une image",
-    "supported": "Formats pris en charge :"
+    "supported": "Formats pris en charge :",
+    "supports": "Formats supportés :"
   },
   "controls": {
     "changeImage": "Changer d'image",

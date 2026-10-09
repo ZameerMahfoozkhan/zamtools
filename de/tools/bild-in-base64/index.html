@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop an image here to convert to Base64</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, WebP, SVG, or GIF</div>
+          <div class="upload-dropzone-title">Bild hierher ziehen zum Konvertieren in Base64</div>
+          <div class="upload-dropzone-subtitle">JPG, PNG, WebP, SVG oder GIF</div>
           <button type="button" class="btn btn-primary">Bild auswählen</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/*">
         </div>
@@ -368,33 +368,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Vielseitige Syntax-Formate</h4>
-            <p></p>
+            <p class="feature-box-desc">Generiert fertige Data URIs, HTML &lt;img&gt; Tags oder CSS background-image Regeln.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Null zusätzliche HTTP-Requests</h4>
-            <p></p>
+            <p class="feature-box-desc">Direktes Einbetten kleiner Icons beschleunigt den Seitenaufbau ohne Netzwerklatenz.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Dateigrößen-Transparenz</h4>
-            <p></p>
+            <p class="feature-box-desc">Zeigt die Originalgröße im Vergleich zur vergrößerten Zeichenkettenlänge an (+33 %).</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>100 % sicher &amp; lokal</h4>
-            <p></p>
+            <p class="feature-box-desc">Ihre Grafiken und geschützten Icons verlassen zu keinem Zeitpunkt Ihren Rechner.</p>
           </div>
           </div>
         </div>
@@ -445,46 +457,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/de/tools/base64-in-bild/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Entwickler</span>
-          </div>
-          <h3 class="tool-card-title">Base64 in Bild umwandeln</h3>
-          <p class="tool-card-desc">Decodieren Sie Base64-Strings und Data URLs zurück in saubere, herunterladbare PNG-, JPG- oder WebP-Bilddateien. Prüfen Sie die Codierungssyntax und betrachten Sie Grafiken in Sekundenschnelle.</p>
-          <div class="tool-card-footer">
-            <span>Tool öffnen →</span>
-          </div>
-        </a>
-        <a href="/de/tools/favicon-generator/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Erstellen</span>
-          </div>
-          <h3 class="tool-card-title">Favicon-Generator</h3>
-          <p class="tool-card-desc">Verwandeln Sie Ihr Logo in ein professionelles Favicon-Paket für moderne Webseiten. Erstellen Sie Standardgrößen in 16x16, 32x32, 48x48 und 180x180 px (Apple Touch Icon) inklusive fertigem HTML-Header-Code.</p>
-          <div class="tool-card-footer">
-            <span>Tool öffnen →</span>
-          </div>
-        </a>
-        <a href="/de/tools/webp-konverter/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Konvertieren</span>
-          </div>
-          <h3 class="tool-card-title">WebP-Konverter</h3>
-          <p class="tool-card-desc">Wandeln Sie JPG- und PNG-Bilder in das moderne, hocheffiziente WebP-Format um oder konvertieren Sie WebP-Dateien zurück in kompatibles JPG und PNG. Beschleunigen Sie Ihre Webseiten und optimieren Sie Ihre Core Web Vitals.</p>
-          <div class="tool-card-footer">
-            <span>Tool öffnen →</span>
-          </div>
-        </a>
-        <a href="/de/tools/bild-komprimieren/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Komprimieren</span>
-          </div>
-          <h3 class="tool-card-title">Bild komprimieren</h3>
-          <p class="tool-card-desc">Reduzieren Sie die Dateigröße von JPG-, PNG- und WebP-Bildern schnell, verlustarm und datensicher. Stellen Sie die Kompressionsstufe stufenlos ein, vergleichen Sie Vorher/Nachher direkt im Browser und laden Sie das optimierte Bild ohne Server-Upload herunter.</p>
-          <div class="tool-card-footer">
-            <span>Tool öffnen →</span>
-          </div>
-        </a>
+    <a href="/de/tools/base64-in-bild/" class="tool-card tool-card-developer" data-category="developer" aria-label="Base64 in Bild umwandeln - Entwickler">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-developer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-developer">Entwickler</span>
+          <span class="tool-badge-feature">Sofort-Dekoder</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Base64 in Bild umwandeln</h3>
+      <p class="tool-card-desc">Decodieren Sie Base64-Strings und Data URLs zurück in saubere, herunterladbare PNG-, JPG- oder WebP-Bilddateien. Prüfen Sie die Codierungssyntax und betrachten Sie Grafiken in Sekundenschnelle.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Base64 → PNG/JPG</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/de/tools/favicon-generator/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="Favicon-Generator - Erstellen">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Erstellen</span>
+          <span class="tool-badge-feature">Mehrfach-Größen</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Favicon-Generator</h3>
+      <p class="tool-card-desc">Verwandeln Sie Ihr Logo in ein professionelles Favicon-Paket für moderne Webseiten. Erstellen Sie Standardgrößen in 16x16, 32x32, 48x48 und 180x180 px (Apple Touch Icon) inklusive fertigem HTML-Header-Code.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">ICO • PNG • 16-512px</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/de/tools/webp-konverter/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="WebP-Konverter - Konvertieren">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Konvertieren</span>
+          <span class="tool-badge-feature">Ultra-leichtes WebP</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">WebP-Konverter</h3>
+      <p class="tool-card-desc">Wandeln Sie JPG- und PNG-Bilder in das moderne, hocheffiziente WebP-Format um oder konvertieren Sie WebP-Dateien zurück in kompatibles JPG und PNG. Beschleunigen Sie Ihre Webseiten und optimieren Sie Ihre Core Web Vitals.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG/PNG → WebP</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/de/tools/bild-komprimieren/" class="tool-card tool-card-compression" data-category="compression" aria-label="Bild komprimieren - Komprimieren">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Komprimieren</span>
+          <span class="tool-badge-feature">Bis zu -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Bild komprimieren</h3>
+      <p class="tool-card-desc">Reduzieren Sie die Dateigröße von JPG-, PNG- und WebP-Bildern schnell, verlustarm und datensicher. Stellen Sie die Kompressionsstufe stufenlos ein, vergleichen Sie Vorher/Nachher direkt im Browser und laden Sie das optimierte Bild ohne Server-Upload herunter.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% lokal im Browser-RAM. Keine Server-Uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Lokal
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Tool öffnen</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

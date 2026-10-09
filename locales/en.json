@@ -23,7 +23,8 @@
     "title": "Drop your image here",
     "subtitle": "or click to browse from your computer or phone",
     "button": "Choose Image",
-    "supported": "Supported formats:"
+    "supported": "Supported formats:",
+    "supports": "Supports:"
   },
   "controls": {
     "changeImage": "Change Image",

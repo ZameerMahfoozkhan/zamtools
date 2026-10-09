@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop an image here to convert to grayscale</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP</div>
+          <div class="upload-dropzone-title">Arrastra una imagen aquí para convertir a escala de grises</div>
+          <div class="upload-dropzone-subtitle">JPG, PNG o WebP</div>
           <button type="button" class="btn btn-primary">Elegir imagen</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
         </div>
@@ -276,7 +276,7 @@
           <div class="workspace-active-header">
             <div class="file-info-badge">
               <span id="fileInfoName">photo.jpg</span>
-              <span class="badge badge-neutral" id="modeStatus">Grayscale</span>
+              <span class="badge badge-neutral" id="modeStatus">Escala de grises</span>
             </div>
             <button type="button" class="btn btn-secondary btn-sm" id="resetBtn">Cambiar imagen</button>
           </div>
@@ -361,33 +361,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Fórmula de luminancia real</h4>
-            <p></p>
+            <p class="feature-box-desc">Respeta la sensibilidad óptica del ojo humano hacia verdes, rojos y azules.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Rango dinámico cuidado</h4>
-            <p></p>
+            <p class="feature-box-desc">Evita zonas quemadas o negros empastados sin detalle.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Procesamiento en memoria</h4>
-            <p></p>
+            <p class="feature-box-desc">Funciona en segundos directamente en tu navegador.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Privacidad absoluta</h4>
-            <p></p>
+            <p class="feature-box-desc">Tus fotos nunca se transfieren a servidores externos.</p>
           </div>
           </div>
         </div>
@@ -438,46 +450,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/es/herramientas/brillo-contraste/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Edición</span>
-          </div>
-          <h3 class="tool-card-title">Brillo y contraste</h3>
-          <p class="tool-card-desc">Aclara fotografías oscuras, equilibra sombras y resalta los colores con controles deslizantes de precisión. Observa los cambios en vivo y descarga fotos con aspecto profesional sin instalar programas pesados.</p>
-          <div class="tool-card-footer">
-            <span>Abrir herramienta →</span>
-          </div>
-        </a>
-        <a href="/es/herramientas/desenfocar-enfocar/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Edición</span>
-          </div>
-          <h3 class="tool-card-title">Desenfocar y enfocar</h3>
-          <p class="tool-card-desc">Aplica desenfoque suave para difuminar fondos o destaca contornos y texturas con una matriz de enfoque por convolución. Ajuste en tiempo real y procesamiento 100% privado.</p>
-          <div class="tool-card-footer">
-            <span>Abrir herramienta →</span>
-          </div>
-        </a>
-        <a href="/es/herramientas/comprimir-imagen/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compresión</span>
-          </div>
-          <h3 class="tool-card-title">Compresor de imágenes</h3>
-          <p class="tool-card-desc">Reduce el tamaño de tus fotos JPG, PNG y WebP de forma rápida, eficiente y totalmente segura. Ajusta el nivel de compresión con el deslizador en tiempo real, compara el antes y después y descarga tu imagen optimizada sin subir nada a servidores.</p>
-          <div class="tool-card-footer">
-            <span>Abrir herramienta →</span>
-          </div>
-        </a>
-        <a href="/es/herramientas/recortar-imagen/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Edición</span>
-          </div>
-          <h3 class="tool-card-title">Recortar imagen</h3>
-          <p class="tool-card-desc">Encuadra y recorta tus imágenes fácilmente en el lienzo interactivo. Ajusta proporciones fijas como cuadrado 1:1, 4:3 o panorámico 16:9, o selecciona un área personalizada para resaltar lo más importante.</p>
-          <div class="tool-card-footer">
-            <span>Abrir herramienta →</span>
-          </div>
-        </a>
+    <a href="/es/herramientas/brillo-contraste/" class="tool-card tool-card-color" data-category="color" aria-label="Brillo y contraste - Edición">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-color">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-color">Edición</span>
+          <span class="tool-badge-feature">Luz y saturación</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Brillo y contraste</h3>
+      <p class="tool-card-desc">Aclara fotografías oscuras, equilibra sombras y resalta los colores con controles deslizantes de precisión. Observa los cambios en vivo y descarga fotos con aspecto profesional sin instalar programas pesados.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Live Canvas Preview</span>
+        <span class="tool-meta-privacy" title="100% en el navegador. Cero subidas a servidores.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir herramienta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/es/herramientas/desenfocar-enfocar/" class="tool-card tool-card-editing" data-category="editing" aria-label="Desenfocar y enfocar - Edición">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Edición</span>
+          <span class="tool-badge-feature">Enfoque y nitidez</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Desenfocar y enfocar</h3>
+      <p class="tool-card-desc">Aplica desenfoque suave para difuminar fondos o destaca contornos y texturas con una matriz de enfoque por convolución. Ajuste en tiempo real y procesamiento 100% privado.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Gaussian &amp; Sharpen</span>
+        <span class="tool-meta-privacy" title="100% en el navegador. Cero subidas a servidores.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir herramienta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/es/herramientas/comprimir-imagen/" class="tool-card tool-card-compression" data-category="compression" aria-label="Compresor de imágenes - Compresión">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compresión</span>
+          <span class="tool-badge-feature">Hasta -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Compresor de imágenes</h3>
+      <p class="tool-card-desc">Reduce el tamaño de tus fotos JPG, PNG y WebP de forma rápida, eficiente y totalmente segura. Ajusta el nivel de compresión con el deslizador en tiempo real, compara el antes y después y descarga tu imagen optimizada sin subir nada a servidores.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% en el navegador. Cero subidas a servidores.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir herramienta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/es/herramientas/recortar-imagen/" class="tool-card tool-card-editing" data-category="editing" aria-label="Recortar imagen - Edición">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-editing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-editing">Edición</span>
+          <span class="tool-badge-feature">1:1 • 16:9 • Libre</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Recortar imagen</h3>
+      <p class="tool-card-desc">Encuadra y recorta tus imágenes fácilmente en el lienzo interactivo. Ajusta proporciones fijas como cuadrado 1:1, 4:3 o panorámico 16:9, o selecciona un área personalizada para resaltar lo más importante.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% en el navegador. Cero subidas a servidores.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir herramienta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

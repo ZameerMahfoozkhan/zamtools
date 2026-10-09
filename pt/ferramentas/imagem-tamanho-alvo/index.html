@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop an image here to hit a target size</div>
-          <div class="upload-dropzone-subtitle">JPG, PNG, or WebP formats</div>
+          <div class="upload-dropzone-title">Arraste uma imagem aqui para atingir o tamanho alvo</div>
+          <div class="upload-dropzone-subtitle">Formatos JPG, PNG ou WebP</div>
           <button type="button" class="btn btn-primary">Escolher Arquivo</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg,image/png,image/webp">
         </div>
@@ -301,8 +301,8 @@
               <div class="control-group">
                 <label for="formatSelect" class="control-label">Formato de Saída</label>
                 <select id="formatSelect" class="form-select">
-                  <option value="image/jpeg">JPG / JPEG (Best for strict limits)</option>
-                  <option value="image/webp">WebP (Efficient)</option>
+                  <option value="image/jpeg">JPG / JPEG (Melhor para limites estritos)</option>
+                  <option value="image/webp">WebP (Eficiente)</option>
                   <option value="image/png">PNG</option>
                 </select>
               </div>
@@ -315,21 +315,21 @@
                   <span class="stat-value" id="originalSize">0 KB</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Target</span>
+                  <span class="stat-label">Alvo</span>
                   <span class="stat-value" id="targetSizeDisplay">100 KB</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Closest Achievable</span>
+                  <span class="stat-label">Mais Próximo Possível</span>
                   <span class="stat-value highlight-success" id="achievableSize">0 KB</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Reduction</span>
+                  <span class="stat-label">Redução</span>
                   <span class="stat-value" id="reductionPercent">0%</span>
                 </div>
               </div>
 
               <div id="processingNotice" style="display: none; font-size: 0.8125rem; color: var(--primary);">
-                Optimizing quality and dimensions iteratively...
+                Otimizando qualidade e dimensões iterativamente...
               </div>
 
               <button type="button" class="btn btn-primary btn-lg" id="downloadBtn">Baixar Imagem</button>
@@ -401,33 +401,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Teto rigoroso respeitado</h4>
-            <p></p>
+            <p class="feature-box-desc">Garante que o arquivo gerado nunca excederá o limite estipulado pelo formulário.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Nitidez otimizada</h4>
-            <p></p>
+            <p class="feature-box-desc">Maximiza a qualidade visual aproveitando cada kilobyte disponível do limite.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Atalhos comuns</h4>
-            <p></p>
+            <p class="feature-box-desc">Acesso rápido com um clique para 20KB, 50KB, 100KB, 200KB e 500KB.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><rect x="9" y="10" width="6" height="5" rx="1"/><path d="M10 10V8a2 2 0 1 1 4 0v2"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Segurança absoluta</h4>
-            <p></p>
+            <p class="feature-box-desc">Documentos e fotos pessoais são processados apenas no seu navegador.</p>
           </div>
           </div>
         </div>
@@ -487,46 +499,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/pt/ferramentas/comprimir-imagem/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compressão</span>
-          </div>
-          <h3 class="tool-card-title">Comprimir imagem</h3>
-          <p class="tool-card-desc">Reduza o tamanho de fotos JPG, PNG e WebP com máxima rapidez, nitidez e privacidade. Ajuste a qualidade em tempo real com a barra deslizante, inspecione a comparação antes/depois e baixe suas imagens sem enviar nada para servidores externos.</p>
-          <div class="tool-card-footer">
-            <span>Abrir ferramenta →</span>
-          </div>
-        </a>
-        <a href="/pt/ferramentas/redimensionador-foto-passaporte/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Redimensionar</span>
-          </div>
-          <h3 class="tool-card-title">Redimensionador foto de passaporte</h3>
-          <p class="tool-card-desc">Recorte e formate fotos para passaporte brasileiro, RG, CNH e vistos internacionais. Inclui guia biométrico para padrões 3x4 cm, europeu (35x45 mm) e visto americano (2x2 polegadas).</p>
-          <div class="tool-card-footer">
-            <span>Abrir ferramenta →</span>
-          </div>
-        </a>
-        <a href="/pt/ferramentas/redimensionar-imagem/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Redimensionar</span>
-          </div>
-          <h3 class="tool-card-title">Redimensionar imagem</h3>
-          <p class="tool-card-desc">Altere as dimensões das suas fotos para medidas exatas em pixels, porcentagens ou predefinições de resolução. Mantenha a proporção original para evitar distorções e baixe o arquivo otimizado com segurança.</p>
-          <div class="tool-card-footer">
-            <span>Abrir ferramenta →</span>
-          </div>
-        </a>
-        <a href="/pt/ferramentas/jpg-para-png/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Converter</span>
-          </div>
-          <h3 class="tool-card-title">JPG para PNG</h3>
-          <p class="tool-card-desc">Transforme fotos JPG em arquivos PNG de alta qualidade com compressão sem perdas. Perfeito para capturas de tela, logotipos e gráficos com contornos nítidos.</p>
-          <div class="tool-card-footer">
-            <span>Abrir ferramenta →</span>
-          </div>
-        </a>
+    <a href="/pt/ferramentas/comprimir-imagem/" class="tool-card tool-card-compression" data-category="compression" aria-label="Comprimir imagem - Compressão">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compressão</span>
+          <span class="tool-badge-feature">Até -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Comprimir imagem</h3>
+      <p class="tool-card-desc">Reduza o tamanho de fotos JPG, PNG e WebP com máxima rapidez, nitidez e privacidade. Ajuste a qualidade em tempo real com a barra deslizante, inspecione a comparação antes/depois e baixe suas imagens sem enviar nada para servidores externos.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% local no navegador. Zero uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir ferramenta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/pt/ferramentas/redimensionador-foto-passaporte/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Redimensionador foto de passaporte - Redimensionar">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Redimensionar</span>
+          <span class="tool-badge-feature">Foto biométrica</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Redimensionador foto de passaporte</h3>
+      <p class="tool-card-desc">Recorte e formate fotos para passaporte brasileiro, RG, CNH e vistos internacionais. Inclui guia biométrico para padrões 3x4 cm, europeu (35x45 mm) e visto americano (2x2 polegadas).</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">US • EU • Schengen</span>
+        <span class="tool-meta-privacy" title="100% local no navegador. Zero uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir ferramenta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/pt/ferramentas/redimensionar-imagem/" class="tool-card tool-card-resizing" data-category="resizing" aria-label="Redimensionar imagem - Redimensionar">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-resizing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-resizing">Redimensionar</span>
+          <span class="tool-badge-feature">Proporções</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Redimensionar imagem</h3>
+      <p class="tool-card-desc">Altere as dimensões das suas fotos para medidas exatas em pixels, porcentagens ou predefinições de resolução. Mantenha a proporção original para evitar distorções e baixe o arquivo otimizado com segurança.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">Exact Pixels / %</span>
+        <span class="tool-meta-privacy" title="100% local no navegador. Zero uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir ferramenta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/pt/ferramentas/jpg-para-png/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="JPG para PNG - Converter">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Converter</span>
+          <span class="tool-badge-feature">PNG sem perda</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">JPG para PNG</h3>
+      <p class="tool-card-desc">Transforme fotos JPG em arquivos PNG de alta qualidade com compressão sem perdas. Perfeito para capturas de tela, logotipos e gráficos com contornos nítidos.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG → PNG</span>
+        <span class="tool-meta-privacy" title="100% local no navegador. Zero uploads.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Abrir ferramenta</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

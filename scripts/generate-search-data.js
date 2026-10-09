@@ -8,6 +8,7 @@ const path = require('path');
 const { LANGUAGES, LANGUAGE_CODES } = require('../data/languages');
 const { ROUTES, TOOL_KEYS } = require('../data/routes');
 const { TOOL_TRANSLATIONS } = require('../data/translations/tools');
+const { TOOL_ICONS, TOOL_CATEGORY_KEYS, TOOL_FEATURE_BADGES, TOOL_FORMAT_TAGS } = require('../templates/tool-card');
 
 const searchData = {};
 
@@ -15,14 +16,19 @@ LANGUAGE_CODES.forEach(lang => {
   searchData[lang] = TOOL_KEYS.map(toolKey => {
     const route = ROUTES[toolKey];
     const trans = TOOL_TRANSLATIONS[toolKey][lang];
+    const catKey = TOOL_CATEGORY_KEYS[toolKey] || 'conversion';
     return {
       id: route.origFolder,
       key: toolKey,
       name: trans.name,
       url: route[lang],
       category: trans.category,
+      categoryKey: catKey,
+      feature: (TOOL_FEATURE_BADGES[toolKey] && TOOL_FEATURE_BADGES[toolKey][lang]) || '',
+      format: TOOL_FORMAT_TAGS[toolKey] || '',
       desc: trans.lead,
-      keywords: trans.keywords || []
+      keywords: trans.keywords || [],
+      icon: TOOL_ICONS[toolKey] || ''
     };
   });
 });

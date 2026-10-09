@@ -23,7 +23,8 @@
     "title": "Trascina qui la tua immagine",
     "subtitle": "oppure fai clic per selezionare file dal tuo computer o smartphone",
     "button": "Scegli immagine",
-    "supported": "Formati supportati:"
+    "supported": "Formati supportati:",
+    "supports": "Supporta:"
   },
   "controls": {
     "changeImage": "Cambia immagine",

@@ -266,8 +266,8 @@
           <div class="upload-icon-wrapper">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4"/></svg>
           </div>
-          <div class="upload-dropzone-title">Drop JPG / JPEG images here</div>
-          <div class="upload-dropzone-subtitle">Single or multiple files supported</div>
+          <div class="upload-dropzone-title">Déposez vos images JPG / JPEG ici</div>
+          <div class="upload-dropzone-subtitle">Fichier unique ou fichiers multiples acceptés</div>
           <button type="button" class="btn btn-primary">Choisir des fichiers JPG</button>
           <input type="file" id="fileInput" name="images" aria-label="Upload image file" class="file-input-hidden" accept="image/jpeg" multiple>
         </div>
@@ -284,11 +284,11 @@
             <div class="controls-panel">
               <div class="result-stats-card">
                 <div class="stat-item">
-                  <span class="stat-label">JPG Input</span>
+                  <span class="stat-label">Entrée JPG</span>
                   <span class="stat-value" id="inputSize">0 KB</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">PNG Output</span>
+                  <span class="stat-label">Sortie PNG</span>
                   <span class="stat-value highlight-success" id="outputSize">0 KB</span>
                 </div>
               </div>
@@ -365,33 +365,45 @@
           </div>
           <div class="features-grid">
             
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="blue">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+              </div>
+              <span class="feature-box-index">#01</span>
             </div>
             <h4>Aucune dégradation supplémentaire</h4>
-            <p></p>
+            <p class="feature-box-desc">Le format PNG utilise une compression sans perte qui stoppe les artefacts JPEG.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="purple">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+              </div>
+              <span class="feature-box-index">#02</span>
             </div>
             <h4>Netteté des textes et tracés</h4>
-            <p></p>
+            <p class="feature-box-desc">Parfait pour les captures d&#039;écran et schémas qui exigent des bordures franches.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="emerald">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <span class="feature-box-index">#03</span>
             </div>
             <h4>Traitement local ultra-rapide</h4>
-            <p></p>
+            <p class="feature-box-desc">S&#039;exécute instantanément sur votre machine sans dépendre de votre connexion montante.</p>
           </div>
-          <div class="feature-box">
-            <div class="feature-box-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div class="feature-box" data-tone="amber">
+            <div class="feature-box-header">
+              <div class="feature-box-icon" data-tone="amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.178 8c5.096 0 5.096 8 0 8-2.617 0-4.225-2.025-6.178-4-1.953-1.975-3.561-4-6.178-4-5.096 0-5.096 8 0 8 2.617 0 4.225-2.025 6.178-4 1.953-1.975 3.561-4 6.178-4z"/></svg>
+              </div>
+              <span class="feature-box-index">#04</span>
             </div>
             <h4>Accès libre et sans filigrane</h4>
-            <p></p>
+            <p class="feature-box-desc">Convertissez tous vos fichiers sans inscription ni limite d&#039;utilisation.</p>
           </div>
           </div>
         </div>
@@ -442,46 +454,110 @@
           </div>
           <div class="tools-grid">
             
-        <a href="/fr/outils/png-jpg/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Conversion</span>
-          </div>
-          <h3 class="tool-card-title">PNG en JPG</h3>
-          <p class="tool-card-desc">Transformez vos fichiers PNG volumineux en images JPG légères et universellement compatibles. Remplacez automatiquement les zones transparentes par un fond blanc ou personnalisé et réduisez le poids de vos visuels.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/convertisseur-webp/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Conversion</span>
-          </div>
-          <h3 class="tool-card-title">Convertisseur WebP</h3>
-          <p class="tool-card-desc">Transformez vos images JPG et PNG au format WebP nouvelle génération, ou reconvertissez des fichiers WebP en JPG et PNG. Accélérez le chargement de vos sites web et améliorez vos scores Core Web Vitals.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/convertisseur-format-image/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Conversion</span>
-          </div>
-          <h3 class="tool-card-title">Convertisseur de format d&#039;image</h3>
-          <p class="tool-card-desc">Basculez librement entre les formats JPG, PNG et WebP, à l&#039;unité ou par lot. Réglez la qualité de sortie, gérez la transparence et téléchargez vos fichiers convertis immédiatement sans aucun transfert distant.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
-        <a href="/fr/outils/compresseur-image/" class="tool-card">
-          <div class="tool-card-header">
-            <span class="tool-card-category">Compression</span>
-          </div>
-          <h3 class="tool-card-title">Compresseur d&#039;image</h3>
-          <p class="tool-card-desc">Réduisez la taille de vos fichiers JPG, PNG et WebP rapidement et sans perte visuelle. Ajustez la qualité de compression en direct avec le curseur, visualisez le résultat avant/après et téléchargez vos images sans aucun transfert sur serveur.</p>
-          <div class="tool-card-footer">
-            <span>Ouvrir l'outil →</span>
-          </div>
-        </a>
+    <a href="/fr/outils/png-jpg/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="PNG en JPG - Conversion">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8V20m0 0l4-4m-4 4l-4-4M7 16V4m0 0L3 8m4-4l4 4"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Conversion</span>
+          <span class="tool-badge-feature">Fond personnalisé</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">PNG en JPG</h3>
+      <p class="tool-card-desc">Transformez vos fichiers PNG volumineux en images JPG légères et universellement compatibles. Remplacez automatiquement les zones transparentes par un fond blanc ou personnalisé et réduisez le poids de vos visuels.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">PNG → JPG</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/convertisseur-webp/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="Convertisseur WebP - Conversion">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Conversion</span>
+          <span class="tool-badge-feature">WebP ultra-léger</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Convertisseur WebP</h3>
+      <p class="tool-card-desc">Transformez vos images JPG et PNG au format WebP nouvelle génération, ou reconvertissez des fichiers WebP en JPG et PNG. Accélérez le chargement de vos sites web et améliorez vos scores Core Web Vitals.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG/PNG → WebP</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/convertisseur-format-image/" class="tool-card tool-card-conversion" data-category="conversion" aria-label="Convertisseur de format d&#39;image - Conversion">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-conversion">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-conversion">Conversion</span>
+          <span class="tool-badge-feature">Multi-formats</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Convertisseur de format d&#39;image</h3>
+      <p class="tool-card-desc">Basculez librement entre les formats JPG, PNG et WebP, à l&#39;unité ou par lot. Réglez la qualité de sortie, gérez la transparence et téléchargez vos fichiers convertis immédiatement sans aucun transfert distant.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">All Formats</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
+    <a href="/fr/outils/compresseur-image/" class="tool-card tool-card-compression" data-category="compression" aria-label="Compresseur d&#39;image - Compression">
+      <div class="tool-card-header">
+        <div class="tool-card-icon tool-icon-compression">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14h6m-6-4h6m4 0h6m-6 4h6M9 4v16m6-16v16"/></svg>
+        </div>
+        <div class="tool-card-badges">
+          <span class="tool-badge-category tool-cat-compression">Compression</span>
+          <span class="tool-badge-feature">Jusqu&#39;à -90%</span>
+        </div>
+      </div>
+      <h3 class="tool-card-title">Compresseur d&#39;image</h3>
+      <p class="tool-card-desc">Réduisez la taille de vos fichiers JPG, PNG et WebP rapidement et sans perte visuelle. Ajustez la qualité de compression en direct avec le curseur, visualisez le résultat avant/après et téléchargez vos images sans aucun transfert sur serveur.</p>
+      <div class="tool-card-meta">
+        <span class="tool-meta-pill">JPG • PNG • WebP</span>
+        <span class="tool-meta-privacy" title="100% local dans la RAM du navigateur. Zéro téléversement.">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Local
+        </span>
+      </div>
+      <div class="tool-card-footer">
+        <span class="tool-card-action">Ouvrir l&#39;outil</span>
+        <span class="tool-card-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </div>
+    </a>
           </div>
         </div>
       </section>

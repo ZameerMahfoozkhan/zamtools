@@ -23,7 +23,8 @@
     "title": "Arraste sua imagem para cá",
     "subtitle": "ou clique para procurar fotos no seu computador ou celular",
     "button": "Escolher imagem",
-    "supported": "Formatos suportados:"
+    "supported": "Formatos suportados:",
+    "supports": "Suporta:"
   },
   "controls": {
     "changeImage": "Trocar imagem",
