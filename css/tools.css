@@ -480,55 +480,6 @@
 .crop-handle-sw { bottom: -6px; left: -6px; cursor: nesw-resize; }
 .crop-handle-se { bottom: -6px; right: -6px; cursor: nwse-resize; }
 
-/* ==========================================================================
-   Image Resizer Freehand Interactive Overlay
-   ========================================================================== */
-.resize-box-wrapper {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-}
-
-.resize-overlay {
-  position: absolute;
-  inset: 0;
-  border: 2px dashed var(--primary);
-  pointer-events: none;
-  box-sizing: border-box;
-  border-radius: var(--radius-sm);
-  z-index: 10;
-}
-
-.resize-handle {
-  position: absolute;
-  width: 13px;
-  height: 13px;
-  background: #ffffff;
-  border: 2.5px solid var(--primary);
-  border-radius: 50%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  pointer-events: auto;
-  z-index: 11;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s ease;
-}
-
-.resize-handle:hover,
-.resize-handle.is-active {
-  transform: translate(-50%, -50%) scale(1.3);
-  background: var(--primary);
-}
-
-.resize-handle-nw { top: 0%; left: 0%; cursor: nwse-resize; }
-.resize-handle-n  { top: 0%; left: 50%; cursor: ns-resize; }
-.resize-handle-ne { top: 0%; left: 100%; cursor: nesw-resize; }
-.resize-handle-e  { top: 50%; left: 100%; cursor: ew-resize; }
-.resize-handle-se { top: 100%; left: 100%; cursor: nwse-resize; }
-.resize-handle-s  { top: 100%; left: 50%; cursor: ns-resize; }
-.resize-handle-sw { top: 100%; left: 0%; cursor: nesw-resize; }
-.resize-handle-w  { top: 50%; left: 0%; cursor: ew-resize; }
 
 /* ==========================================================================
    Comparison Splitter Slider
